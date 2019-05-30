@@ -1,0 +1,1 @@
+<span data-ttu-id="c9697-101">[Cette rubrique fait partie de la documentation en version préliminaire et peut faire l'objet de modifications.]</span><span class="sxs-lookup"><span data-stu-id="c9697-101">[This topic is pre-release documentation and is subject to change.]</span></span>

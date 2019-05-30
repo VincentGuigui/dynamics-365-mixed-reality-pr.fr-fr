@@ -1,0 +1,1 @@
+<span data-ttu-id="2a0b2-101">Centre d'administration Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="2a0b2-101">Microsoft 365 admin center</span></span>

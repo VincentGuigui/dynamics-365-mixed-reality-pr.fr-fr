@@ -1,0 +1,1 @@
+<span data-ttu-id="b6110-101">Power BI</span><span class="sxs-lookup"><span data-stu-id="b6110-101">Power BI</span></span>

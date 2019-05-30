@@ -1,0 +1,1 @@
+# <a name="buy-and-deploy-dynamics-365-layout"></a><span data-ttu-id="0f602-101">Acheter et déployer Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="0f602-101">Buy and deploy Dynamics 365 Layout</span></span>

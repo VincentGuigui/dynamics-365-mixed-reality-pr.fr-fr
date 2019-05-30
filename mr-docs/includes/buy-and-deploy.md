@@ -1,0 +1,1 @@
+# <a name="buy-and-deploy-dynamics-365-layout"></a>Acheter et déployer Dynamics 365 Layout

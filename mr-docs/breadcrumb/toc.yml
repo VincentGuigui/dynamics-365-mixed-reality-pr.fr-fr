@@ -1,0 +1,7 @@
+- name: "Dynamics\_365"
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/
+  items:
+    - name: Réalité mixte
+      tocHref: /dynamics365/mixed-reality/
+      topicHref: /dynamics365/mixed-reality/

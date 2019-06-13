@@ -1,195 +1,489 @@
----
-author: ornellaalt
-description: Guide de l'utilisateur de Dynamics 365 Layout
-ms.author: ornella
-ms.date: 05/15/2019
-ms.service: crm-online
-ms.topic: article
-title: Guide de l'utilisateur de Dynamics 365 Layout
-ms.reviewer: v-brycho
-ms.openlocfilehash: 69a907699ef683d4301bb6e66694420ab70e7fc9
-ms.sourcegitcommit: 34891391e0a0ffcef6ec9c56cf1d315ac0363ffc
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576465"
----
-# <a name="dynamics-365-layout-user-guide"></a><span data-ttu-id="71eef-103">Guide de l'utilisateur de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="71eef-103">Dynamics 365 Layout user guide</span></span>
-
-<span data-ttu-id="71eef-104">Utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] pour créer et concevoir des plans d'aménagement d'espace dans Microsoft [!include[pn-hololens](../includes/pn-hololens.md)] ou un casque immersif [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="71eef-104">Use [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] to create and design space plans on Microsoft [!include[pn-hololens](../includes/pn-hololens.md)] or on a [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality immersive headset.</span></span> <span data-ttu-id="71eef-105">Importez des modèles 3D puis concevez, modifiez et collaborez pratiquement dans une échelle à taille réelle.</span><span class="sxs-lookup"><span data-stu-id="71eef-105">Import 3D models and design, edit, and collaborate virtually, on a real-world scale.</span></span>
-
-<span data-ttu-id="71eef-106">Besoin d'aide complémentaire ?</span><span class="sxs-lookup"><span data-stu-id="71eef-106">Need more help?</span></span> <span data-ttu-id="71eef-107">[Consultez la FAQ](faq.md) Dynamics 365 Layout pour obtenir des réponses aux questions fréquentes.</span><span class="sxs-lookup"><span data-stu-id="71eef-107">[Check out the Dynamics 365 Layout FAQ](faq.md) for answers to common questions.</span></span>
-
-[<span data-ttu-id="71eef-108">Consultez des vidéos pratiques concernant Dynamics 365 Layout.</span><span class="sxs-lookup"><span data-stu-id="71eef-108">Watch how-to videos about Dynamics 365 Layout.</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2021489)
-
-## <a name="what-youll-need"></a><span data-ttu-id="71eef-109">Ce dont vous aurez besoin</span><span class="sxs-lookup"><span data-stu-id="71eef-109">What you’ll need</span></span>
-
--   [<span data-ttu-id="71eef-110">Un abonnement à Dynamics 365 Layout.</span><span class="sxs-lookup"><span data-stu-id="71eef-110">A subscription to Dynamics 365 Layout.</span></span>](../licensing/buy-and-deploy.md) <span data-ttu-id="71eef-111">L'abonnement [!include[pn-layout](../includes/pn-layout.md)] inclut également [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour PC.</span><span class="sxs-lookup"><span data-stu-id="71eef-111">The [!include[pn-layout](../includes/pn-layout.md)] subscription also includes the [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] for PC.</span></span>
-    
-    > [!TIP]
-    > <span data-ttu-id="71eef-112">Vous pouvez essayer Dynamics 365 Layout gratuitement jusqu'à 90 jours.</span><span class="sxs-lookup"><span data-stu-id="71eef-112">You can try Dynamics 365 Layout for free for up to 90 days.</span></span> <span data-ttu-id="71eef-113">[En savoir plus sur l'essai gratuit de Dynamics 365 Layout de 90 jours](try-layout-free.md).</span><span class="sxs-lookup"><span data-stu-id="71eef-113">[Learn more about the free 90-day Dynamics 365 Layout trial](try-layout-free.md).</span></span>
-
--   <span data-ttu-id="71eef-114">Un appareil [HoloLens](https://www.microsoft.com/hololens) exécutant la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643) et/ou un casque immersif [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality).</span><span class="sxs-lookup"><span data-stu-id="71eef-114">A [HoloLens](https://www.microsoft.com/hololens) device running the [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643) and/or a [Windows Mixed Reality immersive headset](https://www.microsoft.com/en-us/windows/windows-mixed-reality).</span></span> 
-
--   <span data-ttu-id="71eef-115">Un PC prêt pour [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs) exécutant la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).</span><span class="sxs-lookup"><span data-stu-id="71eef-115">A [Windows Mixed Reality–ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs) running the [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).</span></span>
-
--   <span data-ttu-id="71eef-116">Une connexion Internet.</span><span class="sxs-lookup"><span data-stu-id="71eef-116">An internet connection.</span></span>
-
-## <a name="install-the-apps"></a><span data-ttu-id="71eef-117">Installer les applications</span><span class="sxs-lookup"><span data-stu-id="71eef-117">Install the apps</span></span>
-
-<span data-ttu-id="71eef-118">La manière dont vous installez [!include[pn-layout](../includes/pn-layout.md)] et [!include[pn-import-tool](../includes/pn-import-tool.md)] dépend du mode de distribution des applications choisi par votre administrateur.</span><span class="sxs-lookup"><span data-stu-id="71eef-118">How you install [!include[pn-layout](../includes/pn-layout.md)] and the [!include[pn-import-tool](../includes/pn-import-tool.md)] depends on how your administrator chooses to distribute the apps.</span></span> <span data-ttu-id="71eef-119">Votre administrateur peut vous demander d'installer l'application depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre biais.</span><span class="sxs-lookup"><span data-stu-id="71eef-119">Your admin might have you install the app from the [!include[cc-microsoft](../includes/cc-microsoft.md)] Store for Consumers, from your organization’s private store, through an email link, or with another method.</span></span> 
-
-<span data-ttu-id="71eef-120">Le tableau suivant décrit l'application/outil, et son installation depuis le magasin public.</span><span class="sxs-lookup"><span data-stu-id="71eef-120">The following table describes the app/tool, and how to install them from the public store.</span></span>
-
-| <span data-ttu-id="71eef-121">**Application**</span><span class="sxs-lookup"><span data-stu-id="71eef-121">**App**</span></span>     | <span data-ttu-id="71eef-122">**Appareil**</span><span class="sxs-lookup"><span data-stu-id="71eef-122">**Device**</span></span>            | <span data-ttu-id="71eef-123">**Utilisation**</span><span class="sxs-lookup"><span data-stu-id="71eef-123">**Use to**</span></span>                            | <span data-ttu-id="71eef-124">**Installation depuis le [!include[cc-microsoft](../includes/cc-microsoft.md)] Store**</span><span class="sxs-lookup"><span data-stu-id="71eef-124">**To install from [!include[cc-microsoft](../includes/cc-microsoft.md)] store**</span></span> |
-|-------------|-----------------------|---------------------------------------------|-------------------------------------|
-| [!include[pn-layout](../includes/pn-layout.md)]      | [!include[pn-hololens](../includes/pn-hololens.md)]              | <ul><li><span data-ttu-id="71eef-125">Créer des dispositions en analysant les environs.</span><span class="sxs-lookup"><span data-stu-id="71eef-125">Create layouts by scanning your surroundings.</span></span> </li><li><span data-ttu-id="71eef-126">Placer des modèles dans vos dispositions.</span><span class="sxs-lookup"><span data-stu-id="71eef-126">Place models in your layouts.</span></span> </li></ul>     | <span data-ttu-id="71eef-127">Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW).</span><span class="sxs-lookup"><span data-stu-id="71eef-127">On your [!include[pn-hololens](../includes/pn-hololens.md)], go to **Start** ![Start](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Start") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), search for “[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]," and then [install the app](https://www.microsoft.com/store/apps/9N20MQ2V3XCW).</span></span> <br>    |
-| [!include[pn-layout](../includes/pn-layout.md)]      | <span data-ttu-id="71eef-128">Casque de réalité mixte</span><span class="sxs-lookup"><span data-stu-id="71eef-128">Mixed reality headset</span></span> |<ul><li><span data-ttu-id="71eef-129">Placer des modèles dans des dispositions importées depuis [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)].</span><span class="sxs-lookup"><span data-stu-id="71eef-129">Place models in layouts imported from [!include[pn-hololens](../includes/pn-hololens.md)] or [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)].</span></span> </ul>| <span data-ttu-id="71eef-130">1. Sur votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW).</span><span class="sxs-lookup"><span data-stu-id="71eef-130">1. On your PC go to **Start** ![Start](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Start") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), search for “[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]," and then [install the app](https://www.microsoft.com/store/apps/9N20MQ2V3XCW).</span></span> <br> <span data-ttu-id="71eef-131">2. Connectez votre casque de réalité mixte au PC, puis recherchez l'application dans le menu **Démarrer** de réalité mixte.</span><span class="sxs-lookup"><span data-stu-id="71eef-131">2. Connect your mixed reality headset to the PC, and find the app on the mixed reality **Start** menu.</span></span> <br>   |
-| [!include[pn-import-tool](../includes/pn-import-tool.md)] | <span data-ttu-id="71eef-132">PC</span><span class="sxs-lookup"><span data-stu-id="71eef-132">PC</span></span>                    | <ul><li><span data-ttu-id="71eef-133">Transférer les plans d'étage depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)] vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="71eef-133">Transfer floor plans from [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)] to [!include[pn-hololens](../includes/pn-hololens.md)] or [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span></span></li><li><span data-ttu-id="71eef-134">Transférer les dispositions entre [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="71eef-134">Transfer layouts between [!include[pn-hololens](../includes/pn-hololens.md)] and [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span></span> </li><li><span data-ttu-id="71eef-135">Traiter les modèles 3D à utiliser dans [!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="71eef-135">Process 3D models for use on [!include[pn-hololens](../includes/pn-hololens.md)].</span></span> </ul>| <span data-ttu-id="71eef-136">Dans votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9NBF1CGB7KHX).</span><span class="sxs-lookup"><span data-stu-id="71eef-136">On your PC, go to **Start** ![Start](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Start") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), search for “[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]," and then [install the app](https://www.microsoft.com/store/apps/9NBF1CGB7KHX).</span></span> <br>    |
-
-## <a name="get-started-with-dynamics-365-layout-take-advantage-of-learning-tools"></a><span data-ttu-id="71eef-137">Mise en route de Dynamics 365 Layout : tirer profit des outils d'apprentissage</span><span class="sxs-lookup"><span data-stu-id="71eef-137">Get started with Dynamics 365 Layout: take advantage of learning tools</span></span>
-
-[!include[pn-layout](../includes/pn-layout.md)] <span data-ttu-id="71eef-138">inclut deux outils (moments d'information et démonstrations de dispositions) que vous pouvez utiliser pour vous aider à savoir comment effectuer des tâches courantes telles que la mesure, la copie, le regroupement, le redimensionnement et l'accès aux paramètres.</span><span class="sxs-lookup"><span data-stu-id="71eef-138">includes two tools (teaching moments and demo layouts) that you can use to help you learn how to do common tasks such as measuring, copying, grouping, resizing, and accessing settings.</span></span>
-
-### <a name="teaching-moments"></a><span data-ttu-id="71eef-139">Moments d'information</span><span class="sxs-lookup"><span data-stu-id="71eef-139">Teaching moments</span></span>
-
-<span data-ttu-id="71eef-140">Les moments d'information fournissent diverses images qui permettent de comprendre facilement des tâches courantes.</span><span class="sxs-lookup"><span data-stu-id="71eef-140">Teaching moments provide a series of images that make it easy to understand common tasks.</span></span> <span data-ttu-id="71eef-141">Pour accéder aux moments d'information, appuyez sur **Aide**, puis sur la zone pour laquelle vous avez besoin d'aide.</span><span class="sxs-lookup"><span data-stu-id="71eef-141">To access teaching moments, air tap **Help**, and then air tap the area you need help with.</span></span>
-
-<span data-ttu-id="71eef-142">![Moments d'information](media/teaching-moments.PNG "Moments d'information")</span><span class="sxs-lookup"><span data-stu-id="71eef-142">![Teaching moments](media/teaching-moments.PNG "Teaching moments")</span></span>
-
-### <a name="demo-layouts"></a><span data-ttu-id="71eef-143">Démonstrations de dispositions</span><span class="sxs-lookup"><span data-stu-id="71eef-143">Demo layouts</span></span>
-
-<span data-ttu-id="71eef-144">Les démonstrations de dispositions utilisent des dispositions prédéfinies pour montrer comment développer différentes parties d'une usine de fabrication.</span><span class="sxs-lookup"><span data-stu-id="71eef-144">Demo layouts use prebuilt layouts to demonstrate how to build different parts of a manufacturing plant.</span></span> <span data-ttu-id="71eef-145">Vous avez le choix entre trois démonstrations :</span><span class="sxs-lookup"><span data-stu-id="71eef-145">There are three demos to choose from:</span></span>
-- <span data-ttu-id="71eef-146">Copier/coller et collision</span><span class="sxs-lookup"><span data-stu-id="71eef-146">Copy/paste and collision</span></span>
-- <span data-ttu-id="71eef-147">Grouper et mesurer</span><span class="sxs-lookup"><span data-stu-id="71eef-147">Group and measure</span></span>
-- <span data-ttu-id="71eef-148">Ajuster et redimensionner</span><span class="sxs-lookup"><span data-stu-id="71eef-148">Fit and resize</span></span>
-
-<span data-ttu-id="71eef-149">![Démonstrations de dispositions](media/demo-layouts.PNG "Démonstrations de dispositions")</span><span class="sxs-lookup"><span data-stu-id="71eef-149">![Demo layouts](media/demo-layouts.PNG "Demo layouts")</span></span>
-
-<span data-ttu-id="71eef-150">Par exemple, dans la démonstration Copier/coller et collision, découvrez comment compléter un tapis de convoyeur en copiant et en positionnant des sections.</span><span class="sxs-lookup"><span data-stu-id="71eef-150">For example, in the Copy/paste and collision demo, learn how to complete a conveyor belt by copying and positioning sections.</span></span>
-
-<span data-ttu-id="71eef-151">Pour accéder à des démonstrations de dispositions, sélectionnez la démonstration de votre choix dans le menu **Dispositions**.</span><span class="sxs-lookup"><span data-stu-id="71eef-151">To access demo layouts, pick the demo you want from the **Layouts** menu.</span></span>
-
-<span data-ttu-id="71eef-152">![Accédez aux démonstrations de dispositions](media/access-demo-layouts.PNG "Accédez aux démonstrations de dispositions")</span><span class="sxs-lookup"><span data-stu-id="71eef-152">![Access demo layouts](media/access-demo-layouts.PNG "Access demo layouts")</span></span>
-
-## <a name="use-dynamics-365-layout"></a><span data-ttu-id="71eef-153">Utiliser Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="71eef-153">Use Dynamics 365 Layout</span></span>
-
-<span data-ttu-id="71eef-154">Pour utiliser [!include[pn-layout](../includes/pn-layout.md)], vous créez des dispositions d'espace sur votre [!include[pn-hololens](../includes/pn-hololens.md)] ou PC, puis vous utilisez [!include[pn-hololens](../includes/pn-hololens.md)] ou un casque immersif [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality pour placer des modèles 3D dans les dispositions.</span><span class="sxs-lookup"><span data-stu-id="71eef-154">To use [!include[pn-layout](../includes/pn-layout.md)], you create space layouts on your [!include[pn-hololens](../includes/pn-hololens.md)] or PC and then use a [!include[pn-hololens](../includes/pn-hololens.md)] or [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality immersive headset to place 3D models in the layouts.</span></span> <span data-ttu-id="71eef-155">L'application [!include[pn-layout](../includes/pn-layout.md)] est fournie avec des modèles préinstallés, et vous pouvez également ajouter les vôtres.</span><span class="sxs-lookup"><span data-stu-id="71eef-155">The [!include[pn-layout](../includes/pn-layout.md)] app comes with a set of preinstalled models, and you can also add your own.</span></span>
-
-### <a name="create-a-layout"></a><span data-ttu-id="71eef-156">Créer une disposition</span><span class="sxs-lookup"><span data-stu-id="71eef-156">Create a layout</span></span>
-
-<span data-ttu-id="71eef-157">Il existe deux façons de créer une disposition :</span><span class="sxs-lookup"><span data-stu-id="71eef-157">There are two ways to create a layout:</span></span>
-
--   <span data-ttu-id="71eef-158">Utilisez [Microsoft Visio](https://products.office.com/en-us/visio/) pour concevoir un plan d'étage, puis exportez-le vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span><span class="sxs-lookup"><span data-stu-id="71eef-158">Use [Microsoft Visio](https://products.office.com/en-us/visio/) to design a floor plan, and then export it to [!include[pn-hololens](../includes/pn-hololens.md)] or [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</span></span>
-
--   <span data-ttu-id="71eef-159">Utilisez [!include[pn-layout](../includes/pn-layout.md)] sur votre [!include[pn-hololens](../includes/pn-hololens.md)] pour analyser un espace.</span><span class="sxs-lookup"><span data-stu-id="71eef-159">Use [!include[pn-layout](../includes/pn-layout.md)] on your [!include[pn-hololens](../includes/pn-hololens.md)] to scan a space.</span></span>
-
-#### <a name="create-a-layout-with-microsoft-visio"></a><span data-ttu-id="71eef-160">Créer une disposition avec Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="71eef-160">Create a layout with Microsoft Visio</span></span>
-
-<span data-ttu-id="71eef-161">**Étape 1 : téléchargez et installez le complément [!include[pn-visio](../includes/pn-visio.md)] pour [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]**</span><span class="sxs-lookup"><span data-stu-id="71eef-161">**Step 1: Download and install the [!include[pn-visio](../includes/pn-visio.md)] Add-in for [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]**</span></span>
-
-1.  <span data-ttu-id="71eef-162">Ouvrez [!include[pn-import-tool](../includes/pn-import-tool.md)].</span><span class="sxs-lookup"><span data-stu-id="71eef-162">Open the [!include[pn-import-tool](../includes/pn-import-tool.md)].</span></span>
-
-2.  <span data-ttu-id="71eef-163">Sélectionnez **À propos**, puis sélectionnez le téléchargement 32 bits ou 64 bits (choisissez celui qui correspond à votre version de [!include[pn-visio](../includes/pn-visio.md)]).</span><span class="sxs-lookup"><span data-stu-id="71eef-163">Select **About**, and then select the 32-bit or the 64-bit download (choose the one that matches your version of [!include[pn-visio](../includes/pn-visio.md)]).</span></span>
-    
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="71eef-164">![Télécharger le complément Visio](media/visio-download.PNG "Télécharger le complément Visio")</span><span class="sxs-lookup"><span data-stu-id="71eef-164">![Download Visio add-in](media/visio-download.PNG "Download Visio add-in")</span></span> 
-
-3.  <span data-ttu-id="71eef-165">Ouvrez [!include[pn-visio](../includes/pn-visio.md)], puis sélectionnez **Fichier** \> **Options** \> **Compléments**.</span><span class="sxs-lookup"><span data-stu-id="71eef-165">Open [!include[pn-visio](../includes/pn-visio.md)], and then select **File** \> **Options** \> **Add-ins**.</span></span>
-
-4.  <span data-ttu-id="71eef-166">À côté de **Gérer**, sélectionnez **Compléments COM**, puis **Atteindre**.</span><span class="sxs-lookup"><span data-stu-id="71eef-166">Next to **Manage**, select **COM Add-ins**, and then select **Go**.</span></span>
-
-5.  <span data-ttu-id="71eef-167">Sélectionnez **Complément [!include[pn-visio](../includes/pn-visio.md)] pour [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]**, puis **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="71eef-167">Select **[!include[pn-visio](../includes/pn-visio.md)] Add-in for [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]**, and then select **Add**.</span></span>
-
-<span data-ttu-id="71eef-168">**Étape 2 : créez votre plan d'étage avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)]**</span><span class="sxs-lookup"><span data-stu-id="71eef-168">**Step 2: Create your floor plan with [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)]**</span></span>
-
--   <span data-ttu-id="71eef-169">Lorsque le plan d'étage est prêt, sélectionnez l'onglet **[!include[pn-layout](../includes/pn-layout.md)]** et **Exporter**, puis enregistrez votre plan d'étage.</span><span class="sxs-lookup"><span data-stu-id="71eef-169">When the floor plan is ready, select the **[!include[pn-layout](../includes/pn-layout.md)]** tab, select **Export**, and then save your floor plan.</span></span>
-
-<span data-ttu-id="71eef-170">**Étape 3 : importez votre plan d'étage au moyen de l'[!include[pn-import-tool](../includes/pn-import-tool.md)]**</span><span class="sxs-lookup"><span data-stu-id="71eef-170">**Step 3: Import your floor plan using the [!include[pn-import-tool](../includes/pn-import-tool.md)]**</span></span>
-
-1.  <span data-ttu-id="71eef-171">Dans l'[!include[pn-import-tool](../includes/pn-import-tool.md)], sélectionnez **Ce PC** \> **Ajouter une disposition**, puis accédez au plan d'étage.</span><span class="sxs-lookup"><span data-stu-id="71eef-171">In the [!include[pn-import-tool](../includes/pn-import-tool.md)], select **This PC** \> **Add layout**, and then navigate to the floor plan.</span></span>
-
-2.  <span data-ttu-id="71eef-172">Sélectionnez le plan d'étage, puis **Ouvrir**.</span><span class="sxs-lookup"><span data-stu-id="71eef-172">Select the floor plan, and then select **Open**.</span></span>
-
-    <span data-ttu-id="71eef-173">Le plan d'étage s'affiche automatiquement dans [!include[pn-layout](../includes/pn-layout.md)] sur un casque immersif de réalité mixte connecté au même PC.</span><span class="sxs-lookup"><span data-stu-id="71eef-173">The floor plan shows up automatically in [!include[pn-layout](../includes/pn-layout.md)] on a mixed reality immersive headset connected to the same PC.</span></span>
-
-<span data-ttu-id="71eef-174">Pour utiliser la disposition dans [!include[pn-hololens](../includes/pn-hololens.md)], vous devez la déplacer ici :</span><span class="sxs-lookup"><span data-stu-id="71eef-174">To use the layout on [!include[pn-hololens](../includes/pn-hololens.md)], you’ll need to move it there:</span></span>
-
-1.  <span data-ttu-id="71eef-175">Connectez votre [!include[pn-hololens](../includes/pn-hololens.md)] à votre PC à l'aide du câble USB.</span><span class="sxs-lookup"><span data-stu-id="71eef-175">Connect your [!include[pn-hololens](../includes/pn-hololens.md)] to your PC using the USB cable.</span></span>
-
-2.  <span data-ttu-id="71eef-176">Ouvrez [!include[pn-import-tool](../includes/pn-import-tool.md)] sur le PC, puis sélectionnez **Ce PC** \> **Dispositions**.</span><span class="sxs-lookup"><span data-stu-id="71eef-176">Open the [!include[pn-import-tool](../includes/pn-import-tool.md)] on the PC, and then select **This PC** \> **Layouts**.</span></span>
-
-3.  <span data-ttu-id="71eef-177">Cochez la case sur les dispositions que vous souhaitez copier, puis sélectionnez **Envoyer**.</span><span class="sxs-lookup"><span data-stu-id="71eef-177">Select the check box on the layouts you want to copy, and then select **Send**.</span></span>
-    
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="71eef-178">![Déplacez la disposition dans HoloLens](media/selected-layouts-hololens.PNG "Déplacez la disposition dans HoloLens")</span><span class="sxs-lookup"><span data-stu-id="71eef-178">![Move layout to HoloLens](media/selected-layouts-hololens.PNG "Move layout to HoloLens")</span></span>
-
-4.  <span data-ttu-id="71eef-179">Dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-layout](../includes/pn-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="71eef-179">On [!include[pn-hololens](../includes/pn-hololens.md)], open the [!include[pn-layout](../includes/pn-layout.md)] app.</span></span> <span data-ttu-id="71eef-180">Vous trouverez votre disposition dans l'onglet **Dispositions**.</span><span class="sxs-lookup"><span data-stu-id="71eef-180">You’ll find your layout on the **Layouts** tab.</span></span>
-
-#### <a name="create-a-layout-with-hololens"></a><span data-ttu-id="71eef-181">Créer une disposition avec HoloLens</span><span class="sxs-lookup"><span data-stu-id="71eef-181">Create a layout with HoloLens</span></span>
-
-1.  <span data-ttu-id="71eef-182">Dans votre appareil [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-layout](../includes/pn-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="71eef-182">On your [!include[pn-hololens](../includes/pn-hololens.md)] device, open the [!include[pn-layout](../includes/pn-layout.md)] app.</span></span>
-
-2.  <span data-ttu-id="71eef-183">Sélectionnez **Nouvelle disposition**, puis suivez les instructions pour analyser votre espace et créer une disposition.</span><span class="sxs-lookup"><span data-stu-id="71eef-183">Select **New layout**, and then follow the instructions for scanning your space and creating a layout.</span></span>
-
-<span data-ttu-id="71eef-184">Pour déplacer la disposition vers votre PC afin de pouvoir l'ouvrir dans un casque immersif de réalité mixte :</span><span class="sxs-lookup"><span data-stu-id="71eef-184">To move the layout to your PC so you can open it on a mixed reality immersive headset:</span></span> 
-
-1.  <span data-ttu-id="71eef-185">Connectez l'[!include[pn-hololens](../includes/pn-hololens.md)] au PC à l'aide du câble USB.</span><span class="sxs-lookup"><span data-stu-id="71eef-185">Connect the [!include[pn-hololens](../includes/pn-hololens.md)] to the PC using the USB cable.</span></span>
-
-2.  <span data-ttu-id="71eef-186">Ouvrez l'[!include[pn-import-tool](../includes/pn-import-tool.md)], puis sélectionnez le nom de l'[!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="71eef-186">Open the [!include[pn-import-tool](../includes/pn-import-tool.md)], and then select the [!include[pn-hololens](../includes/pn-hololens.md)] name.</span></span>
-
-3.  <span data-ttu-id="71eef-187">Cochez la case sur la disposition que vous souhaitez envoyer vers votre PC, puis sélectionnez **Envoyer**.</span><span class="sxs-lookup"><span data-stu-id="71eef-187">Select the check box on the layout you want to send to your PC, and then select **Send**.</span></span>
-    
-    > [!div class="mx-imgBorder"]
-    > <span data-ttu-id="71eef-188">![Déplacez la disposition depuis HoloLens](media/selected-layouts-pc.PNG "Déplacez la disposition depuis HoloLens")</span><span class="sxs-lookup"><span data-stu-id="71eef-188">![Move layout from HoloLens](media/selected-layouts-pc.PNG "Move layout from HoloLens")</span></span>
-
-
-## <a name="place-copy-resize-rotate-and-select-3d-models"></a><span data-ttu-id="71eef-189">Placer, copier, redimensionner, faire pivoter et sélectionner des modèles 3D</span><span class="sxs-lookup"><span data-stu-id="71eef-189">Place, copy, resize, rotate, and select 3D models</span></span>
-
-<span data-ttu-id="71eef-190">Dans [!include[pn-hololens](../includes/pn-hololens.md)] et dans [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality, vous pouvez placer, déplacer, copier, redimensionner et faire pivoter des modèles 3D.</span><span class="sxs-lookup"><span data-stu-id="71eef-190">On [!include[pn-hololens](../includes/pn-hololens.md)] and in [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality, you can place, move, copy, resize, and rotate 3D models.</span></span>
-
-### <a name="on-hololens"></a><span data-ttu-id="71eef-191">Sur HoloLens</span><span class="sxs-lookup"><span data-stu-id="71eef-191">On HoloLens</span></span>
-
-| <span data-ttu-id="71eef-192">**Pour**</span><span class="sxs-lookup"><span data-stu-id="71eef-192">**To**</span></span>       | <span data-ttu-id="71eef-193">**Effectuez l'opération suivante**</span><span class="sxs-lookup"><span data-stu-id="71eef-193">**Do this**</span></span>                                                                                                                                                                                                              |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="71eef-194">Placer</span><span class="sxs-lookup"><span data-stu-id="71eef-194">Place</span></span>        | <span data-ttu-id="71eef-195">Sélectionnez **Modèles**, puis pointez du regard et appuyez pour sélectionner le modèle que vous souhaitez placer.</span><span class="sxs-lookup"><span data-stu-id="71eef-195">Select **Models**, and then gaze and air tap to select the model you want to place.</span></span> <span data-ttu-id="71eef-196">Utilisez le pointage du regard pour déplacer le modèle, puis appuyez à nouveau pour le placer.</span><span class="sxs-lookup"><span data-stu-id="71eef-196">Use gaze to move the model, and then air tap again to place it.</span></span>                                                                      |
-| <span data-ttu-id="71eef-197">Déplacer</span><span class="sxs-lookup"><span data-stu-id="71eef-197">Move</span></span>         | <span data-ttu-id="71eef-198">Pointez du regard un modèle, puis appuyez longuement dessus.</span><span class="sxs-lookup"><span data-stu-id="71eef-198">Gaze at a model, and then tap and hold it.</span></span> <span data-ttu-id="71eef-199">Déplacez votre main pour repositionner le modèle, puis relâchez.</span><span class="sxs-lookup"><span data-stu-id="71eef-199">Move your hand to reposition the model, then release.</span></span>                                                                                                                         |
-| <span data-ttu-id="71eef-200">Copier</span><span class="sxs-lookup"><span data-stu-id="71eef-200">Copy</span></span>         | <span data-ttu-id="71eef-201">Pointez du regard et appuyez pour sélectionner le modèle, puis choisissez **Copier**.</span><span class="sxs-lookup"><span data-stu-id="71eef-201">Gaze and air tap to select the model, and then select **Copy**.</span></span> <span data-ttu-id="71eef-202">Déplacez le modèle où vous le souhaitez, puis appuyez pour le placer.</span><span class="sxs-lookup"><span data-stu-id="71eef-202">Move the model where you want it, and then air tap to place it.</span></span> <span data-ttu-id="71eef-203">Sélectionnez **Terminé**.</span><span class="sxs-lookup"><span data-stu-id="71eef-203">Select **Done**.</span></span>                                                                         |
-| <span data-ttu-id="71eef-204">Redimensionner</span><span class="sxs-lookup"><span data-stu-id="71eef-204">Resize</span></span>       | <span data-ttu-id="71eef-205">Pointez du regard et appuyez pour sélectionner un modèle, puis choisissez **Redimensionner**.</span><span class="sxs-lookup"><span data-stu-id="71eef-205">Gaze and air tap to select a model, and then select **Resize**.</span></span> <span data-ttu-id="71eef-206">Appuyez longuement sur n'importe quel bord du modèle, puis déplacez votre main vers l'intérieur et vers l'extérieur.</span><span class="sxs-lookup"><span data-stu-id="71eef-206">Tap and hold any edge of the model, and then move your hand in or out.</span></span>                                                                                   |
-| <span data-ttu-id="71eef-207">Faire pivoter</span><span class="sxs-lookup"><span data-stu-id="71eef-207">Rotate</span></span>       | <span data-ttu-id="71eef-208">Pointez du regard et appuyez pour sélectionner le modèle.</span><span class="sxs-lookup"><span data-stu-id="71eef-208">Gaze and air tap to select the model.</span></span> <span data-ttu-id="71eef-209">Sélectionnez une des flèches de rotation pour faire pivoter sur 90 degrés.</span><span class="sxs-lookup"><span data-stu-id="71eef-209">Select one of the rotation arrows to rotate 90 degrees.</span></span> <span data-ttu-id="71eef-210">Pour une rotation plus précise, appuyez longuement sur la commande ronde de rotation, puis déplacez votre main pour faire pivoter.</span><span class="sxs-lookup"><span data-stu-id="71eef-210">For more precise rotation, tap and hold the round rotation control, and then move your hand to rotate.</span></span>                     |
-| <span data-ttu-id="71eef-211">Sélection multiple</span><span class="sxs-lookup"><span data-stu-id="71eef-211">Multiselect</span></span> | <span data-ttu-id="71eef-212">Pointez du regard un emplacement vide.</span><span class="sxs-lookup"><span data-stu-id="71eef-212">Gaze at an empty spot.</span></span> <span data-ttu-id="71eef-213">Appuyez longuement puis déplacez votre main en diagonale pour former un rectangle autour de tous les modèles que vous voulez sélectionner.</span><span class="sxs-lookup"><span data-stu-id="71eef-213">Tap and hold, and then move your hand diagonally to form a rectangle around all the models you want to select.</span></span> <span data-ttu-id="71eef-214">Pointez du regard les modèles sélectionnés pour voir ce que vous pouvez faire avec tous.</span><span class="sxs-lookup"><span data-stu-id="71eef-214">Gaze at any of the models you’ve selected to see what you can do with all of them.</span></span> |
-
-### <a name="on-an-immersive-headset"></a><span data-ttu-id="71eef-215">**Sur un casque immersif**</span><span class="sxs-lookup"><span data-stu-id="71eef-215">**On an immersive headset**</span></span>
-
-| <span data-ttu-id="71eef-216">**Pour**</span><span class="sxs-lookup"><span data-stu-id="71eef-216">**To**</span></span>       | <span data-ttu-id="71eef-217">**Effectuez l'opération suivante**</span><span class="sxs-lookup"><span data-stu-id="71eef-217">**Do this**</span></span>                                                                                                                                                                                                                                                                          |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="71eef-218">Placer</span><span class="sxs-lookup"><span data-stu-id="71eef-218">Place</span></span>        | <span data-ttu-id="71eef-219">Sélectionnez **Modèles** dans le menu d'application.</span><span class="sxs-lookup"><span data-stu-id="71eef-219">Select **Models** on the app menu.</span></span> <span data-ttu-id="71eef-220">Pointez votre contrôleur sur le modèle souhaité, puis tirez sur la gâchette et retenez-la pour faire votre choix.</span><span class="sxs-lookup"><span data-stu-id="71eef-220">Point your controller at the model you want, and then pull and hold the trigger to pick it up.</span></span> <span data-ttu-id="71eef-221">Pointez l'emplacement souhaité pour placer le modèle, puis relâchez la gâchette.</span><span class="sxs-lookup"><span data-stu-id="71eef-221">Point to where you want to place the model, and then let go of the trigger.</span></span>                                                                        |
-| <span data-ttu-id="71eef-222">Déplacer</span><span class="sxs-lookup"><span data-stu-id="71eef-222">Move</span></span>         | <span data-ttu-id="71eef-223">Pointez le modèle puis tirez sur la gâchette et retenez-la.</span><span class="sxs-lookup"><span data-stu-id="71eef-223">Point at the model and pull and hold the trigger.</span></span> <span data-ttu-id="71eef-224">Déplacez votre contrôleur, puis relâchez la gâchette pour procéder au placement.</span><span class="sxs-lookup"><span data-stu-id="71eef-224">Move your controller, and then let go of the trigger to place it.</span></span>                                                                                                                                                                  |
-| <span data-ttu-id="71eef-225">Copier</span><span class="sxs-lookup"><span data-stu-id="71eef-225">Copy</span></span>         | <span data-ttu-id="71eef-226">Sélectionnez le modèle, puis choisissez **Copier**.</span><span class="sxs-lookup"><span data-stu-id="71eef-226">Select the model, and then select **Copy**.</span></span> <span data-ttu-id="71eef-227">Pointez votre contrôleur sur l'emplacement souhaité pour la copie, puis tirez à nouveau sur la gâchette pour procéder au placement.</span><span class="sxs-lookup"><span data-stu-id="71eef-227">Point your controller to where you want to place the copy, and then pull the trigger again to place it.</span></span><span data-ttu-id="71eef-228"> Pour placer plusieurs copies, il suffit de pointer puis de renouveler la sélection (inutile de revenir à l'original).</span><span class="sxs-lookup"><span data-stu-id="71eef-228"> To place multiple copies, just point and select again—no need to go back to the original.</span></span> <span data-ttu-id="71eef-229">Sélectionnez **Terminé** sur la dernière copie.</span><span class="sxs-lookup"><span data-stu-id="71eef-229">Select **Done** on the last copy.</span></span>      |
-| <span data-ttu-id="71eef-230">Redimensionner</span><span class="sxs-lookup"><span data-stu-id="71eef-230">Resize</span></span>       | <span data-ttu-id="71eef-231">Sélectionnez le modèle, puis choisissez **Redimensionner**.</span><span class="sxs-lookup"><span data-stu-id="71eef-231">Select the model, and then select **Resize**.</span></span> <span data-ttu-id="71eef-232">Pointez un bord de l'objet, puis tirez sur la gâchette et retenez-la.</span><span class="sxs-lookup"><span data-stu-id="71eef-232">Point at one edge of the object, and then pull and hold the trigger.</span></span> <span data-ttu-id="71eef-233">Faites glisser le bord, puis relâchez la gâchette.</span><span class="sxs-lookup"><span data-stu-id="71eef-233">Drag the edge, and then release the trigger.</span></span>                                                                                                                      |
-| <span data-ttu-id="71eef-234">Faire pivoter</span><span class="sxs-lookup"><span data-stu-id="71eef-234">Rotate</span></span>       | <span data-ttu-id="71eef-235">Pointez puis tirez sur la gâchette pour sélectionner le modèle.</span><span class="sxs-lookup"><span data-stu-id="71eef-235">Point and pull the trigger to select the model.</span></span> <span data-ttu-id="71eef-236">Pointez ensuite une des flèches de rotation et tirez sur la gâchette pour faire pivoter le modèle sur 90 degrés.</span><span class="sxs-lookup"><span data-stu-id="71eef-236">Then point at one of the rotation arrows and pull the trigger to rotate the model 90 degrees.</span></span> <span data-ttu-id="71eef-237">Pour une rotation plus précise, utilisez la commande ronde de rotation : pointez, tirez sur la gâchette et retenez-la, puis déplacez votre contrôleur pour faire pivoter.</span><span class="sxs-lookup"><span data-stu-id="71eef-237">For more precise rotation, use the round rotation control: point, pull, and hold the trigger, and then move your controller to rotate.</span></span> |
-| <span data-ttu-id="71eef-238">Sélection multiple</span><span class="sxs-lookup"><span data-stu-id="71eef-238">Multiselect</span></span> | <span data-ttu-id="71eef-239">Pointez votre contrôleur sur un emplacement vide.</span><span class="sxs-lookup"><span data-stu-id="71eef-239">Point your controller at an empty spot.</span></span> <span data-ttu-id="71eef-240">Tirez sur la gâchette et retenez-la, puis faites glisser pour former un rectangle autour des modèles que vous souhaitez sélectionner.</span><span class="sxs-lookup"><span data-stu-id="71eef-240">Pull and hold the trigger and drag to form a rectangle around the models you want to select.</span></span> <span data-ttu-id="71eef-241">Pointez les modèles sélectionnés pour voir ce que vous pouvez faire avec tous.</span><span class="sxs-lookup"><span data-stu-id="71eef-241">Point at any of the models you’ve selected to see what you can do with all of them.</span></span> |
-
-## <a name="improve-performance-when-your-models-dont-require-texture-or-multiple-colors"></a><span data-ttu-id="71eef-242">Améliorer les performances lorsque vos modèles n'ont pas besoin de texture ou de plusieurs couleurs</span><span class="sxs-lookup"><span data-stu-id="71eef-242">Improve performance when your models don't require texture or multiple colors</span></span>
-
-<span data-ttu-id="71eef-243">Dans certains cas, des textures ou des couleurs multiples peuvent n'avoir aucune importance pour la visualisation des modèles 3D.</span><span class="sxs-lookup"><span data-stu-id="71eef-243">In certain scenarios, textures or multiple colors might not be important for visualizing 3D models.</span></span> <span data-ttu-id="71eef-244">Vous pouvez alors, pour améliorer les performances, désactiver les textures et utiliser une seule couleur.</span><span class="sxs-lookup"><span data-stu-id="71eef-244">In these cases, to improve performance, you might want to turn off textures and use a single color.</span></span> <span data-ttu-id="71eef-245">Vous pouvez pour cela utiliser le paramètre **Performance**.</span><span class="sxs-lookup"><span data-stu-id="71eef-245">You can do this by using the **Performance** setting.</span></span> 
-
-<span data-ttu-id="71eef-246">Pour activer ou désactiver le paramètre **Performance** :</span><span class="sxs-lookup"><span data-stu-id="71eef-246">To turn the **Performance** setting on or off:</span></span>
-
-- <span data-ttu-id="71eef-247">Sélectionnez **Paramètres**, **Performance**, puis **Simplifier les objets en utilisant une seule couleur**.</span><span class="sxs-lookup"><span data-stu-id="71eef-247">Select **Settings**, select **Performance**, and then select **Simplify objects by using just one color**.</span></span>
-
-> [!div class="mx-imgBorder"]
-> <span data-ttu-id="71eef-248">![Paramètre du mode de performance](media/performance-mode-setting.PNG "Paramètre du mode de performance")</span><span class="sxs-lookup"><span data-stu-id="71eef-248">![Performance mode setting](media/performance-mode-setting.PNG "Performance mode setting")</span></span>
-
-## <a name="turn-off-fading-of-holograms"></a><span data-ttu-id="71eef-249">Désactiver l'atténuation des hologrammes</span><span class="sxs-lookup"><span data-stu-id="71eef-249">Turn off fading of holograms</span></span>
-
-<span data-ttu-id="71eef-250">Par défaut, les hologrammes s'atténuent lorsque vous approchez à environ 45 centimètres d'eux.</span><span class="sxs-lookup"><span data-stu-id="71eef-250">By default, holograms fade when you get within 45 centimeters of them.</span></span> <span data-ttu-id="71eef-251">Vous pouvez utiliser le paramètre **Atténuer les hologrammes** si vous souhaitez désactiver cet effet d'atténuation des hologrammes et les observer de près.</span><span class="sxs-lookup"><span data-stu-id="71eef-251">You can use the **Hologram Fade** setting if you want to turn off this fade effect and get up close to your holograms.</span></span>
-
-<span data-ttu-id="71eef-252">![Paramètre Atténuer les hologrammes](media/hologram-fade.PNG "Paramètre Atténuer les hologrammes")</span><span class="sxs-lookup"><span data-stu-id="71eef-252">![Hologram Fade setting](media/hologram-fade.PNG "Hologram Fade setting")</span></span>
-
-<span data-ttu-id="71eef-253">Réactivez l'atténuation des hologrammes à tout moment en remettant le paramètre sur **Activé**.</span><span class="sxs-lookup"><span data-stu-id="71eef-253">Switch hologram fading back on at any time by switching the setting back to **On**.</span></span>
-
-### <a name="see-also"></a><span data-ttu-id="71eef-254">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="71eef-254">See also</span></span>
-[<span data-ttu-id="71eef-255">Vidéos pratiques</span><span class="sxs-lookup"><span data-stu-id="71eef-255">How-to videos</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2021489)<br/>
-[<span data-ttu-id="71eef-256">FAQ</span><span class="sxs-lookup"><span data-stu-id="71eef-256">FAQ</span></span>](faq.md)<br/>
-[<span data-ttu-id="71eef-257">Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours</span><span class="sxs-lookup"><span data-stu-id="71eef-257">Try Dynamics 365 Layout for free for up to 90 days</span></span>](try-layout-free.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="user-guide.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>user-guide.a81d55.15d9117e892a7d4d9c61b28b4510d1b4b874465f.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>15d9117e892a7d4d9c61b28b4510d1b4b874465f</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>a9ae3e613938a7c53b2de2ce787fae6a3499c9ae</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/21/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>mr-docs\layout\user-guide.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Dynamics 365 Layout user guide</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Guide de l'utilisateur de Dynamics 365 Layout</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>Dynamics 365 Layout user guide</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Guide de l'utilisateur de Dynamics 365 Layout</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Dynamics 365 Layout user guide</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Guide de l'utilisateur de Dynamics 365 Layout</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Use <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph> to create and design space plans on Microsoft <ph id="ph3">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or on a <ph id="ph4">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality immersive headset.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Utilisez <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph> pour créer et concevoir des plans d'aménagement d'espace dans Microsoft <ph id="ph3">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou un casque immersif <ph id="ph4">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Import 3D models and design, edit, and collaborate virtually, on a real-world scale.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importez des modèles 3D puis concevez, modifiez et collaborez pratiquement dans une échelle à taille réelle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Need more help?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Besoin d'aide complémentaire ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">[</bpt>Check out the Dynamics 365 Layout FAQ<ept id="p1">](faq.md)</ept> for answers to common questions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Consultez la FAQ<ept id="p1">](faq.md)</ept> Dynamics 365 Layout pour obtenir des réponses aux questions fréquentes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">[</bpt>Watch how-to videos about Dynamics 365 Layout.<ept id="p1">](videos.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Consultez des vidéos pratiques concernant Dynamics 365 Layout.<ept id="p1">](videos.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>What you’ll need</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ce dont vous aurez besoin</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>A subscription to Dynamics 365 Layout.<ept id="p1">](../licensing/buy-and-deploy.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Un abonnement à Dynamics 365 Layout.<ept id="p1">](../licensing/buy-and-deploy.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> subscription also includes the <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> for PC.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'abonnement <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> inclut également <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> pour PC.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>You can try <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> for free for up to 90 days.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez essayer <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> gratuitement jusqu'à 90 jours.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Learn more about the free 90-day Dynamics 365 Layout trial<ept id="p1">](try-layout-free.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur l'essai gratuit de Dynamics 365 Layout de 90 jours<ept id="p1">](try-layout-free.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>A<bpt id="p1"> [</bpt>HoloLens<ept id="p1">](https://www.microsoft.com/hololens)</ept> device running the <bpt id="p2">[</bpt>Windows 10 April 2018 Update<ept id="p2">](https://support.microsoft.com/en-us/help/12643)</ept> and/or a<bpt id="p3"> [</bpt>Windows Mixed Reality immersive headset<ept id="p3">](https://www.microsoft.com/en-us/windows/windows-mixed-reality)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un appareil<bpt id="p1"> [</bpt>HoloLens<ept id="p1">](https://www.microsoft.com/hololens)</ept> exécutant la <bpt id="p2">[</bpt>Windows 10 April 2018 Update<ept id="p2">](https://support.microsoft.com/en-us/help/12643)</ept> et/ou un casque immersif<bpt id="p3"> [</bpt>Windows Mixed Reality<ept id="p3">](https://www.microsoft.com/en-us/windows/windows-mixed-reality)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>A <bpt id="p1">[</bpt>Windows Mixed Reality–ready PC<ept id="p1">](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs)</ept> running the <bpt id="p2">[</bpt>Windows 10 April 2018 Update<ept id="p2">](https://support.microsoft.com/en-us/help/4028685)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un PC prêt pour <bpt id="p1">[</bpt>Windows Mixed Reality<ept id="p1">](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs)</ept> exécutant la <bpt id="p2">[</bpt>Windows 10 April 2018 Update<ept id="p2">](https://support.microsoft.com/en-us/help/4028685)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>An internet connection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une connexion Internet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Install the apps</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Installer les applications</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>How you install <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> and the <ph id="ph2">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> depends on how your administrator chooses to distribute the apps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La manière dont vous installez <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> et <ph id="ph2">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> dépend du mode de distribution des applications choisi par votre administrateur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Your admin might have you install the app from the <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store for Consumers, from your organization’s private store, through an email link, or with another method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Votre administrateur peut vous demander d'installer l'application depuis <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store pour les consommateurs, depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre biais.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>The following table describes the app/tool, and how to install them from the public store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le tableau suivant décrit l'application/outil, et son installation depuis le magasin public.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">**</bpt>App<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Application<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">**</bpt>Device<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Appareil<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">**</bpt>Use to<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Utilisation<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">**</bpt>To install from <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> store<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Installation depuis le <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Create layouts by scanning your surroundings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer des dispositions en analysant les environs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Place models in your layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Placer des modèles dans vos dispositions.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>On your<ph id="ph1"> [!include[pn-hololens](../includes/pn-hololens.md)]</ph>, go to <bpt id="p1">**</bpt>Start<ept id="p1">**</ept><bpt id="p2"> ![</bpt>Start<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Start<ept id="p3">")</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt><ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, search for “<ph id="ph4">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph>," and then <bpt id="p7">[</bpt>install the app<ept id="p7">](https://www.microsoft.com/store/apps/9N20MQ2V3XCW)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans votre<ph id="ph1"> [!include[pn-hololens](../includes/pn-hololens.md)]</ph>, allez à <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept><bpt id="p2"> ![</bpt>Démarrer<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Démarrer<ept id="p3">")</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt><ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, recherchez « <ph id="ph4">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph> », puis <bpt id="p7">[</bpt>installez l'application<ept id="p7">](https://www.microsoft.com/store/apps/9N20MQ2V3XCW)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Mixed reality headset</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Casque de réalité mixte</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Place models in layouts imported from <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-visio](../includes/pn-visio.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Placer des modèles dans des dispositions importées depuis <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-visio](../includes/pn-visio.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>1. On your PC go to <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> <bpt id="p2">![</bpt>Start<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Start<ept id="p3">")</ept> <ph id="ph1">\&gt;</ph> <bpt id="p4">**</bpt><ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, search for “<ph id="ph3">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph>," and then <bpt id="p7">[</bpt>install the app<ept id="p7">](https://www.microsoft.com/store/apps/9N20MQ2V3XCW)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1. Sur votre PC, allez à <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept> <bpt id="p2">![</bpt>Démarrer<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Démarrer<ept id="p3">")</ept> <ph id="ph1">\&gt;</ph> <bpt id="p4">**</bpt><ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, recherchez « <ph id="ph3">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph> », puis <bpt id="p7">[</bpt>installez l'application<ept id="p7">](https://www.microsoft.com/store/apps/9N20MQ2V3XCW)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>2. Connect your mixed reality headset to the PC, and find the app on the mixed reality <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. Connectez votre casque de réalité mixte au PC, puis recherchez l'application dans le menu <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept> de réalité mixte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>PC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Transfer floor plans from <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-visio](../includes/pn-visio.md)]</ph> to <ph id="ph3">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or <ph id="ph4">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transférer les plans d'étage depuis <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-visio](../includes/pn-visio.md)]</ph> vers <ph id="ph3">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou <ph id="ph4">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Transfer layouts between <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> and <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transférer les dispositions entre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> et <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Process 3D models for use on <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Traiter les modèles 3D à utiliser dans <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>On your PC, go to <bpt id="p1">**</bpt>Start<ept id="p1">**</ept><bpt id="p2"> ![</bpt>Start<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Start<ept id="p3">")</ept> <ph id="ph1">\&gt;</ph> <bpt id="p4">**</bpt><ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, search for “<ph id="ph3">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph>," and then <bpt id="p7">[</bpt>install the app<ept id="p7">](https://www.microsoft.com/store/apps/9NBF1CGB7KHX)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans votre PC, allez à <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept><bpt id="p2"> ![</bpt>Démarrer<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Démarrer<ept id="p3">")</ept> <ph id="ph1">\&gt;</ph> <bpt id="p4">**</bpt><ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, recherchez « <ph id="ph3">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> », puis <bpt id="p7">[</bpt>installez l'application<ept id="p7">](https://www.microsoft.com/store/apps/9NBF1CGB7KHX)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Get started with Dynamics 365 Layout: take advantage of learning tools</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mise en route de Dynamics 365 Layout : tirer profit des outils d'apprentissage</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> includes two tools (teaching moments and demo layouts) that you can use to help you learn how to do common tasks such as measuring, copying, grouping, resizing, and accessing settings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> inclut deux outils (moments d'information et démonstrations de dispositions) que vous pouvez utiliser pour vous aider à savoir comment effectuer des tâches courantes telles que la mesure, la copie, le regroupement, le redimensionnement et l'accès aux paramètres.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Teaching moments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Moments d'information</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Teaching moments provide a series of images that make it easy to understand common tasks.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les moments d'information fournissent diverses images qui permettent de comprendre facilement des tâches courantes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>To access teaching moments, air tap <bpt id="p1">**</bpt>Help<ept id="p1">**</ept>, and then air tap the area you need help with.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour accéder aux moments d'information, appuyez sur <bpt id="p1">**</bpt>Aide<ept id="p1">**</ept>, puis sur la zone pour laquelle vous avez besoin d'aide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">![</bpt>Teaching moments<ept id="p1">]</ept><bpt id="p2">(media/teaching-moments.PNG "</bpt>Teaching moments<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Moments d'information<ept id="p1">]</ept><bpt id="p2">(media/teaching-moments.PNG "</bpt>Moments d'information<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Demo layouts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Démonstrations de dispositions</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Demo layouts use prebuilt layouts to demonstrate how to build different parts of a manufacturing plant.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les démonstrations de dispositions utilisent des dispositions prédéfinies pour montrer comment développer différentes parties d'une usine de fabrication.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>There are three demos to choose from:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous avez le choix entre trois démonstrations :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Copy/paste and collision</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copier/coller et collision</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Group and measure</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grouper et mesurer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Fit and resize</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ajuster et redimensionner</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">![</bpt>Demo layouts<ept id="p1">]</ept><bpt id="p2">(media/demo-layouts.PNG "</bpt>Demo layouts<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Démonstrations de dispositions<ept id="p1">]</ept><bpt id="p2">(media/demo-layouts.PNG "</bpt>Démonstrations de dispositions<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>For example, in the Copy/paste and collision demo, learn how to complete a conveyor belt by copying and positioning sections.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, dans la démonstration Copier/coller et collision, découvrez comment compléter un tapis de convoyeur en copiant et en positionnant des sections.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>To access demo layouts, pick the demo you want from the <bpt id="p1">**</bpt>Layouts<ept id="p1">**</ept> menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour accéder à des démonstrations de dispositions, sélectionnez la démonstration de votre choix dans le menu <bpt id="p1">**</bpt>Dispositions<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source><bpt id="p1">![</bpt>Access demo layouts<ept id="p1">]</ept><bpt id="p2">(media/access-demo-layouts.PNG "</bpt>Access demo layouts<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Accédez aux démonstrations de dispositions<ept id="p1">]</ept><bpt id="p2">(media/access-demo-layouts.PNG "</bpt>Accédez aux démonstrations de dispositions<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Use Dynamics 365 Layout</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utiliser Dynamics 365 Layout</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>To use<ph id="ph1"> [!include[pn-layout](../includes/pn-layout.md)]</ph>, you create space layouts on your <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or PC and then use a <ph id="ph3">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or <ph id="ph4">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality immersive headset to place 3D models in the layouts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour utiliser<ph id="ph1"> [!include[pn-layout](../includes/pn-layout.md)]</ph>, vous créez des dispositions d'espace sur votre <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou PC, puis vous utilisez <ph id="ph3">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou un casque immersif <ph id="ph4">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality pour placer des modèles 3D dans les dispositions.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>The <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> app comes with a set of preinstalled models, and you can also add your own.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'application <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> est fournie avec des modèles préinstallés, et vous pouvez également ajouter les vôtres.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Create a layout</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer une disposition</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>There are two ways to create a layout:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Il existe deux façons de créer une disposition :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Use <bpt id="p1">[</bpt>Microsoft Visio<ept id="p1">](https://products.office.com/en-us/visio/)</ept> to design a floor plan, and then export it to <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez <bpt id="p1">[</bpt>Microsoft Visio<ept id="p1">](https://products.office.com/en-us/visio/)</ept> pour concevoir un plan d'étage, puis exportez-le vers <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Use <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> on your <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> to scan a space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> sur votre <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> pour analyser un espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Create a layout with Microsoft Visio</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer une disposition avec Microsoft Visio</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">**</bpt>Step 1: Download and install the <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph> Add-in for <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph><ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Étape 1 : téléchargez et installez le complément <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph> pour <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph><ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Open the <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Select<bpt id="p1"> **</bpt>About<ept id="p1">**</ept>, and then select the 32-bit or the 64-bit download (choose the one that matches your version of <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez<bpt id="p1"> **</bpt>À propos<ept id="p1">**</ept>, puis sélectionnez le téléchargement 32 bits ou 64 bits (choisissez celui qui correspond à votre version de <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">![</bpt>Download Visio add-in<ept id="p1">]</ept><bpt id="p2">(media/visio-download.PNG "</bpt>Download Visio add-in<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Télécharger le complément Visio<ept id="p1">]</ept><bpt id="p2">(media/visio-download.PNG "</bpt>Télécharger le complément Visio<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Open <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph>, and then select<bpt id="p1"> **</bpt>File<ept id="p1">**</ept><ph id="ph2"> </ph><ph id="ph3">\&gt;</ph><bpt id="p2"> **</bpt>Options<ept id="p2">**</ept> <ph id="ph4">\&gt;</ph><bpt id="p3"> **</bpt>Add-ins<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph>, puis sélectionnez<bpt id="p1"> **</bpt>Fichier<ept id="p1">**</ept><ph id="ph2"> </ph><ph id="ph3">\&gt;</ph><bpt id="p2"> **</bpt>Options<ept id="p2">**</ept> <ph id="ph4">\&gt;</ph><bpt id="p3"> **</bpt>Compléments<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Next to<bpt id="p1"> **</bpt>Manage<ept id="p1">**</ept>, select<bpt id="p2"> **</bpt>COM Add-ins<ept id="p2">**</ept>, and then select<bpt id="p3"> **</bpt>Go<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">À côté de<bpt id="p1"> **</bpt>Gérer<ept id="p1">**</ept>, sélectionnez<bpt id="p2"> **</bpt>Compléments COM<ept id="p2">**</ept>, puis<bpt id="p3"> **</bpt>Atteindre<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Select<bpt id="p1"> **</bpt><ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph> Add-in for <ph id="ph2">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph><ept id="p1">**</ept>, and then select<bpt id="p2"> **</bpt>Add<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez<bpt id="p1"> **</bpt>Complément <ph id="ph1">[!include[pn-visio](../includes/pn-visio.md)]</ph> pour <ph id="ph2">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph><ept id="p1">**</ept>, puis<bpt id="p2"> **</bpt>Ajouter<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">**</bpt>Step 2: Create your floor plan with <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-visio](../includes/pn-visio.md)]</ph><ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Étape 2 : créez votre plan d'étage avec <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-visio](../includes/pn-visio.md)]</ph><ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>When the floor plan is ready, select the <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph><ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>Export<ept id="p2">**</ept>, and then save your floor plan.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque le plan d'étage est prêt, sélectionnez l'onglet <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph><ept id="p1">**</ept> et <bpt id="p2">**</bpt>Exporter<ept id="p2">**</ept>, puis enregistrez votre plan d'étage.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source><bpt id="p1">**</bpt>Step 3: Import your floor plan using the <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph><ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Étape 3 : importez votre plan d'étage au moyen de l'<ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph><ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>In the <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, select <bpt id="p1">**</bpt>This PC<ept id="p1">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p2">**</bpt>Add layout<ept id="p2">**</ept>, and then navigate to the floor plan.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans l'<ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, sélectionnez <bpt id="p1">**</bpt>Ce PC<ept id="p1">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p2">**</bpt>Ajouter une disposition<ept id="p2">**</ept>, puis accédez au plan d'étage.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Select the floor plan, and then select <bpt id="p1">**</bpt>Open<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le plan d'étage, puis <bpt id="p1">**</bpt>Ouvrir<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>The floor plan shows up automatically in <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> on a mixed reality immersive headset connected to the same PC.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Le plan d'étage s'affiche automatiquement dans <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> sur un casque immersif de réalité mixte connecté au même PC.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>To use the layout on <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, you’ll need to move it there:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour utiliser la disposition dans <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, vous devez la déplacer ici :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Connect your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> to your PC using the USB cable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Connectez votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> à votre PC à l'aide du câble USB.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Open the <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> on the PC, and then select <bpt id="p1">**</bpt>This PC<ept id="p1">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p2">**</bpt>Layouts<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> sur le PC, puis sélectionnez <bpt id="p1">**</bpt>Ce PC<ept id="p1">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p2">**</bpt>Dispositions<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Select the check box on the layouts you want to copy, and then select <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cochez la case sur les dispositions que vous souhaitez copier, puis sélectionnez <bpt id="p1">**</bpt>Envoyer<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source><bpt id="p1">![</bpt>Move layout to HoloLens<ept id="p1">]</ept><bpt id="p2">(media/selected-layouts-hololens.PNG "</bpt>Move layout to HoloLens<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Déplacez la disposition dans HoloLens<ept id="p1">]</ept><bpt id="p2">(media/selected-layouts-hololens.PNG "</bpt>Déplacez la disposition dans HoloLens<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>On <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, open the <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> app.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, ouvrez l'application <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>You’ll find your layout on the <bpt id="p1">**</bpt>Layouts<ept id="p1">**</ept> tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous trouverez votre disposition dans l'onglet <bpt id="p1">**</bpt>Dispositions<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Create a layout with HoloLens</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Créer une disposition avec HoloLens</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>On your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> device, open the <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> app.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans votre appareil <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, ouvrez l'application <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Select <bpt id="p1">**</bpt>New layout<ept id="p1">**</ept>, and then follow the instructions for scanning your space and creating a layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Nouvelle disposition<ept id="p1">**</ept>, puis suivez les instructions pour analyser votre espace et créer une disposition.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>To move the layout to your PC so you can open it on a mixed reality immersive headset:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour déplacer la disposition vers votre PC afin de pouvoir l'ouvrir dans un casque immersif de réalité mixte :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Connect the <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> to the PC using the USB cable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Connectez l'<ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> au PC à l'aide du câble USB.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Open the <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, and then select the <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez l'<ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, puis sélectionnez le nom de l'<ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Select the check box on the layout you want to send to your PC, and then select <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cochez la case sur la disposition que vous souhaitez envoyer vers votre PC, puis sélectionnez <bpt id="p1">**</bpt>Envoyer<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source><bpt id="p1">![</bpt>Move layout from HoloLens<ept id="p1">]</ept><bpt id="p2">(media/selected-layouts-pc.PNG "</bpt>Move layout from HoloLens<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Déplacez la disposition depuis HoloLens<ept id="p1">]</ept><bpt id="p2">(media/selected-layouts-pc.PNG "</bpt>Déplacez la disposition depuis HoloLens<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Place, copy, resize, rotate, and select 3D models</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Placer, copier, redimensionner, faire pivoter et sélectionner des modèles 3D</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>On <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> and in <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality, you can place, move, copy, resize, and rotate 3D models.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> et dans <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality, vous pouvez placer, déplacer, copier, redimensionner et faire pivoter des modèles 3D.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>On HoloLens</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sur HoloLens</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">**</bpt>To<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pour<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source><bpt id="p1">**</bpt>Do this<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Effectuez l'opération suivante<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Place</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Placer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Select <bpt id="p1">**</bpt>Models<ept id="p1">**</ept>, and then gaze and air tap to select the model you want to place.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Modèles<ept id="p1">**</ept>, puis pointez du regard et appuyez pour sélectionner le modèle que vous souhaitez placer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Use gaze to move the model, and then air tap again to place it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez le pointage du regard pour déplacer le modèle, puis appuyez à nouveau pour le placer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Move</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Gaze at a model, and then tap and hold it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard un modèle, puis appuyez longuement dessus.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Move your hand to reposition the model, then release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacez votre main pour repositionner le modèle, puis relâchez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Copy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copier</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Gaze and air tap to select the model, and then select <bpt id="p1">**</bpt>Copy<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard et appuyez pour sélectionner le modèle, puis choisissez <bpt id="p1">**</bpt>Copier<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Move the model where you want it, and then air tap to place it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacez le modèle où vous le souhaitez, puis appuyez pour le placer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Select <bpt id="p1">**</bpt>Done<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Terminé<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Resize</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Redimensionner</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Gaze and air tap to select a model, and then select <bpt id="p1">**</bpt>Resize<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard et appuyez pour sélectionner un modèle, puis choisissez <bpt id="p1">**</bpt>Redimensionner<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Tap and hold any edge of the model, and then move your hand in or out.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez longuement sur n'importe quel bord du modèle, puis déplacez votre main vers l'intérieur et vers l'extérieur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Rotate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faire pivoter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Gaze and air tap to select the model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard et appuyez pour sélectionner le modèle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Select one of the rotation arrows to rotate 90 degrees.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez une des flèches de rotation pour faire pivoter sur 90 degrés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>For more precise rotation, tap and hold the round rotation control, and then move your hand to rotate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour une rotation plus précise, appuyez longuement sur la commande ronde de rotation, puis déplacez votre main pour faire pivoter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Multiselect</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélection multiple</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Gaze at an empty spot.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard un emplacement vide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Tap and hold, and then move your hand diagonally to form a rectangle around all the models you want to select.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez longuement puis déplacez votre main en diagonale pour former un rectangle autour de tous les modèles que vous voulez sélectionner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Gaze at any of the models you’ve selected to see what you can do with all of them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard les modèles sélectionnés pour voir ce que vous pouvez faire avec tous.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source><bpt id="p1">**</bpt>On an immersive headset<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sur un casque immersif<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source><bpt id="p1">**</bpt>To<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pour<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">**</bpt>Do this<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Effectuez l'opération suivante<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Place</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Placer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Select <bpt id="p1">**</bpt>Models<ept id="p1">**</ept> on the app menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Modèles<ept id="p1">**</ept> dans le menu d'application.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Point your controller at the model you want, and then pull and hold the trigger to pick it up.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez votre contrôleur sur le modèle souhaité, puis tirez sur la gâchette et retenez-la pour faire votre choix.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Point to where you want to place the model, and then let go of the trigger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez l'emplacement souhaité pour placer le modèle, puis relâchez la gâchette.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Move</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Point at the model and pull and hold the trigger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez le modèle puis tirez sur la gâchette et retenez-la.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Move your controller, and then let go of the trigger to place it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacez votre contrôleur, puis relâchez la gâchette pour procéder au placement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Copy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Copier</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Select the model, and then select <bpt id="p1">**</bpt>Copy<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le modèle, puis choisissez <bpt id="p1">**</bpt>Copier<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Point your controller to where you want to place the copy, and then pull the trigger again to place it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez votre contrôleur sur l'emplacement souhaité pour la copie, puis tirez à nouveau sur la gâchette pour procéder au placement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source> To place multiple copies, just point and select again—no need to go back to the original.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Pour placer plusieurs copies, il suffit de pointer puis de renouveler la sélection (inutile de revenir à l'original).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Select <bpt id="p1">**</bpt>Done<ept id="p1">**</ept> on the last copy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Terminé<ept id="p1">**</ept> sur la dernière copie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Resize</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Redimensionner</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Select the model, and then select <bpt id="p1">**</bpt>Resize<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le modèle, puis choisissez <bpt id="p1">**</bpt>Redimensionner<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Point at one edge of the object, and then pull and hold the trigger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez un bord de l'objet, puis tirez sur la gâchette et retenez-la.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Drag the edge, and then release the trigger.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faites glisser le bord, puis relâchez la gâchette.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Rotate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faire pivoter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Point and pull the trigger to select the model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez puis tirez sur la gâchette pour sélectionner le modèle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Then point at one of the rotation arrows and pull the trigger to rotate the model 90 degrees.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez ensuite une des flèches de rotation et tirez sur la gâchette pour faire pivoter le modèle sur 90 degrés.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>For more precise rotation, use the round rotation control: point, pull, and hold the trigger, and then move your controller to rotate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour une rotation plus précise, utilisez la commande ronde de rotation : pointez, tirez sur la gâchette et retenez-la, puis déplacez votre contrôleur pour faire pivoter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Multiselect</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélection multiple</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Point your controller at an empty spot.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez votre contrôleur sur un emplacement vide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Pull and hold the trigger and drag to form a rectangle around the models you want to select.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tirez sur la gâchette et retenez-la, puis faites glisser pour former un rectangle autour des modèles que vous souhaitez sélectionner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Point at any of the models you’ve selected to see what you can do with all of them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez les modèles sélectionnés pour voir ce que vous pouvez faire avec tous.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Improve performance when your models don't require texture or multiple colors</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Améliorer les performances lorsque vos modèles n'ont pas besoin de texture ou de plusieurs couleurs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>In certain scenarios, textures or multiple colors might not be important for visualizing 3D models.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans certains cas, des textures ou des couleurs multiples peuvent n'avoir aucune importance pour la visualisation des modèles 3D.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>In these cases, to improve performance, you might want to turn off textures and use a single color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez alors, pour améliorer les performances, désactiver les textures et utiliser une seule couleur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>You can do this by using the <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept> setting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez pour cela utiliser le paramètre <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>To turn the <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept> setting on or off:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour activer ou désactiver le paramètre <bpt id="p1">**</bpt>Performance<ept id="p1">**</ept> :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Select <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Performance<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Simplify objects by using just one color<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Paramètres<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Performance<ept id="p2">**</ept>, puis <bpt id="p3">**</bpt>Simplifier les objets en utilisant une seule couleur<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source><bpt id="p1">![</bpt>Performance mode setting<ept id="p1">]</ept><bpt id="p2">(media/performance-mode-setting.PNG "</bpt>Performance mode setting<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Paramètre du mode de performance<ept id="p1">]</ept><bpt id="p2">(media/performance-mode-setting.PNG "</bpt>Paramètre du mode de performance<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Turn off fading of holograms</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désactiver l'atténuation des hologrammes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>By default, holograms fade when you get within 45 centimeters of them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par défaut, les hologrammes s'atténuent lorsque vous approchez à environ 45 centimètres d'eux.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>You can use the <bpt id="p1">**</bpt>Hologram Fade<ept id="p1">**</ept> setting if you want to turn off this fade effect and get up close to your holograms.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez utiliser le paramètre <bpt id="p1">**</bpt>Atténuer les hologrammes<ept id="p1">**</ept> si vous souhaitez désactiver cet effet d'atténuation des hologrammes et les observer de près.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source><bpt id="p1">![</bpt>Hologram Fade setting<ept id="p1">]</ept><bpt id="p2">(media/hologram-fade.PNG "</bpt>Hologram Fade setting<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Paramètre Atténuer les hologrammes<ept id="p1">]</ept><bpt id="p2">(media/hologram-fade.PNG "</bpt>Paramètre Atténuer les hologrammes<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Switch hologram fading back on at any time by switching the setting back to <bpt id="p1">**</bpt>On<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Réactivez l'atténuation des hologrammes à tout moment en remettant le paramètre sur <bpt id="p1">**</bpt>Activé<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>See also</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voir aussi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source><bpt id="p1">[</bpt>How-to videos<ept id="p1">](videos.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vidéos pratiques<ept id="p1">](videos.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source><bpt id="p1">[</bpt>FAQ<ept id="p1">](faq.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>FAQ<ept id="p1">](faq.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source><bpt id="p1">[</bpt>Try Dynamics 365 Layout for free for up to 90 days<ept id="p1">](try-layout-free.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours<ept id="p1">](try-layout-free.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,442 +1,1059 @@
----
-author: bencorn
-description: Dynamics 365 Remote Assist Guide de l'utilisateur (pour HoloLens)
-ms.author: becorn
-ms.date: 05/6/2019
-ms.service: crm-online
-ms.topic: article
-title: Dynamics 365 Remote Assist Guide de l'utilisateur (pour HoloLens)
-ms.reviewer: v-brycho
-ms.openlocfilehash: ecaf11960fbdaa073353e6a3ca53638d82a38ae2
-ms.sourcegitcommit: 8999bfecc2b117135aa9a1077044f678341c33ad
-ms.translationtype: HT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "1575535"
----
-# <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a><span data-ttu-id="11811-103">Dynamics 365 Remote Assist Guide de l'utilisateur (pour HoloLens)</span><span class="sxs-lookup"><span data-stu-id="11811-103">Dynamics 365 Remote Assist User guide (for HoloLens)</span></span>
-
-<span data-ttu-id="11811-104">Utilisez [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] pour vous connecter et collaborer au moyen d'un appel vidéo mains libres, d'annotations de réalité mixte et du partage de fichiers (image et PDF).</span><span class="sxs-lookup"><span data-stu-id="11811-104">Use [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] to connect and collaborate using hands-free video calling, mixed reality annotations, and file (image and PDF) sharing.</span></span> <span data-ttu-id="11811-105">Utilisez votre [!include[pn-hololens](../includes/pn-hololens.md)] pour appeler un expert qui utilise [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], puis partagez ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)] pour résoudre les problèmes et réaliser des tâches ensemble, plus rapidement.</span><span class="sxs-lookup"><span data-stu-id="11811-105">Use your [!include[pn-hololens](../includes/pn-hololens.md)] to call an expert who's using [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], and then share what you see on [!include[pn-hololens](../includes/pn-hololens.md)] to solve problems and complete tasks together, faster.</span></span>
-
-<span data-ttu-id="11811-106">Besoin d'aide complémentaire ?</span><span class="sxs-lookup"><span data-stu-id="11811-106">Need more help?</span></span> <span data-ttu-id="11811-107">[Consultez la FAQ de Remote Assist](faq.md) pour obtenir des réponses aux questions fréquentes.</span><span class="sxs-lookup"><span data-stu-id="11811-107">[Check out Remote Assist FAQ](faq.md) for answers to common questions.</span></span>
-
-<span data-ttu-id="11811-108">[Consultez des vidéos pratiques](https://go.microsoft.com/fwlink/p/?linkid=2021485) concernant [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-108">[Watch how-to videos](https://go.microsoft.com/fwlink/p/?linkid=2021485) about [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span></span>
-
-## <a name="what-youll-need"></a><span data-ttu-id="11811-109">Ce dont vous aurez besoin</span><span class="sxs-lookup"><span data-stu-id="11811-109">What you’ll need</span></span>
-
--   <span data-ttu-id="11811-110">Un abonnement à Remote Assist.</span><span class="sxs-lookup"><span data-stu-id="11811-110">A subscription to Remote Assist.</span></span> <span data-ttu-id="11811-111">Microsoft Teams est inclus dans l'abonnement Remote Assist pour les personnes avec une licence Remote Assist sur HoloLens.</span><span class="sxs-lookup"><span data-stu-id="11811-111">Microsoft Teams is included in the Remote Assist subscription for individuals using a Remote Assist license on HoloLens.</span></span> <span data-ttu-id="11811-112">Une licence Microsoft Teams est également requise pour les personnes (experts) qui communiquent avec un utilisateur de Remote Assist sur HoloLens.</span><span class="sxs-lookup"><span data-stu-id="11811-112">A Microsoft Teams license is also required for individuals (experts) who communicate with a Remote Assist user on HoloLens.</span></span> <span data-ttu-id="11811-113">Teams peut être disponible [en téléchargement gratuit](https://teams.microsoft.com/downloads) pour ces utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="11811-113">Teams may be available [as a free download](https://teams.microsoft.com/downloads) for these users.</span></span> <span data-ttu-id="11811-114">Si vous êtes l'administrateur pour votre organisation [découvrez comment essayer ou acheter et déployer Remote Assist](../licensing/buy-and-deploy.md).</span><span class="sxs-lookup"><span data-stu-id="11811-114">If you’re the admin for your organization, [learn how to try or buy, and deploy Remote Assist](../licensing/buy-and-deploy.md).</span></span> 
-
-    > [!TIP] 
-    > <span data-ttu-id="11811-115">Vous pouvez essayer Dynamics 365 Remote Assist gratuitement jusqu'à 90 jours.</span><span class="sxs-lookup"><span data-stu-id="11811-115">You can try Dynamics 365 Remote Assist for free for up to 90 days.</span></span> <span data-ttu-id="11811-116">[En savoir plus sur l'essai gratuit de Dynamics 365 Remote Assist de 90 jours](try-remote-assist-free.md).</span><span class="sxs-lookup"><span data-stu-id="11811-116">[Learn more about the free 90-day Dynamics 365 Remote Assist trial](try-remote-assist-free.md).</span></span>
-
--   <span data-ttu-id="11811-117">Un [HoloLens exécutant Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643).</span><span class="sxs-lookup"><span data-stu-id="11811-117">A [HoloLens running the Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643).</span></span>
-
--   <span data-ttu-id="11811-118">Pour effectuer un appel vidéo, vous avez besoin d'un contact utilisant la dernière version de [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) sur un PC exécutant [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 ou un appareil mobile exécutant Microsoft Teams Mobile. [Renseignez-vous sur l'utilisation de Teams avec Remote Assist.](use-microsoft-teams-with-remote-assist.md)</span><span class="sxs-lookup"><span data-stu-id="11811-118">To make a video call, you'll need a contact using the latest version of [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) on a PC running [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 or a mobile device running Microsoft Teams Mobile. [Learn about using Teams with Remote Assist.](use-microsoft-teams-with-remote-assist.md)</span></span>
-
--   <span data-ttu-id="11811-119">Pour vous connecter à [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)], vous avez besoin d'une [licence Dynamics 365](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand).</span><span class="sxs-lookup"><span data-stu-id="11811-119">To connect to [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] from within [!include[pn-remote-assist](../includes/pn-remote-assist.md)], you’ll need a [Dynamics 365 license](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand).</span></span>
-
--   <span data-ttu-id="11811-120">Une connexion Internet.</span><span class="sxs-lookup"><span data-stu-id="11811-120">An internet connection.</span></span> <span data-ttu-id="11811-121">Au moins 1,5 Mo de bande passante est recommandé pour optimiser l'expérience.</span><span class="sxs-lookup"><span data-stu-id="11811-121">At least 1.5 MB of bandwidth is recommended for the best experience.</span></span>
-
-<span data-ttu-id="11811-122">Besoin de plus de vitesse sur [!include[pn-hololens](../includes/pn-hololens.md)] ?</span><span class="sxs-lookup"><span data-stu-id="11811-122">Need to get up to speed on [!include[pn-hololens](../includes/pn-hololens.md)]?</span></span> <span data-ttu-id="11811-123">[Obtenir de l'aide](https://support.microsoft.com/products/hololens).</span><span class="sxs-lookup"><span data-stu-id="11811-123">[Get help](https://support.microsoft.com/products/hololens).</span></span>
-
-## <a name="install-the-remote-assist-app"></a><span data-ttu-id="11811-124">Installer l'application Remote Assist</span><span class="sxs-lookup"><span data-stu-id="11811-124">Install the Remote Assist app</span></span>
-
-<span data-ttu-id="11811-125">La manière dont vous installez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] dépend du mode de distribution des applications choisi par votre administrateur.</span><span class="sxs-lookup"><span data-stu-id="11811-125">How you install [!include[pn-remote-assist](../includes/pn-remote-assist.md)] depends on how your administrator chooses to distribute the app.</span></span> <span data-ttu-id="11811-126">Votre administrateur peut vous demander [d'installer l'application depuis Microsoft Store pour les consommateurs](https://www.microsoft.com/store/apps/9P77QGW10K9M), depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre moyen.</span><span class="sxs-lookup"><span data-stu-id="11811-126">Your admin might have you [install the app from the Microsoft Store for Consumers](https://www.microsoft.com/store/apps/9P77QGW10K9M), from your organization’s private store, through an email link, or another method.</span></span>
-
-### <a name="install-the-application-through-the-microsoft-store-for-consumers"></a><span data-ttu-id="11811-127">Installer l'application par le biais de Microsoft Store pour les consommateurs</span><span class="sxs-lookup"><span data-stu-id="11811-127">Install the application through the Microsoft Store for Consumers</span></span>
-
-1.  <span data-ttu-id="11811-128">Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), puis cherchez « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] ».</span><span class="sxs-lookup"><span data-stu-id="11811-128">On your [!include[pn-hololens](../includes/pn-hololens.md)], go to **Start** ![Start](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Start") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), and then search for “[!include[pn-remote-assist](../includes/pn-remote-assist.md)].”</span></span>
-
-2.  <span data-ttu-id="11811-129">Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**.</span><span class="sxs-lookup"><span data-stu-id="11811-129">On your [!include[pn-hololens](../includes/pn-hololens.md)], go to **Start** ![Start](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Start") \> **All apps**.</span></span> <span data-ttu-id="11811-130">Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application.</span><span class="sxs-lookup"><span data-stu-id="11811-130">Select **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, then select it again to launch the app.</span></span> [!include[pn-remote-assist](../includes/pn-remote-assist.md)] <span data-ttu-id="11811-131">est une application immersive avec une [vue holographique](https://support.microsoft.com/en-us/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.</span><span class="sxs-lookup"><span data-stu-id="11811-131">is an immersive app with a [holographic view](https://support.microsoft.com/en-us/help/12635), so it will be the only app you see while you’re using it.</span></span>
-
-<span data-ttu-id="11811-132">Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 2018 Update et que vous êtes connecté avec un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD), vous serez automatiquement connecté à [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-132">If your [!include[pn-hololens](../includes/pn-hololens.md)] is running the April 2018 Update and you're signed in with an [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD) account, you'll automatically be signed in to [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span></span> <span data-ttu-id="11811-133">Sinon, utilisez le clavier holographique pour vous connecter avec un compte professionnel ou scolaire associé à un abonnement [!include[pn-office-365](../includes/pn-office-365.md)] Premium ou Essentials.</span><span class="sxs-lookup"><span data-stu-id="11811-133">If not, use the holographic keyboard to sign in with a work or school account that has an [!include[pn-office-365](../includes/pn-office-365.md)] Premium or Essentials subscription.</span></span><span data-ttu-id="11811-134"> Une fois connecté, vous verrez vos contacts récents.</span><span class="sxs-lookup"><span data-stu-id="11811-134"> Once you’re signed in, you’ll see your recent contacts.</span></span>
-
-## <a name="using-the-user-interface-or-voice-commands"></a><span data-ttu-id="11811-135">Utiliser l'interface utilisateur ou les commandes vocales</span><span class="sxs-lookup"><span data-stu-id="11811-135">Using the user interface or voice commands</span></span>
-
-<span data-ttu-id="11811-136">Les procédures de ce guide de l'utilisateur décrivent comment effectuer des tâches via l'interface utilisateur ou en utilisant des commandes de voix, le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="11811-136">The procedures in this user guide describe how to do tasks through the user interface or by using voice commands, when available.</span></span> <span data-ttu-id="11811-137">Pour utiliser une commande vocale, dites : « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », puis prononcez la commande vocale.</span><span class="sxs-lookup"><span data-stu-id="11811-137">To use a voice command, say “[!include[pn-remote-assist](../includes/pn-remote-assist.md)],” and then say the voice command.</span></span> [<span data-ttu-id="11811-138">En savoir plus sur les commandes vocales.</span><span class="sxs-lookup"><span data-stu-id="11811-138">Learn more about voice commands.</span></span>](#voice)
-
-## <a name="make-and-receive-calls"></a><span data-ttu-id="11811-139">Effectuer et recevoir des appels</span><span class="sxs-lookup"><span data-stu-id="11811-139">Make and receive calls</span></span>
-
-<span data-ttu-id="11811-140">La manière dont vous effectuez un appel varie selon que vous appelez un contact dans votre société ou en dehors de celle-ci.</span><span class="sxs-lookup"><span data-stu-id="11811-140">How you make a call depends on whether you're calling a contact in your company or outside your company.</span></span>
-
-### <a name="make-a-call-to-a-contact-in-your-company"></a><span data-ttu-id="11811-141">Appeler un contact dans votre société</span><span class="sxs-lookup"><span data-stu-id="11811-141">Make a call to a contact in your company</span></span>
-
--   <span data-ttu-id="11811-142">Ouvrez l'application et [sélectionnez](https://support.microsoft.com/en-us/help/12644) un contact récent.</span><span class="sxs-lookup"><span data-stu-id="11811-142">Open the app and [select](https://support.microsoft.com/en-us/help/12644) a recent contact.</span></span> <span data-ttu-id="11811-143">Si vous ne voyez pas le contact que vous souhaitez, sélectionnez **Rechercher** ![Rechercher](media/e3155cd796106ea0818d8f52c7dbfcbe.png "Rechercher"), puis utilisez le clavier holographique pour entrer un nom ou une adresse e-mail.</span><span class="sxs-lookup"><span data-stu-id="11811-143">If you don’t see the contact you want, select **Search** ![Search](media/e3155cd796106ea0818d8f52c7dbfcbe.png "Search"), and then use the holographic keyboard to enter a name or email address.</span></span>
-
-<span data-ttu-id="11811-144">Lorsque votre contact répond à l'appel dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], il peut voir ce que vous visualisez votre espace, y compris les hologrammes.</span><span class="sxs-lookup"><span data-stu-id="11811-144">When your contact answers the call in [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], they’ll be able to see what you see in your space—including holograms.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-145">L'audio dynamique ajuste le volume en fonction du bruit ambiant dans la pièce afin que vous puissiez entendre même si vous travaillez dans un environnement bruyant.</span><span class="sxs-lookup"><span data-stu-id="11811-145">Dynamic audio adjusts the volume level based on ambient noise in the room so you can hear even if you're working in a loud environment.</span></span>
-
-### <a name="make-a-call-to-a-contact-outside-your-company"></a><span data-ttu-id="11811-146">Appeler un contact en dehors de votre société</span><span class="sxs-lookup"><span data-stu-id="11811-146">Make a call to a contact outside your company</span></span>
-
-<span data-ttu-id="11811-147">Vous pouvez effectuer ou recevoir un appel à deux avec un utilisateur de Teams d'une autre société si un accès externe a été activé pour les deux sociétés dans Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="11811-147">You can make or receive a one-to-one call with a Teams user from another company if external access for both companies has been enabled in Microsoft Teams.</span></span> <span data-ttu-id="11811-148">Si vous êtes l'administrateur pour votre organisation, pour configurer l'accès externe, consultez [Configurer les appels interentreprises](cross-company-calling.md).</span><span class="sxs-lookup"><span data-stu-id="11811-148">If you're the admin for your organization, to set up external access, see [Set up cross-company calling](cross-company-calling.md).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-149">À ce stade, vous ne pouvez pas effectuer d'appel de groupe ou de partage de fichier avec des contacts en dehors de votre société.</span><span class="sxs-lookup"><span data-stu-id="11811-149">At this time, you can't do group calling or file sharing with contacts outside your company.</span></span> 
-
-<span data-ttu-id="11811-150">Pour appeler un contact en dehors de votre société :</span><span class="sxs-lookup"><span data-stu-id="11811-150">To make a call to a contact outside your company:</span></span>
-
-- <span data-ttu-id="11811-151">Ouvrez l'application, sélectionnez **Rechercher**, puis utiliser le clavier holographique pour entrer l'adresse e-mail complète de l'utilisateur externe.</span><span class="sxs-lookup"><span data-stu-id="11811-151">Open the app, select **Search**, and then use the holographic keyboard to enter the full email address of the external user.</span></span> <span data-ttu-id="11811-152">Vous *devez* entrer l'adresse e-mail complète.</span><span class="sxs-lookup"><span data-stu-id="11811-152">You *must* enter the full email address.</span></span> <span data-ttu-id="11811-153">Vous ne verrez aucun résultat de recherche si vous entrez uniquement un nom ou une adresse e-mail partielle.</span><span class="sxs-lookup"><span data-stu-id="11811-153">You won't see any search results if you enter just a name or a partial email address.</span></span>
-
-> [!NOTE] 
-> <span data-ttu-id="11811-154">Si vous ne parvenez pas à trouver le contact que vous recherchez, cela peut être dû au fait que l'accès externe n'a pas été activé dans Microsoft Teams pour votre société ou l'autre société.</span><span class="sxs-lookup"><span data-stu-id="11811-154">If you're not able to find the contact you're looking for, it might be because external access has not been enabled in Microsoft Teams for your company or the other company.</span></span> <span data-ttu-id="11811-155">Contactez votre administrateur système pour obtenir de l'aide.</span><span class="sxs-lookup"><span data-stu-id="11811-155">Contact your administrator for help.</span></span> 
-
-## <a name="make-group-calls"></a><span data-ttu-id="11811-156">Effectuer des appels de groupe</span><span class="sxs-lookup"><span data-stu-id="11811-156">Make group calls</span></span>
-
-<span data-ttu-id="11811-157">Vous pouvez inclure jusqu'à 50 personnes dans un appel de groupe.</span><span class="sxs-lookup"><span data-stu-id="11811-157">You can include up to 50 people in a group call.</span></span> <span data-ttu-id="11811-158">Vous pouvez également basculer entre les flux vidéo des participants et désactiver le micro de participants, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="11811-158">You can also switch between participants' video feeds and mute participants as needed.</span></span>
-
-### <a name="invite-additional-contacts-to-a-call"></a><span data-ttu-id="11811-159">Inviter des contacts supplémentaires à un appel</span><span class="sxs-lookup"><span data-stu-id="11811-159">Invite additional contacts to a call</span></span>
-
-1. <span data-ttu-id="11811-160">Dans les commandes d'appel, sélectionnez le bouton **Participants libres**.</span><span class="sxs-lookup"><span data-stu-id="11811-160">From the call controls, select the **Open Participants** button.</span></span>
-
-   <span data-ttu-id="11811-161">![Animation Sélectionner Participants libres](media/GC_OpenParticipantsList.gif "Animation Sélectionner Participants libres")</span><span class="sxs-lookup"><span data-stu-id="11811-161">![Animation of selecting Open Participants](media/GC_OpenParticipantsList.gif "Animation of selecting Open Participants")</span></span>
-
-   > [!TIP]
-   > <span data-ttu-id="11811-162">Sélectionnez le bouton **Participants libres** de nouveau si vous souhaitez fermer le volet.</span><span class="sxs-lookup"><span data-stu-id="11811-162">Select the **Open Participants** button again if you want to close the pane.</span></span> 
-
-2. <span data-ttu-id="11811-163">Sélectionnez un de vos contacts récents, ou sélectionnez **Inviter quelqu'un** en bas de la liste.</span><span class="sxs-lookup"><span data-stu-id="11811-163">Select one of your recent contacts, or select **Invite Someone** at the bottom of the list.</span></span> <span data-ttu-id="11811-164">Une liste de vos contacts récents s'affichera.</span><span class="sxs-lookup"><span data-stu-id="11811-164">A list of your recent contacts will appear.</span></span> <span data-ttu-id="11811-165">Si la liste ne contient pas la personne que vous souhaitez appeler, saisissez un nom ou une adresse e-mail à l'aide du clavier holographique, puis sélectionnez un nom dans les résultats de la recherche pour démarrer l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-165">If the person you'd like to call isn't on the list, enter a name or email address using the holographic keyboard, and then select a name in the search results to start the call.</span></span> 
-
-   <span data-ttu-id="11811-166">![Animation Rechercher un contact pour un appel](media/GC_SearchCall.gif "Animation Rechercher un contact pour un appel")</span><span class="sxs-lookup"><span data-stu-id="11811-166">![Animation of searching for a call](media/GC_SearchCall.gif "Animation of searching for a call")</span></span>
-
-   > [!TIP]
-   > <span data-ttu-id="11811-167">[Découvrir comment ajouter des contacts supplémentaires depuis le bureau Microsoft Teams](https://support.office.com/en-us/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3).</span><span class="sxs-lookup"><span data-stu-id="11811-167">[Learn how to add additional contacts from Microsoft Teams Desktop](https://support.office.com/en-us/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3).</span></span> 
-
-### <a name="switch-the-displayed-video-feed-in-a-group-call"></a><span data-ttu-id="11811-168">Changer le flux vidéo affiché dans un appel de groupe</span><span class="sxs-lookup"><span data-stu-id="11811-168">Switch the displayed video feed in a group call</span></span> 
-
-1. <span data-ttu-id="11811-169">Dans les commandes d'appel, sélectionnez le bouton **Participants libres**.</span><span class="sxs-lookup"><span data-stu-id="11811-169">From the call controls, select the **Open Participants** button.</span></span> 
-
-2. <span data-ttu-id="11811-170">Passez sur le participant associé au flux vidéo auquel vous souhaitez passer, puis sélectionnez-le.</span><span class="sxs-lookup"><span data-stu-id="11811-170">Hover over the participant whose video feed you want to switch to, and then select it.</span></span> <span data-ttu-id="11811-171">Si le flux vidéo du participant est activé, la vidéo basculera vers son flux.</span><span class="sxs-lookup"><span data-stu-id="11811-171">If the participant's video feed is enabled, the video will switch to their feed.</span></span> 
-
-   > [!TIP] 
-   > <span data-ttu-id="11811-172">Vous pouvez également changer de flux vidéo à partir du « bac de participant » situé sous le flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="11811-172">You can also switch video feeds from the “participant tray” located below the video feed.</span></span> <span data-ttu-id="11811-173">Passez sur l'avatar pour afficher le nom du participant, puis appuyez pour changer de flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="11811-173">Hover over the avatar to display the participant's name, and then air tap to switch video feeds.</span></span> 
-
-### <a name="mute-a-participant-in-a-group-call"></a><span data-ttu-id="11811-174">Désactiver le micro d'un participant dans un appel de groupe</span><span class="sxs-lookup"><span data-stu-id="11811-174">Mute a participant in a group call</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="11811-175">Vous ne pouvez pas désactiver le micro d'un participant dans un appel à deux.</span><span class="sxs-lookup"><span data-stu-id="11811-175">You can't mute a participant in a one-to-one call.</span></span>
-
-1. <span data-ttu-id="11811-176">Dans les commandes d'appel, sélectionnez le bouton **Participants libres**.</span><span class="sxs-lookup"><span data-stu-id="11811-176">From the call controls, select the **Open Participants** button.</span></span> 
-
-2. <span data-ttu-id="11811-177">Appuyez sur l'icône de mise en sourdine pour le participant dont vous souhaitez désactiver le micro.</span><span class="sxs-lookup"><span data-stu-id="11811-177">Air tap the mute icon for the participant you want to mute.</span></span> 
-
-> [!NOTE]
-> <span data-ttu-id="11811-178">Si vous désactivez le micro d'un participant, vous ne pourrez pas le réactiver.</span><span class="sxs-lookup"><span data-stu-id="11811-178">If you mute a participant, you won't be able to unmute them.</span></span> <span data-ttu-id="11811-179">Il doit le faire lui-même via Teams.</span><span class="sxs-lookup"><span data-stu-id="11811-179">They must unmute themselves through Teams.</span></span> 
-
-
-## <a name="record-a-call"></a><span data-ttu-id="11811-180">Enregistrer un appel</span><span class="sxs-lookup"><span data-stu-id="11811-180">Record a call</span></span>
-
-<span data-ttu-id="11811-181">Vous pouvez enregistrer un appel dabs un fichier pour le consulter ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="11811-181">You can record a call to a file for viewing later.</span></span> <span data-ttu-id="11811-182">Il s'agit d'une excellente manière de capturer un appel à des fins de formation ou de conservation des enregistrements.</span><span class="sxs-lookup"><span data-stu-id="11811-182">This is a great way to capture a call for training or for record-keeping purposes.</span></span>
-
-<span data-ttu-id="11811-183">Vous pouvez enregistrer un appel de deux manières :</span><span class="sxs-lookup"><span data-stu-id="11811-183">You can record a call in two ways:</span></span>
-
-- <span data-ttu-id="11811-184">Utilisez la barre de jeux intégrée dans les PC sous Windows 10.</span><span class="sxs-lookup"><span data-stu-id="11811-184">Use the Game bar built into Windows 10 PCs.</span></span>
-
-- <span data-ttu-id="11811-185">Utilisez la fonction d'enregistrement de Teams.</span><span class="sxs-lookup"><span data-stu-id="11811-185">Use the Teams recording feature.</span></span>
-
-### <a name="record-a-call-using-the-game-bar-in-windows-10-pcs"></a><span data-ttu-id="11811-186">Enregistrer un appel à l'aide de la barre de jeux des PC sous Windows 10</span><span class="sxs-lookup"><span data-stu-id="11811-186">Record a call using the Game bar in Windows 10 PCs</span></span>
-
-1. <span data-ttu-id="11811-187">Sur un PC sous Windows 10, rejoignez un appel en utilisant Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="11811-187">On a Windows 10 desktop PC, join a call using Microsoft Teams.</span></span>
-
-2. <span data-ttu-id="11811-188">Appuyez sur la **touche de logo Windows ![touche de logo Windows)](media/windows-logo-key.png "touche de logo Windows") + G** pour ouvrir la barre de jeux.</span><span class="sxs-lookup"><span data-stu-id="11811-188">Press **Windows logo key ![Windows logo key)](media/windows-logo-key.png "Windows logo key") + G** to open the Game bar.</span></span>
-
-   <span data-ttu-id="11811-189">![Barre de jeux)](media/game-bar.png "Barre de jeux")</span><span class="sxs-lookup"><span data-stu-id="11811-189">![Game bar)](media/game-bar.png "Game bar")</span></span>
-
-3. <span data-ttu-id="11811-190">Sélectionnez le bouton **Démarrer l'enregistrement** (ou appuyez sur la **touche de logo Windows ![touche de logo Windows)](media/windows-logo-key.png "touche de logo Windows") + Alt + R**).</span><span class="sxs-lookup"><span data-stu-id="11811-190">Select the **Start Recording** button (or press **Windows logo key ![Windows logo key)](media/windows-logo-key.png "Windows logo key") + Alt + R**).</span></span>
-
-   <span data-ttu-id="11811-191">Un petit menu d'enregistrement s'affichera, indiquant que l'enregistrement est en cours.</span><span class="sxs-lookup"><span data-stu-id="11811-191">A small recording menu will appear that shows that the recording is in progress.</span></span>
-   
-   <span data-ttu-id="11811-192">![Enregistrement](media/recording.PNG "Enregistrement")</span><span class="sxs-lookup"><span data-stu-id="11811-192">![Recording](media/recording.PNG "Recording")</span></span>
-   
-4. <span data-ttu-id="11811-193">Pour arrêter l'enregistrement, sélectionnez le bouton **Arrêter l'enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="11811-193">To stop recording, select the **Stop Recording** button.</span></span>
-
-   <span data-ttu-id="11811-194">La vidéo de l'enregistrement s'affiche dans votre dossier de vidéos/captures.</span><span class="sxs-lookup"><span data-stu-id="11811-194">The video of the recording will appear in your Videos/Captures folder.</span></span>
-   
-[<span data-ttu-id="11811-195">En savoir plus sur la barre de jeux.</span><span class="sxs-lookup"><span data-stu-id="11811-195">Learn more about the Game bar.</span></span>](https://support.xbox.com/xbox-on-windows/social/record-game-clips-game-bar-windows-10)
-
-### <a name="record-a-call-from-teams"></a><span data-ttu-id="11811-196">Enregistrer un appel depuis Teams</span><span class="sxs-lookup"><span data-stu-id="11811-196">Record a call from Teams</span></span>
-
-<span data-ttu-id="11811-197">Microsoft Teams prend en charge [l'enregistrement d'appels basés sur le cloud d'appels de groupe](https://support.office.com/en-us/article/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).</span><span class="sxs-lookup"><span data-stu-id="11811-197">Microsoft Teams supports [cloud-based call recording of group calls](https://support.office.com/en-us/article/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24).</span></span> <span data-ttu-id="11811-198">Les enregistrements sont stockés et partagés via Microsoft Stream.</span><span class="sxs-lookup"><span data-stu-id="11811-198">Recordings are stored and shared through Microsoft Stream.</span></span>
-
-1.  <span data-ttu-id="11811-199">Lancez ou rejoignez un appel de groupe.</span><span class="sxs-lookup"><span data-stu-id="11811-199">Start or join the group call.</span></span>
-
-2.  <span data-ttu-id="11811-200">Pour démarrer l'enregistrement, sélectionnez **Plus d'options** (...) > **Démarrer l'enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="11811-200">To start recording, select **More options** (...) > **Start recording**.</span></span>
-
-    <span data-ttu-id="11811-201">![Bouton Démarrer l'enregistrement](media/start-recording.PNG "Bouton Démarrer l'enregistrement")</span><span class="sxs-lookup"><span data-stu-id="11811-201">![Start recording button](media/start-recording.PNG "Start recording button")</span></span>
- 
-3.  <span data-ttu-id="11811-202">Pour arrêter l'enregistrement, sélectionnez **Plus d'options** (...) > **Arrêter l'enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="11811-202">To stop recording, select **More options** (...) > **Stop recording**.</span></span>
-
-    <span data-ttu-id="11811-203">![Bouton Arrêter l'enregistrement](media/stop-recording.PNG "Bouton Arrêter l'enregistrement")</span><span class="sxs-lookup"><span data-stu-id="11811-203">![Stop recording button](media/stop-recording.PNG "Stop recording button")</span></span> 
- 
-    <span data-ttu-id="11811-204">L'enregistrement est traité (ce qui peut prendre un certain temps) et enregistré dans Microsoft Stream.</span><span class="sxs-lookup"><span data-stu-id="11811-204">The recording is processed (which can take a while) and saved to Microsoft Stream.</span></span> <span data-ttu-id="11811-205">La personne à l'origine de l'enregistrement reçoit un e-mail de Microsoft Stream lorsque l'enregistrement est disponible.</span><span class="sxs-lookup"><span data-stu-id="11811-205">The person who started the recording receives an email from Microsoft Stream when the recording is available.</span></span> <span data-ttu-id="11811-206">Ce dernier s'affiche également dans la conversation instantanée du groupe.</span><span class="sxs-lookup"><span data-stu-id="11811-206">It also shows up in the group chat.</span></span>
-
-## <a name="receive-a-call-from-a-contact-using-microsoft-teams"></a><span data-ttu-id="11811-207">Recevoir un appel d'un contact en utilisant Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="11811-207">Receive a call from a contact using Microsoft Teams</span></span>
-
--   <span data-ttu-id="11811-208">Sélectionnez **Vidéo** ![Vidéo](media/bae39e2bdb1eafec5c36c76ffa640355.png "Vidéo") (ou dites « Vidéo ») pour accepter l'appel en tant qu'appel vidéo ou **Audio** ![Audio](media/972493ccc469c4ca41c04f96fabf6ba5.png "Audio") (ou dites « Audio ») pour l'accepter comme appel vocal uniquement.</span><span class="sxs-lookup"><span data-stu-id="11811-208">Select **Video** ![Video](media/bae39e2bdb1eafec5c36c76ffa640355.png "Video") (or say “Video”) to accept the call as a video call or **Audio** ![Audio](media/972493ccc469c4ca41c04f96fabf6ba5.png "Audio") (or say “Audio”) to accept it as a voice-only call.</span></span> <span data-ttu-id="11811-209">Pour refuser l'appel, sélectionnez **Ignorer** (ou dites « Ignorer »).</span><span class="sxs-lookup"><span data-stu-id="11811-209">To decline the call, select **Ignore** (or say “Ignore”).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-210">Pour recevoir des appels lorsque vous utilisez d'autres applications dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-210">To receive calls when you’re using other apps on [!include[pn-hololens](../includes/pn-hololens.md)], open the [!include[pn-remote-assist](../includes/pn-remote-assist.md)] app.</span></span> <span data-ttu-id="11811-211">Puis utilisez [l'écartement des doigts paume vers le haut](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures) pour quitter [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-211">Then use the [bloom gesture](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures) to leave [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span></span> <span data-ttu-id="11811-212">Continuez à utiliser d'autres applications.</span><span class="sxs-lookup"><span data-stu-id="11811-212">Go ahead and use other apps.</span></span> <span data-ttu-id="11811-213">Vous recevrez une notification depuis [!include[pn-cortana](../includes/pn-cortana.md)] si un appel de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est entrant, et vous pourrez l'accepter ou le refuser avec la voix.</span><span class="sxs-lookup"><span data-stu-id="11811-213">You’ll get a notification from [!include[pn-cortana](../includes/pn-cortana.md)] if a [!include[pn-remote-assist](../includes/pn-remote-assist.md)] call comes in, and you’ll be able to accept or decline it using your voice.</span></span>
-
-## <a name="position-the-call-window"></a><span data-ttu-id="11811-214">Positionner la fenêtre d'appel</span><span class="sxs-lookup"><span data-stu-id="11811-214">Position the call window</span></span>
-
-<span data-ttu-id="11811-215">Vous pouvez épingler votre flux vidéo dans votre espace ou bien le configurer pour qu'il vous suive partout.</span><span class="sxs-lookup"><span data-stu-id="11811-215">You can pin your video feed in your space, or you can have it follow you around.</span></span>
-
-<span data-ttu-id="11811-216">Pour épingler votre flux vidéo :</span><span class="sxs-lookup"><span data-stu-id="11811-216">To pin your video feed:</span></span>
-
--   <span data-ttu-id="11811-217">Pointez du regard pour positionner la fenêtre, puis sélectionnez **Épingler** ![Épingler](media/d213f48b98dc5b8e41318aaa3782c395.png "Épingler") (ou dites « Épingler »).</span><span class="sxs-lookup"><span data-stu-id="11811-217">Gaze to position the window, and then select **Pin** ![Pin](media/d213f48b98dc5b8e41318aaa3782c395.png "Pin") (or say “Pin”).</span></span> <span data-ttu-id="11811-218">Pour qu'il vous suive à nouveau, sélectionnez **Désépingler** ![Désépingler](media/1f4f3c48b466bfaa7a222cd4f1158c9c.png "Désépingler") (ou dites « Désépingler »).</span><span class="sxs-lookup"><span data-stu-id="11811-218">To have it follow you again, select **Unpin** ![Unpin](media/1f4f3c48b466bfaa7a222cd4f1158c9c.png "Unpin") (or say “Unpin”).</span></span>
-
-## <a name="text-chat"></a><span data-ttu-id="11811-219">Chat</span><span class="sxs-lookup"><span data-stu-id="11811-219">Text chat</span></span>
-
-<span data-ttu-id="11811-220">Vous pouvez converser avec l'autre utilisateur de l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-220">You can text chat with the other user on the call.</span></span><span data-ttu-id="11811-221"> La fenêtre de conversation instantanée affiche uniquement les SMS envoyés durant l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-221"> The chat window displays just the text messages sent during the call.</span></span>
-
-<span data-ttu-id="11811-222">Pour ouvrir la fenêtre de conversation instantanée et entrer un message :</span><span class="sxs-lookup"><span data-stu-id="11811-222">To open the chat window and enter a message:</span></span>
-
-1.  <span data-ttu-id="11811-223">Sélectionnez Afficher ![Afficher](media/chaticon3.png "Afficher") (ou dites « Afficher »).</span><span class="sxs-lookup"><span data-stu-id="11811-223">Select Show ![Show](media/chaticon3.png "Show") (or say “Show”).</span></span>
-
-2.  <span data-ttu-id="11811-224">Sélectionnez le champ d'aperçu des textes en bas de la fenêtre de conversation instantanée.</span><span class="sxs-lookup"><span data-stu-id="11811-224">Select the text preview field at the bottom of the chat window.</span></span><span data-ttu-id="11811-225"> Cela affichera le clavier holographique.</span><span class="sxs-lookup"><span data-stu-id="11811-225"> This will bring up the holographic keyboard.</span></span>
-
-3.  <span data-ttu-id="11811-226">Effectuez l'une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="11811-226">Do one of the following:</span></span>
-
-    -   <span data-ttu-id="11811-227">Sélectionnez les caractères du clavier holographique.</span><span class="sxs-lookup"><span data-stu-id="11811-227">Select characters in the holographic keyboard.</span></span>
-
-    -   <span data-ttu-id="11811-228">Sélectionnez **Microphone** ![Microphone](media/microphone3.png "Microphone"), puis dictez votre message. [!include[pn-hololens](../includes/pn-hololens.md)]</span><span class="sxs-lookup"><span data-stu-id="11811-228">Select **Microphone** ![Microphone](media/microphone3.png "Microphone"), and then dictate your message. [!include[pn-hololens](../includes/pn-hololens.md)]</span></span> <span data-ttu-id="11811-229">convertira le message en texte.</span><span class="sxs-lookup"><span data-stu-id="11811-229">will convert the message into text.</span></span>
-
-    -   <span data-ttu-id="11811-230">Connectez un clavier Bluetooth directement à l'[!include[pn-hololens](../includes/pn-hololens.md)] et entrez votre message.</span><span class="sxs-lookup"><span data-stu-id="11811-230">Connect a Bluetooth keyboard directly to the [!include[pn-hololens](../includes/pn-hololens.md)] and type your message.</span></span>
-
-1.  <span data-ttu-id="11811-231">Sélectionnez **Envoyer**.</span><span class="sxs-lookup"><span data-stu-id="11811-231">Select **Send**.</span></span>
-
-<span data-ttu-id="11811-232">Pour lire les messages précédents dans la fenêtre de conversation instantanée :</span><span class="sxs-lookup"><span data-stu-id="11811-232">To read previous messages in the chat window:</span></span>
-
--   <span data-ttu-id="11811-233">Appuyez sur la fenêtre de conversation instantanée et faites-la glisser.</span><span class="sxs-lookup"><span data-stu-id="11811-233">Air tap and drag the chat window.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-234">Si un message est envoyé d'un autre utilisateur lorsque la fenêtre de conversation instantanée n'est pas ouverte, vous recevez une notification.</span><span class="sxs-lookup"><span data-stu-id="11811-234">If a message is sent from another user when the chat window isn’t open, you’ll receive a notification.</span></span>
-
-## <a name="screen-sharing-with-an-expert-on-microsoft-teams"></a><span data-ttu-id="11811-235">Partage d'écran avec un expert sur Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="11811-235">Screen-sharing with an expert on Microsoft Teams</span></span>
-
-<span data-ttu-id="11811-236">Lorsque vous travaillez avec un expert dans le cadre d'un appel, cet expert peut partager avec vous son bureau ou une fenêtre d'application pour appuyer l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-236">When you're working with an expert on a call, the expert can share their desktop or application window with you to assist with the call.</span></span> <span data-ttu-id="11811-237">Lorsqu'un expert partage son bureau ou une application en cours d'exécution de cette manière, le flux vidéo de l'expert passe à une couleur unie.</span><span class="sxs-lookup"><span data-stu-id="11811-237">When an expert shares their desktop or running application this way, your video feed of the expert will change to a solid color.</span></span> <span data-ttu-id="11811-238">Vous pourrez encore utiliser tous les outils de la barre d'outils, même si votre flux vidéo n'est plus affiché.</span><span class="sxs-lookup"><span data-stu-id="11811-238">You'll still be able to use all the tools in the toolbar even though your video feed is no longer displayed.</span></span>
-
-<span data-ttu-id="11811-239">Pour déplacer, dimensionner ou fermer la fenêtre partagée, utilisez les commandes situées en haut à droite de la fenêtre partagée.</span><span class="sxs-lookup"><span data-stu-id="11811-239">To move, size, or close the shared window, use the controls at the top right of the shared window.</span></span>
-
-<span data-ttu-id="11811-240">![Commandes du bureau partagé)](media/screen-sharing-controls.jpg "Commandes du bureau partagé")</span><span class="sxs-lookup"><span data-stu-id="11811-240">![Shared-desktop controls)](media/screen-sharing-controls.jpg "Shared-desktop controls")</span></span>
-
-## <a name="collaborate-and-annotate"></a><span data-ttu-id="11811-241">Collaborer et annoter</span><span class="sxs-lookup"><span data-stu-id="11811-241">Collaborate and annotate</span></span>
-
-<span data-ttu-id="11811-242">Une fois que vous êtes connecté à un appel vidéo, votre contact voit tout ce que vous visualisez dans votre espace, y compris vos hologrammes.</span><span class="sxs-lookup"><span data-stu-id="11811-242">Once you’re connected to a video call, your contact will see everything you see in your space—including your holograms.</span></span>
-
-<span data-ttu-id="11811-243">Utilisez les [mouvements HoloLens](https://support.microsoft.com/en-us/help/12644) afin de dessiner, de placer des flèches et d'ajouter des fichiers à votre espace.</span><span class="sxs-lookup"><span data-stu-id="11811-243">Use [HoloLens gestures](https://support.microsoft.com/en-us/help/12644) to draw, place arrows, and add files to your space.</span></span> <span data-ttu-id="11811-244">Votre contact verra vos ajouts et pourra intégrer ses propres annotations.</span><span class="sxs-lookup"><span data-stu-id="11811-244">Your contact will see your additions, and will be able to make annotations of their own.</span></span>
-
-### <a name="add-an-arrow"></a><span data-ttu-id="11811-245">Ajouter une flèche</span><span class="sxs-lookup"><span data-stu-id="11811-245">Add an arrow</span></span>
-
-1.  <span data-ttu-id="11811-246">Sélectionnez l'outil **Flèche** (ou dites « Flèche ») pendant un appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="11811-246">Select the **Arrow** tool (or say “Arrow”) during a video call.</span></span>
-
-2.  <span data-ttu-id="11811-247">Pointez du regard l'emplacement où vous souhaitez ajouter la flèche.</span><span class="sxs-lookup"><span data-stu-id="11811-247">Gaze where you want to add the arrow.</span></span> <span data-ttu-id="11811-248">Vous verrez une silhouette de la flèche qui indique où elle sera passée.</span><span class="sxs-lookup"><span data-stu-id="11811-248">You'll see a silhouette of the arrow that shows where it will be placed.</span></span> <span data-ttu-id="11811-249">Par exemple, notez la flèche pâle dans la capture d'écran suivant :</span><span class="sxs-lookup"><span data-stu-id="11811-249">For example, note the faint arrow in the following screenshot:</span></span>
-
-    <span data-ttu-id="11811-250">![Flèche fantôme)](media/ghost-arrow-before.PNG "Flèche fantôme")</span><span class="sxs-lookup"><span data-stu-id="11811-250">![Ghost arrow)](media/ghost-arrow-before.PNG "Ghost arrow")</span></span>
-
-3.  <span data-ttu-id="11811-251">Appuyez pour placer la flèche.</span><span class="sxs-lookup"><span data-stu-id="11811-251">Air tap to place the arrow.</span></span>
-
-    <span data-ttu-id="11811-252">![Flèche placée)](media/ghost-arrow-after.PNG "Flèche placée")</span><span class="sxs-lookup"><span data-stu-id="11811-252">![Arrow placed)](media/ghost-arrow-after.PNG "Arrow placed")</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-253">Si vous souhaitez préciser la direction dans laquelle la flèche pointe, appuyez et maintenez enfoncé puis faites pivoter votre main pour positionner la flèche.</span><span class="sxs-lookup"><span data-stu-id="11811-253">If you want to specify the direction that the arrow points, air tap and hold, and then rotate your hand to position the arrow.</span></span>
-
-### <a name="draw-in-your-space"></a><span data-ttu-id="11811-254">Dessiner dans votre espace</span><span class="sxs-lookup"><span data-stu-id="11811-254">Draw in your space</span></span>
-
-1.  <span data-ttu-id="11811-255">Sélectionnez l'outil **Encre** (ou dites « Encre ») pendant un appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="11811-255">Select the **Ink** tool (or say “Ink”) during a video call.</span></span>
-
-2.  <span data-ttu-id="11811-256">Pointez du regard l'emplacement où vous souhaitez dessiner, puis utilisez l'appui long pour dessiner.</span><span class="sxs-lookup"><span data-stu-id="11811-256">Gaze where you want to draw, and then use tap and hold to draw.</span></span>
-
-3.  <span data-ttu-id="11811-257">Pour terminer un dessin, relevez le doigt.</span><span class="sxs-lookup"><span data-stu-id="11811-257">To finish a drawing, raise your finger back up.</span></span>
-
-### <a name="change-arrow-or-ink-color"></a><span data-ttu-id="11811-258">Modifier la couleur de flèche ou d'encre</span><span class="sxs-lookup"><span data-stu-id="11811-258">Change arrow or ink color</span></span>
-
--   <span data-ttu-id="11811-259">Sélectionnez **Couleurs** (ou dites « Choisir couleurs »), puis choisissez celle que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="11811-259">Select **Colors** (or say “Choose colors”), and then choose the one you want.</span></span>
-
-### <a name="add-an-image-or-pdf-file"></a><span data-ttu-id="11811-260">Ajouter une image ou un fichier PDF</span><span class="sxs-lookup"><span data-stu-id="11811-260">Add an image or PDF file</span></span>
-
-<span data-ttu-id="11811-261">Importez une image ou un fichier PDF depuis [!include[pn-onedrive-for-business](../includes/pn-onedrive-for-business.md)] puis placez-le/la dans votre espace.</span><span class="sxs-lookup"><span data-stu-id="11811-261">Import an image or PDF file from [!include[pn-onedrive-for-business](../includes/pn-onedrive-for-business.md)] and then place it in your space.</span></span> <span data-ttu-id="11811-262">Par exemple, ajoutez une image d'un graphique pour appuyer l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-262">For example, add an image of a diagram to assist with the call.</span></span> <span data-ttu-id="11811-263">Les personnes que vous appelez peuvent voir l'image ou le fichier PDF dans l'application [!include[pn-teams](../includes/pn-teams.md)] pendant un appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="11811-263">The people you call will be able to see the image or PDF file in the [!include[pn-teams](../includes/pn-teams.md)] app during a video call.</span></span>
-
-<span data-ttu-id="11811-264">Pour ajouter un fichier :</span><span class="sxs-lookup"><span data-stu-id="11811-264">To add a file:</span></span>
-
-1.  <span data-ttu-id="11811-265">Lors d'un appel vidéo, sélectionnez **[!include[pn-onedrive](../includes/pn-onedrive.md)]** ![OneDrive](media/12b28856b051be23e665c896cd21b7d2.png "OneDrive") (ou dites « OneDrive »).</span><span class="sxs-lookup"><span data-stu-id="11811-265">During a video call, select **[!include[pn-onedrive](../includes/pn-onedrive.md)]** ![OneDrive](media/12b28856b051be23e665c896cd21b7d2.png "OneDrive") (or say “OneDrive”).</span></span>
-
-2.  <span data-ttu-id="11811-266">Recherchez et sélectionnez le fichier que vous souhaitez ajouter.</span><span class="sxs-lookup"><span data-stu-id="11811-266">Find and select the file you want to add.</span></span>
-
-<span data-ttu-id="11811-267">Pour déplacer une image :</span><span class="sxs-lookup"><span data-stu-id="11811-267">To move an image:</span></span>
-
-1.  <span data-ttu-id="11811-268">Pointez-la du regard, puis sélectionnez **Déplacer** (ou dites « Déplacer »).</span><span class="sxs-lookup"><span data-stu-id="11811-268">Gaze at it, and then select **Move** (or say “Move”).</span></span>
-
-2.  <span data-ttu-id="11811-269">Appuyez longuement sur l'image et déplacez votre main pour la repositionner.</span><span class="sxs-lookup"><span data-stu-id="11811-269">Tap and hold the image and move your hand to reposition it.</span></span>
-
-<span data-ttu-id="11811-270">Pour redimensionner une image :</span><span class="sxs-lookup"><span data-stu-id="11811-270">To resize an image:</span></span>
-
-1.  <span data-ttu-id="11811-271">Pointez-la du regard, puis sélectionnez **Mettre à l'échelle** (ou dites « Mettre à l'échelle »).</span><span class="sxs-lookup"><span data-stu-id="11811-271">Gaze at it, and then select **Scale** (or say “Scale”).</span></span>
-
-2.  <span data-ttu-id="11811-272">Appuyez longuement sur un coin de l'image, puis déplacez votre main pour agrandir ou réduire l'image.</span><span class="sxs-lookup"><span data-stu-id="11811-272">Tap and hold a corner of the image, and then move your hand to make it bigger or smaller.</span></span>
-
-<span data-ttu-id="11811-273">Pour naviguer dans un fichier PDF :</span><span class="sxs-lookup"><span data-stu-id="11811-273">To navigate in a PDF file:</span></span>
-
-| <span data-ttu-id="11811-274">**Pour**</span><span class="sxs-lookup"><span data-stu-id="11811-274">**To**</span></span>                        | <span data-ttu-id="11811-275">**Effectuez l'opération suivante**</span><span class="sxs-lookup"><span data-stu-id="11811-275">**Do this**</span></span>                                                                                       |
-|-------------------------------|---------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="11811-276">Parcourir les pages dans l'ordre</span><span class="sxs-lookup"><span data-stu-id="11811-276">Go through pages sequentially</span></span> | <span data-ttu-id="11811-277">Utilisez les touches fléchées</span><span class="sxs-lookup"><span data-stu-id="11811-277">Use the arrow keys</span></span>                                                                                |
-| <span data-ttu-id="11811-278">Accéder à une page spécifique</span><span class="sxs-lookup"><span data-stu-id="11811-278">Jump to a specific page</span></span>       | <span data-ttu-id="11811-279">Sélectionnez le numéro de page pour afficher le pavé numérique holographique, puis sélectionnez la page que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="11811-279">Select the page number to bring up the holographic number pad, and then select the page you want.</span></span> |
-
-### <a name="take-a-snapshot-of-your-annotations"></a><span data-ttu-id="11811-280">Prendre un instantané de vos annotations</span><span class="sxs-lookup"><span data-stu-id="11811-280">Take a snapshot of your annotations</span></span>
-
-<span data-ttu-id="11811-281">Au cours d'un appel, vous pouvez prendre une photo de vos annotations de réalité mixte afin de les enregistrer pour plus tard.</span><span class="sxs-lookup"><span data-stu-id="11811-281">During a call, you can take a photo of your mixed reality annotations to save for later.</span></span>
-
-<span data-ttu-id="11811-282">Pour prendre un instantané :</span><span class="sxs-lookup"><span data-stu-id="11811-282">To take a snapshot:</span></span>
-
--   <span data-ttu-id="11811-283">Sélectionnez **Caméra** ![Caméra](media/cameraicon3.png "Caméra") (ou dites « Caméra »), puis appuyez (ou dites « Instantané ») pour prendre la photo.</span><span class="sxs-lookup"><span data-stu-id="11811-283">Select **Camera** ![Camera](media/cameraicon3.png "Camera") (or say “Camera”), and then air tap (or say “Snap”) to take the photo.</span></span>
-
->   <span data-ttu-id="11811-284">La photo sera enregistrée sur votre pellicule [!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-284">The photo will be saved to your [!include[pn-hololens](../includes/pn-hololens.md)] camera roll.</span></span>
-
-## <a name="make-changes"></a><span data-ttu-id="11811-285">Apporter des modifications</span><span class="sxs-lookup"><span data-stu-id="11811-285">Make changes</span></span>
-
-<span data-ttu-id="11811-286">Pour effacer tous les flèches et les dessins que vous avez ajoutés lors d'un appel vidéo :</span><span class="sxs-lookup"><span data-stu-id="11811-286">To erase all the arrows and drawings you’ve added during a video call:</span></span>
-
--   <span data-ttu-id="11811-287">Sélectionnez **Effacer tout** en haut de la fenêtre d'appel (ou dites « Effacer tout »).</span><span class="sxs-lookup"><span data-stu-id="11811-287">Select **Erase all** at the top of the call window (or say “Erase all”).</span></span>
-
-<span data-ttu-id="11811-288">Pour annuler l'action plus récente, dont **Effacer tout** :</span><span class="sxs-lookup"><span data-stu-id="11811-288">To undo your most recent action, including **Erase all**:</span></span>
-
--   <span data-ttu-id="11811-289">Sélectionnez **Annuler** en haut de la fenêtre d'appel (ou dites « Annuler »).</span><span class="sxs-lookup"><span data-stu-id="11811-289">Select **Undo** at the top of the call window (or say “Undo”).</span></span>
-
-## <span data-ttu-id="11811-290">Utiliser les commandes vocales et le pointage du regard <a name="voice"></a></span><span class="sxs-lookup"><span data-stu-id="11811-290">Use voice commands and gaze <a name="voice"></a></span></span>
-
-<span data-ttu-id="11811-291">Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements.</span><span class="sxs-lookup"><span data-stu-id="11811-291">In many cases, you can use voice commands and gaze instead of gestures.</span></span> <span data-ttu-id="11811-292">Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="11811-292">Some voice commands are contextual, so they only work in particular areas of the user interface.</span></span>
-
-> [!IMPORTANT]
-> <span data-ttu-id="11811-293">Pour utiliser une commande vocale, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », et indiquez une des commandes vocales dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="11811-293">To use a voice command, say “[!include[pn-remote-assist](../includes/pn-remote-assist.md)],” and then say one of the voice commands in the following table.</span></span> <span data-ttu-id="11811-294">Par exemple, dites « Remote Assist, Déplacement » pour entrer en mode Déplacement pour une ardoise (fenêtre).</span><span class="sxs-lookup"><span data-stu-id="11811-294">For example, say "Remote Assist, Move" to enter Move mode for a slate (window).</span></span> <span data-ttu-id="11811-295">Vous pouvez également pointer du regard tout bouton et dire « Remote Assist, Sélectionner » pour sélectionner ce bouton.</span><span class="sxs-lookup"><span data-stu-id="11811-295">You can also gaze at any button and say “Remote Assist, Select” to select that button.</span></span>
-
-| <span data-ttu-id="11811-296">**Commande vocale**</span><span class="sxs-lookup"><span data-stu-id="11811-296">**Voice command**</span></span>            | <span data-ttu-id="11811-297">**Description**</span><span class="sxs-lookup"><span data-stu-id="11811-297">**Description**</span></span>                                                                      |
-|------------------------------|--------------------------------------------------------------------------------------|
-| <span data-ttu-id="11811-298">**Général**</span><span class="sxs-lookup"><span data-stu-id="11811-298">**General**</span></span>                  |                                                                                      |
-| <span data-ttu-id="11811-299">Se déconnecter</span><span class="sxs-lookup"><span data-stu-id="11811-299">Sign out</span></span>                     | <span data-ttu-id="11811-300">Déconnectez-vous de [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-300">Sign out of [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span></span>           |
-| <span data-ttu-id="11811-301">Haut</span><span class="sxs-lookup"><span data-stu-id="11811-301">Up</span></span>                           | <span data-ttu-id="11811-302">Montez.</span><span class="sxs-lookup"><span data-stu-id="11811-302">Go up.</span></span>                                                                               |
-| <span data-ttu-id="11811-303">Précédent</span><span class="sxs-lookup"><span data-stu-id="11811-303">Previous</span></span>                     | <span data-ttu-id="11811-304">Allez à la page précédente.</span><span class="sxs-lookup"><span data-stu-id="11811-304">Go to previous page.</span></span>                                                                 |
-| <span data-ttu-id="11811-305">Suivant</span><span class="sxs-lookup"><span data-stu-id="11811-305">Next</span></span>                         | <span data-ttu-id="11811-306">Allez au menu suivant.</span><span class="sxs-lookup"><span data-stu-id="11811-306">Go to next menu.</span></span>                                                                     |
-| <span data-ttu-id="11811-307">Retour</span><span class="sxs-lookup"><span data-stu-id="11811-307">Back</span></span>                         | <span data-ttu-id="11811-308">Allez au menu précédent.</span><span class="sxs-lookup"><span data-stu-id="11811-308">Go to previous menu.</span></span>                                                                 |
-| <span data-ttu-id="11811-309">Annuler</span><span class="sxs-lookup"><span data-stu-id="11811-309">Undo</span></span>                         | <span data-ttu-id="11811-310">Annulez l'action précédente.</span><span class="sxs-lookup"><span data-stu-id="11811-310">Undo the previous action.</span></span>                                                            |
-| <span data-ttu-id="11811-311">**Épingler et désépingler le flux vidéo**</span><span class="sxs-lookup"><span data-stu-id="11811-311">**Pin and unpin video feed**</span></span> |                                                                                      |
-| <span data-ttu-id="11811-312">Épingler</span><span class="sxs-lookup"><span data-stu-id="11811-312">Pin</span></span>                          | <span data-ttu-id="11811-313">Épinglez le flux vidéo dans votre espace afin qu'il ne vous suive pas partout.</span><span class="sxs-lookup"><span data-stu-id="11811-313">Pin the video feed in your space so it doesn’t follow you around.</span></span>                    |
-| <span data-ttu-id="11811-314">Désépingler</span><span class="sxs-lookup"><span data-stu-id="11811-314">Unpin</span></span>                        | <span data-ttu-id="11811-315">Désépinglez le flux vidéo dans votre espace afin qu'il vous suive partout.</span><span class="sxs-lookup"><span data-stu-id="11811-315">Unpin the video feed in your space so it follows you around.</span></span>                         |
-| <span data-ttu-id="11811-316">**Gestion des appels**</span><span class="sxs-lookup"><span data-stu-id="11811-316">**Call management**</span></span>          |                                                                                      |
-| <span data-ttu-id="11811-317">Appeler</span><span class="sxs-lookup"><span data-stu-id="11811-317">Call</span></span>                         | <span data-ttu-id="11811-318">Appelez un contact.</span><span class="sxs-lookup"><span data-stu-id="11811-318">Call a contact.</span></span>                                                                      |
-| <span data-ttu-id="11811-319">Raccrocher</span><span class="sxs-lookup"><span data-stu-id="11811-319">Hang up</span></span>                      | <span data-ttu-id="11811-320">Terminez l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-320">End the call.</span></span>                                                                        |
-| <span data-ttu-id="11811-321">Audio</span><span class="sxs-lookup"><span data-stu-id="11811-321">Audio</span></span>                        | <span data-ttu-id="11811-322">Répondez à un appel entrant en mode vocal uniquement.</span><span class="sxs-lookup"><span data-stu-id="11811-322">Answer an incoming call with audio only.</span></span>                                             |
-| <span data-ttu-id="11811-323">Vidéo</span><span class="sxs-lookup"><span data-stu-id="11811-323">Video</span></span>                        | <span data-ttu-id="11811-324">Répondez à un appel entrant avec la vidéo.</span><span class="sxs-lookup"><span data-stu-id="11811-324">Answer an incoming call with video.</span></span>                                                  |
-| <span data-ttu-id="11811-325">Ignorer</span><span class="sxs-lookup"><span data-stu-id="11811-325">Ignore</span></span>                       | <span data-ttu-id="11811-326">Refuser un appel entrant.</span><span class="sxs-lookup"><span data-stu-id="11811-326">Decline an incoming call.</span></span>                                                            |
-| <span data-ttu-id="11811-327">Démarrer la vidéo</span><span class="sxs-lookup"><span data-stu-id="11811-327">Start video</span></span>                  | <span data-ttu-id="11811-328">Activez la vidéo pour un appel.</span><span class="sxs-lookup"><span data-stu-id="11811-328">Turn on the video for a call.</span></span>                                                        |
-| <span data-ttu-id="11811-329">Arrêter la vidéo</span><span class="sxs-lookup"><span data-stu-id="11811-329">Stop video</span></span>                   | <span data-ttu-id="11811-330">Désactivez la vidéo lors d'un appel.</span><span class="sxs-lookup"><span data-stu-id="11811-330">Turn off the video in a call.</span></span>                                                        |
-| <span data-ttu-id="11811-331">Muet</span><span class="sxs-lookup"><span data-stu-id="11811-331">Mute</span></span>                         | <span data-ttu-id="11811-332">Désactiver le micro d'un appel audio.</span><span class="sxs-lookup"><span data-stu-id="11811-332">Mute the call audio.</span></span>                                                                 |
-| <span data-ttu-id="11811-333">Désactiver muet</span><span class="sxs-lookup"><span data-stu-id="11811-333">Unmute</span></span>                       | <span data-ttu-id="11811-334">Réactiver le micro d'un appel audio.</span><span class="sxs-lookup"><span data-stu-id="11811-334">Unmute the call audio.</span></span>                                                               |
-| <span data-ttu-id="11811-335">Rechercher</span><span class="sxs-lookup"><span data-stu-id="11811-335">Search</span></span>                       | <span data-ttu-id="11811-336">Utilisée dans la fenêtre de contacts, ouvre la zone de recherche dans la recherche d'un contact.</span><span class="sxs-lookup"><span data-stu-id="11811-336">If used in the Contacts window, brings up the Search window to search for a contact.</span></span> |
-| <span data-ttu-id="11811-337">Suivant</span><span class="sxs-lookup"><span data-stu-id="11811-337">Next</span></span>                         | <span data-ttu-id="11811-338">Utilisée dans la fenêtre de contacts, affiche le contact suivant dans la liste.</span><span class="sxs-lookup"><span data-stu-id="11811-338">If used in the Contacts window, brings up the next contact in the list.</span></span>              |
-| <span data-ttu-id="11811-339">Précédent</span><span class="sxs-lookup"><span data-stu-id="11811-339">Previous</span></span>                     | <span data-ttu-id="11811-340">Utilisée dans la fenêtre de contacts, affiche le contact précédent dans la liste.</span><span class="sxs-lookup"><span data-stu-id="11811-340">If used in the Contacts window, brings up the previous contact in the list.</span></span>          |
-| <span data-ttu-id="11811-341">Afficher</span><span class="sxs-lookup"><span data-stu-id="11811-341">Show</span></span>                         | <span data-ttu-id="11811-342">Affichez la fenêtre de chat.</span><span class="sxs-lookup"><span data-stu-id="11811-342">Show the text chat window.</span></span>                                                           |
-| <span data-ttu-id="11811-343">Masquer</span><span class="sxs-lookup"><span data-stu-id="11811-343">Hide</span></span>                         | <span data-ttu-id="11811-344">Masquez la fenêtre de chat.</span><span class="sxs-lookup"><span data-stu-id="11811-344">Hide the text chat window.</span></span>                                                           |
-| <span data-ttu-id="11811-345">**Annotations**</span><span class="sxs-lookup"><span data-stu-id="11811-345">**Annotations**</span></span>              |                                                                                      |
-| <span data-ttu-id="11811-346">Flèche</span><span class="sxs-lookup"><span data-stu-id="11811-346">Arrow</span></span>                        | <span data-ttu-id="11811-347">Sélectionnez l'outil **Flèche** pour placer une flèche dans votre espace.</span><span class="sxs-lookup"><span data-stu-id="11811-347">Select the **Arrow** tool to place an arrow in your space.</span></span>                           |
-| <span data-ttu-id="11811-348">Encre</span><span class="sxs-lookup"><span data-stu-id="11811-348">Ink</span></span>                          | <span data-ttu-id="11811-349">Sélectionnez l'outil **Encre** pour dessiner sur les murs et les surfaces de votre espace.</span><span class="sxs-lookup"><span data-stu-id="11811-349">Select the **Ink** tool to draw on the walls and surfaces of your space.</span></span>             |
-| <span data-ttu-id="11811-350">Déplacer</span><span class="sxs-lookup"><span data-stu-id="11811-350">Move</span></span>                         | <span data-ttu-id="11811-351">Sélectionnez l'outil **Déplacer** pour déplacer un objet.</span><span class="sxs-lookup"><span data-stu-id="11811-351">Select the **Move** tool to move an object.</span></span>                                          |
-| <span data-ttu-id="11811-352">Mettre à l'échelle</span><span class="sxs-lookup"><span data-stu-id="11811-352">Scale</span></span>                        | <span data-ttu-id="11811-353">Sélectionnez l'outil **Mettre à l'échelle** pour redimensionner un objet.</span><span class="sxs-lookup"><span data-stu-id="11811-353">Select the **Scale** tool to resize an object.</span></span>                                       |
-| <span data-ttu-id="11811-354">Caméra</span><span class="sxs-lookup"><span data-stu-id="11811-354">Camera</span></span>                       | <span data-ttu-id="11811-355">Sélectionnez l'outil **Caméra** pour prendre une photo de votre espace.</span><span class="sxs-lookup"><span data-stu-id="11811-355">Select the **Camera** tool to take a picture of your space.</span></span>                          |
-| <span data-ttu-id="11811-356">Instantané</span><span class="sxs-lookup"><span data-stu-id="11811-356">Snap</span></span>                         | <span data-ttu-id="11811-357">Prenez une photo lorsque l'outil Appareil photo est ouvert.</span><span class="sxs-lookup"><span data-stu-id="11811-357">Take a picture when the Camera tool is open.</span></span>                                         |
-| <span data-ttu-id="11811-358">Couleurs</span><span class="sxs-lookup"><span data-stu-id="11811-358">Colors</span></span>                       | <span data-ttu-id="11811-359">Choisissez une couleur.</span><span class="sxs-lookup"><span data-stu-id="11811-359">Pick a color.</span></span>                                                                        |
-| <span data-ttu-id="11811-360">Bleu</span><span class="sxs-lookup"><span data-stu-id="11811-360">Blue</span></span>                         | <span data-ttu-id="11811-361">Choisissez la couleur bleue.</span><span class="sxs-lookup"><span data-stu-id="11811-361">Pick the blue color.</span></span>                                                                 |
-| <span data-ttu-id="11811-362">Gris</span><span class="sxs-lookup"><span data-stu-id="11811-362">Gray</span></span>                         | <span data-ttu-id="11811-363">Choisissez la couleur grise.</span><span class="sxs-lookup"><span data-stu-id="11811-363">Pick the gray color.</span></span>                                                                 |
-| <span data-ttu-id="11811-364">Vert</span><span class="sxs-lookup"><span data-stu-id="11811-364">Green</span></span>                        | <span data-ttu-id="11811-365">Choisissez la couleur verte.</span><span class="sxs-lookup"><span data-stu-id="11811-365">Pick the green color.</span></span>                                                                |
-| <span data-ttu-id="11811-366">Rouge</span><span class="sxs-lookup"><span data-stu-id="11811-366">Red</span></span>                          | <span data-ttu-id="11811-367">Choisissez la couleur rouge.</span><span class="sxs-lookup"><span data-stu-id="11811-367">Pick the red color.</span></span>                                                                  |
-| <span data-ttu-id="11811-368">Jaune</span><span class="sxs-lookup"><span data-stu-id="11811-368">Yellow</span></span>                       | <span data-ttu-id="11811-369">Choisissez la couleur jaune.</span><span class="sxs-lookup"><span data-stu-id="11811-369">Pick the yellow color.</span></span>                                                               |
-| <span data-ttu-id="11811-370">Effacer tout</span><span class="sxs-lookup"><span data-stu-id="11811-370">Erase all</span></span>                    | <span data-ttu-id="11811-371">Supprimez tous les éléments visuels de votre espace.</span><span class="sxs-lookup"><span data-stu-id="11811-371">Remove all visual elements from your space.</span></span>                                          |
-| <span data-ttu-id="11811-372">**Gestion (de la fenêtre) Ardoise**</span><span class="sxs-lookup"><span data-stu-id="11811-372">**Slate (window) management**</span></span>        |                                                                                      |
-| <span data-ttu-id="11811-373">Déplacer</span><span class="sxs-lookup"><span data-stu-id="11811-373">Move</span></span>                         | <span data-ttu-id="11811-374">Entrez en mode Déplacement.</span><span class="sxs-lookup"><span data-stu-id="11811-374">Enter Move mode.</span></span> |
-| <span data-ttu-id="11811-375">Sélectionner une ardoise</span><span class="sxs-lookup"><span data-stu-id="11811-375">Select slate</span></span>                 | <span data-ttu-id="11811-376">Après être entré en mode Déplacement, pointez du regard l'ardoise que vous souhaitez déplacer, puis dites « Sélectionner ardoise ».</span><span class="sxs-lookup"><span data-stu-id="11811-376">After entering Move mode, gaze at the slate you want to move, and then say "Select slate".</span></span> <span data-ttu-id="11811-377">L'ardoise commencera à suivre votre pointage du regard.</span><span class="sxs-lookup"><span data-stu-id="11811-377">The slate will start following your gaze.</span></span>
-| <span data-ttu-id="11811-378">Accepter</span><span class="sxs-lookup"><span data-stu-id="11811-378">Accept</span></span>                       | <span data-ttu-id="11811-379">Après être entré en mode Déplacement et avoir sélectionné une ardoise, placez l'ardoise à l'emplacement que vous pointez actuellement du regard en disant « Accepter ».</span><span class="sxs-lookup"><span data-stu-id="11811-379">After entering Move mode and selecting a slate, place the slate where you are currently gazing by saying "Accept".</span></span>                                          | 
-| <span data-ttu-id="11811-380">Annuler</span><span class="sxs-lookup"><span data-stu-id="11811-380">Cancel</span></span>                       | <span data-ttu-id="11811-381">Empêche une ardoise sélectionnée de suivre votre pointage du regard et la remet sur son emplacement d'origine avant que vous ayez commencé à la déplacer.</span><span class="sxs-lookup"><span data-stu-id="11811-381">Stops a currently selected slate from following your gaze and returns it to its original position before you started moving it.</span></span> |
-| <span data-ttu-id="11811-382">Mettre à l'échelle</span><span class="sxs-lookup"><span data-stu-id="11811-382">Scale</span></span>                        | <span data-ttu-id="11811-383">Entrez en mode Mettre à l'échelle pour redimensionner l'ardoise.</span><span class="sxs-lookup"><span data-stu-id="11811-383">Enter Scale mode to resize the slate.</span></span> </br><br><span data-ttu-id="11811-384">Vous pouvez sinon pointer du regard pour sélectionner l'outil Mettre à l'échelle, puis dire « Sélectionner » pour entrer en mode Mettre à l'échelle.</span><span class="sxs-lookup"><span data-stu-id="11811-384">Or, you can gaze to select the Scale tool, and then say "Select" to enter Scale mode.</span></span>                                                                     |
-| <span data-ttu-id="11811-385">Plus gros ou Plus petit</span><span class="sxs-lookup"><span data-stu-id="11811-385">Bigger or Smaller</span></span>            | <span data-ttu-id="11811-386">Agrandissez ou réduisez la fenêtre après être entré en mode Mettre à l'échelle.</span><span class="sxs-lookup"><span data-stu-id="11811-386">Make the window bigger or smaller after entering Scale mode.</span></span> <span data-ttu-id="11811-387">Répétez la commande « Plus gros » ou « Plus petit » jusqu'à ce que la fenêtre soit à la taille que vous souhaitez.</span><span class="sxs-lookup"><span data-stu-id="11811-387">Repeat the "Bigger" or "Smaller" command until the window is the size you want.</span></span>                          |
-| <span data-ttu-id="11811-388">Réinitialiser</span><span class="sxs-lookup"><span data-stu-id="11811-388">Reset</span></span>                        | <span data-ttu-id="11811-389">En pointant du regard une ardoise qui a été récemment déplacée, dire « Réinitialiser » lui rend sa position d'origine.</span><span class="sxs-lookup"><span data-stu-id="11811-389">While gazing at a slate that has recently been moved, saying "Reset" will return the slate to its original position.</span></span>          |
-| **[!include[pn-onedrive](../includes/pn-onedrive.md)]**                 |                                                                                      |
-| [!include[pn-onedrive](../includes/pn-onedrive.md)]                     | <span data-ttu-id="11811-390">Ouvrez [!include[pn-onedrive](../includes/pn-onedrive.md)] dans le dossier racine pour insérer un fichier.</span><span class="sxs-lookup"><span data-stu-id="11811-390">Open [!include[pn-onedrive](../includes/pn-onedrive.md)] at the root folder to insert a file.</span></span>                                   |
-| <span data-ttu-id="11811-391">Fermer</span><span class="sxs-lookup"><span data-stu-id="11811-391">Close</span></span>                        | <span data-ttu-id="11811-392">Fermez [!include[pn-onedrive](../includes/pn-onedrive.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-392">Close [!include[pn-onedrive](../includes/pn-onedrive.md)].</span></span>                                                                      |
-| <span data-ttu-id="11811-393">Suivant</span><span class="sxs-lookup"><span data-stu-id="11811-393">Next</span></span>                         | <span data-ttu-id="11811-394">Allez à la page suivante dans [!include[pn-onedrive](../includes/pn-onedrive.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-394">Go to next page in [!include[pn-onedrive](../includes/pn-onedrive.md)].</span></span>                                                         |
-| <span data-ttu-id="11811-395">Précédent</span><span class="sxs-lookup"><span data-stu-id="11811-395">Previous</span></span>                     | <span data-ttu-id="11811-396">Revenez à la page précédente dans [!include[pn-onedrive](../includes/pn-onedrive.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-396">Go to previous page in [!include[pn-onedrive](../includes/pn-onedrive.md)].</span></span>                                                     |
-| <span data-ttu-id="11811-397">**Autre**</span><span class="sxs-lookup"><span data-stu-id="11811-397">**Other**</span></span>                    |                                                                                      |
-| <span data-ttu-id="11811-398">Paramètres</span><span class="sxs-lookup"><span data-stu-id="11811-398">Settings</span></span>                     | <span data-ttu-id="11811-399">Allez à la page Paramètres.</span><span class="sxs-lookup"><span data-stu-id="11811-399">Go to Settings page.</span></span>                                                                 |
-
-## <a name="use-the-narrator-to-announce-incoming-calls"></a><span data-ttu-id="11811-400">Utiliser le Narrateur pour annoncer les appels entrants</span><span class="sxs-lookup"><span data-stu-id="11811-400">Use the Narrator to announce incoming calls</span></span>
-
-<span data-ttu-id="11811-401">Vous pouvez activer le Narrateur si vous souhaitez bénéficier de la présentation audio pour les appels entrant.</span><span class="sxs-lookup"><span data-stu-id="11811-401">You can turn on the Narrator if you want to take advantage of voice narration for incoming calls.</span></span> <span data-ttu-id="11811-402">Lorsque vous activez la narration pour l'appel entrant, en plus d'afficher le nom de l'appelant entrant, le nom de l'appelant est également annoncé.</span><span class="sxs-lookup"><span data-stu-id="11811-402">When you turn on incoming call narration, in addition to displaying the incoming caller's name, the caller's name is announced.</span></span> <span data-ttu-id="11811-403">Vous pouvez ensuite dire « Vidéo, « Audio, « ou « Ignorer » pour répondre à l'appel entrant.</span><span class="sxs-lookup"><span data-stu-id="11811-403">You can then say "video," "audio," or "ignore" to respond to the incoming call.</span></span>
-
-<span data-ttu-id="11811-404">Pour activer le Narrateur pour les appels entrants :</span><span class="sxs-lookup"><span data-stu-id="11811-404">To turn on the Narrator for incoming calls:</span></span>
-
-- <span data-ttu-id="11811-405">Allez à Paramètres, puis sélectionnez le bouton **Actif** pour le Narrateur.</span><span class="sxs-lookup"><span data-stu-id="11811-405">Go to Settings, and then select the **On** button for the Narrator.</span></span>
-
-  <span data-ttu-id="11811-406">![Ouvrir Narrateur](media/narrator.PNG "Ouvrir Narrateur")</span><span class="sxs-lookup"><span data-stu-id="11811-406">![Open Narrator](media/narrator.PNG "Open Narrator")</span></span>
-
-## <a name="use-remote-assist-to-get-help-in-another-hololens-app"></a><span data-ttu-id="11811-407">Utiliser Remote Assist pour obtenir de l'aide dans une autre application HoloLens</span><span class="sxs-lookup"><span data-stu-id="11811-407">Use Remote Assist to get help in another HoloLens app</span></span>
-
-<span data-ttu-id="11811-408">Vous rencontrez des problèmes dans une autre application [!include[pn-hololens](../includes/pn-hololens.md)] ?</span><span class="sxs-lookup"><span data-stu-id="11811-408">Having trouble in another [!include[pn-hololens](../includes/pn-hololens.md)] app?</span></span> <span data-ttu-id="11811-409">Utilisez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] pour montre à un expert ce qui se produit et obtenir de l'aide.</span><span class="sxs-lookup"><span data-stu-id="11811-409">Use [!include[pn-remote-assist](../includes/pn-remote-assist.md)] to show an expert what’s happening and get some help.</span></span>
-
-<span data-ttu-id="11811-410">Voici comment procéder :</span><span class="sxs-lookup"><span data-stu-id="11811-410">Here’s how:</span></span>
-
-1.  <span data-ttu-id="11811-411">Ouvrez une application sur votre [!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-411">Open an app on your [!include[pn-hololens](../includes/pn-hololens.md)].</span></span>
-
-2.  <span data-ttu-id="11811-412">[Écartez les doigts paume vers le haut](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures) pour quitter la vue 3D, mais ne fermez pas le lanceur d'application.</span><span class="sxs-lookup"><span data-stu-id="11811-412">Use the [bloom gesture](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures) to leave the 3D view, but don’t close the app launcher.</span></span>
-
-3.  <span data-ttu-id="11811-413">Démarrez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appelez votre contact.</span><span class="sxs-lookup"><span data-stu-id="11811-413">Start [!include[pn-remote-assist](../includes/pn-remote-assist.md)] and call your contact.</span></span>
-
-4.  <span data-ttu-id="11811-414">Une fois l'appel vidéo connecté, utilisez l'option consistant à écarter les doigts paume vers le haut pour quitter [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-414">Once the video call is connected, use the bloom gesture to leave [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span></span> <span data-ttu-id="11811-415">Votre appel restera connecté.</span><span class="sxs-lookup"><span data-stu-id="11811-415">Your call will remain connected.</span></span>
-
-5.  <span data-ttu-id="11811-416">Sélectionnez le cube dynamique de l'application pour laquelle vous avez besoin d'aide.</span><span class="sxs-lookup"><span data-stu-id="11811-416">Select the live cube of the app you need help with.</span></span> <span data-ttu-id="11811-417">Une fois l'application lancée, votre contact peut afficher son contenu et vous guider.</span><span class="sxs-lookup"><span data-stu-id="11811-417">Once the app has launched, your contact will be able to see its content and give you guidance.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-418">Lorsque vous avez obtenu de votre contact toute l'aide dont vous aviez besoin, veillez à retourner vers [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et à déconnecter l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-418">When you’re done getting help from your contact, make sure to go back to [!include[pn-remote-assist](../includes/pn-remote-assist.md)] and disconnect the call.</span></span> <span data-ttu-id="11811-419">Tant que vous n'aurez pas fait cela, l'appel restera connecté et votre contact verra et entendra ce qui se passe sur votre [!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-419">Until you do that, the call will stay connected and your contact will see and hear what’s happening on your [!include[pn-hololens](../includes/pn-hololens.md)].</span></span>
-
-## <a name="use-dynamics-365-for-field-service-from-remote-assist"></a><span data-ttu-id="11811-420">Utiliser Dynamics 365 for Field Service de Remote Assist</span><span class="sxs-lookup"><span data-stu-id="11811-420">Use Dynamics 365 for Field Service from Remote Assist</span></span>
-
-<span data-ttu-id="11811-421">Si votre organisation utilise [Dynamics 365 for Field Service](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail de Field Service, vous (le collaborateur de première ligne) pouvez consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appeler l'expert répertorié dans le champ **Contact de support**.</span><span class="sxs-lookup"><span data-stu-id="11811-421">If your organization uses [Dynamics 365 for Field Service](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) to manage field service work orders, you (the first-line worker) can view [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] bookings from [!include[pn-remote-assist](../includes/pn-remote-assist.md)] and call the expert listed in the **Support Contact** field.</span></span>
-<span data-ttu-id="11811-422">Cela vous permet d'effectuer des appels tête relevée, mains libres via [!include[pn-hololens](../includes/pn-hololens.md)] dans le cadre d'une réservation [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-422">This enables you to do heads-up, hands-free calling through [!include[pn-hololens](../includes/pn-hololens.md)] in the context of a [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] booking.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="11811-423">Pour plus d'informations sur le paramétrage et la résolution des problèmes d'intégration de [!include[pn-field-service](../includes/pn-field-service.md)], si vous êtes administrateur, consultez [Résoudre les problèmes d'intégration de Field Service](troubleshoot-field-service.md).</span><span class="sxs-lookup"><span data-stu-id="11811-423">For information on setting up and troubleshooting [!include[pn-field-service](../includes/pn-field-service.md)] integration if you're an admin, see [Troubleshoot Field Service integration](troubleshoot-field-service.md).</span></span> <span data-ttu-id="11811-424">**Veuillez noter** qu'une [licence Dynamics 365](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) est requise pour afficher les réservations [!include[pn-field-service](../includes/pn-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-424">**Note** that [a Dynamics 365 license](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) is required to view [!include[pn-field-service](../includes/pn-field-service.md)] bookings from [!include[pn-remote-assist](../includes/pn-remote-assist.md)].</span></span>
-
-### <a name="view-a-field-service-booking-and-call-an-expert-from-remote-assist"></a><span data-ttu-id="11811-425">Afficher une réservation Field Service et appeler un expert à partir de Remote Assist</span><span class="sxs-lookup"><span data-stu-id="11811-425">View a Field Service booking and call an expert from Remote Assist</span></span>
-
-1.  <span data-ttu-id="11811-426">Dans le menu Contacts, sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") pour ouvrir le volet **Réservation**.</span><span class="sxs-lookup"><span data-stu-id="11811-426">In the Contacts menu, select **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") to open the **Booking** pane.</span></span> <span data-ttu-id="11811-427">(Sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") à nouveau pour fermer le volet **Réservation**.)</span><span class="sxs-lookup"><span data-stu-id="11811-427">(Select **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") again to close the **Booking** pane.)</span></span>  
-      
-    <span data-ttu-id="11811-428">L'écran **Contacts récents** s'affiche avec un volet **Réservation** sur la droite.</span><span class="sxs-lookup"><span data-stu-id="11811-428">The **Recent Contacts** screen will appear with a **Booking** pane to the right.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="11811-429">Seules les réservations avec le statut « En cours » sont répertoriées.</span><span class="sxs-lookup"><span data-stu-id="11811-429">Only bookings with the “In Progress” status are listed.</span></span>
-    
-1.  <span data-ttu-id="11811-430">Dans le volet **Réservation**, sélectionnez la ressource (expert).</span><span class="sxs-lookup"><span data-stu-id="11811-430">In the **Booking** pane, select the resource (expert).</span></span> 
-
-    <span data-ttu-id="11811-431">![Sélectionnez la ressource (expert)](media/61c6885a58d179a39e18b3af01554fcc.png "Sélectionnez la ressource (expert)")</span><span class="sxs-lookup"><span data-stu-id="11811-431">![Select the resource (expert)](media/61c6885a58d179a39e18b3af01554fcc.png "Select the resource (expert)")</span></span>
-
-1.  <span data-ttu-id="11811-432">Dans la liste des contacts filtrés, sélectionnez la mosaïque pour l'expert.</span><span class="sxs-lookup"><span data-stu-id="11811-432">In the filtered contacts list, select the tile for the expert.</span></span> <span data-ttu-id="11811-433">Si vous ne voyez pas le contact que vous recherchez, sélectionnez **Rechercher** pour afficher le clavier holographique.</span><span class="sxs-lookup"><span data-stu-id="11811-433">If you don’t see the contact you’re looking for, select **Search** to bring up the holographic keyboard.</span></span>  
-      
-    <span data-ttu-id="11811-434">Lorsque vous sélectionnez un contact, vous voyez l'écran suivant.</span><span class="sxs-lookup"><span data-stu-id="11811-434">When you select a contact, you’ll see the following screen.</span></span> 
-
-    <span data-ttu-id="11811-435">![Sélectionner un contact](media/712a579fd6c37af3087cd31fd01bab74.png "Sélectionner un contact")</span><span class="sxs-lookup"><span data-stu-id="11811-435">![Select a contact](media/712a579fd6c37af3087cd31fd01bab74.png "Select a contact")</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="11811-436">Les informations de réservation sont floutées lorsque vous avez un appel vidéo en cours, mais restent visibles lors d'un appel vocal uniquement.</span><span class="sxs-lookup"><span data-stu-id="11811-436">Booking information is blurred out when you’re in a video call, but remains visible during an audio-only call.</span></span>
-
-### <a name="open-a-power-bi-dashboard-from-a-field-service-booking"></a><span data-ttu-id="11811-437">Ouvrir un tableau de bord Power BI depuis une réservation Field Service</span><span class="sxs-lookup"><span data-stu-id="11811-437">Open a Power BI dashboard from a Field Service booking</span></span>
-
--   <span data-ttu-id="11811-438">Sélectionnez un lien [!include[pn-power-bi](../includes/pn-power-bi.md)] pour ouvrir [!include[pn-power-bi](../includes/pn-power-bi.md)] en ligne dans un navigateur ou pour ouvrir l'application de bureau [!include[pn-power-bi](../includes/pn-power-bi.md)].</span><span class="sxs-lookup"><span data-stu-id="11811-438">Select a [!include[pn-power-bi](../includes/pn-power-bi.md)] link to open [!include[pn-power-bi](../includes/pn-power-bi.md)] Online in a browser or to open the [!include[pn-power-bi](../includes/pn-power-bi.md)] desktop application.</span></span>
-    
-    > [!NOTE]
-    > <span data-ttu-id="11811-439">Lorsque vous ouvrez un tableau de bord [!include[pn-power-bi](../includes/pn-power-bi.md)], [!include[pn-remote-assist](../includes/pn-remote-assist.md)] se ferme.</span><span class="sxs-lookup"><span data-stu-id="11811-439">When you open a [!include[pn-power-bi](../includes/pn-power-bi.md)] dashboard, [!include[pn-remote-assist](../includes/pn-remote-assist.md)] closes.</span></span> <span data-ttu-id="11811-440">Si vous avez un appel en cours avec un expert, ce dernier demeure dans l'appel.</span><span class="sxs-lookup"><span data-stu-id="11811-440">If you’re on a call with an expert, the expert will remain on the call.</span></span> <span data-ttu-id="11811-441">Revenez à [!include[pn-remote-assist](../includes/pn-remote-assist.md)] en rouvrant l'application via le menu des applications ou le cube dynamique.</span><span class="sxs-lookup"><span data-stu-id="11811-441">Return to [!include[pn-remote-assist](../includes/pn-remote-assist.md)] by opening the application again through the applications menu or live cube.</span></span>
-
-### <a name="modify-the-default-booking-view"></a><span data-ttu-id="11811-442">Modifier la vue de réservation par défaut</span><span class="sxs-lookup"><span data-stu-id="11811-442">Modify the default booking view</span></span>
-
-<span data-ttu-id="11811-443">Pour modifier la vue par défaut des informations dans le volet **Réservation**, [modifiez la vue comme vous le feriez avec n'importe quelle vue de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views).</span><span class="sxs-lookup"><span data-stu-id="11811-443">To modify the default view of information in the **Booking** pane, [edit the view as you would any Dynamics 365 view](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views).</span></span>
-
-### <a name="see-also"></a><span data-ttu-id="11811-444">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="11811-444">See also</span></span>
-[<span data-ttu-id="11811-445">Configurer et utiliser Microsoft Teams avec Remote Assist</span><span class="sxs-lookup"><span data-stu-id="11811-445">Set up and use Microsoft Teams with Remote Assist</span></span>](use-microsoft-teams-with-remote-assist.md)<br/>
-[<span data-ttu-id="11811-446">Vidéos pratiques</span><span class="sxs-lookup"><span data-stu-id="11811-446">How-to videos</span></span>](https://go.microsoft.com/fwlink/p/?linkid=2021485)<br/>
-[<span data-ttu-id="11811-447">FAQ</span><span class="sxs-lookup"><span data-stu-id="11811-447">FAQ</span></span>](faq.md)<br/>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="user-guide.md" target-language="fr-FR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>user-guide.aab69c.0daf3cc404cb9eb783a1b7f419310ef17de9a2e3.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>0daf3cc404cb9eb783a1b7f419310ef17de9a2e3</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>a9ae3e613938a7c53b2de2ce787fae6a3499c9ae</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/21/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>mr-docs\remote-assist\user-guide.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Dynamics 365 Remote Assist User guide (for HoloLens)</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>Dynamics 365 Remote Assist User guide (for HoloLens)</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Dynamics 365 Remote Assist user guide (for HoloLens)</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Use <ph id="ph1">[!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]</ph> to connect and collaborate using hands-free video calling, mixed reality annotations, and file (image and PDF) sharing.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Utilisez <ph id="ph1">[!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]</ph> pour vous connecter et collaborer au moyen d'un appel vidéo mains libres, d'annotations de réalité mixte et du partage de fichiers (image et PDF).</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Use your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> to call an expert who's using <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-teams](../includes/pn-teams.md)]</ph>, and then share what you see on <ph id="ph4">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> to solve problems and complete tasks together, faster.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> pour appeler un expert qui utilise <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph3">[!include[pn-teams](../includes/pn-teams.md)]</ph>, puis partagez ce que vous voyez dans <ph id="ph4">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> pour résoudre les problèmes et réaliser des tâches ensemble, plus rapidement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Need more help?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Besoin d'aide complémentaire ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">[</bpt>Check out Remote Assist FAQ<ept id="p1">](faq.md)</ept> for answers to common questions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Consultez la FAQ de Remote Assist<ept id="p1">](faq.md)</ept> pour obtenir des réponses aux questions fréquentes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">[</bpt>Watch how-to videos<ept id="p1">](videos.md)</ept> about <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><bpt id="p1">[</bpt>Consultez des vidéos pratiques<ept id="p1">](videos.md)</ept> concernant <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>What you’ll need</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ce dont vous aurez besoin</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>A subscription to <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Un abonnement à <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> is included in the <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> subscription for individuals using a <ph id="ph3">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> license on <ph id="ph4">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph>.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> est inclus dans l'abonnement <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> pour les personnes avec une licence <ph id="ph3">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> sur <ph id="ph4">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>A <ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> license is also required for individuals (experts) who communicate with a <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> user on <ph id="ph3">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Une licence <ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> est également requise pour les personnes (spécialistes) qui communiquent avec un utilisateur de <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> sur <ph id="ph3">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph> may be available <bpt id="p1">[</bpt>as a free download<ept id="p1">](https://teams.microsoft.com/downloads)</ept> for these users.</source>
+        <target logoport:matchpercent="87" state="translated" state-qualifier="leveraged-inherited"><ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph> peut être disponible <bpt id="p1">[</bpt>en téléchargement gratuit<ept id="p1">](https://teams.microsoft.com/downloads)</ept> pour ces utilisateurs.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>If you’re the admin for your organization, <bpt id="p1">[</bpt>learn how to try or buy, and deploy Remote Assist<ept id="p1">](../licensing/buy-and-deploy.md)</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Si vous êtes l'administrateur pour votre organisation <bpt id="p1">[</bpt>découvrez comment essayer ou acheter et déployer Remote Assist<ept id="p1">](../licensing/buy-and-deploy.md)</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>You can try <ph id="ph1">[!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]</ph> for free for up to 90 days.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez essayer <ph id="ph1">[!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]</ph> gratuitement jusqu'à 90 jours.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Learn more about the free 90-day Dynamics 365 Remote Assist trial<ept id="p1">](try-remote-assist-free.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur l'essai gratuit de Dynamics 365 Remote Assist de 90 jours<ept id="p1">](try-remote-assist-free.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>A <bpt id="p1">[</bpt>HoloLens running the Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/12643)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un <bpt id="p1">[</bpt>HoloLens exécutant Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/12643)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>To make a video call, you'll need a contact using the latest version of <bpt id="p1">[</bpt>Microsoft Teams<ept id="p1">](https://products.office.com/en-us/microsoft-teams/group-chat-software)</ept><ph id="ph1"> </ph>on a PC running <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> 10 or a mobile device running <ph id="ph3">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> Mobile.<bpt id="p2"> [</bpt>Learn about using Teams with Remote Assist.<ept id="p2">](use-microsoft-teams-with-remote-assist.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour effectuer un appel vidéo, vous avez besoin d'un contact utilisant la dernière version de <bpt id="p1">[</bpt>Microsoft Teams<ept id="p1">](https://products.office.com/en-us/microsoft-teams/group-chat-software)</ept><ph id="ph1"> </ph>sur un PC exécutant <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> 10 ou un appareil mobile exécutant <ph id="ph3">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> Mobile.<bpt id="p2"> [</bpt>Renseignez-vous sur l'utilisation de Teams avec Remote Assist.<ept id="p2">](use-microsoft-teams-with-remote-assist.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>To connect to <ph id="ph1">[!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]</ph> from within <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>, you’ll need a <bpt id="p1">[</bpt>Dynamics 365 license<ept id="p1">](https://dynamics.microsoft.com/en-us/field-service/overview/?&amp;OCID=AID720979_SEM_yeaT05hp&amp;lnkd=Bing_D365_Brand)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour vous connecter à <ph id="ph1">[!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]</ph> depuis <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>, vous avez besoin d'une <bpt id="p1">[</bpt>licence Dynamics 365<ept id="p1">](https://dynamics.microsoft.com/en-us/field-service/overview/?&amp;OCID=AID720979_SEM_yeaT05hp&amp;lnkd=Bing_D365_Brand)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>An internet connection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une connexion Internet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>At least 1.5 MB of bandwidth is recommended for the best experience.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Au moins 1,5 Mo de bande passante est recommandé pour optimiser l'expérience.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Need to get up to speed on <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Besoin de plus de vitesse sur <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">[</bpt>Get help<ept id="p1">](https://support.microsoft.com/products/hololens)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Obtenir de l'aide<ept id="p1">](https://support.microsoft.com/products/hololens)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Install the Remote Assist app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Installer l'application Remote Assist</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>How you install <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> depends on how your administrator chooses to distribute the app.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La manière dont vous installez <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> dépend du mode de distribution des applications choisi par votre administrateur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Your admin might have you <bpt id="p1">[</bpt>install the app from the Microsoft Store for Consumers<ept id="p1">](https://www.microsoft.com/store/apps/9P77QGW10K9M)</ept>, from your organization’s private store, through an email link, or another method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Votre administrateur peut vous demander <bpt id="p1">[</bpt>d'installer l'application depuis Microsoft Store pour les consommateurs<ept id="p1">](https://www.microsoft.com/store/apps/9P77QGW10K9M)</ept>, depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre moyen.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Install the application through the Microsoft Store for Consumers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Installer l'application par le biais de Microsoft Store pour les consommateurs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>On your<ph id="ph1"> [!include[pn-hololens](../includes/pn-hololens.md)]</ph>, go to <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> <bpt id="p2">![</bpt>Start<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Start<ept id="p3">")</ept> <ph id="ph2">\&gt;</ph><bpt id="p4"> **</bpt><ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph><ph id="ph4"> </ph>Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>[!include[cc-microsoft](../includes/cc-microsoft.md)] Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, and then search for “<ph id="ph5">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.”</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans votre<ph id="ph1"> [!include[pn-hololens](../includes/pn-hololens.md)]</ph>, allez à <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept> <bpt id="p2">![</bpt>Démarrer<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Démarrer<ept id="p3">")</ept> <ph id="ph2">\&gt;</ph><bpt id="p4"> **</bpt><ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph><ph id="ph4"> </ph>Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>[!include[cc-microsoft](../includes/cc-microsoft.md)] Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>, puis cherchez « <ph id="ph5">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> ».</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>On your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, go to <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> <bpt id="p2">![</bpt>Start<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Start<ept id="p3">")</ept><ph id="ph2"> </ph><ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>All apps<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, allez à <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept> <bpt id="p2">![</bpt>Démarrer<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Démarrer<ept id="p3">")</ept><ph id="ph2"> </ph><ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Toutes les applications<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Select <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph><ept id="p1">**</ept>, then select it again to launch the app.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph><ept id="p1">**</ept>, puis sélectionnez-le une deuxième fois pour lancer l'application.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> is an immersive app with a <bpt id="p1">[</bpt>holographic view<ept id="p1">](https://support.microsoft.com/en-us/help/12635)</ept>, so it will be the only app you see while you’re using it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> est une application immersive avec une <bpt id="p1">[</bpt>vue holographique<ept id="p1">](https://support.microsoft.com/en-us/help/12635)</ept>. Ce sera donc la seule application qui s'affichera en cours d'utilisation.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>If your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> is running the April 2018 Update and you're signed in with an <ph id="ph2">[!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]</ph> (<ph id="ph3">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD) account, you'll automatically be signed in to <ph id="ph4">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> exécute la April 2018 Update et que vous êtes connecté avec un compte <ph id="ph2">[!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]</ph> (<ph id="ph3">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD), vous serez automatiquement connecté à <ph id="ph4">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>If not, use the holographic keyboard to sign in with a work or school account that has an <ph id="ph1">[!include[pn-office-365](../includes/pn-office-365.md)]</ph> Premium or Essentials subscription.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sinon, utilisez le clavier holographique pour vous connecter avec un compte professionnel ou scolaire associé à un abonnement <ph id="ph1">[!include[pn-office-365](../includes/pn-office-365.md)]</ph> Premium ou Essentials.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source> Once you’re signed in, you’ll see your recent contacts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Une fois connecté, vous verrez vos contacts récents.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Using the user interface or voice commands</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utiliser l'interface utilisateur ou les commandes vocales</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The procedures in this user guide describe how to do tasks through the user interface or by using voice commands, when available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les procédures de ce guide de l'utilisateur décrivent comment effectuer des tâches via l'interface utilisateur ou en utilisant des commandes de voix, le cas échéant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>To use a voice command, say “<ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>,” and then say the voice command.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour utiliser une commande vocale, dites : « <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> », puis prononcez la commande vocale.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Learn more about voice commands.<ept id="p1">](#voice)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur les commandes vocales.<ept id="p1">](#voice)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Make and receive calls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Effectuer et recevoir des appels</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>How you make a call depends on whether you're calling a contact in your company or outside your company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La manière dont vous effectuez un appel varie selon que vous appelez un contact dans votre société ou en dehors de celle-ci.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Make a call to a contact in your company</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appeler un contact dans votre société</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Open the app and <bpt id="p1">[</bpt>select<ept id="p1">](https://support.microsoft.com/en-us/help/12644)</ept> a recent contact.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez l'application et <bpt id="p1">[</bpt>sélectionnez<ept id="p1">](https://support.microsoft.com/en-us/help/12644)</ept> un contact récent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>If you don’t see the contact you want, select <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> <bpt id="p2">![</bpt>Search<ept id="p2">]</ept><bpt id="p3">(media/e3155cd796106ea0818d8f52c7dbfcbe.png "</bpt>Search<ept id="p3">")</ept>, and then use the holographic keyboard to enter a name or email address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous ne voyez pas le contact que vous souhaitez, sélectionnez <bpt id="p1">**</bpt>Rechercher<ept id="p1">**</ept> <bpt id="p2">![</bpt>Rechercher<ept id="p2">]</ept><bpt id="p3">(media/e3155cd796106ea0818d8f52c7dbfcbe.png "</bpt>Rechercher<ept id="p3">")</ept>, puis utilisez le clavier holographique pour entrer un nom ou une adresse e-mail.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>When your contact answers the call in <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-teams](../includes/pn-teams.md)]</ph>, they’ll be able to see what you see in your space—including holograms.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque votre contact répond à l'appel dans <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-teams](../includes/pn-teams.md)]</ph>, il peut voir ce que vous visualisez votre espace, y compris les hologrammes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Dynamic audio adjusts the volume level based on ambient noise in the room so you can hear even if you're working in a loud environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'audio dynamique ajuste le volume en fonction du bruit ambiant dans la pièce afin que vous puissiez entendre même si vous travaillez dans un environnement bruyant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Make a call to a contact outside your company</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appeler un contact en dehors de votre société</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>You can make or receive a one-to-one call with a Teams user from another company if external access for both companies has been enabled in <ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez effectuer ou recevoir un appel à deux avec un utilisateur de Teams d'une autre société si un accès externe a été activé pour les deux sociétés dans <ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>If you're the admin for your organization, to set up external access, see <bpt id="p1">[</bpt>Set up cross-company calling<ept id="p1">](cross-company-calling.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous êtes l'administrateur pour votre organisation, pour configurer l'accès externe, consultez <bpt id="p1">[</bpt>Configurer les appels interentreprises<ept id="p1">](cross-company-calling.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>At this time, you can't do group calling or file sharing with contacts outside your company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">À ce stade, vous ne pouvez pas effectuer d'appel de groupe ou de partage de fichier avec des contacts en dehors de votre société.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>To make a call to a contact outside your company:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour appeler un contact en dehors de votre société :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Open the app, select<bpt id="p1">  **</bpt>Search<ept id="p1">**</ept>, and then use the holographic keyboard to enter the full email address of the external user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez l'application, sélectionnez<bpt id="p1">  **</bpt>Rechercher<ept id="p1">**</ept>, puis utiliser le clavier holographique pour entrer l'adresse e-mail complète de l'utilisateur externe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You <bpt id="p1">*</bpt>must<ept id="p1">*</ept> enter the full email address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous <bpt id="p1">*</bpt>devez<ept id="p1">*</ept> entrer l'adresse e-mail complète.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>You won't see any search results if you enter just a name or a partial email address.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous ne verrez aucun résultat de recherche si vous entrez uniquement un nom ou une adresse e-mail partielle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>If you're not able to find the contact you're looking for, it might be because external access has not been enabled in <ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> for your company or the other company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous ne parvenez pas à trouver le contact que vous recherchez, cela peut être dû au fait que l'accès externe n'a pas été activé dans <ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> pour votre société ou l'autre société.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Contact your administrator for help.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contactez votre administrateur système pour obtenir de l'aide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Make group calls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Effectuer des appels de groupe</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>You can include up to 50 people in a group call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez inclure jusqu'à 50 personnes dans un appel de groupe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>You can also switch between participants' video feeds and mute participants as needed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également basculer entre les flux vidéo des participants et désactiver le micro de participants, si nécessaire.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Invite additional contacts to a call</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inviter des contacts supplémentaires à un appel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>From the call controls, select the <bpt id="p1">**</bpt>Open Participants<ept id="p1">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans les commandes d'appel, sélectionnez le bouton <bpt id="p1">**</bpt>Participants libres<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">![</bpt>Animation of selecting Open Participants<ept id="p1">]</ept><bpt id="p2">(media/GC_OpenParticipantsList.gif "</bpt>Animation of selecting Open Participants<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Animation Sélectionner Participants libres<ept id="p1">]</ept><bpt id="p2">(media/GC_OpenParticipantsList.gif "</bpt>Animation Sélectionner Participants libres<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Select the <bpt id="p1">**</bpt>Open Participants<ept id="p1">**</ept> button again if you want to close the pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le bouton <bpt id="p1">**</bpt>Participants libres<ept id="p1">**</ept> de nouveau si vous souhaitez fermer le volet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Select one of your recent contacts, or select <bpt id="p1">**</bpt>Invite Someone<ept id="p1">**</ept> at the bottom of the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez un de vos contacts récents, ou sélectionnez <bpt id="p1">**</bpt>Inviter quelqu'un<ept id="p1">**</ept> en bas de la liste.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>A list of your recent contacts will appear.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une liste de vos contacts récents s'affichera.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>If the person you'd like to call isn't on the list, enter a name or email address using the holographic keyboard, and then select a name in the search results to start the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si la liste ne contient pas la personne que vous souhaitez appeler, saisissez un nom ou une adresse e-mail à l'aide du clavier holographique, puis sélectionnez un nom dans les résultats de la recherche pour démarrer l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source><bpt id="p1">![</bpt>Animation of searching for a call<ept id="p1">]</ept><bpt id="p2">(media/GC_SearchCall.gif "</bpt>Animation of searching for a call<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Animation Rechercher un contact pour un appel<ept id="p1">]</ept><bpt id="p2">(media/GC_SearchCall.gif "</bpt>Animation Rechercher un contact pour un appel<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source><bpt id="p1">[</bpt>Learn how to add additional contacts from Microsoft Teams Desktop<ept id="p1">](https://support.office.com/en-us/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Découvrir comment ajouter des contacts supplémentaires depuis le bureau Microsoft Teams<ept id="p1">](https://support.office.com/en-us/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Switch the displayed video feed in a group call</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Changer le flux vidéo affiché dans un appel de groupe</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>From the call controls, select the <bpt id="p1">**</bpt>Open Participants<ept id="p1">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans les commandes d'appel, sélectionnez le bouton <bpt id="p1">**</bpt>Participants libres<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Hover over the participant whose video feed you want to switch to, and then select it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passez sur le participant associé au flux vidéo auquel vous souhaitez passer, puis sélectionnez-le.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>If the participant's video feed is enabled, the video will switch to their feed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si le flux vidéo du participant est activé, la vidéo basculera vers son flux.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>You can also switch video feeds from the “participant tray” located below the video feed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez également changer de flux vidéo à partir du « bac de participant » situé sous le flux vidéo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Hover over the avatar to display the participant's name, and then air tap to switch video feeds.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Passez sur l'avatar pour afficher le nom du participant, puis appuyez pour changer de flux vidéo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Mute a participant in a group call</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désactiver le micro d'un participant dans un appel de groupe</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>You can't mute a participant in a one-to-one call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous ne pouvez pas désactiver le micro d'un participant dans un appel à deux.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>From the call controls, select the <bpt id="p1">**</bpt>Open Participants<ept id="p1">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans les commandes d'appel, sélectionnez le bouton <bpt id="p1">**</bpt>Participants libres<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Air tap the mute icon for the participant you want to mute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez sur l'icône de mise en sourdine pour le participant dont vous souhaitez désactiver le micro.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>If you mute a participant, you won't be able to unmute them.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Si vous désactivez le micro d'un participant, vous ne pourrez pas le réactiver.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>They must unmute themselves through <ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph>.</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Il doit le faire lui-même via <ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Record a call</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Enregistrer un appel</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>You can record a call to a file for viewing later.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Vous pouvez enregistrer un appel dans un fichier pour le consulter ultérieurement.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>This is a great way to capture a call for training or for record-keeping purposes.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Il s'agit d'une excellente manière de capturer un appel à des fins de formation ou de conservation des enregistrements.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>You can record a call in two ways:</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Vous pouvez enregistrer un appel de deux manières :</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Use the Game bar built into <ph id="ph1">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> 10 PCs.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Utilisez la barre de jeux intégrée dans les PC sous <ph id="ph1">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> 10.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Use the <ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph> recording feature.</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Utilisez la fonction d'enregistrement de <ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Record a call using the Game bar in Windows 10 PCs</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Enregistrer un appel à l'aide de la barre de jeux des PC sous Windows 10</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>On a <ph id="ph1">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> 10 desktop PC, join a call using <ph id="ph2">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph>.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Sur un PC sous <ph id="ph1">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> 10, rejoignez un appel en utilisant <ph id="ph2">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Press <bpt id="p1">**</bpt>Windows logo key <bpt id="p2">![</bpt>Windows logo key)<ept id="p2">]</ept><bpt id="p3">(media/windows-logo-key.png "</bpt>Windows logo key<ept id="p3">")</ept> + G<ept id="p1">**</ept> to open the Game bar.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Appuyez sur la <bpt id="p1">**</bpt>touche de logo Windows <bpt id="p2">![</bpt>touche de logo Windows)<ept id="p2">]</ept><bpt id="p3">(media/windows-logo-key.png "</bpt>touche de logo Windows<ept id="p3">")</ept> + G<ept id="p1">**</ept> pour ouvrir la barre de jeux.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source><bpt id="p1">![</bpt>Game bar)<ept id="p1">]</ept><bpt id="p2">(media/game-bar.png "</bpt>Game bar<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Barre de jeux)<ept id="p1">]</ept><bpt id="p2">(media/game-bar.png "</bpt>Barre de jeux<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Select the <bpt id="p1">**</bpt>Start Recording<ept id="p1">**</ept> button (or press <bpt id="p2">**</bpt>Windows logo key <bpt id="p3">![</bpt>Windows logo key)<ept id="p3">]</ept><bpt id="p4">(media/windows-logo-key.png "</bpt>Windows logo key<ept id="p4">")</ept> + Alt + R<ept id="p2">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le bouton <bpt id="p1">**</bpt>Démarrer l'enregistrement<ept id="p1">**</ept> (ou appuyez sur la <bpt id="p2">**</bpt>touche de logo Windows <bpt id="p3">![</bpt>touche de logo Windows)<ept id="p3">]</ept><bpt id="p4">(media/windows-logo-key.png "</bpt>touche de logo Windows<ept id="p4">")</ept> + Alt + R<ept id="p2">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>A small recording menu will appear that shows that the recording is in progress.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un petit menu d'enregistrement s'affichera, indiquant que l'enregistrement est en cours.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">![</bpt>Recording<ept id="p1">]</ept><bpt id="p2">(media/recording.PNG "</bpt>Recording<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Enregistrement<ept id="p1">]</ept><bpt id="p2">(media/recording.PNG "</bpt>Enregistrement<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>To stop recording, select the <bpt id="p1">**</bpt>Stop Recording<ept id="p1">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour arrêter l'enregistrement, sélectionnez le bouton <bpt id="p1">**</bpt>Arrêter l'enregistrement<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>The video of the recording will appear in your <bpt id="p1">**</bpt>Videos/Captures<ept id="p1">**</ept> folder.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">La vidéo de l'enregistrement s'affiche dans votre dossier <bpt id="p1">**</bpt>Vidéos/captures<ept id="p1">**</ept>.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source><bpt id="p1">[</bpt>Learn more about the Game bar.<ept id="p1">](https://support.xbox.com/xbox-on-windows/social/record-game-clips-game-bar-windows-10)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur la barre de jeux.<ept id="p1">](https://support.xbox.com/xbox-on-windows/social/record-game-clips-game-bar-windows-10)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Record a call from Teams</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enregistrer un appel depuis Teams</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source><ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> supports <bpt id="p1">[</bpt>cloud-based call recording of group calls<ept id="p1">](https://support.office.com/en-us/article/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)]</ph> prend en charge <bpt id="p1">[</bpt>l'enregistrement d'appels basés sur le cloud d'appels de groupe<ept id="p1">](https://support.office.com/en-us/article/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Recordings are stored and shared through Microsoft Stream.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les enregistrements sont stockés et partagés via Microsoft Stream.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Start or join the group call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lancez ou rejoignez un appel de groupe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>To start recording, select <bpt id="p1">**</bpt>More options<ept id="p1">**</ept> (...) &gt; <bpt id="p2">**</bpt>Start recording<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour démarrer l'enregistrement, sélectionnez <bpt id="p1">**</bpt>Plus d'options<ept id="p1">**</ept> (...) &gt; <bpt id="p2">**</bpt>Démarrer l'enregistrement<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source><bpt id="p1">![</bpt>Start recording button<ept id="p1">]</ept><bpt id="p2">(media/start-recording.PNG "</bpt>Start recording button<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Bouton Démarrer l'enregistrement<ept id="p1">]</ept><bpt id="p2">(media/start-recording.PNG "</bpt>Bouton Démarrer l'enregistrement<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>To stop recording, select <bpt id="p1">**</bpt>More options<ept id="p1">**</ept> (...) &gt; <bpt id="p2">**</bpt>Stop recording<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour arrêter l'enregistrement, sélectionnez <bpt id="p1">**</bpt>Plus d'options<ept id="p1">**</ept> (...) &gt; <bpt id="p2">**</bpt>Arrêter l'enregistrement<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source><bpt id="p1">![</bpt>Stop recording button<ept id="p1">]</ept><bpt id="p2">(media/stop-recording.PNG "</bpt>Stop recording button<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Bouton Arrêter l'enregistrement<ept id="p1">]</ept><bpt id="p2">(media/stop-recording.PNG "</bpt>Bouton Arrêter l'enregistrement<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>The recording is processed (which can take a while) and saved to Microsoft Stream.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'enregistrement est traité (ce qui peut prendre un certain temps) et enregistré dans Microsoft Stream.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>The person who started the recording receives an email from <ph id="ph1">[!include[pn-microsoft-stream](../includes/pn-microsoft-stream.md)]</ph> when the recording is available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La personne à l'origine de l'enregistrement reçoit un e-mail de <ph id="ph1">[!include[pn-microsoft-stream](../includes/pn-microsoft-stream.md)]</ph> lorsque l'enregistrement est disponible.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>It also shows up in the group chat.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ce dernier s'affiche également dans la conversation instantanée du groupe.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Receive a call from a contact using Microsoft Teams</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recevoir un appel d'un contact en utilisant Microsoft Teams</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Select <bpt id="p1">**</bpt>Video<ept id="p1">**</ept> <bpt id="p2">![</bpt>Video<ept id="p2">]</ept><bpt id="p3">(media/bae39e2bdb1eafec5c36c76ffa640355.png "</bpt>Video<ept id="p3">")</ept> (or say “Video”) to accept the call as a video call or <bpt id="p4">**</bpt>Audio<ept id="p4">**</ept> <bpt id="p5">![</bpt>Audio<ept id="p5">]</ept><bpt id="p6">(media/972493ccc469c4ca41c04f96fabf6ba5.png "</bpt>Audio<ept id="p6">")</ept> (or say “Audio”) to accept it as a voice-only call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Vidéo<ept id="p1">**</ept> <bpt id="p2">![</bpt>Vidéo<ept id="p2">]</ept><bpt id="p3">(media/bae39e2bdb1eafec5c36c76ffa640355.png "</bpt>Vidéo<ept id="p3">")</ept> (ou dites « Vidéo ») pour accepter l'appel en tant qu'appel vidéo ou <bpt id="p4">**</bpt>Audio<ept id="p4">**</ept> <bpt id="p5">![</bpt>Audio<ept id="p5">]</ept><bpt id="p6">(media/972493ccc469c4ca41c04f96fabf6ba5.png "</bpt>Audio<ept id="p6">")</ept> (ou dites « Audio ») pour l'accepter comme appel vocal uniquement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>To decline the call, select <bpt id="p1">**</bpt>Ignore<ept id="p1">**</ept> (or say “Ignore”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour refuser l'appel, sélectionnez <bpt id="p1">**</bpt>Ignorer<ept id="p1">**</ept> (ou dites « Ignorer »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>To receive calls when you’re using other apps on <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, open the <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> app.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour recevoir des appels lorsque vous utilisez d'autres applications dans <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>, ouvrez l'application <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Then use the <bpt id="p1">[</bpt>bloom gesture<ept id="p1">](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures)</ept> to leave <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puis utilisez <bpt id="p1">[</bpt>l'écartement des doigts paume vers le haut<ept id="p1">](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures)</ept> pour quitter <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Go ahead and use other apps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Continuez à utiliser d'autres applications.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>You’ll get a notification from <ph id="ph1">[!include[pn-cortana](../includes/pn-cortana.md)]</ph> if a <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> call comes in, and you’ll be able to accept or decline it using your voice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous recevrez une notification depuis <ph id="ph1">[!include[pn-cortana](../includes/pn-cortana.md)]</ph> si un appel de <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> est entrant, et vous pourrez l'accepter ou le refuser avec la voix.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Position the call window</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Positionner la fenêtre d'appel</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>You can pin your video feed in your space, or you can have it follow you around.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez épingler votre flux vidéo dans votre espace ou bien le configurer pour qu'il vous suive partout.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>To pin your video feed:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour épingler votre flux vidéo :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Gaze to position the window, and then select <bpt id="p1">**</bpt>Pin<ept id="p1">**</ept> <bpt id="p2">![</bpt>Pin<ept id="p2">]</ept><bpt id="p3">(media/d213f48b98dc5b8e41318aaa3782c395.png "</bpt>Pin<ept id="p3">")</ept> (or say “Pin”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard pour positionner la fenêtre, puis sélectionnez <bpt id="p1">**</bpt>Épingler<ept id="p1">**</ept> <bpt id="p2">![</bpt>Épingler<ept id="p2">]</ept><bpt id="p3">(media/d213f48b98dc5b8e41318aaa3782c395.png "</bpt>Épingler<ept id="p3">")</ept> (ou dites « Épingler »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>To have it follow you again, select <bpt id="p1">**</bpt>Unpin<ept id="p1">**</ept> <bpt id="p2">![</bpt>Unpin<ept id="p2">]</ept><bpt id="p3">(media/1f4f3c48b466bfaa7a222cd4f1158c9c.png "</bpt>Unpin<ept id="p3">")</ept> (or say “Unpin”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour qu'il vous suive à nouveau, sélectionnez <bpt id="p1">**</bpt>Désépingler<ept id="p1">**</ept> <bpt id="p2">![</bpt>Désépingler<ept id="p2">]</ept><bpt id="p3">(media/1f4f3c48b466bfaa7a222cd4f1158c9c.png "</bpt>Désépingler<ept id="p3">")</ept> (ou dites « Désépingler »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Text chat</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chat</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>You can text chat with the other user on the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez converser avec l'autre utilisateur de l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source> The chat window displays just the text messages sent during the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> La fenêtre de conversation instantanée affiche uniquement les SMS envoyés durant l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>To open the chat window and enter a message:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour ouvrir la fenêtre de conversation instantanée et entrer un message :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Select Show <bpt id="p1">![</bpt>Show<ept id="p1">]</ept><bpt id="p2">(media/chaticon3.png "</bpt>Show<ept id="p2">")</ept> (or say “Show”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez Afficher <bpt id="p1">![</bpt>Afficher<ept id="p1">]</ept><bpt id="p2">(media/chaticon3.png "</bpt>Afficher<ept id="p2">")</ept> (ou dites « Afficher »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Select the text preview field at the bottom of the chat window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le champ d'aperçu des textes en bas de la fenêtre de conversation instantanée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source> This will bring up the holographic keyboard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Cela affichera le clavier holographique.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Do one of the following:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Effectuez l'une des opérations suivantes :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Select characters in the holographic keyboard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez les caractères du clavier holographique.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Select <bpt id="p1">**</bpt>Microphone<ept id="p1">**</ept> <bpt id="p2">![</bpt>Microphone<ept id="p2">]</ept><bpt id="p3">(media/microphone3.png "</bpt>Microphone<ept id="p3">")</ept>, and then dictate your message.<ph id="ph1"> [!include[pn-hololens](../includes/pn-hololens.md)]</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Microphone<ept id="p1">**</ept> <bpt id="p2">![</bpt>Microphone<ept id="p2">]</ept><bpt id="p3">(media/microphone3.png "</bpt>Microphone<ept id="p3">")</ept>, puis dictez votre message.<ph id="ph1"> [!include[pn-hololens](../includes/pn-hololens.md)]</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>will convert the message into text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">convertira le message en texte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Connect a Bluetooth keyboard directly to the <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> and type your message.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Connectez un clavier Bluetooth directement à l'<ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> et entrez votre message.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Select <bpt id="p1">**</bpt>Send<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Envoyer<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>To read previous messages in the chat window:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour lire les messages précédents dans la fenêtre de conversation instantanée :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Air tap and drag the chat window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez sur la fenêtre de conversation instantanée et faites-la glisser.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>If a message is sent from another user when the chat window isn’t open, you’ll receive a notification.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si un message est envoyé d'un autre utilisateur lorsque la fenêtre de conversation instantanée n'est pas ouverte, vous recevez une notification.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Screen-sharing with an expert on Microsoft Teams</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Partage d'écran avec un expert sur Microsoft Teams</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>When you're working with an expert on a call, the expert can share their desktop or application window with you to assist with the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous travaillez avec un expert dans le cadre d'un appel, cet expert peut partager avec vous son bureau ou une fenêtre d'application pour appuyer l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>When an expert shares their desktop or running application this way, your video feed of the expert will change to a solid color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsqu'un expert partage son bureau ou une application en cours d'exécution de cette manière, le flux vidéo de l'expert passe à une couleur unie.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>You'll still be able to use all the tools in the toolbar even though your video feed is no longer displayed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pourrez encore utiliser tous les outils de la barre d'outils, même si votre flux vidéo n'est plus affiché.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>To move, size, or close the shared window, use the controls at the top right of the shared window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour déplacer, dimensionner ou fermer la fenêtre partagée, utilisez les commandes situées en haut à droite de la fenêtre partagée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source><bpt id="p1">![</bpt>Shared-desktop controls)<ept id="p1">]</ept><bpt id="p2">(media/screen-sharing-controls.jpg "</bpt>Shared-desktop controls<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Commandes du bureau partagé)<ept id="p1">]</ept><bpt id="p2">(media/screen-sharing-controls.jpg "</bpt>Commandes du bureau partagé<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Collaborate and annotate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Collaborer et annoter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Once you’re connected to a video call, your contact will see everything you see in your space—including your holograms.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une fois que vous êtes connecté à un appel vidéo, votre contact voit tout ce que vous visualisez dans votre espace, y compris vos hologrammes.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Use <bpt id="p1">[</bpt>HoloLens gestures<ept id="p1">](https://support.microsoft.com/en-us/help/12644)</ept> to draw, place arrows, and add files to your space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez les <bpt id="p1">[</bpt>mouvements HoloLens<ept id="p1">](https://support.microsoft.com/en-us/help/12644)</ept> afin de dessiner, de placer des flèches et d'ajouter des fichiers à votre espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Your contact will see your additions, and will be able to make annotations of their own.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Votre contact verra vos ajouts et pourra intégrer ses propres annotations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Add an arrow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ajouter une flèche</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Select the <bpt id="p1">**</bpt>Arrow<ept id="p1">**</ept> tool (or say “Arrow”) during a video call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Flèche<ept id="p1">**</ept> (ou dites « Flèche ») pendant un appel vidéo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Gaze where you want to add the arrow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard l'emplacement où vous souhaitez ajouter la flèche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>You'll see a silhouette of the arrow that shows where it will be placed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous verrez une silhouette de la flèche qui indique où elle sera passée.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>For example, note the faint arrow in the following screenshot:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, notez la flèche pâle dans la capture d'écran suivant :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source><bpt id="p1">![</bpt>Ghost arrow)<ept id="p1">]</ept><bpt id="p2">(media/ghost-arrow-before.PNG "</bpt>Ghost arrow<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Flèche fantôme)<ept id="p1">]</ept><bpt id="p2">(media/ghost-arrow-before.PNG "</bpt>Flèche fantôme<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Air tap to place the arrow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez pour placer la flèche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source><bpt id="p1">![</bpt>Arrow placed)<ept id="p1">]</ept><bpt id="p2">(media/ghost-arrow-after.PNG "</bpt>Arrow placed<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Flèche placée)<ept id="p1">]</ept><bpt id="p2">(media/ghost-arrow-after.PNG "</bpt>Flèche placée<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>If you want to specify the direction that the arrow points, air tap and hold, and then rotate your hand to position the arrow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous souhaitez préciser la direction dans laquelle la flèche pointe, appuyez et maintenez enfoncé puis faites pivoter votre main pour positionner la flèche.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Draw in your space</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dessiner dans votre espace</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Select the <bpt id="p1">**</bpt>Ink<ept id="p1">**</ept> tool (or say “Ink”) during a video call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Encre<ept id="p1">**</ept> (ou dites « Encre ») pendant un appel vidéo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Gaze where you want to draw, and then use tap and hold to draw.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez du regard l'emplacement où vous souhaitez dessiner, puis utilisez l'appui long pour dessiner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>To finish a drawing, raise your finger back up.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour terminer un dessin, relevez le doigt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Change arrow or ink color</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modifier la couleur de flèche ou d'encre</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Select <bpt id="p1">**</bpt>Colors<ept id="p1">**</ept> (or say “Choose colors”), and then choose the one you want.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Couleurs<ept id="p1">**</ept> (ou dites « Choisir couleurs »), puis choisissez celle que vous souhaitez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Add an image or PDF file</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ajouter une image ou un fichier PDF</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Import an image or PDF file from <ph id="ph1">[!include[pn-onedrive-for-business](../includes/pn-onedrive-for-business.md)]</ph> and then place it in your space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importez une image ou un fichier PDF depuis <ph id="ph1">[!include[pn-onedrive-for-business](../includes/pn-onedrive-for-business.md)]</ph> puis placez-le/la dans votre espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>For example, add an image of a diagram to assist with the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par exemple, ajoutez une image d'un graphique pour appuyer l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>The people you call will be able to see the image or PDF file in the <ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph> app during a video call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les personnes que vous appelez peuvent voir l'image ou le fichier PDF dans l'application <ph id="ph1">[!include[pn-teams](../includes/pn-teams.md)]</ph> pendant un appel vidéo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>To add a file:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour ajouter un fichier :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>During a video call, select <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph><ept id="p1">**</ept> <bpt id="p2">![</bpt>OneDrive<ept id="p2">]</ept><bpt id="p3">(media/12b28856b051be23e665c896cd21b7d2.png "</bpt>OneDrive<ept id="p3">")</ept> (or say “OneDrive”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lors d'un appel vidéo, sélectionnez <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph><ept id="p1">**</ept> <bpt id="p2">![</bpt>OneDrive<ept id="p2">]</ept><bpt id="p3">(media/12b28856b051be23e665c896cd21b7d2.png "</bpt>OneDrive<ept id="p3">")</ept> (ou dites « OneDrive »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Find and select the file you want to add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recherchez et sélectionnez le fichier que vous souhaitez ajouter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>To move an image:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour déplacer une image :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Gaze at it, and then select <bpt id="p1">**</bpt>Move<ept id="p1">**</ept> (or say “Move”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez-la du regard, puis sélectionnez <bpt id="p1">**</bpt>Déplacer<ept id="p1">**</ept> (ou dites « Déplacer »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Tap and hold the image and move your hand to reposition it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez longuement sur l'image et déplacez votre main pour la repositionner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>To resize an image:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour redimensionner une image :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Gaze at it, and then select <bpt id="p1">**</bpt>Scale<ept id="p1">**</ept> (or say “Scale”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pointez-la du regard, puis sélectionnez <bpt id="p1">**</bpt>Mettre à l'échelle<ept id="p1">**</ept> (ou dites « Mettre à l'échelle »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Tap and hold a corner of the image, and then move your hand to make it bigger or smaller.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appuyez longuement sur un coin de l'image, puis déplacez votre main pour agrandir ou réduire l'image.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>To navigate in a PDF file:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour naviguer dans un fichier PDF :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source><bpt id="p1">**</bpt>To<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pour<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source><bpt id="p1">**</bpt>Do this<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Effectuez l'opération suivante<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Go through pages sequentially</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parcourir les pages dans l'ordre</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Use the arrow keys</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez les touches fléchées</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Jump to a specific page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accéder à une page spécifique</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Select the page number to bring up the holographic number pad, and then select the page you want.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le numéro de page pour afficher le pavé numérique holographique, puis sélectionnez la page que vous souhaitez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Take a snapshot of your annotations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prendre un instantané de vos annotations</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>During a call, you can take a photo of your mixed reality annotations to save for later.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Au cours d'un appel, vous pouvez prendre une photo de vos annotations de réalité mixte afin de les enregistrer pour plus tard.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>To take a snapshot:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour prendre un instantané :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Select <bpt id="p1">**</bpt>Camera<ept id="p1">**</ept> <bpt id="p2">![</bpt>Camera<ept id="p2">]</ept><bpt id="p3">(media/cameraicon3.png "</bpt>Camera<ept id="p3">")</ept> (or say “Camera”), and then air tap (or say “Snap”) to take the photo.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Caméra<ept id="p1">**</ept> <bpt id="p2">![</bpt>Caméra<ept id="p2">]</ept><bpt id="p3">(media/cameraicon3.png "</bpt>Caméra<ept id="p3">")</ept> (ou dites « Caméra »), puis appuyez (ou dites « Instantané ») pour prendre la photo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>The photo will be saved to your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> camera roll.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La photo sera enregistrée sur votre pellicule <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Make changes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apporter des modifications</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>To erase all the arrows and drawings you’ve added during a video call:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour effacer tous les flèches et les dessins que vous avez ajoutés lors d'un appel vidéo :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Select <bpt id="p1">**</bpt>Erase all<ept id="p1">**</ept> at the top of the call window (or say “Erase all”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Effacer tout<ept id="p1">**</ept> en haut de la fenêtre d'appel (ou dites « Effacer tout »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>To undo your most recent action, including <bpt id="p1">**</bpt>Erase all<ept id="p1">**</ept>:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour annuler l'action plus récente, dont <bpt id="p1">**</bpt>Effacer tout<ept id="p1">**</ept> :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Select <bpt id="p1">**</bpt>Undo<ept id="p1">**</ept> at the top of the call window (or say “Undo”).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez <bpt id="p1">**</bpt>Annuler<ept id="p1">**</ept> en haut de la fenêtre d'appel (ou dites « Annuler »).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Use voice commands and gaze <bpt id="p1">&lt;a name="voice"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utiliser les commandes vocales et le pointage du regard <bpt id="p1">&lt;a name="voice"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>In many cases, you can use voice commands and gaze instead of gestures.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Some voice commands are contextual, so they only work in particular areas of the user interface.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>To use a voice command, say “<ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>,” and then say one of the voice commands in the following table.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pour utiliser une commande vocale, dites « <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> », et indiquez une des commandes vocales dans le tableau suivant.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>For example, say "<ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>, Move" to enter Move mode for a slate (window).</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Par exemple, dites « <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>, Déplacement » pour entrer en mode Déplacement pour une ardoise (fenêtre).</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>You can also gaze at any button and say “<ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>, Select” to select that button.</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Vous pouvez également pointer du regard tout bouton et dire « <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>, Sélectionner » pour sélectionner ce bouton.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source><bpt id="p1">**</bpt>Voice command<ept id="p1">**</ept></source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><bpt id="p1">**</bpt>Commande vocale<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source><bpt id="p1">**</bpt>General<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Général<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Sign out</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se déconnecter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>Sign out of <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déconnectez-vous de <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Up</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haut</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Go up.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Montez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>Previous</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Précédent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Go to previous page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à la page précédente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>Next</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suivant</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>Go to next menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez au menu suivant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>Back</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retour</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>Go to previous menu.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez au menu précédent.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>Undo</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annuler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Undo the previous action.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annulez l'action précédente.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source><bpt id="p1">**</bpt>Pin and unpin video feed<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Épingler et désépingler le flux vidéo<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>Pin</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Épingler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Pin the video feed in your space so it doesn’t follow you around.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Épinglez le flux vidéo dans votre espace afin qu'il ne vous suive pas partout.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>Unpin</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désépingler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>Unpin the video feed in your space so it follows you around.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désépinglez le flux vidéo dans votre espace afin qu'il vous suive partout.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source><bpt id="p1">**</bpt>Call management<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Gestion des appels<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>Call</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appeler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Call a contact.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Appelez un contact.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Hang up</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raccrocher</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>End the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Terminez l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>Audio</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Audio</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Answer an incoming call with audio only.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Répondez à un appel entrant en mode vocal uniquement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Video</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vidéo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Answer an incoming call with video.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Répondez à un appel entrant avec la vidéo.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Ignore</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ignorer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Decline an incoming call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Refuser un appel entrant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>Start video</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Démarrer la vidéo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>Turn on the video for a call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Activez la vidéo pour un appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>Stop video</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Arrêter la vidéo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>Turn off the video in a call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désactivez la vidéo lors d'un appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>Mute</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muet</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source>Mute the call audio.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désactiver le micro d'un appel audio.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source>Unmute</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Désactiver muet</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>Unmute the call audio.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Réactiver le micro d'un appel audio.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>Search</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rechercher</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>If used in the Contacts window, brings up the Search window to search for a contact.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisée dans la fenêtre de contacts, ouvre la zone de recherche dans la recherche d'un contact.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source>Next</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suivant</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>If used in the Contacts window, brings up the next contact in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisée dans la fenêtre de contacts, affiche le contact suivant dans la liste.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>Previous</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Précédent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>If used in the Contacts window, brings up the previous contact in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisée dans la fenêtre de contacts, affiche le contact précédent dans la liste.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>Show</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afficher</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>Show the text chat window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Affichez la fenêtre de chat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Hide</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Masquer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>Hide the text chat window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Masquez la fenêtre de chat.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source><bpt id="p1">**</bpt>Annotations<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Annotations<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>Arrow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flèche</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Select the <bpt id="p1">**</bpt>Arrow<ept id="p1">**</ept> tool to place an arrow in your space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Flèche<ept id="p1">**</ept> pour placer une flèche dans votre espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>Ink</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Encre</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>Select the <bpt id="p1">**</bpt>Ink<ept id="p1">**</ept> tool to draw on the walls and surfaces of your space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Encre<ept id="p1">**</ept> pour dessiner sur les murs et les surfaces de votre espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>Move</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>Select the <bpt id="p1">**</bpt>Move<ept id="p1">**</ept> tool to move an object.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Déplacer<ept id="p1">**</ept> pour déplacer un objet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mettre à l'échelle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>Select the <bpt id="p1">**</bpt>Scale<ept id="p1">**</ept> tool to resize an object.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Mettre à l'échelle<ept id="p1">**</ept> pour redimensionner un objet.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>Camera</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Caméra</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Select the <bpt id="p1">**</bpt>Camera<ept id="p1">**</ept> tool to take a picture of your space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez l'outil <bpt id="p1">**</bpt>Caméra<ept id="p1">**</ept> pour prendre une photo de votre espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>Snap</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Instantané</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>Take a picture when the Camera tool is open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prenez une photo lorsque l'outil Appareil photo est ouvert.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>Colors</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Couleurs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>Pick a color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez une couleur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>Blue</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bleu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>Pick the blue color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez la couleur bleue.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>Gray</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gris</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>Pick the gray color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez la couleur grise.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source>Green</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vert</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>Pick the green color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez la couleur verte.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>Red</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rouge</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>Pick the red color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez la couleur rouge.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source>Yellow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaune</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>Pick the yellow color.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez la couleur jaune.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>Erase all</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Effacer tout</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>Remove all visual elements from your space.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Supprimez tous les éléments visuels de votre espace.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source><bpt id="p1">**</bpt>Slate (window) management<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Gestion (de la fenêtre) Ardoise<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>Move</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Déplacer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Enter Move mode.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez en mode Déplacement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Select slate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionner une ardoise</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source>After entering Move mode, gaze at the slate you want to move, and then say "Select slate".</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après être entré en mode Déplacement, pointez du regard l'ardoise que vous souhaitez déplacer, puis dites « Sélectionner ardoise ».</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>The slate will start following your gaze.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'ardoise commencera à suivre votre pointage du regard.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>Accept</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Accepter</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>After entering Move mode and selecting a slate, place the slate where you are currently gazing by saying "Accept".</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après être entré en mode Déplacement et avoir sélectionné une ardoise, placez l'ardoise à l'emplacement que vous pointez actuellement du regard en disant « Accepter ».</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>Cancel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annuler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>Stops a currently selected slate from following your gaze and returns it to its original position before you started moving it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Empêche une ardoise sélectionnée de suivre votre pointage du regard et la remet sur son emplacement d'origine avant que vous ayez commencé à la déplacer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>Scale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mettre à l'échelle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source>Enter Scale mode to resize the slate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrez en mode Mettre à l'échelle pour redimensionner l'ardoise.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>Or, you can gaze to select the Scale tool, and then say "Select" to enter Scale mode.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez sinon pointer du regard pour sélectionner l'outil Mettre à l'échelle, puis dire « Sélectionner » pour entrer en mode Mettre à l'échelle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>Bigger or Smaller</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plus gros ou Plus petit</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Make the window bigger or smaller after entering Scale mode.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Agrandissez ou réduisez la fenêtre après être entré en mode Mettre à l'échelle.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>Repeat the "Bigger" or "Smaller" command until the window is the size you want.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Répétez la commande « Plus gros » ou « Plus petit » jusqu'à ce que la fenêtre soit à la taille que vous souhaitez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>Reset</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Réinitialiser</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>While gazing at a slate that has recently been moved, saying "Reset" will return the slate to its original position.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En pointant du regard une ardoise qui a été récemment déplacée, dire « Réinitialiser » lui rend sa position d'origine.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source>Open <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph> at the root folder to insert a file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph> dans le dossier racine pour insérer un fichier.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>Close</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>Close <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fermez <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Next</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Suivant</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>Go to next page in <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à la page suivante dans <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>Previous</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Précédent</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Go to previous page in <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Revenez à la page précédente dans <ph id="ph1">[!include[pn-onedrive](../includes/pn-onedrive.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source><bpt id="p1">**</bpt>Other<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Autre<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>Settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paramètres</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>Go to Settings page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à la page Paramètres.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Use the Narrator to announce incoming calls</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utiliser le Narrateur pour annoncer les appels entrants</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source>You can turn on the Narrator if you want to take advantage of voice narration for incoming calls.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez activer le Narrateur si vous souhaitez bénéficier de la présentation audio pour les appels entrant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>When you turn on incoming call narration, in addition to displaying the incoming caller's name, the caller's name is announced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous activez la narration pour l'appel entrant, en plus d'afficher le nom de l'appelant entrant, le nom de l'appelant est également annoncé.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>You can then say "video," "audio," or "ignore" to respond to the incoming call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez ensuite dire « Vidéo, « Audio, « ou « Ignorer » pour répondre à l'appel entrant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>To turn on the Narrator for incoming calls:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour activer le Narrateur pour les appels entrants :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>Go to Settings, and then select the <bpt id="p1">**</bpt>On<ept id="p1">**</ept> button for the Narrator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à Paramètres, puis sélectionnez le bouton <bpt id="p1">**</bpt>Actif<ept id="p1">**</ept> pour le Narrateur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source><bpt id="p1">![</bpt>Open Narrator<ept id="p1">]</ept><bpt id="p2">(media/narrator.PNG "</bpt>Open Narrator<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Ouvrir Narrateur<ept id="p1">]</ept><bpt id="p2">(media/narrator.PNG "</bpt>Ouvrir Narrateur<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>Use Remote Assist to get help in another HoloLens app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utiliser Remote Assist pour obtenir de l'aide dans une autre application HoloLens</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>Having trouble in another <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> app?</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous rencontrez des problèmes dans une autre application <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ?</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>Use <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> to show an expert what’s happening and get some help.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utilisez <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> pour montre à un expert ce qui se produit et obtenir de l'aide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>Here’s how:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voici comment procéder :</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>Open an app on your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrez une application sur votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>Use the <bpt id="p1">[</bpt>bloom gesture<ept id="p1">](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures)</ept> to leave the 3D view, but don’t close the app launcher.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Écartez les doigts paume vers le haut<ept id="p1">](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures)</ept> pour quitter la vue 3D, mais ne fermez pas le lanceur d'application.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>Start <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> and call your contact.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Démarrez <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> et appelez votre contact.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>Once the video call is connected, use the bloom gesture to leave <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une fois l'appel vidéo connecté, utilisez l'option consistant à écarter les doigts paume vers le haut pour quitter <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>Your call will remain connected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Votre appel restera connecté.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Select the live cube of the app you need help with.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez le cube dynamique de l'application pour laquelle vous avez besoin d'aide.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>Once the app has launched, your contact will be able to see its content and give you guidance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Une fois l'application lancée, votre contact peut afficher son contenu et vous guider.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>When you’re done getting help from your contact, make sure to go back to <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> and disconnect the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous avez obtenu de votre contact toute l'aide dont vous aviez besoin, veillez à retourner vers <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> et à déconnecter l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>Until you do that, the call will stay connected and your contact will see and hear what’s happening on your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tant que vous n'aurez pas fait cela, l'appel restera connecté et votre contact verra et entendra ce qui se passe sur votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>Use Dynamics 365 for Field Service from Remote Assist</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Utiliser Dynamics 365 for Field Service de Remote Assist</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>If your organization uses <bpt id="p1">[</bpt>Dynamics 365 for Field Service<ept id="p1">](https://dynamics.microsoft.com/en-us/field-service/overview/?&amp;OCID=AID720979_SEM_yeaT05hp&amp;lnkd=Bing_D365_Brand)</ept> to manage field service work orders, you (the first-line worker) can view <ph id="ph1">[!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]</ph> bookings from <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> and call the expert listed in the <bpt id="p2">**</bpt>Support Contact<ept id="p2">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si votre organisation utilise <bpt id="p1">[</bpt>Dynamics 365 for Field Service<ept id="p1">](https://dynamics.microsoft.com/en-us/field-service/overview/?&amp;OCID=AID720979_SEM_yeaT05hp&amp;lnkd=Bing_D365_Brand)</ept> pour gérer les ordres de travail de Field Service, vous (le collaborateur de première ligne) pouvez consulter les réservations <ph id="ph1">[!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]</ph> depuis <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> et appeler l'expert répertorié dans le champ <bpt id="p2">**</bpt>Contact de support<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>This enables you to do heads-up, hands-free calling through <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> in the context of a <ph id="ph2">[!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]</ph> booking.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cela vous permet d'effectuer des appels tête relevée, mains libres via <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> dans le cadre d'une réservation <ph id="ph2">[!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>For information on setting up and troubleshooting <ph id="ph1">[!include[pn-field-service](../includes/pn-field-service.md)]</ph> integration if you're an admin, see <bpt id="p1">[</bpt>Troubleshoot Field Service integration<ept id="p1">](troubleshoot-field-service.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour plus d'informations sur le paramétrage et la résolution des problèmes d'intégration de <ph id="ph1">[!include[pn-field-service](../includes/pn-field-service.md)]</ph>, si vous êtes administrateur, consultez <bpt id="p1">[</bpt>Résoudre les problèmes d'intégration de Field Service<ept id="p1">](troubleshoot-field-service.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> that <bpt id="p2">[</bpt>a Dynamics 365 license<ept id="p2">](https://dynamics.microsoft.com/en-us/field-service/overview/?&amp;OCID=AID720979_SEM_yeaT05hp&amp;lnkd=Bing_D365_Brand)</ept> is required to view <ph id="ph1">[!include[pn-field-service](../includes/pn-field-service.md)]</ph> bookings from <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Veuillez noter<ept id="p1">**</ept> qu'une <bpt id="p2">[</bpt>licence Dynamics 365<ept id="p2">](https://dynamics.microsoft.com/en-us/field-service/overview/?&amp;OCID=AID720979_SEM_yeaT05hp&amp;lnkd=Bing_D365_Brand)</ept> est requise pour afficher les réservations <ph id="ph1">[!include[pn-field-service](../includes/pn-field-service.md)]</ph> depuis <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>View a Field Service booking and call an expert from Remote Assist</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afficher une réservation Field Service et appeler un expert à partir de Remote Assist</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source>In the Contacts menu, select <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-dyn-365](../includes/pn-dyn-365.md)]</ph><ept id="p1">**</ept> <bpt id="p2">![</bpt>Dynamics 365<ept id="p2">]</ept><bpt id="p3">(media/d365-button3.png "</bpt>Dynamics 365<ept id="p3">")</ept> to open the <bpt id="p4">**</bpt>Booking<ept id="p4">**</ept> pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le menu Contacts, sélectionnez <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-dyn-365](../includes/pn-dyn-365.md)]</ph><ept id="p1">**</ept> <bpt id="p2">![</bpt>Dynamics 365<ept id="p2">]</ept><bpt id="p3">(media/d365-button3.png "</bpt>Dynamics 365<ept id="p3">")</ept> pour ouvrir le volet <bpt id="p4">**</bpt>Réservation<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>(Select <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-dyn-365](../includes/pn-dyn-365.md)]</ph><ept id="p1">**</ept> <bpt id="p2">![</bpt>Dynamics 365<ept id="p2">]</ept><bpt id="p3">(media/d365-button3.png "</bpt>Dynamics 365<ept id="p3">")</ept> again to close the <bpt id="p4">**</bpt>Booking<ept id="p4">**</ept> pane.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Sélectionnez <bpt id="p1">**</bpt><ph id="ph1">[!include[pn-dyn-365](../includes/pn-dyn-365.md)]</ph><ept id="p1">**</ept> <bpt id="p2">![</bpt>Dynamics 365<ept id="p2">]</ept><bpt id="p3">(media/d365-button3.png "</bpt>Dynamics 365<ept id="p3">")</ept> à nouveau pour fermer le volet <bpt id="p4">**</bpt>Réservation<ept id="p4">**</ept>.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>The <bpt id="p1">**</bpt>Recent Contacts<ept id="p1">**</ept> screen will appear with a <bpt id="p2">**</bpt>Booking<ept id="p2">**</ept> pane to the right.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'écran <bpt id="p1">**</bpt>Contacts récents<ept id="p1">**</ept> s'affiche avec un volet <bpt id="p2">**</bpt>Réservation<ept id="p2">**</ept> sur la droite.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>Only bookings with the “In Progress” status are listed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seules les réservations avec le statut « En cours » sont répertoriées.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>In the <bpt id="p1">**</bpt>Booking<ept id="p1">**</ept> pane, select the resource (expert).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le volet <bpt id="p1">**</bpt>Réservation<ept id="p1">**</ept>, sélectionnez la ressource (expert).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source><bpt id="p1">![</bpt>Select the resource (expert)<ept id="p1">]</ept><bpt id="p2">(media/61c6885a58d179a39e18b3af01554fcc.png "</bpt>Select the resource (expert)<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Sélectionnez la ressource (expert)<ept id="p1">]</ept><bpt id="p2">(media/61c6885a58d179a39e18b3af01554fcc.png "</bpt>Sélectionnez la ressource (expert)<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>In the filtered contacts list, select the tile for the expert.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans la liste des contacts filtrés, sélectionnez la mosaïque pour l'expert.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>If you don’t see the contact you’re looking for, select <bpt id="p1">**</bpt>Search<ept id="p1">**</ept> to bring up the holographic keyboard.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous ne voyez pas le contact que vous recherchez, sélectionnez <bpt id="p1">**</bpt>Rechercher<ept id="p1">**</ept> pour afficher le clavier holographique.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>When you select a contact, you’ll see the following screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous sélectionnez un contact, vous voyez l'écran suivant.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source><bpt id="p1">![</bpt>Select a contact<ept id="p1">]</ept><bpt id="p2">(media/712a579fd6c37af3087cd31fd01bab74.png "</bpt>Select a contact<ept id="p2">")</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Sélectionner un contact<ept id="p1">]</ept><bpt id="p2">(media/712a579fd6c37af3087cd31fd01bab74.png "</bpt>Sélectionner un contact<ept id="p2">")</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Booking information is blurred out when you’re in a video call, but remains visible during an audio-only call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les informations de réservation sont floutées lorsque vous avez un appel vidéo en cours, mais restent visibles lors d'un appel vocal uniquement.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source>Open a Power BI dashboard from a Field Service booking</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ouvrir un tableau de bord Power BI depuis une réservation Field Service</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>Select a <ph id="ph1">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph> link to open <ph id="ph2">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph> Online in a browser or to open the <ph id="ph3">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph> desktop application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez un lien <ph id="ph1">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph> pour ouvrir <ph id="ph2">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph> en ligne dans un navigateur ou pour ouvrir l'application de bureau <ph id="ph3">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source>When you open a <ph id="ph1">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph> dashboard, <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> closes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lorsque vous ouvrez un tableau de bord <ph id="ph1">[!include[pn-power-bi](../includes/pn-power-bi.md)]</ph>, <ph id="ph2">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> se ferme.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>If you’re on a call with an expert, the expert will remain on the call.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous avez un appel en cours avec un expert, ce dernier demeure dans l'appel.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>Return to <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> by opening the application again through the applications menu or live cube.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Revenez à <ph id="ph1">[!include[pn-remote-assist](../includes/pn-remote-assist.md)]</ph> en rouvrant l'application via le menu des applications ou le cube dynamique.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>Modify the default booking view</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modifier la vue de réservation par défaut</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>To modify the default view of information in the <bpt id="p1">**</bpt>Booking<ept id="p1">**</ept> pane, <bpt id="p2">[</bpt>edit the view as you would any Dynamics 365 view<ept id="p2">](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour modifier la vue par défaut des informations dans le volet <bpt id="p1">**</bpt>Réservation<ept id="p1">**</ept>, <bpt id="p2">[</bpt>modifiez la vue comme vous le feriez avec n'importe quelle vue de Dynamics 365<ept id="p2">](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>See also</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voir aussi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source><bpt id="p1">[</bpt>Set up and use Microsoft Teams with Remote Assist<ept id="p1">](use-microsoft-teams-with-remote-assist.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Configurer et utiliser Microsoft Teams avec Remote Assist<ept id="p1">](use-microsoft-teams-with-remote-assist.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source><bpt id="p1">[</bpt>How-to videos<ept id="p1">](videos.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vidéos pratiques<ept id="p1">](videos.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source><bpt id="p1">[</bpt>FAQ<ept id="p1">](faq.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>FAQ<ept id="p1">](faq.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

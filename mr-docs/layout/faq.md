@@ -1,201 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="faq.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>faq.4a492c.d7b99194ab6351bb1ff4ed6fd1435e77ab4da1d5.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>d7b99194ab6351bb1ff4ed6fd1435e77ab4da1d5</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>a9ae3e613938a7c53b2de2ce787fae6a3499c9ae</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/21/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>mr-docs\layout\faq.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Answers to common questions about using Microsoft Dynamics 365 Layout</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Réponses aux questions fréquentes sur l'utilisation de Microsoft Dynamics 365 Layout</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Dynamics 365 Layout FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FAQ Dynamics 365 Layout</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Dynamics 365 Layout FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FAQ Dynamics 365 Layout</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Here are answers to common questions about using <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voici les réponses aux questions fréquentes sur l'utilisation de<ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Can I try Dynamics 365 Layout before buying it?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puis-je essayer Dynamics 365 Layout avant de l'acheter ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Yes, <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> is available as a trial for up to 90 days.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oui, <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> est disponible comme essai jusqu'à 90 jours.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>It's nearly effortless to install and try out the app.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L'installation de l'application pour l'essayer ne demande presqu'aucun effort.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source><bpt id="p1">[</bpt>Learn more about the free 90-day trial for Dynamics 365 Layout<ept id="p1">](try-layout-free.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur l'essai gratuit de Dynamics 365 Layout de 90 jours<ept id="p1">](try-layout-free.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Note that the 90-day trial is only available for users who haven't already purchased a subscription.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veuillez noter que l'essai de 90 jours est disponible uniquement pour les utilisateurs qui n'ont pas encore acheté un abonnement.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>How do I buy Dynamics 365 Layout?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comment acheter Dynamics 365 Layout ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>If you’re an IT admin, <bpt id="p1">[</bpt>learn how to buy and deploy the app<ept id="p1">](buy-and-deploy-layout.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous êtes un administrateur informatique, <bpt id="p1">[</bpt>découvrez comment acheter et déployer l'application<ept id="p1">](buy-and-deploy-layout.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>How can I tell which version I'm using?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comment indiquer la version que j'utilise ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>To see the version number for <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, go to <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept><ph id="ph2"> &gt; </ph><bpt id="p2">**</bpt>About<ept id="p2">**</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Pour consulter le numéro de version de <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, accédez à <bpt id="p1">**</bpt>Paramètres<ept id="p1">**</ept><ph id="ph2"> &gt; </ph><bpt id="p2">**</bpt>À propos de<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>To see the version number for <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph>, go to <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept>, and then look in the <bpt id="p2">**</bpt>About<ept id="p2">**</ept> section.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">Pour afficher le numéro de version de <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph>, accédez à <bpt id="p1">**</bpt>Paramètres<ept id="p1">**</ept>, puis consultez le dans la section <bpt id="p2">**</bpt>À propos de<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Do I need the Dynamics 365 Layout apps for both Microsoft HoloLens and Windows Mixed Reality immersive headsets?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ai-je besoin des applications Dynamics 365 Layout pour les casques immersifs Microsoft HoloLens et Windows Mixed Reality ?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>No, you can use each app separately, though they do work together as well.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Non, vous pouvez utiliser chaque application séparément, bien qu'elles fonctionnent également ensemble.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>If you want to copy 3D models or layouts from your PC to your <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or to <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality, you’ll need the <ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph4">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph>.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Si vous souhaitez copier des dispositions ou des modèles 3D de votre PC vers votre <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou vers <ph id="ph2">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality, vous avez besoin de <ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph4">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>What are the technical requirements for running the Dynamics 365 Layout apps?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Quels-sont les impératifs techniques pour exécuter les applications Dynamics 365 Layout ?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph>: Your headset must be running the <bpt id="p1">[</bpt>Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/12643)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> : votre casque doit exécuter la <bpt id="p1">[</bpt>Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/12643)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><ph id="ph1">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality: Your PC must be running the <bpt id="p1">[</bpt>Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/4028685)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Mixed Reality : votre PC doit exécuter la <bpt id="p1">[</bpt>Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/4028685)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>You’ll also need <bpt id="p1">[</bpt>Windows Mixed Reality motion controllers<ept id="p1">](https://support.microsoft.com/en-us/help/4040517)</ept> to use the app with your immersive headset.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous avez également besoin des <bpt id="p1">[</bpt>contrôleurs de mouvement Windows Mixed Reality<ept id="p1">](https://support.microsoft.com/en-us/help/4040517)</ept> pour utiliser l'application avec votre casque immersif.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>: Your PC must be running the <bpt id="p1">[</bpt>Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/4028685)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> : votre PC doit exécuter la <bpt id="p1">[</bpt>Windows 10 April 2018 Update<ept id="p1">](https://support.microsoft.com/en-us/help/4028685)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">[</bpt>Learn more about device options and technical requirements.<ept id="p1">](requirements.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur les options et les exigences techniques de l'appareil.<ept id="p1">](requirements.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Do I need an Azure Active Directory (Azure AD) account to use Dynamics 365 Layout?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ai-je besoin d'un compte Azure Active Directory (Azure AD) pour utiliser Dynamics 365 Layout ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Yes, if you’re the admin, you’ll need an <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD account to distribute the apps, and users of <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> and the <ph id="ph3">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> will need an <ph id="ph4">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD account to sign in to the apps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oui, si vous êtes l'administrateur, vous avez besoin d'un compte <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD pour répartir les applications, et les utilisateurs de <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> et de l'<ph id="ph3">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> auront besoin d'un compte <ph id="ph4">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD pour se connecter aux applications.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>How often is Dynamics 365 Layout updated?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">À quelle fréquence l'application Dynamics 365 Layout est-elle mise à jour ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> follows the Modern Lifecyle Policy with continuous service updates and major updates every 6 months (October/April).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> suit la Politique moderne en matière de cycle de vie avec des mises à jour continues de service et des mises à jour importantes tous les 6 mois (octobre/avril).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Can I use the HoloLens clicker with Dynamics 365 Layout?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puis-je utiliser le dispositif de clic HoloLens avec Dynamics 365 Layout ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>You can use the <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> clicker with <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> but it has limited functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez utiliser le dispositif de clic <ph id="ph1">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> avec <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph>, mais sa fonctionnalité est limitée.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>You can use the clicker to do menu selections and to scan a room, but you can't use it to manipulate objects.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez utiliser le dispositif de clic pour effectuer des sélections dans les menus et pour analyser une pièce, mais vous ne pouvez pas l'utiliser pour manipuler des objets.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Do I need to be connected to Wi-Fi to use Dynamics 365 Layout?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ai-je besoin d'être connecté au WiFi pour utiliser Dynamics 365 Layout ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>If you want to convert 3D models using the <ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, you’ll need a Wi-Fi connection if you use the cloud service option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous souhaitez convertir les modèles 3D en utilisant l'<ph id="ph1">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, vous aurez besoin d'une connexion Wi-Fi si vous utilisez l'option de service cloud.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>If you choose to convert files using the PC option, you don’t need a Wi-Fi connection.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous choisissez de convertir des fichiers avec l'option PC, vous n'avez pas besoin d'une connexion Wi-Fi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Can I change the unit of measure in Dynamics 365 Layout to metric?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puis-je modifier l'unité de mesure dans Dynamics 365 Layout sur métrique ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Yes, you can choose between U.S. and metric units from <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Measurements<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Unit of measure<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oui, vous pouvez choisir entre les unités américaines et les unités métriques dans <bpt id="p1">**</bpt>Paramètres<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Mesures<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Unité de mesure<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>What languages is Dynamics 365 Layout available in?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans quelles langues Dynamics 365 Layout est-elle disponible ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>At this time, <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, the <ph id="ph2">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph>, and the <ph id="ph3">[!include[pn-visio](../includes/pn-visio.md)]</ph> Add-in for <ph id="ph4">[!include[pn-layout](../includes/pn-layout.md)]</ph> are available only in English.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actuellement, <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, <ph id="ph2">[!include[pn-import-tool](../includes/pn-import-tool.md)]</ph> et le complément <ph id="ph3">[!include[pn-visio](../includes/pn-visio.md)]</ph> pour <ph id="ph4">[!include[pn-layout](../includes/pn-layout.md)]</ph> sont disponibles uniquement en anglais.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Additionally, to install the add-in, you’ll need to <bpt id="p1">[</bpt>set the display language for Microsoft Office to English<ept id="p1">](https://support.office.com/article/add-an-editing-language-or-set-language-preferences-in-office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En outre, pour installer le complément, vous avez besoin de <bpt id="p1">[</bpt>paramétrer la langue d'affichage pour Microsoft Office sur Anglais<ept id="p1">](https://support.office.com/article/add-an-editing-language-or-set-language-preferences-in-office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Where is Dynamics 365 Layout available?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Où Dynamics 365 Layout est-elle disponible ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> is available worldwide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> est disponible dans le monde entier.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> can be used with <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> or a Mixed Reality headset/motion controller and a <ph id="ph3">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Ultra PC.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> peut être utilisée avec <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> ou un contrôleur de mouvement/casque de réalité mixte et un PC <ph id="ph3">[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]</ph> Ultra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> devices are available in the following markets (English only):</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Les appareils <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-hololens](../includes/pn-hololens.md)]</ph> sont disponibles sur les marchés suivants (en anglais uniquement) :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Austria, Australia, Belgium, Bulgaria, Canada, China, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom, United States</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Autriche, Australie, Belgique, Bulgarie, Canada, Chine, Croatie, Chypre, République tchèque, Danemark, Estonie, Finlande, France, Allemagne, Grèce, Hongrie, Islande, Irlande, Italie, Japon, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne, Portugal, Roumanie, Slovaquie, Slovénie, Espagne, Suède, Suisse, Turquie, Royaume-Uni, États-Unis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>How do I import AutoCAD models?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comment importer des modèles AutoCAD ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>You can prepare your 3D models yourself using third-party conversion and optimization tools or you can use the <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> to send your models to <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> to convert and optimize.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Vous pouvez préparer vos modèles 3D vous-même en utilisant des outils tiers d'optimisation et de conversion ou bien vous pouvez utiliser l'<ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> pour envoyer vos modèles à <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> afin de les convertir et de les optimiser.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Whichever method you use, after converting and optimizing the models, you use the <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> to prepare them for mixed reality.</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Quelle que soit la méthode que vous utilisez, une fois la conversion et l'optimisation des modèles réalisées, vous utilisez l'<ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> pour les préparer à la réalité mixte.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source><bpt id="p1">[</bpt>Learn more about the Import Tool<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool)</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><bpt id="p1">[</bpt>En savoir plus sur l'Import Tool.<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>How does the Import Tool process my 3D models?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Comment l'Import Tool traite-t-il mes modèles 3D ?</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>If you send your model to <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> for conversion and optimization, it’s uploaded to a secure location.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match">Si vous envoyez votre modèle à <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> pour conversion et optimisation, il est téléchargé dans un emplacement sûr.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> prepares the model using a combination of automated and manual steps.</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match"><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> prépare le modèle à l'aide d'une combinaison d'étapes manuelles et automatisées.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> provides a download link when the model is ready.</source><target logoport:matchpercent="89" state="translated" state-qualifier="fuzzy-match"><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> fournit un lien de téléchargement lorsque le modèle est prêt.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>After you download it, your model is deleted from the secure storage area.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Une fois que vous l'avez téléchargé, votre modèle est supprimé de la zone de stockage sécurisée.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Still need help?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Besoin d'aide complémentaire ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Try our <bpt id="p1">[</bpt>user forums<ept id="p1">](https://community.dynamics.com/365/layout)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essayez nos <bpt id="p1">[</bpt>forums des utilisateurs<ept id="p1">](https://community.dynamics.com/365/layout)</ept>le.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>See also</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voir aussi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">[</bpt>Overview of Dynamics 365 Layout<ept id="p1">](index.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Présentation de Dynamics 365 Layout<ept id="p1">](index.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><bpt id="p1">[</bpt>Device options and technical requirements<ept id="p1">](requirements.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Options et exigences techniques de l'appareil<ept id="p1">](requirements.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">[</bpt>Use Dynamics 365 Layout on a trial basis for up to 90 days<ept id="p1">](try-layout-free.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Utiliser Dynamics 365 Layout à titre d'essai jusqu'à 90 jours<ept id="p1">](try-layout-free.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source><bpt id="p1">[</bpt>Buy and deploy Dynamics 365 Layout<ept id="p1">](buy-and-deploy-layout.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Acheter et déployer Dynamics 365 Layout<ept id="p1">](buy-and-deploy-layout.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source><bpt id="p1">[</bpt>User guide<ept id="p1">](user-guide.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Guide de l'utilisateur<ept id="p1">](user-guide.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source><bpt id="p1">[</bpt>How-to videos<ept id="p1">](videos.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vidéos pratiques<ept id="p1">](videos.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+author: ornellaalt
+description: Réponses aux questions fréquentes sur l'utilisation de Microsoft Dynamics 365 Layout
+ms.author: ornella
+ms.date: 05/15/2019
+ms.service: crm-online
+ms.topic: article
+title: FAQ Dynamics 365 Layout
+ms.reviewer: v-brycho
+ms.openlocfilehash: d7b99194ab6351bb1ff4ed6fd1435e77ab4da1d5
+ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593613"
+---
+# <a name="dynamics-365-layout-faq"></a><span data-ttu-id="63ea2-103">FAQ Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="63ea2-103">Dynamics 365 Layout FAQ</span></span>
+
+<span data-ttu-id="63ea2-104">Voici les réponses aux questions fréquentes sur l'utilisation de[!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="63ea2-104">Here are answers to common questions about using [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span></span>
+
+## <a name="can-i-try-dynamics-365-layout-before-buying-it"></a><span data-ttu-id="63ea2-105">Puis-je essayer Dynamics 365 Layout avant de l'acheter ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-105">Can I try Dynamics 365 Layout before buying it?</span></span>
+
+<span data-ttu-id="63ea2-106">Oui, [!include[pn-layout](../includes/pn-layout.md)] est disponible comme essai jusqu'à 90 jours.</span><span class="sxs-lookup"><span data-stu-id="63ea2-106">Yes, [!include[pn-layout](../includes/pn-layout.md)] is available as a trial for up to 90 days.</span></span> <span data-ttu-id="63ea2-107">L'installation de l'application pour l'essayer ne demande presqu'aucun effort.</span><span class="sxs-lookup"><span data-stu-id="63ea2-107">It's nearly effortless to install and try out the app.</span></span> <span data-ttu-id="63ea2-108">[En savoir plus sur l'essai gratuit de Dynamics 365 Layout de 90 jours](try-layout-free.md).</span><span class="sxs-lookup"><span data-stu-id="63ea2-108">[Learn more about the free 90-day trial for Dynamics 365 Layout](try-layout-free.md).</span></span> <span data-ttu-id="63ea2-109">Veuillez noter que l'essai de 90 jours est disponible uniquement pour les utilisateurs qui n'ont pas encore acheté un abonnement.</span><span class="sxs-lookup"><span data-stu-id="63ea2-109">Note that the 90-day trial is only available for users who haven't already purchased a subscription.</span></span> 
+
+## <a name="how-do-i-buy-dynamics-365-layout"></a><span data-ttu-id="63ea2-110">Comment acheter Dynamics 365 Layout ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-110">How do I buy Dynamics 365 Layout?</span></span>  
+
+<span data-ttu-id="63ea2-111">Si vous êtes un administrateur informatique, [découvrez comment acheter et déployer l'application](buy-and-deploy-layout.md).</span><span class="sxs-lookup"><span data-stu-id="63ea2-111">If you’re an IT admin, [learn how to buy and deploy the app](buy-and-deploy-layout.md).</span></span> 
+
+## <a name="how-can-i-tell-which-version-im-using"></a><span data-ttu-id="63ea2-112">Comment indiquer la version que j'utilise ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-112">How can I tell which version I'm using?</span></span>
+
+
+<span data-ttu-id="63ea2-113">Pour consulter le numéro de version de [!include[pn-layout](../includes/pn-layout.md)], accédez à **Paramètres** > **À propos de**.</span><span class="sxs-lookup"><span data-stu-id="63ea2-113">To see the version number for [!include[pn-layout](../includes/pn-layout.md)], go to **Settings** > **About**.</span></span>
+
+<span data-ttu-id="63ea2-114">Pour afficher le numéro de version de [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)], accédez à **Paramètres**, puis consultez le dans la section **À propos de**.</span><span class="sxs-lookup"><span data-stu-id="63ea2-114">To see the version number for [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)], go to **Settings**, and then look in the **About** section.</span></span>
+
+## <a name="do-i-need-the-dynamics-365-layout-apps-for-both-microsoft-hololens-and-windows-mixed-reality-immersive-headsets"></a><span data-ttu-id="63ea2-115">Ai-je besoin des applications Dynamics 365 Layout pour les casques immersifs Microsoft HoloLens et Windows Mixed Reality ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-115">Do I need the Dynamics 365 Layout apps for both Microsoft HoloLens and Windows Mixed Reality immersive headsets?</span></span>
+
+<span data-ttu-id="63ea2-116">Non, vous pouvez utiliser chaque application séparément, bien qu'elles fonctionnent également ensemble.</span><span class="sxs-lookup"><span data-stu-id="63ea2-116">No, you can use each app separately, though they do work together as well.</span></span> <span data-ttu-id="63ea2-117">Si vous souhaitez copier des dispositions ou des modèles 3D de votre PC vers votre [!include[pn-hololens](../includes/pn-hololens.md)] ou vers [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality, vous avez besoin de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)].</span><span class="sxs-lookup"><span data-stu-id="63ea2-117">If you want to copy 3D models or layouts from your PC to your [!include[pn-hololens](../includes/pn-hololens.md)] or to [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality, you’ll need the [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)].</span></span>
+
+
+## <a name="what-are-the-technical-requirements-for-running-the-dynamics-365-layout-apps"></a><span data-ttu-id="63ea2-118">Quels-sont les impératifs techniques pour exécuter les applications Dynamics 365 Layout ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-118">What are the technical requirements for running the Dynamics 365 Layout apps?</span></span>
+
+-   [!include[pn-hololens](../includes/pn-hololens.md)] <span data-ttu-id="63ea2-119">: votre casque doit exécuter la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643).</span><span class="sxs-lookup"><span data-stu-id="63ea2-119">: Your headset must be running the [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643).</span></span> 
+
+-   [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] <span data-ttu-id="63ea2-120">Mixed Reality : votre PC doit exécuter la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).</span><span class="sxs-lookup"><span data-stu-id="63ea2-120">Mixed Reality: Your PC must be running the [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).</span></span> <span data-ttu-id="63ea2-121">Vous avez également besoin des [contrôleurs de mouvement Windows Mixed Reality](https://support.microsoft.com/en-us/help/4040517) pour utiliser l'application avec votre casque immersif.</span><span class="sxs-lookup"><span data-stu-id="63ea2-121">You’ll also need [Windows Mixed Reality motion controllers](https://support.microsoft.com/en-us/help/4040517) to use the app with your immersive headset.</span></span>
+
+-   [!include[pn-import-tool](../includes/pn-import-tool.md)] <span data-ttu-id="63ea2-122">: votre PC doit exécuter la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).</span><span class="sxs-lookup"><span data-stu-id="63ea2-122">: Your PC must be running the [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).</span></span>
+
+[<span data-ttu-id="63ea2-123">En savoir plus sur les options et les exigences techniques de l'appareil.</span><span class="sxs-lookup"><span data-stu-id="63ea2-123">Learn more about device options and technical requirements.</span></span>](requirements.md)
+
+## <a name="do-i-need-an-azure-active-directory-azure-ad-account-to-use-dynamics-365-layout"></a><span data-ttu-id="63ea2-124">Ai-je besoin d'un compte Azure Active Directory (Azure AD) pour utiliser Dynamics 365 Layout ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-124">Do I need an Azure Active Directory (Azure AD) account to use Dynamics 365 Layout?</span></span>
+
+<span data-ttu-id="63ea2-125">Oui, si vous êtes l'administrateur, vous avez besoin d'un compte [!include[pn-azure](../includes/pn-azure.md)] AD pour répartir les applications, et les utilisateurs de [!include[pn-layout](../includes/pn-layout.md)] et de l'[!include[pn-import-tool](../includes/pn-import-tool.md)] auront besoin d'un compte [!include[pn-azure](../includes/pn-azure.md)] AD pour se connecter aux applications.</span><span class="sxs-lookup"><span data-stu-id="63ea2-125">Yes, if you’re the admin, you’ll need an [!include[pn-azure](../includes/pn-azure.md)] AD account to distribute the apps, and users of [!include[pn-layout](../includes/pn-layout.md)] and the [!include[pn-import-tool](../includes/pn-import-tool.md)] will need an [!include[pn-azure](../includes/pn-azure.md)] AD account to sign in to the apps.</span></span>
+
+## <a name="how-often-is-dynamics-365-layout-updated"></a><span data-ttu-id="63ea2-126">À quelle fréquence l'application Dynamics 365 Layout est-elle mise à jour ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-126">How often is Dynamics 365 Layout updated?</span></span>
+
+[!include[pn-layout](../includes/pn-layout.md)] <span data-ttu-id="63ea2-127">suit la Politique moderne en matière de cycle de vie avec des mises à jour continues de service et des mises à jour importantes tous les 6 mois (octobre/avril).</span><span class="sxs-lookup"><span data-stu-id="63ea2-127">follows the Modern Lifecyle Policy with continuous service updates and major updates every 6 months (October/April).</span></span> 
+
+
+## <a name="can-i-use-the-hololens-clicker-with-dynamics-365-layout"></a><span data-ttu-id="63ea2-128">Puis-je utiliser le dispositif de clic HoloLens avec Dynamics 365 Layout ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-128">Can I use the HoloLens clicker with Dynamics 365 Layout?</span></span>
+
+<span data-ttu-id="63ea2-129">Vous pouvez utiliser le dispositif de clic [!include[pn-hololens](../includes/pn-hololens.md)] avec [!include[pn-layout](../includes/pn-layout.md)], mais sa fonctionnalité est limitée.</span><span class="sxs-lookup"><span data-stu-id="63ea2-129">You can use the [!include[pn-hololens](../includes/pn-hololens.md)] clicker with [!include[pn-layout](../includes/pn-layout.md)] but it has limited functionality.</span></span> <span data-ttu-id="63ea2-130">Vous pouvez utiliser le dispositif de clic pour effectuer des sélections dans les menus et pour analyser une pièce, mais vous ne pouvez pas l'utiliser pour manipuler des objets.</span><span class="sxs-lookup"><span data-stu-id="63ea2-130">You can use the clicker to do menu selections and to scan a room, but you can't use it to manipulate objects.</span></span>
+
+## <a name="do-i-need-to-be-connected-to-wi-fi-to-use-dynamics-365-layout"></a><span data-ttu-id="63ea2-131">Ai-je besoin d'être connecté au WiFi pour utiliser Dynamics 365 Layout ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-131">Do I need to be connected to Wi-Fi to use Dynamics 365 Layout?</span></span>
+
+<span data-ttu-id="63ea2-132">Si vous souhaitez convertir les modèles 3D en utilisant l'[!include[pn-import-tool](../includes/pn-import-tool.md)], vous aurez besoin d'une connexion Wi-Fi si vous utilisez l'option de service cloud.</span><span class="sxs-lookup"><span data-stu-id="63ea2-132">If you want to convert 3D models using the [!include[pn-import-tool](../includes/pn-import-tool.md)], you’ll need a Wi-Fi connection if you use the cloud service option.</span></span> <span data-ttu-id="63ea2-133">Si vous choisissez de convertir des fichiers avec l'option PC, vous n'avez pas besoin d'une connexion Wi-Fi.</span><span class="sxs-lookup"><span data-stu-id="63ea2-133">If you choose to convert files using the PC option, you don’t need a Wi-Fi connection.</span></span>
+
+## <a name="can-i-change-the-unit-of-measure-in-dynamics-365-layout-to-metric"></a><span data-ttu-id="63ea2-134">Puis-je modifier l'unité de mesure dans Dynamics 365 Layout sur métrique ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-134">Can I change the unit of measure in Dynamics 365 Layout to metric?</span></span>
+
+<span data-ttu-id="63ea2-135">Oui, vous pouvez choisir entre les unités américaines et les unités métriques dans **Paramètres** \> **Mesures** \> **Unité de mesure**.</span><span class="sxs-lookup"><span data-stu-id="63ea2-135">Yes, you can choose between U.S. and metric units from **Settings** \> **Measurements** \> **Unit of measure**.</span></span>
+
+## <a name="what-languages-is-dynamics-365-layout-available-in"></a><span data-ttu-id="63ea2-136">Dans quelles langues Dynamics 365 Layout est-elle disponible ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-136">What languages is Dynamics 365 Layout available in?</span></span>
+
+<span data-ttu-id="63ea2-137">Actuellement, [!include[pn-layout](../includes/pn-layout.md)], [!include[pn-import-tool](../includes/pn-import-tool.md)] et le complément [!include[pn-visio](../includes/pn-visio.md)] pour [!include[pn-layout](../includes/pn-layout.md)] sont disponibles uniquement en anglais.</span><span class="sxs-lookup"><span data-stu-id="63ea2-137">At this time, [!include[pn-layout](../includes/pn-layout.md)], the [!include[pn-import-tool](../includes/pn-import-tool.md)], and the [!include[pn-visio](../includes/pn-visio.md)] Add-in for [!include[pn-layout](../includes/pn-layout.md)] are available only in English.</span></span> <span data-ttu-id="63ea2-138">En outre, pour installer le complément, vous avez besoin de [paramétrer la langue d'affichage pour Microsoft Office sur Anglais](https://support.office.com/article/add-an-editing-language-or-set-language-preferences-in-office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d).</span><span class="sxs-lookup"><span data-stu-id="63ea2-138">Additionally, to install the add-in, you’ll need to [set the display language for Microsoft Office to English](https://support.office.com/article/add-an-editing-language-or-set-language-preferences-in-office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d).</span></span>
+
+## <a name="where-is-dynamics-365-layout-available"></a><span data-ttu-id="63ea2-139">Où Dynamics 365 Layout est-elle disponible ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-139">Where is Dynamics 365 Layout available?</span></span>
+
+[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] <span data-ttu-id="63ea2-140">est disponible dans le monde entier.</span><span class="sxs-lookup"><span data-stu-id="63ea2-140">is available worldwide.</span></span> [!include[pn-layout](../includes/pn-layout.md)] <span data-ttu-id="63ea2-141">peut être utilisée avec [!include[pn-hololens](../includes/pn-hololens.md)] ou un contrôleur de mouvement/casque de réalité mixte et un PC [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Ultra.</span><span class="sxs-lookup"><span data-stu-id="63ea2-141">can be used with [!include[pn-hololens](../includes/pn-hololens.md)] or a Mixed Reality headset/motion controller and a [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Ultra PC.</span></span>
+
+<span data-ttu-id="63ea2-142">Les appareils [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] sont disponibles sur les marchés suivants (en anglais uniquement) :</span><span class="sxs-lookup"><span data-stu-id="63ea2-142">[!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] devices are available in the following markets (English only):</span></span>
+
+<span data-ttu-id="63ea2-143">Autriche, Australie, Belgique, Bulgarie, Canada, Chine, Croatie, Chypre, République tchèque, Danemark, Estonie, Finlande, France, Allemagne, Grèce, Hongrie, Islande, Irlande, Italie, Japon, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Pays-Bas, Nouvelle-Zélande, Norvège, Pologne, Portugal, Roumanie, Slovaquie, Slovénie, Espagne, Suède, Suisse, Turquie, Royaume-Uni, États-Unis</span><span class="sxs-lookup"><span data-stu-id="63ea2-143">Austria, Australia, Belgium, Bulgaria, Canada, China, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary Iceland, Ireland, Italy, Japan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom, United States</span></span>
+
+## <a name="how-do-i-import-autocad-models"></a><span data-ttu-id="63ea2-144">Comment importer des modèles AutoCAD ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-144">How do I import AutoCAD models?</span></span>
+
+
+<span data-ttu-id="63ea2-145">Vous pouvez préparer vos modèles 3D vous-même en utilisant des outils tiers d'optimisation et de conversion ou bien vous pouvez utiliser l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour envoyer vos modèles à [!include[cc-microsoft](../includes/cc-microsoft.md)] afin de les convertir et de les optimiser.</span><span class="sxs-lookup"><span data-stu-id="63ea2-145">You can prepare your 3D models yourself using third-party conversion and optimization tools or you can use the [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] to send your models to [!include[cc-microsoft](../includes/cc-microsoft.md)] to convert and optimize.</span></span> <span data-ttu-id="63ea2-146">Quelle que soit la méthode que vous utilisez, une fois la conversion et l'optimisation des modèles réalisées, vous utilisez l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour les préparer à la réalité mixte.</span><span class="sxs-lookup"><span data-stu-id="63ea2-146">Whichever method you use, after converting and optimizing the models, you use the [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] to prepare them for mixed reality.</span></span> <span data-ttu-id="63ea2-147">[En savoir plus sur l'Import Tool.](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool)</span><span class="sxs-lookup"><span data-stu-id="63ea2-147">[Learn more about the Import Tool](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool).</span></span>
+
+## <a name="how-does-the-import-tool-process-my-3d-models"></a><span data-ttu-id="63ea2-148">Comment l'Import Tool traite-t-il mes modèles 3D ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-148">How does the Import Tool process my 3D models?</span></span>
+
+<span data-ttu-id="63ea2-149">Si vous envoyez votre modèle à [!include[cc-microsoft](../includes/cc-microsoft.md)] pour conversion et optimisation, il est téléchargé dans un emplacement sûr.</span><span class="sxs-lookup"><span data-stu-id="63ea2-149">If you send your model to [!include[cc-microsoft](../includes/cc-microsoft.md)] for conversion and optimization, it’s uploaded to a secure location.</span></span> [!include[cc-microsoft](../includes/cc-microsoft.md)] <span data-ttu-id="63ea2-150">prépare le modèle à l'aide d'une combinaison d'étapes manuelles et automatisées.</span><span class="sxs-lookup"><span data-stu-id="63ea2-150">prepares the model using a combination of automated and manual steps.</span></span> [!include[cc-microsoft](../includes/cc-microsoft.md)] <span data-ttu-id="63ea2-151">fournit un lien de téléchargement lorsque le modèle est prêt.</span><span class="sxs-lookup"><span data-stu-id="63ea2-151">provides a download link when the model is ready.</span></span> <span data-ttu-id="63ea2-152">Une fois que vous l'avez téléchargé, votre modèle est supprimé de la zone de stockage sécurisée.</span><span class="sxs-lookup"><span data-stu-id="63ea2-152">After you download it, your model is deleted from the secure storage area.</span></span>
+
+
+<span data-ttu-id="63ea2-153">Besoin d'aide complémentaire ?</span><span class="sxs-lookup"><span data-stu-id="63ea2-153">Still need help?</span></span> <span data-ttu-id="63ea2-154">Essayez nos [forums des utilisateurs](https://community.dynamics.com/365/layout)le.</span><span class="sxs-lookup"><span data-stu-id="63ea2-154">Try our [user forums](https://community.dynamics.com/365/layout).</span></span>
+
+### <a name="see-also"></a><span data-ttu-id="63ea2-155">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="63ea2-155">See also</span></span>
+[<span data-ttu-id="63ea2-156">Présentation de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="63ea2-156">Overview of Dynamics 365 Layout</span></span>](index.md)<br/>
+[<span data-ttu-id="63ea2-157">Options et exigences techniques de l'appareil</span><span class="sxs-lookup"><span data-stu-id="63ea2-157">Device options and technical requirements</span></span>](requirements.md)<br/>
+[<span data-ttu-id="63ea2-158">Utiliser Dynamics 365 Layout à titre d'essai jusqu'à 90 jours</span><span class="sxs-lookup"><span data-stu-id="63ea2-158">Use Dynamics 365 Layout on a trial basis for up to 90 days</span></span>](try-layout-free.md)<br/>
+[<span data-ttu-id="63ea2-159">Acheter et déployer Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="63ea2-159">Buy and deploy Dynamics 365 Layout</span></span>](buy-and-deploy-layout.md)<br/>
+[<span data-ttu-id="63ea2-160">Guide de l'utilisateur</span><span class="sxs-lookup"><span data-stu-id="63ea2-160">User guide</span></span>](user-guide.md)<br/>
+[<span data-ttu-id="63ea2-161">Vidéos pratiques</span><span class="sxs-lookup"><span data-stu-id="63ea2-161">How-to videos</span></span>](videos.md)<br/>
+

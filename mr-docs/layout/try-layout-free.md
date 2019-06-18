@@ -1,84 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="try-layout-free.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>try-layout-free.69ecde.ceb59f45e35be02b1dd4aca405653d946585563a.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>ceb59f45e35be02b1dd4aca405653d946585563a</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>a9ae3e613938a7c53b2de2ce787fae6a3499c9ae</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/21/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>mr-docs\layout\try-layout-free.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Try Dynamics 365 Layout for free for up to 90 days.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Try Dynamics 365 Layout for free for up to 90 days.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Try Dynamics 365 Layout for free</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Essayez Dynamics 365 Layout gratuitement</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can try <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> for free for up to 90 days.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Vous pouvez essayer <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> gratuitement jusqu'à 90 jours.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Starting a 90-day trial is nearly effortless.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Démarrer un essai de 90 jours ne demande presqu'aucun effort.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Just install the <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> <ph id="ph2">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph> app from the <ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store, sign in with an <ph id="ph4">[!include[pn-azure](../includes/pn-azure.md)]</ph> Active Directory (<ph id="ph5">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD) account, and then start using the app without any obligation or restrictions.</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Il suffit d'installer l'application <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> <ph id="ph2">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph> à partir de <ph id="ph3">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store, de se connecter à un compte <ph id="ph4">[!include[pn-azure](../includes/pn-azure.md)]</ph> Active Directory (<ph id="ph5">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD), puis de commencer à utiliser l'application sans aucune obligation ou restriction.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>If you don't already have an <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD account, you'll be prompted to create a free account.</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">Si vous n'avez pas encore de compte <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD, vous serez invité à en créer un gratuitement.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>You can also try <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> on a trial basis for up to 90 days.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match">Vous pouvez également essayer <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> à titre d'essai jusqu'à 90 jours.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>You can use the <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> to prepare your 3D models for <ph id="ph2">[!include[pn-dyn-365](../includes/pn-dyn-365.md)]</ph> mixed reality applications.</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Vous pouvez utiliser <ph id="ph1">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> pour préparer vos modèles 3D pour les applications de réalité mixte <ph id="ph2">[!include[pn-dyn-365](../includes/pn-dyn-365.md)]</ph>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>If you subscribe to <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, you get the <ph id="ph2">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> as part of the <ph id="ph3">[!include[pn-layout](../includes/pn-layout.md)]</ph> subscription.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Si vous vous abonnez à <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, vous recevez <ph id="ph2">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> dans le cadre de l'abonnement <ph id="ph3">[!include[pn-layout](../includes/pn-layout.md)]</ph>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt>Learn more about trying the Dynamics 365 Import Tool (Preview) for up to 90 days<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/try-import-tool-free)</ept>.</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>En savoir plus sur l'essai de Dynamics 365 Import Tool (Aperçu) jusqu'à 90 jours<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/try-import-tool-free)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Install Dynamics 365 Layout and try it out for free</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Installer Dynamics 365 Layout et l'essayer gratuitement</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>On your <ph id="ph1">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph>, go to <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> <bpt id="p2">![</bpt>Start<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Start<ept id="p3">")</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt>Microsoft Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Sur votre <ph id="ph1">[!include[pn-HoloLens](../includes/pn-HoloLens.md)]</ph>, allez à <bpt id="p1">**</bpt>Démarrer<ept id="p1">**</ept> <bpt id="p2">![</bpt>Démarrer<ept id="p2">]</ept><bpt id="p3">(media/d2a2ae5e90bdd0e0642abb5458af1016.png "</bpt>Démarrer<ept id="p3">")</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt>Microsoft Store<ept id="p4">**</ept> <bpt id="p5">![</bpt>Microsoft Store<ept id="p5">]</ept><bpt id="p6">(media/2ac602b5a7855d312f3e7d924732acca.png "</bpt>Microsoft Store<ept id="p6">")</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Search for "<ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>"</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Recherchez « <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> »</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Download and install the app.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Téléchargez et installez l'application.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Start the app, and then sign in with an <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD account.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">Démarrez l'application, puis connectez-vous avec un compte <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>If you don't already have an <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD account, the app will prompt you to create a free account.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Si vous n'avez pas encore de compte <ph id="ph1">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD, l'application vous invitera à en créer un gratuitement.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Or you can <bpt id="p1">[</bpt>sign up for a free Azure AD account at this website<ept id="p1">](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Sinon, vous pouvez <bpt id="p1">[</bpt>vous inscrire pour un compte Azure AD gratuit sur ce site web<ept id="p1">](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>See also</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Voir aussi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Overview of Dynamics 365 Layout<ept id="p1">](index.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Présentation de Dynamics 365 Layout<ept id="p1">](index.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Dynamics 365 Layout User Guide<ept id="p1">](user-guide.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Guide de l'utilisateur de Dynamics 365 Layout<ept id="p1">](user-guide.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Buy and deploy Dynamics 365 Layout<ept id="p1">](buy-and-deploy-layout.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Acheter et déployer Dynamics 365 Layout<ept id="p1">](buy-and-deploy-layout.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+author: ornellaalt
+description: Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours.
+ms.author: ornella
+ms.date: 05/15/2019
+ms.service: crm-online
+ms.topic: article
+title: Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours.
+ms.reviewer: v-brycho
+ms.openlocfilehash: ceb59f45e35be02b1dd4aca405653d946585563a
+ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593548"
+---
+# <a name="try-dynamics-365-layout-for-free"></a><span data-ttu-id="24411-103">Essayez Dynamics 365 Layout gratuitement</span><span class="sxs-lookup"><span data-stu-id="24411-103">Try Dynamics 365 Layout for free</span></span>
+
+
+<span data-ttu-id="24411-104">Vous pouvez essayer [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-layout](../includes/pn-layout.md)] gratuitement jusqu'à 90 jours.</span><span class="sxs-lookup"><span data-stu-id="24411-104">You can try [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-layout](../includes/pn-layout.md)] for free for up to 90 days.</span></span> <span data-ttu-id="24411-105">Démarrer un essai de 90 jours ne demande presqu'aucun effort.</span><span class="sxs-lookup"><span data-stu-id="24411-105">Starting a 90-day trial is nearly effortless.</span></span> <span data-ttu-id="24411-106">Il suffit d'installer l'application [!include[pn-layout](../includes/pn-layout.md)] [!include[pn-HoloLens](../includes/pn-HoloLens.md)] à partir de [!include[cc-microsoft](../includes/cc-microsoft.md)] Store, de se connecter à un compte [!include[pn-azure](../includes/pn-azure.md)] Active Directory ([!include[pn-azure](../includes/pn-azure.md)] AD), puis de commencer à utiliser l'application sans aucune obligation ou restriction.</span><span class="sxs-lookup"><span data-stu-id="24411-106">Just install the [!include[pn-layout](../includes/pn-layout.md)] [!include[pn-HoloLens](../includes/pn-HoloLens.md)] app from the [!include[cc-microsoft](../includes/cc-microsoft.md)] Store, sign in with an [!include[pn-azure](../includes/pn-azure.md)] Active Directory ([!include[pn-azure](../includes/pn-azure.md)] AD) account, and then start using the app without any obligation or restrictions.</span></span> <span data-ttu-id="24411-107">Si vous n'avez pas encore de compte [!include[pn-azure](../includes/pn-azure.md)] AD, vous serez invité à en créer un gratuitement.</span><span class="sxs-lookup"><span data-stu-id="24411-107">If you don't already have an [!include[pn-azure](../includes/pn-azure.md)] AD account, you'll be prompted to create a free account.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="24411-108">Vous pouvez également essayer [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] à titre d'essai jusqu'à 90 jours.</span><span class="sxs-lookup"><span data-stu-id="24411-108">You can also try [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] on a trial basis for up to 90 days.</span></span> <span data-ttu-id="24411-109">Vous pouvez utiliser [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour préparer vos modèles 3D pour les applications de réalité mixte [!include[pn-dyn-365](../includes/pn-dyn-365.md)].</span><span class="sxs-lookup"><span data-stu-id="24411-109">You can use the [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] to prepare your 3D models for [!include[pn-dyn-365](../includes/pn-dyn-365.md)] mixed reality applications.</span></span> <span data-ttu-id="24411-110">Si vous vous abonnez à [!include[pn-layout](../includes/pn-layout.md)], vous recevez [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] dans le cadre de l'abonnement [!include[pn-layout](../includes/pn-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="24411-110">If you subscribe to [!include[pn-layout](../includes/pn-layout.md)], you get the [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] as part of the [!include[pn-layout](../includes/pn-layout.md)] subscription.</span></span> <span data-ttu-id="24411-111">[En savoir plus sur l'essai de Dynamics 365 Import Tool (Aperçu) jusqu'à 90 jours](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/try-import-tool-free).</span><span class="sxs-lookup"><span data-stu-id="24411-111">[Learn more about trying the Dynamics 365 Import Tool (Preview) for up to 90 days](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/try-import-tool-free).</span></span>
+
+## <a name="install-dynamics-365-layout-and-try-it-out-for-free"></a><span data-ttu-id="24411-112">Installer Dynamics 365 Layout et l'essayer gratuitement</span><span class="sxs-lookup"><span data-stu-id="24411-112">Install Dynamics 365 Layout and try it out for free</span></span>
+
+
+1. <span data-ttu-id="24411-113">Sur votre [!include[pn-HoloLens](../includes/pn-HoloLens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Microsoft Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store").</span><span class="sxs-lookup"><span data-stu-id="24411-113">On your [!include[pn-HoloLens](../includes/pn-HoloLens.md)], go to **Start** ![Start](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Start") \> **Microsoft Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store").</span></span>
+
+2. <span data-ttu-id="24411-114">Recherchez « [!include[pn-layout](../includes/pn-layout.md)] »</span><span class="sxs-lookup"><span data-stu-id="24411-114">Search for "[!include[pn-layout](../includes/pn-layout.md)]"</span></span>
+
+3. <span data-ttu-id="24411-115">Téléchargez et installez l'application.</span><span class="sxs-lookup"><span data-stu-id="24411-115">Download and install the app.</span></span>
+
+4. <span data-ttu-id="24411-116">Démarrez l'application, puis connectez-vous avec un compte [!include[pn-azure](../includes/pn-azure.md)] AD.</span><span class="sxs-lookup"><span data-stu-id="24411-116">Start the app, and then sign in with an [!include[pn-azure](../includes/pn-azure.md)] AD account.</span></span> <span data-ttu-id="24411-117">Si vous n'avez pas encore de compte [!include[pn-azure](../includes/pn-azure.md)] AD, l'application vous invitera à en créer un gratuitement.</span><span class="sxs-lookup"><span data-stu-id="24411-117">If you don't already have an [!include[pn-azure](../includes/pn-azure.md)] AD account, the app will prompt you to create a free account.</span></span> <span data-ttu-id="24411-118">Sinon, vous pouvez [vous inscrire pour un compte Azure AD gratuit sur ce site web](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant).</span><span class="sxs-lookup"><span data-stu-id="24411-118">Or you can [sign up for a free Azure AD account at this website](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-access-create-new-tenant).</span></span> 
+
+### <a name="see-also"></a><span data-ttu-id="24411-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="24411-119">See also</span></span>
+
+[<span data-ttu-id="24411-120">Présentation de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="24411-120">Overview of Dynamics 365 Layout</span></span>](index.md)<br>
+[<span data-ttu-id="24411-121">Guide de l'utilisateur de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="24411-121">Dynamics 365 Layout User Guide</span></span>](user-guide.md)<br>
+[<span data-ttu-id="24411-122">Acheter et déployer Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="24411-122">Buy and deploy Dynamics 365 Layout</span></span>](buy-and-deploy-layout.md)

@@ -1,213 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="buy-and-deploy-layout.md" target-language="fr-FR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>buy-and-deploy-layout.e9bb02.b6c4ac19f3f1f91267feaf3d1d6a9ec0ef0c7d3c.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>b6c4ac19f3f1f91267feaf3d1d6a9ec0ef0c7d3c</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>a9ae3e613938a7c53b2de2ce787fae6a3499c9ae</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/21/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>mr-docs\layout\buy-and-deploy-layout.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Learn how to buy Dynamics 365 Layout, add users to the subscription, and deploy the app to users in several different ways</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Découvrez comment acheter Dynamics 365 Layout, ajouter des utilisateurs à l'abonnement et déployer l'application pour des utilisateurs de plusieurs manières</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Buy and deploy Dynamics 365 Layout</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Acheter et déployer Dynamics 365 Layout</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Buy and deploy Dynamics 365 Layout</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Acheter et déployer Dynamics 365 Layout</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>With <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> you can bridge the gap between the real and digital worlds to complete crucial tasks faster, safer, and more efficiently, and create new ways to connect with customers and partners.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avec <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, vous pouvez établir le lien entre les mondes réel et numérique pour effectuer des tâches cruciales plus rapidement, plus sûrement et plus efficacement, et créer de nouvelles manières de se connecter à des clients et des partenaires.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Subscribe to Dynamics 365 Layout</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">S'abonner à Dynamics 365 Layout</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Did you know you can try <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> for free for up to 90 days?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saviez-vous que vous pouvez essayer <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> gratuitement jusqu'à 90 jours ?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source><bpt id="p1">[</bpt>Learn more about the free 90-day trial<ept id="p1">](try-layout-free.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>En savoir plus sur l'essai gratuit de 90 jours<ept id="p1">](try-layout-free.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>You can subscribe to <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> in any of the following ways:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vous pouvez vous abonner à <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> de n'importe laquelle des façons suivantes :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Contact a <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> representative by:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contactez un représentant <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> comme suit :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Calling us at 1-888-477-7989.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En nous appelant au 1-888-477-7989.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Requesting to be contacted at <ph id="ph1">http://aka.ms/getLayout</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En demandant à être contacté via <ph id="ph1">http://aka.ms/getLayout</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Through the <bpt id="p1">[</bpt>Microsoft 365 Admin Center<ept id="p1">](https://admin.microsoft.com/AdminPortal/Home#/catalog)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Via le <bpt id="p1">[</bpt>Centre d'administration Microsoft 365<ept id="p1">](https://admin.microsoft.com/AdminPortal/Home#/catalog)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Step-by-step instructions for signing in to the <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph> and subscribing are provided in the next section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Des instructions détaillées pour se connecter au <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph> et s'abonner sont fournies dans la section suivante.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Through <bpt id="p1">[</bpt>Enterprise agreements (Volume Licensing Portal)<ept id="p1">](https://www.microsoft.com/licensing/servicecenter/default.aspx)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Par le biais des <bpt id="p1">[</bpt>contrats Entreprise (portail de licence en volume)<ept id="p1">](https://www.microsoft.com/licensing/servicecenter/default.aspx)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Through <bpt id="p1">[</bpt>Cloud Service Provider (Partner Center Portal)<ept id="p1">](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner)</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Par le biais du <bpt id="p1">[</bpt>fournisseur de services cloud (portail de l'Espace partenaires)<ept id="p1">](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>When you subscribe to <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, you also get the <ph id="ph2">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> as part of the <ph id="ph3">[!include[pn-layout](../includes/pn-layout.md)]</ph> subscription.</source><target logoport:matchpercent="89" state="translated" state-qualifier="fuzzy-match">Lorsque vous vous abonnez à <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph>, vous recevez également <ph id="ph2">[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]</ph> dans le cadre de l'abonnement à <ph id="ph3">[!include[pn-layout](../includes/pn-layout.md)]</ph>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Subscribe through the Microsoft 365 Admin Center</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">S'abonner via le Centre d'administration Microsoft 365</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go to <ph id="ph1">https://admin.microsoft.com/AdminPortal/Home#/catalog</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à <ph id="ph1">https://admin.microsoft.com/AdminPortal/Home#/catalog</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">![</bpt>Admin center<ept id="p1">]</ept><bpt id="p2">(../media/AdminCenter.png "</bpt>Admin Center<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Centre d'administration<ept id="p1">]</ept><bpt id="p2">(../media/AdminCenter.png "</bpt>Centre d'administration<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Sign in under your company's admin account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Connectez-vous sous le compte Administrateur de votre société.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>If you don't know who your admin is, contact the IT help desk at your company to find out. <bpt id="p1">[</bpt>Get more advice on admin accounts<ept id="p1">](https://support.office.com/en-us/article/office-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870?ui=en-US&amp;rs=en-US&amp;ad=US)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous ne savez pas qui est votre administrateur, contactez le support technique informatique de votre société pour le découvrir. <bpt id="p1">[</bpt>Obtenez davantage d'informations sur les comptes Administrateur<ept id="p1">](https://support.office.com/en-us/article/office-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870?ui=en-US&amp;rs=en-US&amp;ad=US)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Under <bpt id="p1">**</bpt>Billing<ept id="p1">**</ept> in the left navigation, select <bpt id="p2">**</bpt>Purchase services<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sous <bpt id="p1">**</bpt>Facturation<ept id="p1">**</ept> dans le volet gauche de navigation, sélectionnez <bpt id="p2">**</bpt>Acheter des services<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Scroll down to the <bpt id="p1">**</bpt>Other plans<ept id="p1">**</ept> section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Faites défiler la liste jusqu'à la section <bpt id="p1">**</bpt>Autres offres<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">![</bpt>Other plans<ept id="p1">]</ept><bpt id="p2">(../media/OtherPlans.PNG "</bpt>Select Other plans<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Autres offres<ept id="p1">]</ept><bpt id="p2">(../media/OtherPlans.PNG "</bpt>Sélectionnez Autres offres<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Find the product card for <ph id="ph1">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recherchez la carte de produit pour <ph id="ph1">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">![</bpt>Layout product card<ept id="p1">]</ept><bpt id="p2">(../media/ProductCard.PNG "</bpt>Layout product card<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Carte de produit pour Layout<ept id="p1">]</ept><bpt id="p2">(../media/ProductCard.PNG "</bpt>Carte de produit pour Layout<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>To subscribe, select <bpt id="p1">**</bpt>Buy now<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pour s'abonner, sélectionnez <bpt id="p1">**</bpt>Acheter maintenant<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>If you're not ready to buy yet, you can sign up for a free 30-day trial on your organization's tenant by selecting <bpt id="p1">**</bpt>Start free trial<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous n'êtes pas encore prêt à acheter, vous pouvez vous inscrire pour un essai gratuit de 30 jours sur le tenant de votre organisation en sélectionnant <bpt id="p1">**</bpt>Démarrer l'essai gratuit<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Assign licenses to users as described in the next procedure.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attribuez des licences aux utilisateurs comme décrit dans la procédure suivante.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Assign licenses to users</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attribuer des licences aux utilisateurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>After subscribing (or signing up for a free 30-day trial), you’ll need to assign licenses to users in the <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph> or <bpt id="p1">[</bpt>Partner Center<ept id="p1">](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Après vous être abonné (ou inscrit pour un essai gratuit de 30 jours), vous devrez affecter des licences aux utilisateurs dans le <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph> ou l'<bpt id="p1">[</bpt>Espace partenaires<ept id="p1">](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Each user you assign a license to will need an <ph id="ph1">[!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]</ph> (<ph id="ph2">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD) account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Chaque utilisateur auquel vous attribuez une licence aura besoin d'un compte <ph id="ph1">[!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)]</ph> (<ph id="ph2">[!include[pn-azure](../includes/pn-azure.md)]</ph> AD).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Assign a license to a user in the Microsoft 365 Admin Center</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Affecter une licence à un utilisateur dans le Centre d'administration Microsoft 365</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In the <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph>, under <bpt id="p1">**</bpt>Billing<ept id="p1">**</ept> in the left navigation, select <bpt id="p2">**</bpt>Subscriptions<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>Assign to users<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans le <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph>, sous <bpt id="p1">**</bpt>Facturation<ept id="p1">**</ept> dans le volet de gauche de navigation, sélectionnez <bpt id="p2">**</bpt>Abonnements<ept id="p2">**</ept>, puis <bpt id="p3">**</bpt>Attribuer aux utilisateurs<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source><bpt id="p1">![</bpt>Select Subscriptions<ept id="p1">]</ept><bpt id="p2">(../media/AssignUsers.PNG "</bpt>Select Subscriptions<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Sélectionnez les abonnements<ept id="p1">]</ept><bpt id="p2">(../media/AssignUsers.PNG "</bpt>Sélectionnez les abonnements<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Select the users you'd like to assign the trial or subscription to, and then in the <bpt id="p1">**</bpt>Bulk actions<ept id="p1">**</ept> menu on the right side of the screen, select <bpt id="p2">**</bpt>Edit product licenses<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez les utilisateurs auxquels vous souhaiteriez attribuer l'essai ou l'abonnement, puis dans le menu <bpt id="p1">**</bpt>Actions en bloc<ept id="p1">**</ept> à droite de l'écran, sélectionnez <bpt id="p2">**</bpt>Modifier les licences de produits<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">![</bpt>Edit product licenses<ept id="p1">]</ept><bpt id="p2">(../media/EditLicenses.PNG "</bpt>Edit product licenses<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Modifier les licences de produits<ept id="p1">]</ept><bpt id="p2">(../media/EditLicenses.PNG "</bpt>Modifier les licences de produits<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In the <bpt id="p1">**</bpt>Assign products<ept id="p1">**</ept> screen, select the <bpt id="p2">**</bpt>Add to existing product license assignments<ept id="p2">**</ept> option, and then select <bpt id="p3">**</bpt>Next<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dans l'écran <bpt id="p1">**</bpt>Attribuer des produits<ept id="p1">**</ept>, sélectionnez l'option <bpt id="p2">**</bpt>Ajouter aux attributions de licence de produit existantes<ept id="p2">**</ept>, puis sélectionnez <bpt id="p3">**</bpt>Suivant<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">![</bpt>Add to existing product licenses<ept id="p1">]</ept><bpt id="p2">(../media/AddProductLicenses.png "</bpt>Add to existing product licenses<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Ajouter aux attributions de licence de produit existantes<ept id="p1">]</ept><bpt id="p2">(../media/AddProductLicenses.png "</bpt>Ajouter aux attributions de licence de produit existantes<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Select the licenses you want to enable for the selected users, and then select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sélectionnez les licences que vous souhaitez activer pour les utilisateurs sélectionnés, puis sélectionnez <bpt id="p1">**</bpt>Ajouter<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">![</bpt>Select product licenses<ept id="p1">]</ept><bpt id="p2">(../media/SelectLicenses.PNG "</bpt>Select product licenses<ept id="p2">")</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">![</bpt>Sélectionnez les licences de produits<ept id="p1">]</ept><bpt id="p2">(../media/SelectLicenses.PNG "</bpt>Sélectionnez les licences de produits<ept id="p2">")</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Make the Dynamics 365 Layout app available to your users</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mettez l'application Dynamics 365 Layout à la disposition de vos utilisateurs</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>After you’ve subscribed and assigned licenses to your users through the <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph> or Partner Center, you can make <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> available through one of the following:</source><target logoport:matchpercent="95" state="translated" state-qualifier="fuzzy-match">Après vous être abonné et avoir affecté des licences à vos utilisateurs par le biais du <ph id="ph1">[!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)]</ph> ou de l'Espace partenaires, vous pouvez mettre <ph id="ph2">[!include[pn-layout](../includes/pn-layout.md)]</ph> à disposition en procédant d'une des manières suivantes :</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store for Consumers</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store pour les consommateurs</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store for Business</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store pour Entreprises</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>If you use <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store for Business, you can have users install the app in any of the following ways:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si vous utilisez <ph id="ph1">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store pour Entreprises, vous pouvez demander à des utilisateurs de procéder à l'installation de l'application d'une des manières suivantes :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>From your organization’s private store</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Depuis le magasin privé de votre organisation</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>From an email link that you send</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Via un lien de courrier électronique que vous envoyez</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Through mobile device management (MDM)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Via la gestion des périphériques mobiles (GPM)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Install Dynamics 365 Layout from Microsoft Store for Consumers</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Installez Dynamics 365 Layout de magasin de Microsoft Store pour les consommateurs</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>For information on installing <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> from the <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store for Consumers, see the <bpt id="p1">[</bpt>Dynamics 365 Layout user guide<ept id="p1">](../layout/user-guide.md)</ept>.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match">Pour plus d'informations sur l'installation de <ph id="ph1">[!include[pn-layout](../includes/pn-layout.md)]</ph> depuis <ph id="ph2">[!include[cc-microsoft](../includes/cc-microsoft.md)]</ph> Store pour les consommateurs, consultez le <bpt id="p1">[</bpt>guide de l'utilisateur Dynamics 365 Layout<ept id="p1">](../layout/user-guide.md)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Users will need to install both <ph id="ph1">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph> and the <bpt id="p1">[</bpt>Dynamics 365 Import Tool (Preview)<ept id="p1">](../layout/user-guide.md)</ept>.</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Les utilisateurs devront installer à la fois <ph id="ph1">[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]</ph> et <bpt id="p1">[</bpt>Dynamics 365 Import Tool (Aperçu)<ept id="p1">](../layout/user-guide.md)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>When users launch Dynamics 365 Layout, they’ll need to use the same Azure AD account that the admin assigned in the Microsoft 365 admin center.</source><target logoport:matchpercent="93" state="translated" state-qualifier="fuzzy-match">Lorsque les utilisateurs lancent Dynamics 365 Layout, ils doivent utiliser le même compte Azure AD que celui affecté par l'administrateur dans le Centre d'administration Microsoft 365.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Dynamics 365 Layout requires users to be online once every 30 days to validate their subscription.</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match">Dynamics 365 Layout demande aux utilisateurs d'être en ligne tous les 30 jours pour valider leur abonnement.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Distribute the app through Microsoft Store for Business</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Répartir l'application par le biais de Microsoft Store pour Entreprises</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Go to <bpt id="p1">[</bpt>Microsoft Store for Business<ept id="p1">](https://businessstore.microsoft.com/en-us/store)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allez à <bpt id="p1">[</bpt>Microsoft Store pour Entreprises<ept id="p1">](https://businessstore.microsoft.com/en-us/store)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><bpt id="p1">[</bpt>Acquire the app<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/acquire-apps-microsoft-store-for-business)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Faites l'acquisition de l'application<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/acquire-apps-microsoft-store-for-business)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Choose one of the following distribution methods:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Choisissez une des méthodes de répartition suivantes :</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source><bpt id="p1">[</bpt>Private store<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Magasin privé<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source><bpt id="p1">[</bpt>Email link<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/assign-apps-to-employees)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Lien de courrier électronique<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/assign-apps-to-employees)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source><bpt id="p1">[</bpt>Mobile device management<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/configure-mdm-provider-microsoft-store-for-business)</ept></source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Gestion des périphériques mobiles<ept id="p1">](https://docs.microsoft.com/en-us/microsoft-store/configure-mdm-provider-microsoft-store-for-business)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>See also</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Voir aussi</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">[</bpt>Try Dynamics 365 Layout for free for up to 90 days<ept id="p1">](try-layout-free.md)</ept></source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><bpt id="p1">[</bpt>Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours<ept id="p1">](try-layout-free.md)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source><bpt id="p1">[</bpt>Overview of Dynamics 365 Layout<ept id="p1">](../layout/index.md)</ept></source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><bpt id="p1">[</bpt>Présentation de Dynamics 365 Layout<ept id="p1">](../layout/index.md)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">[</bpt>Dynamics 365 Layout user guide<ept id="p1">](../layout/user-guide.md)</ept></source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">[</bpt>Guide de l'utilisateur de Dynamics 365 Layout<ept id="p1">](../layout/user-guide.md)</ept></target>
-        </trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+author: ornellaalt
+description: Découvrez comment acheter Dynamics 365 Layout, ajouter des utilisateurs à l'abonnement et déployer l'application pour des utilisateurs de plusieurs manières
+ms.author: ornella
+ms.date: 05/15/2019
+ms.service: crm-online
+ms.topic: article
+title: Acheter et déployer Dynamics 365 Layout
+ms.reviewer: v-brycho
+ms.openlocfilehash: b6c4ac19f3f1f91267feaf3d1d6a9ec0ef0c7d3c
+ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593598"
+---
+# <a name="buy-and-deploy-dynamics-365-layout"></a><span data-ttu-id="43571-103">Acheter et déployer Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="43571-103">Buy and deploy Dynamics 365 Layout</span></span>
+
+<span data-ttu-id="43571-104">Avec [!include[pn-layout](../includes/pn-layout.md)], vous pouvez établir le lien entre les mondes réel et numérique pour effectuer des tâches cruciales plus rapidement, plus sûrement et plus efficacement, et créer de nouvelles manières de se connecter à des clients et des partenaires.</span><span class="sxs-lookup"><span data-stu-id="43571-104">With [!include[pn-layout](../includes/pn-layout.md)] you can bridge the gap between the real and digital worlds to complete crucial tasks faster, safer, and more efficiently, and create new ways to connect with customers and partners.</span></span>
+
+## <a name="subscribe-to-dynamics-365-layout"></a><span data-ttu-id="43571-105">S'abonner à Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="43571-105">Subscribe to Dynamics 365 Layout</span></span>
+
+> [!TIP]
+> <span data-ttu-id="43571-106">Saviez-vous que vous pouvez essayer [!include[pn-layout](../includes/pn-layout.md)] gratuitement jusqu'à 90 jours ?</span><span class="sxs-lookup"><span data-stu-id="43571-106">Did you know you can try [!include[pn-layout](../includes/pn-layout.md)] for free for up to 90 days?</span></span> <span data-ttu-id="43571-107">[En savoir plus sur l'essai gratuit de 90 jours](try-layout-free.md).</span><span class="sxs-lookup"><span data-stu-id="43571-107">[Learn more about the free 90-day trial](try-layout-free.md).</span></span>
+
+<span data-ttu-id="43571-108">Vous pouvez vous abonner à [!include[pn-layout](../includes/pn-layout.md)] de n'importe laquelle des façons suivantes :</span><span class="sxs-lookup"><span data-stu-id="43571-108">You can subscribe to [!include[pn-layout](../includes/pn-layout.md)] in any of the following ways:</span></span>
+
+-   <span data-ttu-id="43571-109">Contactez un représentant [!include[cc-microsoft](../includes/cc-microsoft.md)] comme suit :</span><span class="sxs-lookup"><span data-stu-id="43571-109">Contact a [!include[cc-microsoft](../includes/cc-microsoft.md)] representative by:</span></span> 
+
+    - <span data-ttu-id="43571-110">En nous appelant au 1-888-477-7989.</span><span class="sxs-lookup"><span data-stu-id="43571-110">Calling us at 1-888-477-7989.</span></span>
+    - <span data-ttu-id="43571-111">En demandant à être contacté via http://aka.ms/getLayout.</span><span class="sxs-lookup"><span data-stu-id="43571-111">Requesting to be contacted at http://aka.ms/getLayout.</span></span>
+
+    
+-   <span data-ttu-id="43571-112">Via le [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/catalog).</span><span class="sxs-lookup"><span data-stu-id="43571-112">Through the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal/Home#/catalog).</span></span> <span data-ttu-id="43571-113">Des instructions détaillées pour se connecter au [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] et s'abonner sont fournies dans la section suivante.</span><span class="sxs-lookup"><span data-stu-id="43571-113">Step-by-step instructions for signing in to the [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] and subscribing are provided in the next section.</span></span>
+
+-   <span data-ttu-id="43571-114">Par le biais des [contrats Entreprise (portail de licence en volume)](https://www.microsoft.com/licensing/servicecenter/default.aspx).</span><span class="sxs-lookup"><span data-stu-id="43571-114">Through [Enterprise agreements (Volume Licensing Portal)](https://www.microsoft.com/licensing/servicecenter/default.aspx).</span></span>
+
+-   <span data-ttu-id="43571-115">Par le biais du [fournisseur de services cloud (portail de l'Espace partenaires)](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner).</span><span class="sxs-lookup"><span data-stu-id="43571-115">Through [Cloud Service Provider (Partner Center Portal)](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner).</span></span>
+
+<span data-ttu-id="43571-116">Lorsque vous vous abonnez à [!include[pn-layout](../includes/pn-layout.md)], vous recevez également [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] dans le cadre de l'abonnement à [!include[pn-layout](../includes/pn-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="43571-116">When you subscribe to [!include[pn-layout](../includes/pn-layout.md)], you also get the [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] as part of the [!include[pn-layout](../includes/pn-layout.md)] subscription.</span></span>
+
+## <a name="subscribe-through-the-microsoft-365-admin-center"></a><span data-ttu-id="43571-117">S'abonner via le Centre d'administration Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="43571-117">Subscribe through the Microsoft 365 Admin Center</span></span>
+
+1. <span data-ttu-id="43571-118">Allez à https://admin.microsoft.com/AdminPortal/Home#/catalog.</span><span class="sxs-lookup"><span data-stu-id="43571-118">Go to https://admin.microsoft.com/AdminPortal/Home#/catalog.</span></span>
+
+   <span data-ttu-id="43571-119">![Centre d'administration](../media/AdminCenter.png "Centre d'administration")</span><span class="sxs-lookup"><span data-stu-id="43571-119">![Admin center](../media/AdminCenter.png "Admin Center")</span></span>
+
+2. <span data-ttu-id="43571-120">Connectez-vous sous le compte Administrateur de votre société.</span><span class="sxs-lookup"><span data-stu-id="43571-120">Sign in under your company's admin account.</span></span>
+
+3. <span data-ttu-id="43571-121">Si vous ne savez pas qui est votre administrateur, contactez le support technique informatique de votre société pour le découvrir. [Obtenez davantage d'informations sur les comptes Administrateur](https://support.office.com/en-us/article/office-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870?ui=en-US&rs=en-US&ad=US).</span><span class="sxs-lookup"><span data-stu-id="43571-121">If you don't know who your admin is, contact the IT help desk at your company to find out. [Get more advice on admin accounts](https://support.office.com/en-us/article/office-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870?ui=en-US&rs=en-US&ad=US).</span></span>
+
+4. <span data-ttu-id="43571-122">Sous **Facturation** dans le volet gauche de navigation, sélectionnez **Acheter des services**.</span><span class="sxs-lookup"><span data-stu-id="43571-122">Under **Billing** in the left navigation, select **Purchase services**.</span></span>
+   
+5. <span data-ttu-id="43571-123">Faites défiler la liste jusqu'à la section **Autres offres**.</span><span class="sxs-lookup"><span data-stu-id="43571-123">Scroll down to the **Other plans** section.</span></span>
+
+   <span data-ttu-id="43571-124">![Autres offres](../media/OtherPlans.PNG "Sélectionnez Autres offres")</span><span class="sxs-lookup"><span data-stu-id="43571-124">![Other plans](../media/OtherPlans.PNG "Select Other plans")</span></span>
+   
+6. <span data-ttu-id="43571-125">Recherchez la carte de produit pour [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="43571-125">Find the product card for [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span></span>
+
+   <span data-ttu-id="43571-126">![Carte de produit pour Layout](../media/ProductCard.PNG "Carte de produit pour Layout")</span><span class="sxs-lookup"><span data-stu-id="43571-126">![Layout product card](../media/ProductCard.PNG "Layout product card")</span></span>
+   
+7. <span data-ttu-id="43571-127">Pour s'abonner, sélectionnez **Acheter maintenant**.</span><span class="sxs-lookup"><span data-stu-id="43571-127">To subscribe, select **Buy now**.</span></span>
+
+   > [!NOTE]
+   > <span data-ttu-id="43571-128">Si vous n'êtes pas encore prêt à acheter, vous pouvez vous inscrire pour un essai gratuit de 30 jours sur le tenant de votre organisation en sélectionnant **Démarrer l'essai gratuit**.</span><span class="sxs-lookup"><span data-stu-id="43571-128">If you're not ready to buy yet, you can sign up for a free 30-day trial on your organization's tenant by selecting **Start free trial**.</span></span>  
+   
+8. <span data-ttu-id="43571-129">Attribuez des licences aux utilisateurs comme décrit dans la procédure suivante.</span><span class="sxs-lookup"><span data-stu-id="43571-129">Assign licenses to users as described in the next procedure.</span></span>
+
+## <a name="assign-licenses-to-users"></a><span data-ttu-id="43571-130">Attribuer des licences aux utilisateurs</span><span class="sxs-lookup"><span data-stu-id="43571-130">Assign licenses to users</span></span>
+
+<span data-ttu-id="43571-131">Après vous être abonné (ou inscrit pour un essai gratuit de 30 jours), vous devrez affecter des licences aux utilisateurs dans le [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] ou l'[Espace partenaires](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner).</span><span class="sxs-lookup"><span data-stu-id="43571-131">After subscribing (or signing up for a free 30-day trial), you’ll need to assign licenses to users in the [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] or [Partner Center](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner).</span></span> <span data-ttu-id="43571-132">Chaque utilisateur auquel vous attribuez une licence aura besoin d'un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD).</span><span class="sxs-lookup"><span data-stu-id="43571-132">Each user you assign a license to will need an [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD) account.</span></span>
+
+### <a name="assign-a-license-to-a-user-in-the-microsoft-365-admin-center"></a><span data-ttu-id="43571-133">Affecter une licence à un utilisateur dans le Centre d'administration Microsoft 365</span><span class="sxs-lookup"><span data-stu-id="43571-133">Assign a license to a user in the Microsoft 365 Admin Center</span></span>
+
+1. <span data-ttu-id="43571-134">Dans le [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)], sous **Facturation** dans le volet de gauche de navigation, sélectionnez **Abonnements**, puis **Attribuer aux utilisateurs**.</span><span class="sxs-lookup"><span data-stu-id="43571-134">In the [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)], under **Billing** in the left navigation, select **Subscriptions**, and then select **Assign to users**.</span></span>
+
+   <span data-ttu-id="43571-135">![Sélectionnez les abonnements](../media/AssignUsers.PNG "Sélectionnez les abonnements")</span><span class="sxs-lookup"><span data-stu-id="43571-135">![Select Subscriptions](../media/AssignUsers.PNG "Select Subscriptions")</span></span>
+   
+2. <span data-ttu-id="43571-136">Sélectionnez les utilisateurs auxquels vous souhaiteriez attribuer l'essai ou l'abonnement, puis dans le menu **Actions en bloc** à droite de l'écran, sélectionnez **Modifier les licences de produits**.</span><span class="sxs-lookup"><span data-stu-id="43571-136">Select the users you'd like to assign the trial or subscription to, and then in the **Bulk actions** menu on the right side of the screen, select **Edit product licenses**.</span></span> 
+
+   <span data-ttu-id="43571-137">![Modifier les licences de produits](../media/EditLicenses.PNG "Modifier les licences de produits")</span><span class="sxs-lookup"><span data-stu-id="43571-137">![Edit product licenses](../media/EditLicenses.PNG "Edit product licenses")</span></span>
+   
+3. <span data-ttu-id="43571-138">Dans l'écran **Attribuer des produits**, sélectionnez l'option **Ajouter aux attributions de licence de produit existantes**, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="43571-138">In the **Assign products** screen, select the **Add to existing product license assignments** option, and then select **Next**.</span></span>
+
+   <span data-ttu-id="43571-139">![Ajouter aux attributions de licence de produit existantes](../media/AddProductLicenses.png "Ajouter aux attributions de licence de produit existantes")</span><span class="sxs-lookup"><span data-stu-id="43571-139">![Add to existing product licenses](../media/AddProductLicenses.png "Add to existing product licenses")</span></span>
+   
+4. <span data-ttu-id="43571-140">Sélectionnez les licences que vous souhaitez activer pour les utilisateurs sélectionnés, puis sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="43571-140">Select the licenses you want to enable for the selected users, and then select **Add**.</span></span>
+
+   <span data-ttu-id="43571-141">![Sélectionnez les licences de produits](../media/SelectLicenses.PNG "Sélectionnez les licences de produits")</span><span class="sxs-lookup"><span data-stu-id="43571-141">![Select product licenses](../media/SelectLicenses.PNG "Select product licenses")</span></span>
+
+## <a name="make-the-dynamics-365-layout-app-available-to-your-users"></a><span data-ttu-id="43571-142">Mettez l'application Dynamics 365 Layout à la disposition de vos utilisateurs</span><span class="sxs-lookup"><span data-stu-id="43571-142">Make the Dynamics 365 Layout app available to your users</span></span>
+
+<span data-ttu-id="43571-143">Après vous être abonné et avoir affecté des licences à vos utilisateurs par le biais du [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] ou de l'Espace partenaires, vous pouvez mettre [!include[pn-layout](../includes/pn-layout.md)] à disposition en procédant d'une des manières suivantes :</span><span class="sxs-lookup"><span data-stu-id="43571-143">After you’ve subscribed and assigned licenses to your users through the [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] or Partner Center, you can make [!include[pn-layout](../includes/pn-layout.md)] available through one of the following:</span></span>
+
+-   [!include[cc-microsoft](../includes/cc-microsoft.md)] <span data-ttu-id="43571-144">Store pour les consommateurs</span><span class="sxs-lookup"><span data-stu-id="43571-144">Store for Consumers</span></span>
+
+-   [!include[cc-microsoft](../includes/cc-microsoft.md)] <span data-ttu-id="43571-145">Store pour Entreprises</span><span class="sxs-lookup"><span data-stu-id="43571-145">Store for Business</span></span>
+
+<span data-ttu-id="43571-146">Si vous utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour Entreprises, vous pouvez demander à des utilisateurs de procéder à l'installation de l'application d'une des manières suivantes :</span><span class="sxs-lookup"><span data-stu-id="43571-146">If you use [!include[cc-microsoft](../includes/cc-microsoft.md)] Store for Business, you can have users install the app in any of the following ways:</span></span>
+
+-   <span data-ttu-id="43571-147">Depuis le magasin privé de votre organisation</span><span class="sxs-lookup"><span data-stu-id="43571-147">From your organization’s private store</span></span>
+
+-   <span data-ttu-id="43571-148">Via un lien de courrier électronique que vous envoyez</span><span class="sxs-lookup"><span data-stu-id="43571-148">From an email link that you send</span></span>
+
+-   <span data-ttu-id="43571-149">Via la gestion des périphériques mobiles (GPM)</span><span class="sxs-lookup"><span data-stu-id="43571-149">Through mobile device management (MDM)</span></span>
+
+### <a name="install-dynamics-365-layout-from-microsoft-store-for-consumers"></a><span data-ttu-id="43571-150">Installez Dynamics 365 Layout de magasin de Microsoft Store pour les consommateurs</span><span class="sxs-lookup"><span data-stu-id="43571-150">Install Dynamics 365 Layout from Microsoft Store for Consumers</span></span>
+
+
+<span data-ttu-id="43571-151">Pour plus d'informations sur l'installation de [!include[pn-layout](../includes/pn-layout.md)] depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, consultez le [guide de l'utilisateur Dynamics 365 Layout](../layout/user-guide.md).</span><span class="sxs-lookup"><span data-stu-id="43571-151">For information on installing [!include[pn-layout](../includes/pn-layout.md)] from the [!include[cc-microsoft](../includes/cc-microsoft.md)] Store for Consumers, see the [Dynamics 365 Layout user guide](../layout/user-guide.md).</span></span> <span data-ttu-id="43571-152">Les utilisateurs devront installer à la fois [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] et [Dynamics 365 Import Tool (Aperçu)](../layout/user-guide.md).</span><span class="sxs-lookup"><span data-stu-id="43571-152">Users will need to install both [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] and the [Dynamics 365 Import Tool (Preview)](../layout/user-guide.md).</span></span>
+
+> [!NOTE]
+> <ul><li><span data-ttu-id="43571-153">Lorsque les utilisateurs lancent Dynamics 365 Layout, ils doivent utiliser le même compte Azure AD que celui affecté par l'administrateur dans le Centre d'administration Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="43571-153">When users launch Dynamics 365 Layout, they’ll need to use the same Azure AD account that the admin assigned in the Microsoft 365 admin center.</span></span></li>
+> <li><span data-ttu-id="43571-154">Dynamics 365 Layout demande aux utilisateurs d'être en ligne tous les 30 jours pour valider leur abonnement.</span><span class="sxs-lookup"><span data-stu-id="43571-154">Dynamics 365 Layout requires users to be online once every 30 days to validate their subscription.</span></span></li></ul>
+
+### <a name="distribute-the-app-through-microsoft-store-for-business"></a><span data-ttu-id="43571-155">Répartir l'application par le biais de Microsoft Store pour Entreprises</span><span class="sxs-lookup"><span data-stu-id="43571-155">Distribute the app through Microsoft Store for Business</span></span>
+
+1.  <span data-ttu-id="43571-156">Allez à [Microsoft Store pour Entreprises](https://businessstore.microsoft.com/en-us/store).</span><span class="sxs-lookup"><span data-stu-id="43571-156">Go to [Microsoft Store for Business](https://businessstore.microsoft.com/en-us/store).</span></span>
+
+2.  <span data-ttu-id="43571-157">[Faites l'acquisition de l'application](https://docs.microsoft.com/en-us/microsoft-store/acquire-apps-microsoft-store-for-business).</span><span class="sxs-lookup"><span data-stu-id="43571-157">[Acquire the app](https://docs.microsoft.com/en-us/microsoft-store/acquire-apps-microsoft-store-for-business).</span></span>
+
+3.  <span data-ttu-id="43571-158">Choisissez une des méthodes de répartition suivantes :</span><span class="sxs-lookup"><span data-stu-id="43571-158">Choose one of the following distribution methods:</span></span>
+
+    -   [<span data-ttu-id="43571-159">Magasin privé</span><span class="sxs-lookup"><span data-stu-id="43571-159">Private store</span></span>](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store)
+    -   [<span data-ttu-id="43571-160">Lien de courrier électronique</span><span class="sxs-lookup"><span data-stu-id="43571-160">Email link</span></span>](https://docs.microsoft.com/en-us/microsoft-store/assign-apps-to-employees)
+    -   [<span data-ttu-id="43571-161">Gestion des périphériques mobiles</span><span class="sxs-lookup"><span data-stu-id="43571-161">Mobile device management</span></span>](https://docs.microsoft.com/en-us/microsoft-store/configure-mdm-provider-microsoft-store-for-business)
+
+### <a name="see-also"></a><span data-ttu-id="43571-162">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="43571-162">See also</span></span>
+[<span data-ttu-id="43571-163">Essayez Dynamics 365 Layout gratuitement jusqu'à 90 jours</span><span class="sxs-lookup"><span data-stu-id="43571-163">Try Dynamics 365 Layout for free for up to 90 days</span></span>](try-layout-free.md)<br/>
+[<span data-ttu-id="43571-164">Présentation de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="43571-164">Overview of Dynamics 365 Layout</span></span>](../layout/index.md)<br/>
+[<span data-ttu-id="43571-165">Guide de l'utilisateur de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="43571-165">Dynamics 365 Layout user guide</span></span>](../layout/user-guide.md)<br/>
+

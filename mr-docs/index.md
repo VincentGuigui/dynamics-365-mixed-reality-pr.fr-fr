@@ -34,15 +34,15 @@ ms.locfileid: "1593030"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Guides (en version préliminaire)</h3>
-                                                <p><a href="/dynamics365/mixed-reality/guides/index">Vue d'ensemble</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/setup">S'abonner à la version d'évaluation</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/get-started">Mise en route</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/authoring-overview">Créer un guide</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/operator-guide">Manuel de l'opérateur</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/analytics-guide">Analyser les guides</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/glossary">Glossaire</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/known-issues">Problèmes connus</a></p>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Guides (in preview)</h3>
+                                                <p><a href="/dynamics365/mixed-reality/guides/index">Overview</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/setup">Sign up for preview</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/get-started">Get started</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/authoring-overview">Author a guide</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/operator-guide">Operator’s manual</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/analytics-guide">Analyze your guides</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/glossary">Glossary</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/known-issues">Known issues</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/guides/faq">FAQ</a></p>
                                             </div>
                                         </div>
@@ -59,17 +59,17 @@ ms.locfileid: "1593030"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Import Tool (en version d'évaluation)</h3>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/index">Vue d'ensemble</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/convert-models">Convertir vos modèles 3D (CAO)</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/optimize-models">Optimiser vos modèles 3D</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/best-practices">Meilleures pratiques pour les modèles 3D</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/requirements">Exigences pour installer Import Tool</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/try-import-tool-free">Essayer Import Tool gratuitement</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/install">Installer Import Tool</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/import-tool">Utiliser Import Tool</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/layout">Utiliser Dynamics 365 Layout</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/import-tool/guides">Utiliser Dynamics 365 Guides</a></p>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Import Tool (in preview)</h3>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/index">Overview</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/convert-models">Convert your 3D (CAD) models</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/optimize-models">Optimize your 3D models</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/best-practices">Best practices for 3D models</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/requirements">Requirements for installing Import Tool</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/try-import-tool-free">Try Import Tool free</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/install">Install Import Tool</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/import-tool">Use the Import Tool</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/layout">Work with Dynamics 365 Layout</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/import-tool/guides">Work with Dynamics 365 Guides</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -109,12 +109,12 @@ ms.locfileid: "1593030"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Product Visualize (en version d'évaluation)</h3>
-                                                <p><a href="/dynamics365/mixed-reality/product-visualize/index">Vue d'ensemble</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/product-visualize/requirements">Configuration requise</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/product-visualize/setup">Installation</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/product-visualize/admin-guide">Guide de l'administrateur</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/product-visualize/user-guide">Guide de l'utilisateur</a></p>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Product Visualize (in preview)</h3>
+                                                <p><a href="/dynamics365/mixed-reality/product-visualize/index">Overview</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/product-visualize/requirements">Requirements</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/product-visualize/setup">Setup</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/product-visualize/admin-guide">Admin Guide</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/product-visualize/user-guide">User Guide</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/product-visualize/faq">FAQ</a></p>
                                             </div>
                                         </div>

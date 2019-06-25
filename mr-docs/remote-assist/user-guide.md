@@ -1,18 +1,18 @@
 ---
-author: bencorn
+author: drpusey
 description: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
-ms.author: becorn
-ms.date: 05/6/2019
+ms.author: drpusey
+ms.date: 06/19/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 0daf3cc404cb9eb783a1b7f419310ef17de9a2e3
-ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.openlocfilehash: 57b1cb8cfc0de579a3407bcb131d2bc6c993270d
+ms.sourcegitcommit: cb58ebe19de3647d35bd7f8694b3adecaab55256
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593628"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691560"
 ---
 # <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 
@@ -54,6 +54,9 @@ Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 
 ## <a name="using-the-user-interface-or-voice-commands"></a>Utiliser l'interface utilisateur ou les commandes vocales
 
 Les procédures de ce guide de l'utilisateur décrivent comment effectuer des tâches via l'interface utilisateur ou en utilisant des commandes de voix, le cas échéant. Pour utiliser une commande vocale, dites : « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », puis prononcez la commande vocale. [En savoir plus sur les commandes vocales.](#voice)
+
+> [!NOTE]
+> Pour le moment, les commandes vocales et la reconnaissance vocale sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
 
 ## <a name="make-and-receive-calls"></a>Effectuer et recevoir des appels
 
@@ -304,7 +307,7 @@ Pour annuler l'action plus récente, dont **Effacer tout** :
 
 ## Utiliser les commandes vocales et le pointage du regard <a name="voice"></a>
 
-Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur.
+Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur. Notez que pour le moment, les commandes vocales et la reconnaissance vocale sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
 
 > [!IMPORTANT]
 > Pour utiliser une commande vocale, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », et indiquez une des commandes vocales dans le tableau suivant. Par exemple, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)], Déplacement » pour entrer en mode Déplacement pour une ardoise (fenêtre). Vous pouvez également pointer du regard tout bouton et dire « [!include[pn-remote-assist](../includes/pn-remote-assist.md)], Sélectionner » pour sélectionner ce bouton.

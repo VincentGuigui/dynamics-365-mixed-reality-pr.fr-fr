@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Configuration requise pour Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 191c3880a4d1a4c0a4d77ba393147dea8df508c7
-ms.sourcegitcommit: 0cb918a4505c43abfb65ca9aab9e5b3cd71211a0
+ms.openlocfilehash: b940ea97540650e5a9f96a1faf7052b40ccaa1b3
+ms.sourcegitcommit: 21c2ba57557afc0090b7b5f1f5e8f8c9d0f7def5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594120"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631936"
 ---
 # <a name="requirements-for-setting-up-dynamics-365-remote-assist"></a>Configuration requise pour paramétrer Dynamics 365 Remote Assist
 
@@ -23,8 +23,8 @@ Les tableaux suivants répertorient les exigences techniques pour le déploiemen
 | **Appareil**               | **Configuration requise du SE**                                                                                                                                                  | **Détails**                                                                                                                                                                                                                    |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!include[pn-hololens](../includes/pn-hololens.md)]                 | Version 10.0.14393.0 ou ultérieure. La version 10.0.14393.0 d'[!include[pn-hololens](../includes/pn-hololens.md)] est le minimum prenant en charge [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Nous vous recommandons de mettre à jour [!include[pn-hololens](../includes/pn-hololens.md)] vers des versions plus récentes quand elles sont disponibles. | Voir [Gérer les mises à jour vers HoloLens](https://docs.microsoft.com/en-us/HoloLens/hololens-updates) pour obtenir des instructions sur l'utilisation de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Update pour Entreprise, Gestion des périphériques mobiles (GPM) et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Server Update Services (WSUS). |
-| PC [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 (facultatif) | Toute version de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10.| Un PC [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 peut collaborer avec [!include[pn-hololens](../includes/pn-hololens.md)] en utilisant [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)].|
-|Appareil mobile (facultatif)|Tout téléphone ou tablette [!include[tn-android](../includes/tn-android.md) exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md) Mobile.|Un téléphone ou une tablette exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md) Mobile peut collaborer avec [!include[pn-hololens](../includes/pn-hololens.md)].|
+| PC [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 (facultatif) | Toute version de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10.| Un PC [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 peut collaborer avec [!include[pn-hololens](../includes/pn-hololens.md)] en utilisant [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)].|
+|Appareil mobile (facultatif)|Tout téléphone ou tablette iOS ou [!include[tn-android](../includes/tn-android.md)] qui exécute [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] Mobile.|Un téléphone ou une tablette exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] Mobile peut collaborer avec [!include[pn-hololens](../includes/pn-hololens.md)].|
 
 ## <a name="licensing-and-product-requirements"></a>Gestion des licences et configuration requise du produit
 

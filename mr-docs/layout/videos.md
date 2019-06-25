@@ -7,18 +7,18 @@ ms.service: crm-online
 ms.topic: article
 title: Vidéos pratiques pour Dynamics 365 Layout
 ms.reviewer: v-brycho
-ms.openlocfilehash: b6d454f129df828660c9cbffa1d66a9a1fb86979
-ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.openlocfilehash: 4f161034ffd3fecfb033ab50cc0c82e8fd075453
+ms.sourcegitcommit: cb58ebe19de3647d35bd7f8694b3adecaab55256
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593538"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691555"
 ---
 # <a name="how-to-videos-for-dynamics-365-layout"></a>Vidéos pratiques pour Dynamics 365 Layout
 
 Consultez ces courtes vidéos pour être opérationnel avec [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].
 
-Vous avez besoin d'aide supplémentaire ? Consultez notre [Guide de l'utilisateur](user-guide.md).
+Vous avez besoin d'aide supplémentaire ? Consultez notre [guide de l'utilisateur](user-guide.md).
 
 > [!TIP]
 > Pour activer les sous-titres codés pour vidéos, sélectionnez le bouton **Plus d'options** (...), puis **Sous-titres codés** et enfin, **Anglais**.<br></br>![Sous-titres codés](media/closed-captions.PNG "Sous-titres codés")<br>[!include[pn-layout](../includes/pn-layout.md)] est disponible uniquement en anglais à ce stade.

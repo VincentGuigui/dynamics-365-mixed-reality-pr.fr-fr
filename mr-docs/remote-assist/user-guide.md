@@ -2,17 +2,17 @@
 author: drpusey
 description: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.author: drpusey
-ms.date: 06/19/2019
+ms.date: 06/24/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 57b1cb8cfc0de579a3407bcb131d2bc6c993270d
-ms.sourcegitcommit: cb58ebe19de3647d35bd7f8694b3adecaab55256
+ms.openlocfilehash: bbd55764cac04e15c2f34947b3b348fa1b2aa3ff
+ms.sourcegitcommit: 9f797a3ac9f96d3e137edc3f627521a818c7dbe9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "1691560"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702659"
 ---
 # <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 
@@ -56,7 +56,7 @@ Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 
 Les procédures de ce guide de l'utilisateur décrivent comment effectuer des tâches via l'interface utilisateur ou en utilisant des commandes de voix, le cas échéant. Pour utiliser une commande vocale, dites : « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », puis prononcez la commande vocale. [En savoir plus sur les commandes vocales.](#voice)
 
 > [!NOTE]
-> Pour le moment, les commandes vocales et la reconnaissance vocale sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
+> Actuellement, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1. Pour HoloLens 2, les commandes vocales sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
 
 ## <a name="make-and-receive-calls"></a>Effectuer et recevoir des appels
 
@@ -67,9 +67,6 @@ La manière dont vous effectuez un appel varie selon que vous appelez un contact
 -   Ouvrez l'application et [sélectionnez](https://support.microsoft.com/en-us/help/12644) un contact récent. Si vous ne voyez pas le contact que vous souhaitez, sélectionnez **Rechercher** ![Rechercher](media/e3155cd796106ea0818d8f52c7dbfcbe.png "Rechercher"), puis utilisez le clavier holographique pour entrer un nom ou une adresse e-mail.
 
 Lorsque votre contact répond à l'appel dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], il peut voir ce que vous visualisez votre espace, y compris les hologrammes.
-
-> [!NOTE]
-> L'audio dynamique ajuste le volume en fonction du bruit ambiant dans la pièce afin que vous puissiez entendre même si vous travaillez dans un environnement bruyant.
 
 ### <a name="make-a-call-to-a-contact-outside-your-company"></a>Appeler un contact en dehors de votre société
 
@@ -307,7 +304,7 @@ Pour annuler l'action plus récente, dont **Effacer tout** :
 
 ## Utiliser les commandes vocales et le pointage du regard <a name="voice"></a>
 
-Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur. Notez que pour le moment, les commandes vocales et la reconnaissance vocale sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
+Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur. Notez que pour le moment, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1 et dans des [langues spécifiques pour HoloLens 2](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
 
 > [!IMPORTANT]
 > Pour utiliser une commande vocale, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », et indiquez une des commandes vocales dans le tableau suivant. Par exemple, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)], Déplacement » pour entrer en mode Déplacement pour une ardoise (fenêtre). Vous pouvez également pointer du regard tout bouton et dire « [!include[pn-remote-assist](../includes/pn-remote-assist.md)], Sélectionner » pour sélectionner ce bouton.

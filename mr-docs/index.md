@@ -36,7 +36,7 @@ ms.locfileid: "1593030"
                                             <div class="cardText">
                                                 <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Guides (en version préliminaire)</h3>
                                                 <p><a href="/dynamics365/mixed-reality/guides/index">Vue d'ensemble</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/guides/setup">S'abonner à la version d'évaluation</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/guides/setup">S'abonner à la version préliminaire</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/guides/get-started">Mise en route</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/guides/authoring-overview">Créer un guide</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/guides/operator-guide">Manuel de l'opérateur</a></p>
@@ -59,7 +59,7 @@ ms.locfileid: "1593030"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Import Tool (en version d'évaluation)</h3>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Import Tool (en version préliminaire)</h3>
                                                 <p><a href="/dynamics365/mixed-reality/import-tool/index">Vue d'ensemble</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/import-tool/convert-models">Convertir vos modèles 3D (CAO)</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/import-tool/optimize-models">Optimiser vos modèles 3D</a></p>
@@ -109,7 +109,7 @@ ms.locfileid: "1593030"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Product Visualize (en version d'évaluation)</h3>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Product Visualize (en version préliminaire)</h3>
                                                 <p><a href="/dynamics365/mixed-reality/product-visualize/index">Vue d'ensemble</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/product-visualize/requirements">Configuration requise</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/product-visualize/setup">Installation</a></p>

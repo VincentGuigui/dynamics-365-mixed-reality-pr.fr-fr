@@ -15,7 +15,7 @@ ms.locfileid: "1593030"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1 class="">Applications de réalité mixte Dynamics 365</h1>
+        <h1 class="">Applications de réalité mixte Dynamics 365</h1>
         <p>&#160;</p>
         <ul class="pivots">
             <li>
@@ -85,7 +85,7 @@ ms.locfileid: "1593030"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Layout</h3>
+                                                <h3 style="font-size: 1.8rem; font-weight: 500; font-family: segoe-ui, Segoe UI, Segoe WP, Frutiger, Helvetica Neue, Helvetica, sans-serif"><span style="font-size: 50%; color: #7f7f7f">DYNAMICS 365</span><br />Layout</h3>
                                                 <p><a href="/dynamics365/mixed-reality/layout/index">Vue d'ensemble</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/layout/requirements">Configuration requise</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/layout/try-layout-free">Essayer Layout gratuitement</a></p>

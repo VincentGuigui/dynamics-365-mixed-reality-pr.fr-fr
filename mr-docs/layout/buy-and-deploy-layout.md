@@ -107,7 +107,7 @@ Si vous utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store po
 ### <a name="install-dynamics-365-layout-from-microsoft-store-for-consumers"></a>Installez Dynamics 365 Layout de magasin de Microsoft Store pour les consommateurs
 
 
-Pour plus d'informations sur l'installation de [!include[pn-layout](../includes/pn-layout.md)] depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, consultez le [guide de l'utilisateur Dynamics 365 Layout](../layout/user-guide.md). Les utilisateurs devront installer à la fois [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] et [Dynamics 365 Import Tool (Aperçu)](../layout/user-guide.md).
+Pour plus d'informations sur l'installation de [!include[pn-layout](../includes/pn-layout.md)] depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, consultez le [guide de l'utilisateur Dynamics 365 Layout](../layout/user-guide.md). Les utilisateurs devront installer à la fois [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] et [Dynamics 365 Import Tool (version préliminaire](../layout/user-guide.md).
 
 > [!NOTE]
 > <ul><li>Lorsque les utilisateurs lancent Dynamics 365 Layout, ils doivent utiliser le même compte Azure AD que celui affecté par l'administrateur dans le Centre d'administration Microsoft 365.</li>

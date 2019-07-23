@@ -14,5 +14,5 @@
 ## Documents légaux
 ### [Termes du contrat de licence logiciel de Remote Assist](../legal/remote-assist-license-terms.md)
 ### [Termes du contrat de licence logiciel de l'essai gratuit de Remote Assist](../legal/remote-assist-license-terms-free-trial.md)
-### [Termes du contrat de licence de l'aperçu de l'application Remote Assist Mobile](../legal/remote-assist-mobile-terms.md)
+### [Termes du contrat de licence de la version préliminaire de l'application Remote Assist Mobile](../legal/remote-assist-mobile-terms.md)
 ### [Notifications tierces](../legal/remote-assist-third-party-notice.md)

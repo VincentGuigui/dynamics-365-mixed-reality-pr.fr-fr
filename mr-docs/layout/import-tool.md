@@ -23,6 +23,6 @@ L'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] est 
 
 - [Essai gratuit de Dynamics 365 Layout](try-layout-free.md)
 
-- [Essai gratuit Dynamics 365 Import Tool (Aperçu)](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/try-import-tool-free)
+- [Essai gratuit Dynamics 365 Import Tool (version préliminaire)](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/try-import-tool-free)
 
 

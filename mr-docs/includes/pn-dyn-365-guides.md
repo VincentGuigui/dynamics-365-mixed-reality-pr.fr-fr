@@ -1,1 +1,1 @@
-Dynamics 365 Guides (Aperçu)
+Dynamics 365 Guides (version préliminaire)

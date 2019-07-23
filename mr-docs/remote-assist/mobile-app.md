@@ -176,9 +176,9 @@ Lorsque vous vous connectez à l'application mobile [!include[pn-remote-assist](
 
 ## <a name="get-support-or-provide-feedback"></a>Obtenir un support ou fournir des commentaires
 
-Si vous souhaitez obtenir un accès direct au forum de l'équipe du produit et fournir des commentaires sur l'aperçu de l'application mobile :
+Si vous souhaitez obtenir un accès direct au forum de l'équipe du produit et fournir des commentaires sur la version préliminaire de l'application mobile :
 
-1.  Inscrivez-vous au programme Insiders de préversion publique de [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] Mobile à l'adresse suivante : https://experience.dynamics.com. 
+1.  Inscrivez-vous au programme Insiders de version préliminaire publique de [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] Mobile à l'adresse suivante : https://experience.dynamics.com. 
 
 
 2.  Cochez la case **Programme Insider**, ce qui vous conduira à l'application du programme Insider.

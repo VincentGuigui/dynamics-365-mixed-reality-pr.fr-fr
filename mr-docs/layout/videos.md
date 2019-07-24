@@ -7,23 +7,20 @@ ms.service: crm-online
 ms.topic: article
 title: Vidéos pratiques pour Dynamics 365 Layout
 ms.reviewer: v-brycho
-ms.openlocfilehash: 4f161034ffd3fecfb033ab50cc0c82e8fd075453
-ms.sourcegitcommit: cb58ebe19de3647d35bd7f8694b3adecaab55256
+ms.openlocfilehash: fabfd79f6827dc67a8de6eb1435bf6708fd0b3e7
+ms.sourcegitcommit: a50eb22358dd459b09ba77b812658d2aed925431
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "1691555"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755831"
 ---
-# <a name="how-to-videos-for-dynamics-365-layout"></a><span data-ttu-id="acb16-103">Vidéos pratiques pour Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="acb16-103">How-to videos for Dynamics 365 Layout</span></span>
+# <a name="how-to-videos-for-dynamics-365-layout"></a><span data-ttu-id="a070e-103">Vidéos pratiques pour Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="a070e-103">How-to videos for Dynamics 365 Layout</span></span>
 
-<span data-ttu-id="acb16-104">Consultez ces courtes vidéos pour être opérationnel avec [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="acb16-104">Watch these short videos to get up and running with [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span></span>
+<span data-ttu-id="a070e-104">Consultez ces courtes vidéos pour être opérationnel avec [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span><span class="sxs-lookup"><span data-stu-id="a070e-104">Watch these short videos to get up and running with [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].</span></span>
 
-<span data-ttu-id="acb16-105">Vous avez besoin d'aide supplémentaire ?</span><span class="sxs-lookup"><span data-stu-id="acb16-105">Looking for more help?</span></span> <span data-ttu-id="acb16-106">Consultez notre [guide de l'utilisateur](user-guide.md).</span><span class="sxs-lookup"><span data-stu-id="acb16-106">Check out our [user guide](user-guide.md).</span></span>
+<span data-ttu-id="a070e-105">Vous avez besoin d'aide supplémentaire ?</span><span class="sxs-lookup"><span data-stu-id="a070e-105">Looking for more help?</span></span> <span data-ttu-id="a070e-106">Consultez notre [guide de l'utilisateur](user-guide.md).</span><span class="sxs-lookup"><span data-stu-id="a070e-106">Check out our [user guide](user-guide.md).</span></span>
 
-> [!TIP]
-> <span data-ttu-id="acb16-107">Pour activer les sous-titres codés pour vidéos, sélectionnez le bouton **Plus d'options** (...), puis **Sous-titres codés** et enfin, **Anglais**.</span><span class="sxs-lookup"><span data-stu-id="acb16-107">To turn on closed captions for videos, select the **More options** (...) button, select **Closed captions**, and then select **English**.</span></span><br></br><span data-ttu-id="acb16-108">![Sous-titres codés](media/closed-captions.PNG "Sous-titres codés")</span><span class="sxs-lookup"><span data-stu-id="acb16-108">![Closed captions](media/closed-captions.PNG "Closed captions")</span></span><br>[!include[pn-layout](../includes/pn-layout.md)] <span data-ttu-id="acb16-109">est disponible uniquement en anglais à ce stade.</span><span class="sxs-lookup"><span data-stu-id="acb16-109">is not available in languages other than English at this time.</span></span>
-
-## <a name="dynamics-365-layout-for-hololens"></a><span data-ttu-id="acb16-110">Dynamics 365 Layout pour HoloLens</span><span class="sxs-lookup"><span data-stu-id="acb16-110">Dynamics 365 Layout for HoloLens</span></span>
+## <a name="dynamics-365-layout-for-hololens"></a><span data-ttu-id="a070e-107">Dynamics 365 Layout pour HoloLens</span><span class="sxs-lookup"><span data-stu-id="a070e-107">Dynamics 365 Layout for HoloLens</span></span>
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2EWQP" frameborder="0" allowfullscreen=""></iframe></div>
 </br>
@@ -31,7 +28,7 @@ ms.locfileid: "1691555"
 </br>
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2EZt5" frameborder="0" allowfullscreen=""></iframe></div>
 
-## <a name="dynamics-365-layout-for-windows-mixed-reality"></a><span data-ttu-id="acb16-111">Dynamics 365 Layout pour Windows Mixed Reality</span><span class="sxs-lookup"><span data-stu-id="acb16-111">Dynamics 365 Layout for Windows Mixed Reality</span></span>
+## <a name="dynamics-365-layout-for-windows-mixed-reality"></a><span data-ttu-id="a070e-108">Dynamics 365 Layout pour Windows Mixed Reality</span><span class="sxs-lookup"><span data-stu-id="a070e-108">Dynamics 365 Layout for Windows Mixed Reality</span></span>
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2EOUG" frameborder="0" allowfullscreen=""></iframe></div>
 </br>
@@ -39,13 +36,13 @@ ms.locfileid: "1691555"
 </br>
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE2EK2w" frameborder="0" allowfullscreen=""></iframe></div>
 
-## <a name="dynamics-365-import-tool-preview-for-pc"></a><span data-ttu-id="acb16-112">Dynamics 365 Import Tool (Aperçu) pour PC</span><span class="sxs-lookup"><span data-stu-id="acb16-112">Dynamics 365 Import Tool (Preview) for PC</span></span>
+## <a name="dynamics-365-import-tool-preview-for-pc"></a><span data-ttu-id="a070e-109">Dynamics 365 Import Tool (version préliminaire) pour PC</span><span class="sxs-lookup"><span data-stu-id="a070e-109">Dynamics 365 Import Tool (Preview) for PC</span></span>
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RWqjaR" frameborder="0" allowfullscreen=""></iframe></div>
 </br>
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RWqDZa" frameborder="0" allowfullscreen=""></iframe></div>
 
-### <a name="see-also"></a><span data-ttu-id="acb16-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="acb16-113">See also</span></span>
-[<span data-ttu-id="acb16-114">Présentation de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="acb16-114">Overview of Dynamics 365 Layout</span></span>](index.md)<br/>
-[<span data-ttu-id="acb16-115">Guide de l'utilisateur</span><span class="sxs-lookup"><span data-stu-id="acb16-115">User guide</span></span>](user-guide.md)<br/>
-[<span data-ttu-id="acb16-116">FAQ</span><span class="sxs-lookup"><span data-stu-id="acb16-116">FAQ</span></span>](faq.md)<br/>
+### <a name="see-also"></a><span data-ttu-id="a070e-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a070e-110">See also</span></span>
+[<span data-ttu-id="a070e-111">Présentation de Dynamics 365 Layout</span><span class="sxs-lookup"><span data-stu-id="a070e-111">Overview of Dynamics 365 Layout</span></span>](index.md)<br/>
+[<span data-ttu-id="a070e-112">Guide de l'utilisateur</span><span class="sxs-lookup"><span data-stu-id="a070e-112">User guide</span></span>](user-guide.md)<br/>
+[<span data-ttu-id="a070e-113">FAQ</span><span class="sxs-lookup"><span data-stu-id="a070e-113">FAQ</span></span>](faq.md)<br/>

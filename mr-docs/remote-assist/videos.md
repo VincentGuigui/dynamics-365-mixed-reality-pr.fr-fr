@@ -7,21 +7,18 @@ ms.service: crm-online
 ms.topic: article
 title: Vidéos pratiques pour Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 9682460433115014f1930af7a27fe03692ed2ee3
-ms.sourcegitcommit: 9d8a56918b33fb84d4232d1a6fd4fd65fedd157e
+ms.openlocfilehash: 718c13b01f49df4af5e5059addc5a898ce1d4e44
+ms.sourcegitcommit: a50eb22358dd459b09ba77b812658d2aed925431
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "1622127"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755836"
 ---
 # <a name="how-to-videos-for-dynamics-365-remote-assist"></a>Vidéos pratiques pour Dynamics 365 Remote Assist
 
 Consultez ces courtes vidéos pour être opérationnel avec Microsoft [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)].
 
 Vous avez besoin d'aide supplémentaire ? Consultez notre [Guide de l'utilisateur](user-guide.md).
-
-> [!TIP]
-> Pour activer les sous-titres codés pour vidéos, sélectionnez le bouton **Plus d'options** (...), puis **Sous-titres codés** et enfin, **Anglais**.<br></br>![Sous-titres codés](media/closed-captions.PNG "Sous-titres codés")<br>[!include[pn-remote-assist](../includes/pn-remote-assist.md)] est disponible uniquement en anglais à ce stade.
 
 ## <a name="remote-assist-for-hololens"></a>Remote Assist pour HoloLens
 

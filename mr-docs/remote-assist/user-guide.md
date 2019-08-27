@@ -230,7 +230,7 @@ Utilisez les [mouvements HoloLens](https://support.microsoft.com/en-us/help/1264
 
 1.  Sélectionnez l'outil **Flèche** (ou dites « Flèche ») pendant un appel vidéo.
 
-2.  Pointez du regard l'emplacement où vous souhaitez ajouter la flèche. Vous verrez une silhouette de la flèche qui indique où elle sera passée. Par exemple, notez la flèche pâle dans la capture d'écran suivant :
+2.  Pointez du regard l'emplacement où vous souhaitez ajouter la flèche. Vous verrez une silhouette de la flèche qui indique où elle sera passée. Par exemple, notez la flèche pâle dans la capture d'écran suivante :
 
     ![Flèche fantôme)](media/ghost-arrow-before.PNG "Flèche fantôme")
 

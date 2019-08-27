@@ -2,17 +2,17 @@
 author: ornellaalt
 description: Guide de l'utilisateur de Dynamics 365 Layout
 ms.author: ornella
-ms.date: 05/15/2019
+ms.date: 07/09/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Layout
 ms.reviewer: v-brycho
-ms.openlocfilehash: 15d9117e892a7d4d9c61b28b4510d1b4b874465f
-ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.openlocfilehash: a6bb6a819f1dd7c4ad5e7053cfe88a216d552f92
+ms.sourcegitcommit: a50eb22358dd459b09ba77b812658d2aed925431
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593578"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755841"
 ---
 # <a name="dynamics-365-layout-user-guide"></a>Guide de l'utilisateur de Dynamics 365 Layout
 
@@ -168,7 +168,25 @@ Dans [!include[pn-hololens](../includes/pn-hololens.md)] et dans [!include[pn-ms
 | Copier         | Sélectionnez le modèle, puis choisissez **Copier**. Pointez votre contrôleur sur l'emplacement souhaité pour la copie, puis tirez à nouveau sur la gâchette pour procéder au placement. Pour placer plusieurs copies, il suffit de pointer puis de renouveler la sélection (inutile de revenir à l'original). Sélectionnez **Terminé** sur la dernière copie.      |
 | Redimensionner       | Sélectionnez le modèle, puis choisissez **Redimensionner**. Pointez un bord de l'objet, puis tirez sur la gâchette et retenez-la. Faites glisser le bord, puis relâchez la gâchette.                                                                                                                      |
 | Faire pivoter       | Pointez puis tirez sur la gâchette pour sélectionner le modèle. Pointez ensuite une des flèches de rotation et tirez sur la gâchette pour faire pivoter le modèle sur 90 degrés. Pour une rotation plus précise, utilisez la commande ronde de rotation : pointez, tirez sur la gâchette et retenez-la, puis déplacez votre contrôleur pour faire pivoter. |
-| Sélection multiple | Pointez votre contrôleur sur un emplacement vide. Tirez sur la gâchette et retenez-la, puis faites glisser pour former un rectangle autour des modèles que vous souhaitez sélectionner. Pointez les modèles sélectionnés pour voir ce que vous pouvez faire avec tous. |
+| Sélection multiple | Pointez votre contrôleur sur un emplacement vide. Tirez sur la gâchette et retenez-la, puis faites glisser pour former un rectangle autour des modèles que vous souhaitez sélectionner. Pointez l'un des modèles sélectionnés pour voir ce que vous pouvez en faire. |
+
+## <a name="lock-a-layout"></a>Verrouiller une disposition
+
+Vous pouvez verrouiller une disposition pour empêcher les modifications involontaires. Cela est particulièrement utile lorsque vous souhaitez partager une disposition avec vos collègues à des fins de révision. 
+
+Pour verrouiller une disposition, appuyez sur **Verrouiller la disposition** dans le menu de la barre latérale. La disposition active est verrouillée pour modification.
+
+![Verrouiller la disposition](media/locked-layout.PNG "Verrouiller la disposition")
+
+Un graphique de verrouillage est affiché dans le coin supérieur droit de la mosaïque de la disposition.
+ 
+![Graphique de disposition verrouillée](media/locked-layout-graphic.PNG "Graphique de disposition verrouillée")
+ 
+Une fois qu'une disposition a été verrouillée, si un utilisateur sélectionne un modèle dans la disposition, à la troisième tentative consécutive, une fenêtre contextuelle s'affiche pour l'informer que la disposition est verrouillée pour modification. Une fenêtre contextuelle similaire s'affiche lorsque vous essayez de placer un modèle du menu **Disposition** dans la disposition active.
+
+Pour déverrouiller une disposition, appuyez sur **Déverrouiller la disposition** dans le menu de la barre latérale. 
+ 
+![Déverrouiller la disposition](media/unlock-layout.PNG "Déverrouiller la disposition")
 
 ## <a name="improve-performance-when-your-models-dont-require-texture-or-multiple-colors"></a>Améliorer les performances lorsque vos modèles n'ont pas besoin de texture ou de plusieurs couleurs
 

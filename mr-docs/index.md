@@ -141,7 +141,7 @@ ms.locfileid: "1593030"
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/use-microsoft-teams-with-remote-assist">Utiliser avec Teams</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/protocol-activation">Lancer à partir d'une autre application</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/videos">Vidéos</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/remote-assist/faq">FAQ.</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/remote-assist/faq">FAQ</a></p>
                                             </div>
                                         </div>
                                     </div>

@@ -1,1 +1,1 @@
-<span data-ttu-id="618cb-101">Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="618cb-101">Microsoft Dynamics 365</span></span>
+<span data-ttu-id="5b6d0-101">Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="5b6d0-101">Microsoft Dynamics 365</span></span>

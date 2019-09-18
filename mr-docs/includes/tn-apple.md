@@ -1,1 +1,1 @@
-<span data-ttu-id="5c571-101">Apple</span><span class="sxs-lookup"><span data-stu-id="5c571-101">Apple</span></span>
+<span data-ttu-id="c0cd9-101">Apple</span><span class="sxs-lookup"><span data-stu-id="c0cd9-101">Apple</span></span>

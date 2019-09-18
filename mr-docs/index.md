@@ -1,21 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Applications de réalité mixte Dynamics 365 | Microsoft Docs
-description: Applications de réalité mixte Dynamics 365
+title: Applications Dynamics 365 Mixed Reality | Microsoft Docs
+description: Applications Dynamics 365 Mixed Reality
 ms.service: dynamics-365-crossapp
 ms.custom:
 - dyn365-hub
-ms.openlocfilehash: 89754be234874ca21f1fe4c5ada5f9c92e9d9916
-ms.sourcegitcommit: 3c070faecbdaab5c7294efc4fbe405412f48cf26
+ms.openlocfilehash: fb886da4c732137cee87a1a6b8a69ea031bf84cc
+ms.sourcegitcommit: 36509aebf3b012fa3ee0e9c5af0366b0186bfcd7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1593030"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "1968112"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1 class="">Applications de réalité mixte Dynamics 365</h1>
+        <h1 class="">Applications Dynamics 365 Mixed Reality</h1>
         <p>&#160;</p>
         <ul class="pivots">
             <li>
@@ -137,7 +137,7 @@ ms.locfileid: "1593030"
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/try-remote-assist-free">Essayer Remote Assist gratuitement</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/buy-and-deploy">Acheter et déployer</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/user-guide">Guide de l'utilisateur de HoloLens</a></p>
-                                                <p><a href="/dynamics365/mixed-reality/remote-assist/mobile-app">Guide de l'utilisateur de l'application mobile</a></p>
+                                                <p><a href="/dynamics365/mixed-reality/remote-assist/mobile-app/index">Guide de l'utilisateur de l'application mobile</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/use-microsoft-teams-with-remote-assist">Utiliser avec Teams</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/protocol-activation">Lancer à partir d'une autre application</a></p>
                                                 <p><a href="/dynamics365/mixed-reality/remote-assist/videos">Vidéos</a></p>

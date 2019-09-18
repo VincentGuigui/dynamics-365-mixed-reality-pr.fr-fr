@@ -2,41 +2,42 @@
 author: jevertt
 description: Lancer Dynamics 365 Remote Assist à partir d'une autre application (activation de protocole)
 ms.author: jevertt
-ms.date: 09/21/2018
+ms.date: 09/03/2019
 ms.service: crm-online
 ms.topic: article
 title: Lancer Dynamics 365 Remote Assist à partir d'une autre application
 ms.reviewer: v-brycho
-ms.openlocfilehash: 3c11f917f9d948dab2c8f06a70e8b363801c5167
-ms.sourcegitcommit: 0cb918a4505c43abfb65ca9aab9e5b3cd71211a0
+ms.openlocfilehash: 76a22d3bcf66299ba3103f97c321bed1c0ba1b78
+ms.sourcegitcommit: dc826257529550c0bd4308ce8e155bdde065b9d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594115"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "1980429"
 ---
-# <a name="launch-dynamics-365-remote-assist-from-another-app-protocol-activation"></a><span data-ttu-id="10b90-103">Lancer Dynamics 365 Remote Assist à partir d'une autre application (activation de protocole)</span><span class="sxs-lookup"><span data-stu-id="10b90-103">Launch Dynamics 365 Remote Assist from another app (protocol activation)</span></span>
+# <a name="launch-dynamics-365-remote-assist-from-another-app-protocol-activation"></a><span data-ttu-id="fabea-103">Lancer Dynamics 365 Remote Assist à partir d'une autre application (activation de protocole)</span><span class="sxs-lookup"><span data-stu-id="fabea-103">Launch Dynamics 365 Remote Assist from another app (protocol activation)</span></span>
 
-<span data-ttu-id="10b90-104">Vous pouvez incorporer le code dans votre application [!include[pn-hololens](../includes/pn-hololens.md)] pour basculer vers [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] et commencer un appel à l'aide d'un Uniform Resource Identifier (URI).</span><span class="sxs-lookup"><span data-stu-id="10b90-104">You can embed code in your [!include[pn-hololens](../includes/pn-hololens.md)] application to switch to [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] and begin a call using a Uniform Resource Identifier (URI).</span></span>
-<span data-ttu-id="10b90-105">Par exemple, supposons que vous créez une application pour la maintenance d'hélicoptères.</span><span class="sxs-lookup"><span data-stu-id="10b90-105">For example, let’s say you’re creating a helicopter maintenance app.</span></span> <span data-ttu-id="10b90-106">Vous pouvez ajouter un bouton qu'un ingénieur de maintenance pourra utiliser pour appeler un expert s'il est bloqué.</span><span class="sxs-lookup"><span data-stu-id="10b90-106">You can add a button that a maintenance engineer can use to call an expert if they get stuck.</span></span> <span data-ttu-id="10b90-107">Ce bouton lancera [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appellera l'expert désigné.</span><span class="sxs-lookup"><span data-stu-id="10b90-107">The button will launch [!include[pn-remote-assist](../includes/pn-remote-assist.md)] and call the designated expert.</span></span>
+<span data-ttu-id="fabea-104">Vous pouvez incorporer le code dans votre application [!include[pn-hololens](../includes/pn-hololens.md)] pour basculer vers [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] et commencer un appel à l'aide d'un Uniform Resource Identifier (URI).</span><span class="sxs-lookup"><span data-stu-id="fabea-104">You can embed code in your [!include[pn-hololens](../includes/pn-hololens.md)] application to switch to [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] and begin a call using a Uniform Resource Identifier (URI).</span></span>
 
-[!include[pn-remote-assist](../includes/pn-remote-assist.md)] <span data-ttu-id="10b90-108">prend en charge deux méthodes pour l'activation du protocole :</span><span class="sxs-lookup"><span data-stu-id="10b90-108">supports two methods for protocol activation:</span></span> 
+<span data-ttu-id="fabea-105">Par exemple, supposons que vous créez une application pour la maintenance d'hélicoptères.</span><span class="sxs-lookup"><span data-stu-id="fabea-105">For example, let’s say you’re creating a helicopter maintenance app.</span></span> <span data-ttu-id="fabea-106">Vous pouvez ajouter un bouton qu'un ingénieur de maintenance pourra utiliser pour appeler un expert s'il est bloqué.</span><span class="sxs-lookup"><span data-stu-id="fabea-106">You can add a button that a maintenance engineer can use to call an expert if they get stuck.</span></span> <span data-ttu-id="fabea-107">Ce bouton lancera [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appellera l'expert désigné.</span><span class="sxs-lookup"><span data-stu-id="fabea-107">The button will launch [!include[pn-remote-assist](../includes/pn-remote-assist.md)] and call the designated expert.</span></span>
 
--   <span data-ttu-id="10b90-109">“ms-voip-video” concerne l'appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="10b90-109">“ms-voip-video” is for video-enabled calling.</span></span>
+[!include[pn-remote-assist](../includes/pn-remote-assist.md)] <span data-ttu-id="fabea-108">prend en charge deux méthodes pour l'activation du protocole :</span><span class="sxs-lookup"><span data-stu-id="fabea-108">supports two methods for protocol activation:</span></span> 
 
--   <span data-ttu-id="10b90-110">“ms-voip-call” concerne l'appel audio.</span><span class="sxs-lookup"><span data-stu-id="10b90-110">“ms-voip-call” is for audio-only calling.</span></span>
+-   <span data-ttu-id="fabea-109">“ms-voip-video” concerne l'appel vidéo.</span><span class="sxs-lookup"><span data-stu-id="fabea-109">“ms-voip-video” is for video-enabled calling.</span></span>
 
-<span data-ttu-id="10b90-111">Ces deux méthodes utilisent le même schéma d'argument qui accepte un champ « contactID ».</span><span class="sxs-lookup"><span data-stu-id="10b90-111">Both methods use the same argument schema, which accepts a “contactID” field.</span></span>
-<span data-ttu-id="10b90-112">L'URI ressemblerait à ceci :</span><span class="sxs-lookup"><span data-stu-id="10b90-112">The URI would look something like this:</span></span>
+-   <span data-ttu-id="fabea-110">“ms-voip-call” concerne l'appel audio.</span><span class="sxs-lookup"><span data-stu-id="fabea-110">“ms-voip-call” is for audio-only calling.</span></span>
+
+<span data-ttu-id="fabea-111">Ces deux méthodes utilisent le même schéma d'argument qui accepte un champ « contactID ».</span><span class="sxs-lookup"><span data-stu-id="fabea-111">Both methods use the same argument schema, which accepts a “contactID” field.</span></span>
+<span data-ttu-id="fabea-112">L'URI ressemblerait à ceci :</span><span class="sxs-lookup"><span data-stu-id="fabea-112">The URI would look something like this:</span></span>
 
 `
 ms-voip-video:?contactids=\<contactID\>
 `
 
-<span data-ttu-id="10b90-113">L'ID contact est l'ID objet [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD) de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="10b90-113">The contact ID is the user’s [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD) object ID.</span></span>
+<span data-ttu-id="fabea-113">L'ID contact est l'ID objet [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD) de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fabea-113">The contact ID is the user’s [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD) object ID.</span></span>
 
-## <a name="code-sample"></a><span data-ttu-id="10b90-114">Exemple de code</span><span class="sxs-lookup"><span data-stu-id="10b90-114">Code sample</span></span>
+## <a name="code-example"></a><span data-ttu-id="fabea-114">Exemple de code</span><span class="sxs-lookup"><span data-stu-id="fabea-114">Code example</span></span>
 
-<span data-ttu-id="10b90-115">Vous devez incorporer le code dans votre application [!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="10b90-115">You’ll need to embed the code in your [!include[pn-hololens](../includes/pn-hololens.md)] app.</span></span> <span data-ttu-id="10b90-116">L'exemple de code suivant est écrit dans C++, mais peut être facilement adapté à une autre langue.</span><span class="sxs-lookup"><span data-stu-id="10b90-116">The following code sample is written in C++, but can be easily adapted to another language.</span></span>
+<span data-ttu-id="fabea-115">Vous devez incorporer le code dans votre application [!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="fabea-115">You’ll need to embed the code in your [!include[pn-hololens](../includes/pn-hololens.md)] app.</span></span> <span data-ttu-id="fabea-116">L'exemple de code suivant est écrit en C++, mais peut être facilement adapté à un autre langage.</span><span class="sxs-lookup"><span data-stu-id="fabea-116">The following code example is written in C++, but can be easily adapted to another language.</span></span>
 
 ```
 Platform::String\^ id = objectId-\>Text;
@@ -59,18 +60,55 @@ launchUriOperation.then([this](bool success)   
 });  
 ```
 
-<span data-ttu-id="10b90-117">Pour passer un appel audio uniquement au lieu de vidéo, utilisez l'URI : “ms-voip-call:?contactids=”</span><span class="sxs-lookup"><span data-stu-id="10b90-117">To place an audio-only call instead of video, use URI: “ms-voip-call:?contactids=”</span></span>
+<span data-ttu-id="fabea-117">Pour passer un appel audio uniquement au lieu de vidéo, utilisez l'URI : “ms-voip-call:?contactids=”</span><span class="sxs-lookup"><span data-stu-id="fabea-117">To place an audio-only call instead of video, use URI: “ms-voip-call:?contactids=”</span></span>
 
-## <a name="place-a-call-to-test-your-code"></a><span data-ttu-id="10b90-118">Passez un appel pour tester votre code</span><span class="sxs-lookup"><span data-stu-id="10b90-118">Place a call to test your code</span></span>
+## <a name="return-to-your-app-at-the-end-of-a-call"></a><span data-ttu-id="fabea-118">Revenir à votre application à la fin d'un appel</span><span class="sxs-lookup"><span data-stu-id="fabea-118">Return to your app at the end of a call</span></span>
 
-1.  <span data-ttu-id="10b90-119">Exécutez votre application sur l'[!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="10b90-119">Run your app on the [!include[pn-hololens](../includes/pn-hololens.md)].</span></span>
+<span data-ttu-id="fabea-119">Un champ supplémentaire « returnto » peut être inclus pour que Dynamics 365 Remote Assist puisse revenir à votre application à la fin d'un appel.</span><span class="sxs-lookup"><span data-stu-id="fabea-119">An additional "returnto" field can be included to have Dynamics 365 Remote Assist return to your application when a call ends.</span></span> <span data-ttu-id="fabea-120">Les utilisateurs peuvent ainsi commencer et mettre fin à leur expérience dans votre application sans avoir à basculer manuellement de l'une à l'autre.</span><span class="sxs-lookup"><span data-stu-id="fabea-120">This enables users to both start and end their experience in your app without having to manually switch between them.</span></span>
 
-2.  <span data-ttu-id="10b90-120">Initialisez l'appel depuis votre application.</span><span class="sxs-lookup"><span data-stu-id="10b90-120">Initiate the call from your app.</span></span>
+<span data-ttu-id="fabea-121">Pour prendre en charge le champ « returnto », vous devez enregistrer votre application avec un URI personnalisé (voir [Enregistrer une application avec un URI personnalisé](<https://docs.microsoft.com/en-us/windows/uwp/launch-resume/handle-uri-activation#step-1-specify-the-extension-point-in-the-package-manifest>)).</span><span class="sxs-lookup"><span data-stu-id="fabea-121">To support the "returnto" field, you need to register your app with a custom URI (see [Register an app with a custom URI](<https://docs.microsoft.com/en-us/windows/uwp/launch-resume/handle-uri-activation#step-1-specify-the-extension-point-in-the-package-manifest>)).</span></span>
 
-3.  <span data-ttu-id="10b90-121">L'[!include[pn-hololens](../includes/pn-hololens.md)] s'affiche pour fermer l'application, ouvrez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] s'il n'est pas déjà ouvert et connectez-vous.</span><span class="sxs-lookup"><span data-stu-id="10b90-121">The [!include[pn-hololens](../includes/pn-hololens.md)] will appear to close the app, open [!include[pn-remote-assist](../includes/pn-remote-assist.md)] if it isn’t already open, and sign in.</span></span>
+<span data-ttu-id="fabea-122">Ajoutez ensuite le champ facultatif « returnto » ainsi que le nom de l'application enregistrée que vous avez renseigné à l'étape précédente.</span><span class="sxs-lookup"><span data-stu-id="fabea-122">Then include the optional "returnto" field along with the registered app name you completed in the previous step.</span></span> <span data-ttu-id="fabea-123">Dans l'exemple ci-dessous, « helicoptor-maintenance-app » est l'URI enregistré :</span><span class="sxs-lookup"><span data-stu-id="fabea-123">In the example below, "helicoptor-maintenance-app" is the registered URI:</span></span>
 
-4.  <span data-ttu-id="10b90-122">Une fois le panneau de contacts chargé, [!include[pn-remote-assist](../includes/pn-remote-assist.md)] passe un appel au contact spécifié.</span><span class="sxs-lookup"><span data-stu-id="10b90-122">After the contacts panel is loaded, [!include[pn-remote-assist](../includes/pn-remote-assist.md)] will place a call to the specified contact.</span></span>
+`
+ms-voip-call:?contactids=<CONTACT_ID>&returnto=helicoptor-maintenance-app");
+`
 
-### <a name="see-also"></a><span data-ttu-id="10b90-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="10b90-123">See also</span></span>
+### <a name="example-of-launching-dynamics-365-remote-assist-from-your-app-with-optional-returnto-field"></a><span data-ttu-id="fabea-124">Exemple de lancement de Dynamics 365 Remote Assist à partir de votre application avec le champ facultatif « returnto »</span><span class="sxs-lookup"><span data-stu-id="fabea-124">Example of launching Dynamics 365 Remote Assist from your app with optional returnto field</span></span>
 
-<span data-ttu-id="10b90-124">Pour plus de détails sur le lancement d'une application avec un URI, voir[Lancer une application avec un URI](<https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-app-with-uri>).</span><span class="sxs-lookup"><span data-stu-id="10b90-124">For more details on launching an app with a URI, see [Launch an app with a URI](<https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-app-with-uri>).</span></span>
+<span data-ttu-id="fabea-125">L'exemple de code suivant est écrit en C++, mais peut être facilement adapté à un autre langage.</span><span class="sxs-lookup"><span data-stu-id="fabea-125">The following code example is written in C++, but can be easily adapted to another language.</span></span>
+
+```
+Platform::String^ id = objectId->Text;
+auto uri = ref new Windows::Foundation::Uri("ms-voip-video:?contactids=" + id + &returnto=helicoptor-maintenance-app");
+resultText->Text = uri->AbsoluteUri; 
+
+concurrency::task<bool> launchUriOperation(Windows::System::Launcher::LaunchUriAsync(uri));
+launchUriOperation.then([this](bool success)   
+{         
+    if (success)         
+    {             
+        // URI launched  
+        resultText->Text += " (URI Launched)"; 
+    } 
+    else         
+    {             
+        // URI launch failed             
+        resultText->Text += " (FAILED)";
+    }     
+});  
+```
+
+## <a name="place-a-call-to-test-your-code"></a><span data-ttu-id="fabea-126">Passer un appel pour tester votre code</span><span class="sxs-lookup"><span data-stu-id="fabea-126">Place a call to test your code</span></span>
+
+1.  <span data-ttu-id="fabea-127">Exécutez votre application sur l'[!include[pn-hololens](../includes/pn-hololens.md)].</span><span class="sxs-lookup"><span data-stu-id="fabea-127">Run your app on the [!include[pn-hololens](../includes/pn-hololens.md)].</span></span>
+
+2.  <span data-ttu-id="fabea-128">Initialisez l'appel depuis votre application.</span><span class="sxs-lookup"><span data-stu-id="fabea-128">Initiate the call from your app.</span></span>
+
+3.  <span data-ttu-id="fabea-129">L'[!include[pn-hololens](../includes/pn-hololens.md)] s'affiche pour fermer l'application, ouvrez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] s'il n'est pas déjà ouvert et connectez-vous.</span><span class="sxs-lookup"><span data-stu-id="fabea-129">The [!include[pn-hololens](../includes/pn-hololens.md)] will appear to close the app, open [!include[pn-remote-assist](../includes/pn-remote-assist.md)] if it isn’t already open, and sign in.</span></span>
+
+4.  <span data-ttu-id="fabea-130">Une fois le panneau de contacts chargé, [!include[pn-remote-assist](../includes/pn-remote-assist.md)] passe un appel au contact spécifié.</span><span class="sxs-lookup"><span data-stu-id="fabea-130">After the contacts panel is loaded, [!include[pn-remote-assist](../includes/pn-remote-assist.md)] will place a call to the specified contact.</span></span>
+
+### <a name="see-also"></a><span data-ttu-id="fabea-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fabea-131">See also</span></span>
+
+<span data-ttu-id="fabea-132">Pour plus de détails sur le lancement d'une application avec un URI, voir[Lancer une application avec un URI](<https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-app-with-uri>).</span><span class="sxs-lookup"><span data-stu-id="fabea-132">For more details on launching an app with a URI, see [Launch an app with a URI](<https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-app-with-uri>).</span></span>

@@ -5,7 +5,7 @@
 ## [Acheter et déployer Remote Assist](buy-and-deploy-remote-assist.md)
 ## [Paramétrer les appels interentreprises (pour les administrateurs)](cross-company-calling.md)
 ## [Guide de l'utilisateur de HoloLens](user-guide.md)
-## [Guide de l'utilisateur de l'application mobile](mobile-app.md)
+## [Guide de l'utilisateur de l'application mobile](mobile-app/index.md)
 ## [Paramétrer et utiliser Microsoft Teams](use-microsoft-teams-with-remote-assist.md)
 ## [Résoudre les problèmes d'intégration de Field Service](troubleshoot-field-service.md)
 ## [Vidéos pratiques](videos.md)

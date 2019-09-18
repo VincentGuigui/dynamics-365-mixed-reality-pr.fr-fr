@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Configurer et utiliser Microsoft Teams avec Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 2964049fad93daffca716a447c9ece9420b21f95
-ms.sourcegitcommit: 80c2a9dc71cab3914d3a96d37904bd1e16e4b450
+ms.openlocfilehash: 310d43dfe729cf7fe05a529f5a4404ed22a9f31c
+ms.sourcegitcommit: 73dff7bbeecc69366e1b98fa4db4a7b00762fb80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617253"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1847923"
 ---
 # <a name="set-up-and-use-microsoft-teams-with-remote-assist-to-collaborate-on-a-call"></a>Paramétrer et utiliser Microsoft Teams avec Remote Assist pour collaborer à un appel
 
@@ -31,7 +31,7 @@ L'utilisateur de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] (
 
 -   [Un abonnement à Remote Assist.](../licensing/buy-and-deploy.md) L'abonnement à [!include[pn-remote-assist](../includes/pn-remote-assist.md)] inclut un abonnement à [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)].
 
--   Un [!include[pn-hololens](../includes/pn-hololens.md)] exécutant [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643) (ou une version ultérieure).
+-   Un [!include[pn-hololens](../includes/pn-hololens.md)] exécutant la [Mise à jour d'avril 2018 de Windows 10](https://support.microsoft.com/en-us/help/12643) (ou une version ultérieure).
 
 -   Un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)].
 

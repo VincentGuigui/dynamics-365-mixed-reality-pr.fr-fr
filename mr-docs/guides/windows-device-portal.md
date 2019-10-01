@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Utiliser le portail d'appareil Windows pour simplifier l'étalonnage d'HoloLens
 ms.reviewer: v-brycho
-ms.openlocfilehash: d36787d3895c769518597da8e64cf59264b89243
-ms.sourcegitcommit: 6f2c032749afb8bb56e23c2f9c38b0c36da6d8b0
+ms.openlocfilehash: b1ec7242ec2849240f7dd1bfe55bd995b29e9db7
+ms.sourcegitcommit: 5ce5fa810e391fade0b9fdef30077606cb1ae84d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "1575520"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1918047"
 ---
 # <a name="use-the-windows-device-portal-to-streamline-hololens-calibration"></a>Utiliser le portail d'appareil Windows pour simplifier l'étalonnage d'HoloLens
 

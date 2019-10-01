@@ -1,27 +1,57 @@
 ---
 author: makamat
-description: Décrit les nouvelles fonctionnalités de Dynamics 365 Guides (version préliminaire), classées par date de parution
+description: Décrit les nouvelles fonctionnalités de Dynamics 365 Guides, classées par date de parution
 ms.author: makamat
-ms.date: 08/09/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: Nouveautés de Dynamics 365 Guides (version préliminaire)
+title: Nouveautés de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: ed9d6e23dd09bbab83fa75db1d6de4f5a0ac1711
-ms.sourcegitcommit: 110c639769f6a5ccd1a88ca345a4150841aed4c0
+ms.openlocfilehash: e8e7b3759d04a4aa3a508da7b9f5981fe715cbc4
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "1870045"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2050028"
 ---
-## <a name="whats-new-in-dynamics-365-guides-preview"></a>Nouveautés de Dynamics 365 Guides (version préliminaire)
+## <a name="whats-new-in-dynamics-365-guides"></a>Nouveautés de Dynamics 365 Guides
 
-Cette page fournit des détails sur les dernières versions de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)] classées par date de parution.  
+Cette page fournit des détails sur les dernières versions de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] classées par date de parution.  
+
+### <a name="october-1-2019"></a>1er octobre 2019
+
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est désormais mis à la disposition générale. Les mises à jour du 1er octobre 2019 pour l'application pour PC, l'application HoloLens et la solution Common Data Service devront être installées pour continuer à utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Les mises à niveau continueront à fonctionner avec votre licence de version préliminaire jusqu'à expiration. Pour vérifier la date d'expiration de la version préliminaire, accédez à https:<i></i>//admin.microsoft.com/, puis sélectionnez **Facturation** dans les paramètres pour assurer la continuité.
+
+Les nouveaux clients doivent obtenir une licence de DG. Pour obtenir des informations sur les licences, l'installation et les mises à niveau, accédez à aka.ms/GetGuides.
+
+La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.XX et la version de solution 200.0.0.XX comprennent les mises à jour suivantes :
+
+- **Essayez la démonstration.** Vous pouvez à présent essayer l'exemple de guide prêt à l'emploi sur l'application HoloLens sans devoir vous inscrire pour obtenir une licence ou créer un guide vous-même.
+
+- **Enquêtes de satisfaction client.** Nous vous demanderons de temps en temps d'évaluer la satisfaction avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour nous permettre d'améliorer le produit.
+
+- **Je n'accepte pas d'envoyer des données à Microsoft.** Sur les applications pour PC et HoloLens, pour des raisons de confidentialité, vous pouvez désactiver l'option d'envoi de données de télémétrie à Microsoft. 
+
+- **Je n'accepte pas d'envoyer les données d'utilisation à votre organisation.** Pour empêcher l'affichage des données d'utilisation dans les tableaux de bord Power BI, les administrateurs peuvent désormais désactiver cette fonctionnalité pour des utilisateurs spécifiques.
+
+La version du 1er octobre inclut également une refactorisation du code des positions d'hologramme afin d'améliorer les performances globales et de permettre des améliorations futures. Vous remarquerez peut-être que la position de certains modèles importés, auxquels une échelle a été appliquée, peut être modifiée. Vous devez replacer ces modèles 3D. Cela ne concerne pas la position des modèles de la boîte à outils 3D.
+
+### <a name="august-27-2019"></a>27 août 2019
+La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 104.1908.24001 et la version de solution 104.1908.0.117 comprennent les mises à jour suivantes :
+
+- **Améliorations de l'accessibilité.** L'application PC offre un meilleur contraste des couleurs et prend en charge le mode contraste élevé pour les utilisateurs malvoyants. Utilisez le clavier pour passer par l'interface utilisateur tout en utilisant le Narrateur pour lire diverses options de création. En mode version préliminaire, vous pouvez manipuler des modèles 3D à l'aide du clavier.
+
+- **Manipulation des hologrammes améliorée.** Les hologrammes se déplacent plus naturellement lorsque vous les placez dans l'espace, ce qui facilite l'alignement précis des hologrammes dans le monde réel.
+
+- **Prise en charge de langues supplémentaires**. L'application PC et l'application HoloLens prennent désormais en charge les langues suivantes : anglais (États-Unis, Royaume-Uni), français (France, Canada), allemand, néerlandais (Pays-Bas), espagnol, italien, chinois (République populaire de Chine, Taïwan, Hong Kong), japonais et coréen.
+
+> [!NOTE]
+> Pour obtenir cette mise à jour, il suffit de mettre à jour l'application PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] à partir de [!include[cc-microsoft](../includes/cc-microsoft.md)] Store. La mise à jour de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas obligatoire, mais vous devez la mettre à jour si vous avez l'intention d'utiliser l'application dans les nouvelles langues prises en charge. 
 
 ### <a name="august-6-2019"></a>6 août 2019
-La version 104.1908.2001.0 de l'application Dynamics 365 Guides permet de résoudre un problème dans la publication du 23 juillet de l'application HoloLens qui empêchait la liste des guides de s'afficher dans l'application HoloLens pour les clients d'Europe, du Moyen-Orient et d'Asie. Nous avons également publié une version mise à jour du modèle de génération d'états Power BI qui permet de corriger un bogue associé à des données manquantes qui provoquaient l'échec de l'état.
+La version 104.1908.2001.0 de l'application [!include[pn-hololens](../includes/pn-hololens.md)] permet de résoudre un problème dans la publication du 23 juillet de l'application [!include[pn-hololens](../includes/pn-hololens.md)] qui empêchait la liste des guides de s'afficher dans l'application [!include[pn-hololens](../includes/pn-hololens.md)] pour les clients d'Europe, du Moyen-Orient et d'Asie. Nous avons également publié une version mise à jour du modèle de génération d'états Power BI qui permet de corriger un bogue associé à des données manquantes qui provoquaient l'échec de l'état.
 
-Pour obtenir cette mise à niveau, il suffit de mettre à jour l'application Dynamics 365 Guides HoloLens à partir de Microsoft Store. Vous n'avez pas besoin de mettre à jour la solution Dynamics 365 Guides (version préliminaire). Pour l'état Power BI, visitez https://aka.ms/guidesreport.
+Pour obtenir cette mise à jour, il suffit de mettre à jour l'application [!include[pn-hololens](../includes/pn-hololens.md)] [!include[pn-hololens](../includes/pn-hololens.md)] à partir de [!include[cc-microsoft](../includes/cc-microsoft.md)] Store. Vous n'avez pas besoin de mettre à jour la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Pour l'état Power BI, visitez le site https:<i></i>//aka.ms/guidesreport.
 
 ### <a name="july-23-2019"></a>23 juillet 2019
 
@@ -54,7 +84,7 @@ La version 103.1905.31001 de l'application [!include[pn-dyn-365-guides](../inclu
 Si vous choisissez de créer un guide à l'aide d'un point d'ancrage numérique, vous pouvez désormais utiliser un modèle 3D prédéfini. Il n'est pas nécessaire de choisir un modèle 3D avant de continuer.
 
 > [!NOTE]
-> Pour tirer parti des nouvelles améliorations apportées à l'ancrage, vous devez mettre à jour la solution [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)] dans le centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. Pour plus d'informations, voir <a href="https://docs.microsoft.com/dynamics365/mixed-reality/guides/upgrade" target="_blank">Mettre à niveau votre solution Dynamics 365 Guides (version préliminaire)</a> ou contactez votre administrateur [!include[pn-dyn-365](../includes/pn-dyn-365.md)].
+> Pour tirer parti des nouvelles améliorations apportées à l'ancrage, vous devez mettre à jour la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans le Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. Pour plus d'informations, consultez <a href="https://docs.microsoft.com/dynamics365/mixed-reality/guides/upgrade" target="_blank">Mettre à niveau votre solution Dynamics 365 Guides</a> ou contactez votre administrateur [!include[pn-dyn-365](../includes/pn-dyn-365.md)].
 
 Pour plus d'informations sur la création d'un guide avec l'application du PC, voir <a href="https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-authoring" target="_blank">Utiliser l'application de création du PC pour créer un guide</a>.
 

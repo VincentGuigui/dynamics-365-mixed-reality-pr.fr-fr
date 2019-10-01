@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Éléments à garder à l'esprit avant de passer à la création dans Dynamics 365 Guides (version préliminaire)
 ms.reviewer: v-brycho
-ms.openlocfilehash: e554fdd00dd940408a4c2a51f29422bee1058ce8
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: adba4bc986a617668f7968aed29cef52a7fcf32f
+ms.sourcegitcommit: 5ce5fa810e391fade0b9fdef30077606cb1ae84d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797377"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1918092"
 ---
 # <a name="before-you-start-authoring-a-guide-in-dynamics-365-guides-preview"></a>Avant de passer à la création d'un guide dans Dynamics 365 Guides (version préliminaire)
 
@@ -20,7 +20,7 @@ ms.locfileid: "1797377"
  
 Avant de passer à la création dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)], vous devez comprendre votre projet et vous organiser. Voici une liste de contrôle rapide pour partir du bon pied :
 
-- Collectez autant de contenu que vous pouvez avant de commencer à créer votre guide. Cela inclut des images, des vidéos, et du contenu 3D (si vous en avez) et les objets physiques eux-mêmes (si possible). Ne vous inquiétez pas si vous n'avez pas contenu 3D. 
+- Collectez autant de contenu que vous pouvez avant de commencer à créer votre guide. Cela inclut des images, des vidéos, et du contenu 3D (si vous en avez) et les objets physiques eux-mêmes (si possible). Ne vous inquiétez pas si vous n'avez pas de contenu 3D. 
 [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut une boîte à outils 3D que vous pouvez utiliser pour démarrer.
 
 - Assurez-vous d'avoir suffisamment d'espace pour bien comprendre l'environnement du monde réel. Vous aurez également besoin d'avoir de l'espace pour ancrer le guide et placer des hologrammes ultérieurement.

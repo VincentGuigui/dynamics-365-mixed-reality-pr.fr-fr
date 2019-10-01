@@ -1,22 +1,24 @@
 ---
 author: BryceHo
-description: Problèmes connus avec Dynamics 365 Guides (version préliminaire)
+description: Problèmes connus avec Dynamics 365 Guides
 ms.author: makamat
-ms.date: 07/23/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: Problèmes connus avec Dynamics 365 Guides (version préliminaire)
+title: Problèmes connus avec Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 683119cc809f839eeb7b621be60e956e2f590782
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: c2a8fed8745beb53ff303daaf6ec0fa5a11b416f
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797341"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2049920"
 ---
-# <a name="known-issues-with-microsoft-dynamics-365-guides-preview"></a>Problèmes connus avec Microsoft Dynamics 365 Guides (version préliminaire)
+# <a name="known-issues-with-microsoft-dynamics-365-guides"></a>Problèmes connus avec Microsoft Dynamics 365 Guides
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## <a name="october-1-release-improvements-for-3d-model-positioning-may-shift-models-in-existing-guides"></a>Les améliorations apportées au 1er octobre pour le positionnement de modèles 3D peuvent déplacer les modèles dans les guides existants
+
+La version du 1er octobre inclut une refactorisation du code des positions d'hologramme afin d'améliorer les performances globales et de permettre des améliorations futures. Vous remarquerez peut-être que la position de certains modèles importés, auxquels une échelle a été appliquée, peut être modifiée. Vous devez replacer ces modèles 3D. Cela ne concerne pas la position des modèles de la boîte à outils 3D.
  
 ## <a name="keep-file-names-for-3d-models-and-media-short"></a>Donner des noms de fichiers courts aux modèles et aux supports 3D
 
@@ -27,10 +29,6 @@ Les modèles 3D volumineux sont stockés dans la mémoire [!include[pn-hololens]
 ## <a name="editing-the-same-guide-on-two-different-pcs-is-not-fully-supported"></a>Il n'est pas possible de modifier le même guide sur deux PC différents
 
 Même si vous pouvez créer le même guide sur PC et [!include[pn-hololens](../includes/pn-hololens.md)], nous déconseillons vivement de le modifier sur deux PC distincts. Cela peut entraîner des problèmes de synchronisation, et vous risquez de perdre les modifications apportées au cours de l'une des sessions sur PC.
-
-## <a name="example-guide-images-and-video-still-show-older-version-of-hololens-user-interface"></a>L'exemple de guide continue d'afficher d'anciennes images et vidéos sur l'interface utilisateur HoloLens
-
-L'exemple de guide sera mis à jour dans une version ultérieure. D'ici là, sachez que les images et la vidéo de l'exemple de guide affichent la version plus ancienne de l'interface utilisateur [!include[pn-hololens](../includes/pn-hololens.md)] (version 103.1905.31001 ou antérieure).
 
 ## <a name="text-wrapping-on-pc-and-hololens-might-differ-in-rare-cases"></a>Il peut parfois arriver que le retour à la ligne du texte soit différent sur PC et HoloLens
 
@@ -47,13 +45,17 @@ Pour le moment, l'utilisation hors connexion n'est pas prise en charge dans les 
 
 Si vous utilisez l'application [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] et que vous cliquez sur le bouton **Ancrer** lors d'une étape pour étalonner à nouveau votre [!include[pn-hololens](../includes/pn-hololens.md)], une fois terminé, vous revenez à la première étape de votre guide. Ceci est intentionnel. Vous (ou l'opérateur) souhaiterez revérifier toutes les étapes après le réétalonnage, car cela pourrait modifier l'alignement de l'hologramme.
 
-## <a name="voice-commands-not-tested-thoroughly"></a>Les commandes vocales ne sont pas complètement testées
+## <a name="noise-cancelling-is-not-supported"></a>L'annulation du bruit n'est pas prise en charge
 
-Nous n'avons pas testé entièrement les commandes vocales pour certains accents ou des genres différents, il peut donc arriver qu'elles ne fonctionnent pas. Nous testerons complètement les commandes vocales dans une version ultérieure.
+L'application HoloLens ne prend plus en charge les options d'annulation du bruit dans la disponibilité générale. L'application exploite maintenant la technologie existante fournie par le matériel HoloLens 1 et HoloLens 2 pour prendre en charge les commandes vocales et les commentaires audio.
 
 ## <a name="instruction-cards-and-holograms-may-render-inside-objects-in-the-real-world"></a>Les fiches d'instructions et les hologrammes peuvent s'afficher à l'intérieur des objets dans le monde réel
 
 L'application [!include[pn-hololens](../includes/pn-hololens.md)] utilise la compréhension de l'environnement pour afficher les hologrammes, mais n'utilise pas ces informations pour afficher les fiches d'instruction (fiches étape). Par conséquent, à ce stade, il est possible que des fiches d'instruction s'affichent à l'intérieur des objets dans le monde réel. 
+
+## <a name="when-authoring-on-hololens-2-authors-need-to-air-tap-to-select-3d-models-before-editing"></a>Lors d'une création sur HoloLens 2, les auteurs doivent cliquer dans l'air pour sélectionner les modèles 3D avant de les modifier.
+
+Sur HoloLens 2, le mode de sélection apparaît lorsque vous cliquez dans l'air des modèles 3D, plutôt que lorsque vous les pointez du regard. Après avoir cliqué dans l'air, vous pouvez cliquer longuement pour effectuer un déplacement, utiliser les gizmos pour effectuer une rotation, ou explorer les options de modification. HoloLens 1 continuera à prendre en charge l'ancien comportement où vous pointiez du regard les modèles 3D pour les sélectionner.
 
 ## <a name="ipd-settings-are-not-saved-for-each-user"></a>Les paramètres DIP ne sont pas enregistrés pour chaque utilisateur
 
@@ -77,7 +79,7 @@ Pour le moment, il n'est pas possible de renommer ou de supprimer des guides.
 
 ## <a name="you-can-create-guides-with-the-same-name-without-overwriting-old-guides"></a>Vous pouvez créer des guides portant le même nom sans pour autant remplacer d'anciens guides
 
-Vous pouvez créer plusieurs guides avec le même nom. Même si cette opération empêche d'écraser involontairement d'anciens fichiers, cela entraîne de la confusion lorsque vous sélectionnez un guide dans une liste. Nous vous recommandons de vérifier le nom des guides existants lorsque vous en créez de nouveaux.
+Vous pouvez créer plusieurs guides avec le même nom. Même si cette opération empêche d'écraser involontairement d'anciens fichiers, cela entraîne de la confusion lorsque vous sélectionnez un guide dans une liste. Lorsque vous créez un guide, veillez à utiliser un nom unique.
 
 ## <a name="3d-content-and-media-cannot-be-renamed-or-deleted-after-uploading"></a>Le contenu et le support 3D ne peuvent pas être renommés ou supprimés une fois téléchargés
 
@@ -87,19 +89,11 @@ Pour le moment, nous ne prenons pas en charge le renommage ou la suppression de 
 
 Nous ne prenons pas en charge plusieurs fichiers portant le même nom dans la version actuelle. Dans le cadre du chargement de nouveaux modèles ou support 3D, vérifiez qu'il n'existe pas de fichier portant le même nom dans la bibliothèque. Vous pouvez, cependant, avoir différents types de fichiers portant le même nom, par exemple, une image qui s'appelle bolt.png et un modèle 3D qui s'appelle bolt.glb.
 
-## <a name="cant-use-the-same-name-for-more-than-one-guide"></a>Impossible d'utiliser le même nom pour plusieurs guides
-
-Lorsque vous créez un guide, veillez à utiliser un nom unique. Si vous utilisez un nom qui a déjà été donné à un autre guide, il ne remplacera pas l'autre guide, mais l'application sera incapable de savoir quel guide ouvrir la prochaine fois.
-
 ## <a name="cant-use-the-same-name-for-3d-parts-that-you-upload-even-if-they-have-different-extensions"></a>Impossible d'utiliser le même nom pour des composants 3D qui vous chargez, même s'ils ont des extensions différentes
 
 L'application recherche actuellement les supports par nom de fichier. Ainsi, par exemple, si un fichier se nomme picture.jpg et un autre picture.png, l'application ne sait pas lequel afficher pour l'étape. Il est donc recommandé d'utiliser systématiquement des noms de fichiers uniques pour les fichiers de support que vous chargez.
 
-## <a name="uploading-new-3d-models-with-names-matching-any-of-the-pre-packaged-models-in-the-3d-toolkit-will-overwrite-the-files-in-the-3d-toolkit"></a>Le fait de télécharger de nouveaux modèles 3D avec des noms correspondant aux modèles prédéfinis dans l'une des boîte à outils 3D remplace les fichiers de la boîte à outils 3D
-
-Évitez d'utiliser des noms pour vos modèles 3D personnalisés qui sont identiques à ceux de modèles dans la boîte à outils 3D.
-
-## <a name="addressing-hardware-offset-in-hololens-1-devices-to-ensure-accurate-placement-of-holograms-for-printed-anchor-alignment"></a>Résolution du décalage du matériel dans les appareils HoloLens 1 pour garantir le positionnement exact des hologrammes pour l'alignement du point d'ancrage imprimé
+## <a name="how-do-i-address-hardware-offset-in-hololens-1-devices-to-ensure-accurate-placement-of-holograms-for-printed-anchor-alignment"></a>Comment résoudre le décalage du matériel dans les appareils HoloLens 1 afin de garantir le positionnement exact des hologrammes pour l'alignement du point d'ancrage imprimé
  
 L'angle de chaque caméra PV [!include[pn-hololens](../includes/pn-hololens.md)] 1 (la caméra placée juste au-dessus de l'arête nasale) peut être légèrement différent selon les appareils en raison des spécificités de fabrication. Comme la caméra PV permet d'analyser le marqueur imprimé, cela signifie que les hologrammes peuvent être légèrement décalés si vous utilisez le même guide et le même marqueur imprimé sur plusieurs appareils.
  
@@ -178,7 +172,7 @@ Lorsque vous chargez du contenu, à ce stade, l'application ne défile pas autom
 
 L'application du PC affiche des notifications (dans la barre de titre supérieure) s'il existe des erreurs pendant le chargement. Vérifiez que le format de fichier de votre contenu est correct, comme indiqué dans le tableau suivant. 
 
-|Support|Formats pris en charge|
+|Média|Formats pris en charge|
 |--------------|--------------------------------------------|
 |Contenu 3D|FBX, GLB, glTF|
 |Images|PNG, JPG, JPEG, GIF, TIFF|
@@ -188,7 +182,7 @@ Si vous ne pouvez toujours pas trouver votre contenu, contactez votre administra
 
 #### <a name="i-have-an-issue-that-isnt-listed-in-these-troubleshooting-steps"></a>J'ai un problème qui n'est pas répertorié dans les étapes de résolution des problèmes
 
-Contactez le service clientèle de [https://docs.microsoft.com/en-us/dynamics365/get-started/support/](https://docs.microsoft.com/en-us/dynamics365/get-started/support/). Cette page est également disponible en vous connectant à votre compte [!include[pn-dyn-365](../includes/pn-dyn-365.md)] et en sélectionnant le lien **Support**.
+Contactez le service clientèle de [https://docs.microsoft.com/dynamics365/get-started/support/](https://docs.microsoft.com/dynamics365/get-started/support/). Cette page est également disponible en vous connectant à votre compte [!include[pn-dyn-365](../includes/pn-dyn-365.md)] et en sélectionnant le lien **Support**.
 
 ### <a name="hololens-application-issues"></a>Problèmes avec l'application HoloLens
 
@@ -257,9 +251,9 @@ Il y a des problèmes lors de l'affichage du style « transparent » sur certa
 Pour permettre aux auteurs de placer des modèles 3D soigneusement et précisément, le mouvement par défaut est défini sur lent. Pour indiquer ce paramétrage, la sphère de manipulation autour du modèle sera bleue. Vous pouvez déplacer votre main plus rapidement, ou remuer un peu le modèle pour qu'il se déplace plus rapidement. 
 
 #### <a name="i-have-an-issue-that-isnt-listed-in-these-troubleshooting-steps"></a>J'ai un problème qui n'est pas répertorié dans les étapes de résolution des problèmes
-Contactez le service clientèle de [https://docs.microsoft.com/en-us/dynamics365/get-started/support/](https://docs.microsoft.com/en-us/dynamics365/get-started/support/). Cette page est également disponible en vous connectant à votre compte [!include[pn-dyn-365](../includes/pn-dyn-365.md)] et en sélectionnant le lien **Support**.
+Contactez le service clientèle de [https://docs.microsoft.com/dynamics365/get-started/support/](https://docs.microsoft.com/dynamics365/get-started/support/). Cette page est également disponible en vous connectant à votre compte [!include[pn-dyn-365](../includes/pn-dyn-365.md)] et en sélectionnant le lien **Support**.
 
 ### <a name="see-also"></a>Voir aussi
 
-[FAQ Dynamics 365 Guides en version préliminaire](faq.md)
+[FAQ Dynamics 365 Guides](faq.md)
 

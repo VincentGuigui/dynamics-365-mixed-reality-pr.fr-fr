@@ -1,31 +1,31 @@
 ---
 author: makamat
-description: Comment intégrer Dynamics 365 Field Service dans Dynamics 365 Guides (version préliminaire) pour que les techniciens de Field Service puissent suivre des instructions lorsqu'ils travaillent
+description: Intégration de Dynamics 365 Field Service dans Dynamics 365 Guides pour que les techniciens sur le terrain puissent suivre un guide lorsqu'ils exécutent un ordre de travail
 ms.author: makamat
-ms.date: 07/23/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: Intégrer Dynamics 365 for Field Service dans Dynamics 365 Guides (version préliminaire)
+title: Intégrer Dynamics 365 Field Service dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 1c54fb696df06e694927e671fa8b0ded1d7c497c
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: aa548a0fd366628c3aebdc6e3bb5cd6b50ccafed
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797404"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2049974"
 ---
-# <a name="integrate-dynamics-365-for-field-service-with-dynamics-365-guides-preview"></a>Intégrer Dynamics 365 for Field Service dans Dynamics 365 Guides (version préliminaire)
+# <a name="integrate-dynamics-365-field-service-with-dynamics-365-guides"></a>Intégrer Dynamics 365 Field Service dans Dynamics 365 Guides
 
-L'intégration de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] (inclus dans la version 104.1907.19001 de la version préliminaire publique) permet aux clients [!include[pn-field-service](../includes/pn-field-service.md)] d'associer des instructions aux tâches de [!include[pn-field-service](../includes/pn-field-service.md)] dans [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]. Lorsque des tâches sont attribuées aux techniciens, ils peuvent alors utiliser un onglet **[!include[pn-field-service](../includes/pn-field-service.md)]** dédié dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] [!include[pn-hololens](../includes/pn-hololens.md)] pour lancer le guide et faire leur travail.
+L'intégration de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] (disponible dans la version 104.1907.19001) permet aux clients [!include[pn-field-service](../includes/pn-field-service.md)] d'associer des guides aux tâches [!include[pn-field-service](../includes/pn-field-service.md)] dans [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)]. Lorsque des tâches sont attribuées aux techniciens, ils peuvent alors utiliser un onglet **[!include[pn-field-service](../includes/pn-field-service.md)]** dédié dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] [!include[pn-hololens](../includes/pn-hololens.md)] pour lancer le guide et faire leur travail.
 
 ![Sélectionner un guide](media/select-guide.PNG "Sélectionner un guide")   
 
 > [!IMPORTANT]
-> Pour associer des guides à des tâches de service dans [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)], vous devez disposer d'une instance existante de [!include[pn-dyn-365](../includes/pn-dyn-365.md)] Customer Engagement (CRM) avec [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] version 8.6.0.183 ou ultérieure. Vous devez également effectuer une mise à jour vers la version 104.1907.0.33 ou ultérieure de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] ([voir comment mettre à niveau la solution Dynamics 365 Guides](upgrade.md)), et les versions 104.1907.19001 du PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et de l'application [!include[pn-hololens](../includes/pn-hololens.md)] ([voir comment s'inscrire à la version préliminaire et installer les applications](setup.md)).
+> Pour associer des guides à des tâches de service dans [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)], vous devez disposer d'une instance existante de [!include[pn-dyn-365](../includes/pn-dyn-365.md)] Customer Engagement (CRM) avec [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] version 8.6.0.183 ou ultérieure. Vous devez également effectuer une mise à jour vers la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] version 104.1907.0.33 ou ultérieure ([en savoir plus sur la mise à niveau de la solution Dynamics 365 Guides](upgrade.md)) et les applications sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et [!include[pn-hololens](../includes/pn-hololens.md)] versions 104.1907.19001.
 
 ## <a name="enable-your-technicians-to-use-dynamics-365-guides-for-work-orders"></a>Permettre aux techniciens d'utiliser Dynamics 365 Guides pour leur travail
 
-1. Créez un guide à l'aide du PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et des applications [!include[pn-hololens](../includes/pn-hololens.md)]. Pour plus d'informations sur la création d'un guide, voir :
+1. Créez un guide à l'aide des applications sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et [!include[pn-hololens](../includes/pn-hololens.md)]. Pour plus d'informations sur la création d'un guide, voir :
   
    - [Utiliser l'application de création sur PC pour créer un guide](pc-authoring.md)
    
@@ -73,7 +73,7 @@ L'intégration de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!includ
 
 ### <a name="see-also"></a>Voir aussi
 
-[Présentation de Dynamics 365 for Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/overview)
+[Présentation de Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/overview)
       
       
    

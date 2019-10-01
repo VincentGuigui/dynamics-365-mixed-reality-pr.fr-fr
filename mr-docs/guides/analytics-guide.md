@@ -1,24 +1,22 @@
 ---
 author: BryceHo
-description: Décrit les états d'Analyses de Guides--Power BI que vous pouvez utiliser dans Dynamics 365 Guides (version préliminaire) pour améliorer l'efficacité des processus.
+description: Décrit les états d'Analyses de Guides--Power BI que vous pouvez utiliser dans Dynamics 365 Guides pour améliorer l'efficacité des processus.
 ms.author: cynielse
-ms.date: 07/09/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: Présentation des états d'Analyses de Guides, Power BI pour Dynamics 365 Guides (version préliminaire)
+title: Présentation des états d'Analyses de Guides, Power BI pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 345ad3292750bb9edb4f5230fd866af8d58affe2
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: a69ab8bea1abee3ef0a9970156b2e16319a202f4
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797386"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2049929"
 ---
-# <a name="analyze-guides-created-with-dynamics-365-guides-preview"></a>Analyses de Guides créés avec Dynamics 365 Guides (version préliminaire)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# <a name="analyze-guides-created-with-dynamics-365-guides"></a>Analyser des guides créés avec Dynamics 365 Guides
  
-Les Analyses de Guides font partie de la suite d'applications [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)] qui comprend l'application de création sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] [!include[pn-hololens](../includes/pn-hololens.md)]. Utilisez les Analyses de Guides pour analyser l'utilisation des guides dans votre organisation. Les Analyses de Guides se composent d'états visuels [!include[pn-power-bi](../includes/pn-power-bi.md)], renseignés à l'aide des données d'utilisation [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] enregistrées de manière sécurisée dans votre environnement [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. 
+Les Analyses de Guides font partie de la suite d'applications [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] qui comprend l'application de création sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] [!include[pn-hololens](../includes/pn-hololens.md)]. Utilisez les Analyses de Guides pour analyser l'utilisation des guides dans votre organisation. Les Analyses de Guides se composent d'états visuels [!include[pn-power-bi](../includes/pn-power-bi.md)], renseignés à l'aide des données d'utilisation [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] enregistrées de manière sécurisée dans votre environnement [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. 
 
 ## <a name="what-data-is-collected-and-used-in-guides-analytics"></a>Quelles sont les données collectées et utilisées dans les Analyses de Guides ? 
 
@@ -49,11 +47,11 @@ Ces états fournissent des informations sur la façon de faire des opérateurs e
 Vous pouvez paramétrer les Analyses de Guides pour la première fois via l'application de création sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
 > [!NOTE]
-> Les Analyses de Guides nécessitent l'application [Power BI Desktop gratuite](https://powerbi.microsoft.com/get-started/). Si vous ne disposez pas des autorisations nécessaires pour installer [!include[pn-power-bi](../includes/pn-power-bi.md)] Desktop sur votre ordinateur, demandez à votre administrateur de partager ces états à l'aide du service [!include[pn-power-bi](../includes/pn-power-bi.md)]. 
+> Les Analyses de Guides nécessitent l'application [Power BI Desktop gratuite](https://powerbi.microsoft.com/get-started/). Contactez votre administrateur si vous ne disposez pas d'une autorisation pour installer [!include[pn-power-bi](../includes/pn-power-bi.md)] Desktop sur votre ordinateur. 
 
 Pour configurer vos états :
  
-1.  Dans l'application de création sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], sélectionnez l'onglet **Analyser**, copiez le texte de l'URI d'instance en surbrillance, puis sélectionnez **Continuer** pour accéder au [Centre de téléchargement Microsoft](https://aka.ms/guidesreport). 
+1.  Dans l'application de création sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], sélectionnez l'onglet **Analyser**, copiez le texte de l'URL d'instance en surbrillance, puis sélectionnez **Continuer** pour accéder au [Centre de téléchargement Microsoft](https://aka.ms/guidesreport). 
    
     ![Onglet Analyser](media/get-started-analytics.PNG "Onglet Analyser")      
  
@@ -73,7 +71,7 @@ Pour configurer vos états :
   
 3.  Ouvrez le fichier Modèle d'Analyses de Guides.pbit téléchargé avec [!include[pn-power-bi](../includes/pn-power-bi.md)] Desktop. Utilisez votre nom d'utilisateur et votre mot de passe [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] si vous êtes invité à vous connecter à [!include[pn-power-bi](../includes/pn-power-bi.md)].  
  
-4.  Lorsque vous y êtes invité, collez l'URI d'instance dans la zone de texte comme indiqué ici. Il s'agit de la même URI d'instance que celle copiée à partir de l'onglet **Analyser** dans l'application de création sur PC à l'étape 1. 
+4.  Lorsque vous y êtes invité, collez l'URL d'instance dans la zone de texte comme indiqué ici. Il s'agit de la même URL d'instance que celle copiée à partir de l'onglet **Analyser** dans l'application de création sur PC à l'étape 1. 
 
      ![Modèle d'Analyses de Guides](media/guides-analytics-template.PNG "Modèle d'Analyses de Guides")
  
@@ -99,13 +97,13 @@ Une fois que vous avez paramétré et enregistré le Modèle d'Analyses de Guide
 
 Les fichiers Modèle d'Analyses de Guides et Démonstration d'Analyses de Guides contiennent deux états : Utilisation de guides et Suivi du temps de traitement.
 
-### <a name="guides-usage-report"></a>État Utilisation d'instructions
+### <a name="guides-usage-report"></a>État Utilisation des guides
 
-L'état Utilisation d'instructions fournit une vue d'ensemble de toutes les instructions utilisées dans votre organisation. Le graphique suivant illustre le contenu de l'état.
+L'état Utilisation des guides fournit une vue d'ensemble de tous les guides utilisés dans votre organisation. Le graphique suivant illustre le contenu de l'état.
 
-![État Utilisation d'instructions](media/guides-usage-report.PNG "État Utilisation d'instructions") 
+![État Utilisation des guides](media/guides-usage-report.PNG "État Utilisation des guides") 
  
-1.  Quelles sont les instructions incluses dans l'état ?
+1.  Quels sont les guides inclus dans l'état ?
 
     Utilisez le menu déroulant pour sélectionner les instructions utilisées pour générer les visuels et les statistiques dans l'état. Le fait de modifier la sélection dans ce menu déroulant a également un impact sur toutes les parties de l'état. Par défaut, l'option **Tous** est sélectionnée pour vous donner une vue d'ensemble de toutes les instructions de l'organisation.
    
@@ -154,7 +152,7 @@ Utilisez l'état Suivi du temps de traitement pour explorer l'utilisation et le 
 
 ![État Suivi du temps de traitement](media/process-time-tracking-report.PNG "État Suivi du temps de traitement")
  
-1.  Quelles sont les instructions incluses dans l'état ?
+1.  Quels sont les guides inclus dans l'état ?
 
     Utilisez le menu déroulant pour sélectionner un guide. Le fait de modifier la sélection dans le menu déroulant modifie les valeurs dans tout l'état pour correspondre aux données de ce guide. 
    
@@ -207,15 +205,15 @@ Utilisez l'état Suivi du temps de traitement pour explorer l'utilisation et le 
 
 ## <a name="share-the-guides-analytics-reports"></a>Partager les états d'Analyses de Guides 
 
-Vous pouvez partager vos états d'Analyses de Guides [!include[pn-power-bi](../includes/pn-power-bi.md)] au sein de votre organisation en les publiant dans le service [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela permet à toute personne de votre organisation ayant une licence Pro [!include[pn-power-bi](../includes/pn-power-bi.md)] d'accéder à l'état via l'interface Web du service [!include[pn-power-bi](../includes/pn-power-bi.md)] accessible sur [https://powerbi.microsoft.com](https://powerbi.microsoft.com).  
+Si vous disposez d'une licence [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, vous pouvez partager vos états d'Analyses de Guides [!include[pn-power-bi](../includes/pn-power-bi.md)] au sein de votre organisation en les publiant dans le service [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela permet à toute personne de votre organisation ayant une licence [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro d'accéder à l'état via l'interface Web du service [!include[pn-power-bi](../includes/pn-power-bi.md)] accessible sur https://powerbi.microsoft.com.
 
-[!include[pn-power-bi](../includes/pn-power-bi.md)] fournit plusieurs systèmes pour partager des états avec d'autres personnes de votre organisation. Nous vous recommandons de lire [Comment partager votre travail dans Power BI](https://docs.microsoft.com/en-us/power-bi/service-how-to-collaborate-distribute-dashboards-reports) pour obtenir une vue d'ensemble. Pour partager facilement vos états dans votre organisation en lecture seule, publiez-les sous forme d'application [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela implique de suivre les étapes bien documentées suivantes : 
+Une fois que vous disposez d'une licence [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, plusieurs systèmes pour partager des états avec d'autres personnes de votre organisation sont disponibles. Nous vous recommandons de lire [Comment partager votre travail dans Power BI](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports) pour obtenir une vue d'ensemble. Pour partager facilement vos états dans votre organisation en lecture seule, publiez-les sous forme d'application [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela implique de suivre les étapes bien documentées suivantes :
 
-1.  [Créer un espace de travail dans le service Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-workspaces). 
+1.  [Créer un espace de travail dans le service Power BI](https://docs.microsoft.com/power-bi/service-create-workspaces). 
 
-2.  [Publier les états d'Analyses de Guides dans cet espace de travail via Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-upload-desktop-files). 
+2.  [Publier les états d'Analyses de Guides dans cet espace de travail via Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-upload-desktop-files). 
 
-3.  [Publier le contenu de l'espace de travail en tant qu'application dans le service Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).  
+3.  [Publier le contenu de l'espace de travail en tant qu'application dans le service Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).  
  
 ### <a name="see-also"></a>Voir aussi
 

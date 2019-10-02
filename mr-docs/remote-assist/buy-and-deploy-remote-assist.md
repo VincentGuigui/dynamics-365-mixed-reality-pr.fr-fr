@@ -7,16 +7,16 @@ ms.service: crm-online
 ms.topic: article
 title: Acheter et déployer Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 038e3c86294e65c7becf16b14b51bea6eb3d2382
-ms.sourcegitcommit: 80c2a9dc71cab3914d3a96d37904bd1e16e4b450
+ms.openlocfilehash: 5298e664ee6b9a4621239fb369ded37cff84fcb4
+ms.sourcegitcommit: 73dff7bbeecc69366e1b98fa4db4a7b00762fb80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617243"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1847938"
 ---
 # <a name="buy-and-deploy-dynamics-365-remote-assist"></a>Acheter et déployer Dynamics 365 Remote Assist
 
-Avec [!include[pn-remote-assist](../includes/pn-remote-assist.md)], vous pouvez établir le lien entre les mondes réel et numérique pour effectuer des tâches cruciales plus rapidement, plus sûrement et plus efficacement, et créer de nouvelles manières de se connecter à des clients et des partenaires.
+Avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)], vous pouvez établir le lien entre les mondes réel et numérique pour effectuer des tâches cruciales plus rapidement, plus sûrement et plus efficacement, et créer de nouvelles manières de se connecter à des clients et des partenaires.
 
 ## <a name="subscribe-to-remote-assist"></a>Abonnez-vous à Remote Assist.
 
@@ -119,7 +119,7 @@ Pour plus d'informations sur l'installation de l'application [!include[pn-remote
     -   [Gestion des périphériques mobiles](https://docs.microsoft.com/en-us/microsoft-store/configure-mdm-provider-microsoft-store-for-business)
 
 ### <a name="see-also"></a>Voir aussi
-[Essayez Dynamics 365 Remote Assist gratuitement jusqu'à 90 jours](try-remote-assist-free.md)<br/>
-[Présentation de Dynamics 365 Remote Assist](../remote-assist/index.md)<br/>
-[Guide de l'utilisateur de Dynamics 365 Remote Assist](../remote-assist/user-guide.md)<br/>
+[Essayer Remote Assist gratuitement jusqu'à 90 jours](try-remote-assist-free.md)<br/>
+[Présentation de Remote Assist](../remote-assist/index.md)<br/>
+[Guide de l'utilisateur de Remote Assist](../remote-assist/user-guide.md)<br/>
 

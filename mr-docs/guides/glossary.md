@@ -1,24 +1,22 @@
 ---
 author: Mamaylya
-description: Glossaire des termes Dynamics 365 Guides (version préliminaire)
+description: Glossaire des termes pour Dynamics 365 Guides
 ms.author: Mamaylya
-ms.date: 05/30/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: Glossaire des termes Dynamics 365 Guides (version préliminaire)
+title: Glossaire des termes pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 68f3e6eb384edc4c51d223d88bf3bad594e3566a
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: 6502ec4dc6b5a0011035d619451998e66e50ecfd
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797422"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2049947"
 ---
-# <a name="glossary-of-terms-for-dynamics-365-guides-preview"></a>Glossaire des termes Dynamics 365 Guides (version préliminaire)
+# <a name="glossary-of-terms-for-dynamics-365-guides"></a>Glossaire des termes pour Dynamics 365 Guides
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
- 
-Ce glossaire peut s'avérer utile lorsque vous travaillez avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)].
+Ce glossaire peut s'avérer utile lorsque vous travaillez avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
 ## <a name="3d-parts"></a>Composants 3D
 Contenu 3D que vous attribuez à une étape pour la prendre en charge. Vous devez affectez des composants 3D dans l'application du PC, puis placer les hologrammes dans le monde réel en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)].
@@ -32,9 +30,6 @@ Mouvement équivalent à un « clic » de souris. Pour savoir comment cliquer 
 ## <a name="anchoring-alignment"></a>Ancrer (alignement)
 Processus permettant de s'assurer qu'un guide est bien « aligné » avec les objets associés dans le monde réel quand il est utilisé sur [!include[pn-hololens](../includes/pn-hololens.md)]. L'ancrage est primordial et obligatoire pour créer n'importe quel guide. Pour plus d'informations, voir le [Guide sur la création](pc-authoring.md).
 
-## <a name="asset"></a>Ressource
-Terme générique utilisé pour l'ensemble complet d'objets que vous pouvez ajouter à une étape pour la prendre en charge. Les ressources incluent des objets 2D (des images et des vidéos) et des objets 3D (des composants 3D et des objets de la boîte à outils 3D). 
-
 ## <a name="author"></a>Auteur
 Personne qui crée un guide.
 
@@ -44,7 +39,10 @@ Processus dans lequel [!include[pn-hololens](../includes/pn-hololens.md)] ajuste
 ## <a name="digital-anchor"></a>Point d'ancrage numérique
 Représentation 3D utilisée pour ancrer des hologrammes dans le monde réel. Vous devez placer la représentation numérique (qui peut être un modèle de CAO ou un modèle numérisé) directement sur son homologue dans le monde réel, puis faire un mouvement pour aligner le guide sur le point d'ancrage numérique.
 
-## <a name="field-of-view"></a>Champ de vision
+## <a name="dotted-line"></a>Trait en pointillé
+Lien holographique qui associe visuellement une étape à la zone sur laquelle l'opérateur doit se concentrer. Cela aide l'opérateur à trouver du contenu ou à comprendre ce qu'il est censé observer dans le monde réel. Vous pouvez utiliser une ligne pointillée holographique avec un objet 3D, comme une flèche ou un chiffre holographique. 
+
+## <a name="field-of-view-fov"></a>Champ de vision
 Taille de l'affichage [!include[pn-hololens](../includes/pn-hololens.md)] où apparaissent les hologrammes. Il est important de conserver le champ de vision à l'esprit au moment de placer les hologrammes dans le monde réel.
 
 ## <a name="fit-box-setting"></a>Paramètres Ajuster la zone
@@ -80,8 +78,7 @@ Propriétés visuelles que vous pouvez ajouter à un objet 3D pour mettre l'acce
 ## <a name="task"></a>Tâche
 Travail à effectuer ou à être entrepris. Une tâche comprend plusieurs étapes que l'opérateur doit suivre. 
 
-## <a name="tether"></a>Attache
-Lien holographique qui associe visuellement une étape à la zone sur laquelle l'opérateur doit se concentrer. Cela aide l'opérateur à trouver du contenu ou à comprendre ce qu'il est censé observer dans le monde réel. Vous pouvez utiliser une attache avec un objet 3D, comme une flèche ou un numéro holographique. 
+
 
 ### <a name="see-also"></a>Voir aussi
 

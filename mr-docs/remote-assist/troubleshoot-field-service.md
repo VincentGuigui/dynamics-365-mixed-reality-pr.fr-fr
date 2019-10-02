@@ -7,16 +7,16 @@ ms.service: crm-online
 ms.topic: article
 title: Intégrer Dynamics 365 for Field Service dans Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 71d89b161d269c5559344f021f6f5aaa1a8aa3ce
-ms.sourcegitcommit: 80c2a9dc71cab3914d3a96d37904bd1e16e4b450
+ms.openlocfilehash: 59e3017158b82a9bc079247a0c2c31f09c57682a
+ms.sourcegitcommit: 73dff7bbeecc69366e1b98fa4db4a7b00762fb80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617258"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1847943"
 ---
 # <a name="troubleshoot-field-service-integration-with-dynamics-365-remote-assist"></a>Détecter les problèmes d'intégration de Field Service dans Dynamics 365 Remote Assist
 
-Si votre organisation utilise [Dynamics 365 for Field Service](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail [!include[pn-field-service](../includes/pn-field-service.md)], le collaborateur de première ligne, en utilisant [!include[pn-hololens](../includes/pn-hololens.md)], peut consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appeler rapidement l'expert répertorié dans le champ **Contacter le support**, le cas échéant. Cela permet aux collaborateurs de première ligne d'effectuer des appels tête relevée, mains libres via [!include[pn-hololens](../includes/pn-hololens.md)] dans le cadre d'une réservation [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)].
+Si votre organisation utilise [Dynamics 365 for Field Service](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail [!include[pn-field-service](../includes/pn-field-service.md)], le collaborateur de première ligne, en utilisant [!include[pn-hololens](../includes/pn-hololens.md)], peut consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] et appeler rapidement l'expert répertorié dans le champ **Contacter le support**, le cas échéant. Cela permet aux collaborateurs de première ligne d'effectuer des appels tête relevée, mains libres via [!include[pn-hololens](../includes/pn-hololens.md)] dans le cadre d'une réservation [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)].
 
 Cette rubrique décrit les éléments suivants :
 

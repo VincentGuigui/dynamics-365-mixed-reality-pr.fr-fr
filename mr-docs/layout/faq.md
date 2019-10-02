@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: FAQ Dynamics 365 Layout
 ms.reviewer: v-brycho
-ms.openlocfilehash: 048a9376b6db90e2346a2eae4119342835ad0925
-ms.sourcegitcommit: a50eb22358dd459b09ba77b812658d2aed925431
+ms.openlocfilehash: c8a2b6814ef7b8196c54c1b88af4896137f07064
+ms.sourcegitcommit: a6d899359bf5d75b092f51eefc94bc295dc1895a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755826"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1923176"
 ---
 # <a name="dynamics-365-layout-faq"></a>FAQ Dynamics 365 Layout
 
@@ -40,11 +40,11 @@ Non, vous pouvez utiliser chaque application séparément, bien qu'elles fonctio
 
 ## <a name="what-are-the-technical-requirements-for-running-the-dynamics-365-layout-apps"></a>Quels-sont les impératifs techniques pour exécuter les applications Dynamics 365 Layout ?
 
--   [!include[pn-hololens](../includes/pn-hololens.md)] : votre casque doit exécuter la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643). 
+-   [!include[pn-hololens](../includes/pn-hololens.md)] : votre casque doit exécuter la [Mise à jour d'avril 2018 de Windows 10](https://support.microsoft.com/help/12643). 
 
--   [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality : votre PC doit exécuter la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685). Vous avez également besoin des [contrôleurs de mouvement Windows Mixed Reality](https://support.microsoft.com/en-us/help/4040517) pour utiliser l'application avec votre casque immersif.
+-   [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality : votre PC doit exécuter la [Mise à jour d'avril 2018 de Windows 10](https://support.microsoft.com/help/4028685). Vous avez également besoin des [contrôleurs de mouvement Windows Mixed Reality](https://support.microsoft.com/help/4040517) pour utiliser l'application avec votre casque immersif.
 
--   [!include[pn-import-tool](../includes/pn-import-tool.md)] : votre PC doit exécuter la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).
+-   [!include[pn-import-tool](../includes/pn-import-tool.md)] : votre PC doit exécuter la [Mise à jour d'avril 2018 de Windows 10](https://support.microsoft.com/help/4028685).
 
 [En savoir plus sur les options et les exigences techniques de l'appareil.](requirements.md)
 
@@ -97,7 +97,7 @@ Autriche, Australie, Belgique, Bulgarie, Canada, Chine, Croatie, Chypre, Républ
 ## <a name="how-do-i-import-autocad-models"></a>Comment importer des modèles AutoCAD ?
 
 
-Vous pouvez préparer vos modèles 3D vous-même en utilisant des outils tiers d'optimisation et de conversion ou bien vous pouvez utiliser l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour envoyer vos modèles à [!include[cc-microsoft](../includes/cc-microsoft.md)] afin de les convertir et de les optimiser. Quelle que soit la méthode que vous utilisez, une fois la conversion et l'optimisation des modèles réalisées, vous utilisez l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour les préparer à la réalité mixte. [En savoir plus sur l'Import Tool.](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool)
+Vous pouvez préparer vos modèles 3D vous-même en utilisant des outils tiers d'optimisation et de conversion ou bien vous pouvez utiliser l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour envoyer vos modèles à [!include[cc-microsoft](../includes/cc-microsoft.md)] afin de les convertir et de les optimiser. Quelle que soit la méthode que vous utilisez, une fois la conversion et l'optimisation des modèles réalisées, vous utilisez l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour les préparer à la réalité mixte. [En savoir plus sur l'Import Tool.](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool)
 
 ## <a name="how-does-the-import-tool-process-my-3d-models"></a>Comment l'Import Tool traite-t-il mes modèles 3D ?
 

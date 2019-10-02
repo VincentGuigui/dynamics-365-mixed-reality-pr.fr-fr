@@ -1,26 +1,24 @@
 ---
 author: BryceHo
-description: FAQ sur Dynamics 365 Guides (version préliminaire)
+description: FAQ sur Dynamics 365 Guides
 ms.author: makamat
-ms.date: 05/30/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: FAQ sur Dynamics 365 Guides (version préliminaire)
+title: FAQ sur Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: b2f29a3269551adcf4bf188923f94893f0e25d23
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: 0b3fd913d18a0512fdfda5540935aeecf4bc881f
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797350"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2049884"
 ---
-# <a name="frequently-asked-questions-about-microsoft-dynamics-365-guides-preview"></a>Forum Aux Questions sur Microsoft Dynamics 365 Guides (version préliminaire)
+# <a name="frequently-asked-questions-about-microsoft-dynamics-365-guides"></a>Forum aux questions sur Microsoft Dynamics 365 Guides
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
- 
 ## <a name="how-do-i-contact-support-if-i-dont-find-an-answer-in-this-faq"></a>Comment contacter le support si je ne trouve pas de réponse dans ce FAQ ?
 
-Si vous ne pouvez pas utiliser [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)] ou si votre problème n'est pas répertorié dans ce FAQ ou dans la documentation, contactez le support client comme suit :
+Si vous ne pouvez pas utiliser [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] ou si votre problème n'est pas répertorié dans ce FAQ ou dans la documentation, contactez le support client comme suit :
 
 1. Accédez à [https://dynamics.microsoft.com/en-us/support/](https://dynamics.microsoft.com/en-us/support/).
 
@@ -36,25 +34,33 @@ Si vous ne pouvez pas utiliser [!include[cc-microsoft](../includes/cc-microsoft.
 
 - Application [!include[pn-hololens](../includes/pn-hololens.md)], qui inclut des modes de création et d'exécution
 
-Si vous envisagez de rédiger des instructions, vous devrez utiliser les deux applications. Sinon, vous aurez uniquement besoin de l'application [!include[pn-hololens](../includes/pn-hololens.md)].
+Si vous envisagez de créer des guides, vous devrez utiliser les deux applications. Sinon, vous aurez uniquement besoin de l'application [!include[pn-hololens](../includes/pn-hololens.md)].
 
-## <a name="what-are-the-prerequisites-for-using-the-dynamics-365-guides-apps"></a>Quelles sont les conditions préalables pour utiliser les applications Dynamics 365 Guides ?
+## <a name="what-languages-is-dynamics-365-guides-available-in"></a>Dans quelles langues Dynamics 365 Guides est-elle disponible ?
 
-Le tableau suivant répertorie les exigences techniques pour le déploiement et l'utilisation de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans toute votre organisation.
+À partir de la mise à jour du 27 août, Dynamics 365 Guides est disponible dans les langues suivantes pour l'application sur PC et l'application HoloLens :
 
-### <a name="device-requirements"></a>Configuration requise pour l'appareil
-|Appareil|Configuration requise du SE|Détails|
-|----------------------------------------|---------------------------------------------|-------------------------------------|
-|[!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)]|Version 10.0.14393.0 ou ultérieure. Nous vous recommandons de mettre à jour [!include[pn-hololens](../includes/pn-hololens.md)] vers des versions plus récentes quand elles sont disponibles.|Voir [Gérer les mises à jour vers HoloLens](https://docs.microsoft.com/en-us/HoloLens/hololens-updates) pour obtenir des instructions sur l'utilisation de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Update pour Entreprise, Gestion des périphériques mobiles (GPM) et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Server Update Services (WSUS).|
-|[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 PC (requis pour créer un guide)|[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 PC avec Fall Creators Update 1709 ou version ultérieure (version 10.0.16299 ou ultérieure)|Un [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 PC est utilisé pour créer et modifier les guides qui sont alors disponibles dans [!include[pn-hololens](../includes/pn-hololens.md)].</br><br>Résolution minimale d'écran suggérée : 1080 px de large|
+- Anglais (États-Unis, Royaume-Uni)
 
-### <a name="licensing-and-product-requirements"></a>Gestion des licences et configuration requise du produit
+- Chinois (République populaire de Chine, Taïwan, Hong Kong R.A.S.)
 
-Une licence [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)] est requise pour chaque utilisateur qui utilise l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Pour plus d'informations, voir la [rubrique Configurer](setup.md).
+- Allemand 
+
+- Néerlandais (Pays-Bas)
+
+- Français (France, Canada)
+
+- Italien
+
+- Japonais
+
+- Coréen
+
+- Espagnol (Espagne)
 
 ## <a name="is-there-an-out-of-the-box-integration-with-dynamics-365-for-field-service"></a>Existe-t-il une intégration prête à l'emploi avec Dynamics 365 for Field Service ?
 
-Oui, la version préliminaire de l'intégration de [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] a été ajoutée dans la version 104.1907.19001.
+Oui, l'intégration de [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] a été ajoutée dans la version 104.1907.19001.
 
 ## <a name="i-get-an-error-message-when-i-try-to-sign-in-to-the-pc-app-or-includepn-hololensincludespn-hololensmd-app"></a>J'obtiens un message d'erreur lorsque j'essaie de me connecter à l'application du PC ou à l'application [!include[pn-hololens](../includes/pn-hololens.md)]
 
@@ -68,9 +74,9 @@ Les données sont stockées dans Common Data Service dans le client pour lequel 
 
 Le tableau suivant répertorie les formats de fichier pris en charge pour le contenu 3D, les images, et les vidéos.
 
-|Support|Formats pris en charge|Conseil|
+|Média|Formats pris en charge|Conseil|
 |----------|----------------------|-------------------------------------------------------------------------|
-|Contenu 3D|FBX, GLB, glTF|Veillez à optimiser les modèles 3D autant que possible pour maintenir des performances optimales dans [!include[pn-hololens](../includes/pn-hololens.md)].|
+|Contenu 3D|glTF, GLB et FBX|Veillez à optimiser les modèles 3D autant que possible pour maintenir des performances optimales dans [!include[pn-hololens](../includes/pn-hololens.md)].|
 |Images|PNG, JPG, JPEG, GIF, TIFF||
 |Vidéos|MP4, MOV, WMV|Faites en sorte que vos vidéos durent moins de 2 minutes et se concentrent sur une étape à la fois.|
 
@@ -147,4 +153,4 @@ Le signe de danger est un espace réservé pour les modèles 3D, les vidéos ou 
 
 ### <a name="see-also"></a>Voir aussi
 
-[Problèmes connus avec Dynamics 365 Guides en version préliminaire](known-issues.md)
+[Problèmes connus dans Dynamics 365 Guides](known-issues.md)

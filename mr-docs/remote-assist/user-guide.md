@@ -7,16 +7,16 @@ ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.reviewer: v-brycho
-ms.openlocfilehash: bbd55764cac04e15c2f34947b3b348fa1b2aa3ff
-ms.sourcegitcommit: 9f797a3ac9f96d3e137edc3f627521a818c7dbe9
+ms.openlocfilehash: 7f5bf9ce93d4c11b2373a14302cd9f074adcdb56
+ms.sourcegitcommit: dc826257529550c0bd4308ce8e155bdde065b9d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702659"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "1980438"
 ---
 # <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 
-Utilisez [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] pour vous connecter et collaborer au moyen d'un appel vidéo mains libres, d'annotations de réalité mixte et du partage de fichiers (image et PDF). Utilisez votre [!include[pn-hololens](../includes/pn-hololens.md)] pour appeler un expert qui utilise [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], puis partagez ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)] pour résoudre les problèmes et réaliser des tâches ensemble, plus rapidement.
+Utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] pour vous connecter et collaborer au moyen d'un appel vidéo mains libres, d'annotations de réalité mixte et du partage de fichiers (image et PDF). Utilisez votre [!include[pn-hololens](../includes/pn-hololens.md)] pour appeler un expert qui utilise [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], puis partagez ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)] pour résoudre les problèmes et réaliser des tâches ensemble, plus rapidement.
 
 Besoin d'aide complémentaire ? [Consultez la FAQ de Remote Assist](faq.md) pour obtenir des réponses aux questions fréquentes.
 
@@ -27,13 +27,13 @@ Besoin d'aide complémentaire ? [Consultez la FAQ de Remote Assist](faq.md) pou
 -   Un abonnement à [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] est inclus dans l'abonnement [!include[pn-remote-assist](../includes/pn-remote-assist.md)] pour les personnes avec une licence [!include[pn-remote-assist](../includes/pn-remote-assist.md)] sur [!include[pn-HoloLens](../includes/pn-HoloLens.md)]. Une licence [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] est également requise pour les personnes (spécialistes) qui communiquent avec un utilisateur de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] sur [!include[pn-HoloLens](../includes/pn-HoloLens.md)]. [!include[pn-teams](../includes/pn-teams.md)] peut être disponible [en téléchargement gratuit](https://teams.microsoft.com/downloads) pour ces utilisateurs. Si vous êtes l'administrateur pour votre organisation [découvrez comment essayer ou acheter et déployer Remote Assist](../licensing/buy-and-deploy.md). 
 
     > [!TIP] 
-    > Vous pouvez essayer [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] gratuitement jusqu'à 90 jours. [En savoir plus sur l'essai gratuit de Dynamics 365 Remote Assist de 90 jours](try-remote-assist-free.md).
+    > Vous pouvez essayer [!include[pn-remote-assist](../includes/pn-remote-assist.md)] gratuitement jusqu'à 90 jours. [En savoir plus sur l'essai gratuit de Remote Assist de 90 jours](try-remote-assist-free.md).
 
--   Un [HoloLens exécutant Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643).
+-   Un [HoloLens exécutant la Mise à jour d'avril 2018 de Windows 10](https://support.microsoft.com/help/12643).
 
--   Pour effectuer un appel vidéo, vous avez besoin d'un contact utilisant la dernière version de [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/group-chat-software) sur un PC exécutant [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 ou un appareil mobile exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] Mobile. [Renseignez-vous sur l'utilisation de Teams avec Remote Assist.](use-microsoft-teams-with-remote-assist.md)
+-   Pour effectuer un appel vidéo, vous avez besoin d'un contact utilisant la dernière version de [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) sur un PC exécutant [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 ou un appareil mobile exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] Mobile. [Renseignez-vous sur l'utilisation de Teams avec Remote Assist.](use-microsoft-teams-with-remote-assist.md)
 
--   Pour vous connecter à [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)], vous avez besoin d'une [licence Dynamics 365](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand).
+-   Pour vous connecter à [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)], vous avez besoin d'une [licence Dynamics 365](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand).
 
 -   Une connexion Internet. Au moins 1,5 Mo de bande passante est recommandé pour optimiser l'expérience.
 
@@ -47,7 +47,7 @@ La manière dont vous installez [!include[pn-remote-assist](../includes/pn-remot
 
 1.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), puis cherchez « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] ».
 
-2.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**. Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application. [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est une application immersive avec une [vue holographique](https://support.microsoft.com/en-us/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.
+2.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**. Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application. [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est une application immersive avec une [vue holographique](https://support.microsoft.com/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.
 
 Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 2018 Update et que vous êtes connecté avec un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD), vous serez automatiquement connecté à [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Sinon, utilisez le clavier holographique pour vous connecter avec un compte professionnel ou scolaire associé à un abonnement [!include[pn-office-365](../includes/pn-office-365.md)] Premium ou Essentials. Une fois connecté, vous verrez vos contacts récents.
 
@@ -56,7 +56,7 @@ Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 
 Les procédures de ce guide de l'utilisateur décrivent comment effectuer des tâches via l'interface utilisateur ou en utilisant des commandes de voix, le cas échéant. Pour utiliser une commande vocale, dites : « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », puis prononcez la commande vocale. [En savoir plus sur les commandes vocales.](#voice)
 
 > [!NOTE]
-> Actuellement, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1. Pour HoloLens 2, les commandes vocales sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
+> Actuellement, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1. Pour HoloLens 2, les commandes vocales sont [disponibles dans des langues spécifiques](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
 
 ## <a name="make-and-receive-calls"></a>Effectuer et recevoir des appels
 
@@ -64,7 +64,7 @@ La manière dont vous effectuez un appel varie selon que vous appelez un contact
 
 ### <a name="make-a-call-to-a-contact-in-your-company"></a>Appeler un contact dans votre société
 
--   Ouvrez l'application et [sélectionnez](https://support.microsoft.com/en-us/help/12644) un contact récent. Si vous ne voyez pas le contact que vous souhaitez, sélectionnez **Rechercher** ![Rechercher](media/e3155cd796106ea0818d8f52c7dbfcbe.png "Rechercher"), puis utilisez le clavier holographique pour entrer un nom ou une adresse e-mail.
+-   Ouvrez l'application et [sélectionnez](https://support.microsoft.com/help/12644) un contact récent. Si vous ne voyez pas le contact que vous souhaitez, sélectionnez **Rechercher** ![Rechercher](media/e3155cd796106ea0818d8f52c7dbfcbe.png "Rechercher"), puis utilisez le clavier holographique pour entrer un nom ou une adresse e-mail.
 
 Lorsque votre contact répond à l'appel dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], il peut voir ce que vous visualisez votre espace, y compris les hologrammes.
 
@@ -100,7 +100,7 @@ Vous pouvez inclure jusqu'à 50 personnes dans un appel de groupe. Vous pouvez 
    ![Animation Rechercher un contact pour un appel](media/GC_SearchCall.gif "Animation Rechercher un contact pour un appel")
 
    > [!TIP]
-   > [Découvrir comment ajouter des contacts supplémentaires depuis le bureau Microsoft Teams](https://support.office.com/en-us/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3). 
+   > [Découvrir comment ajouter des contacts supplémentaires depuis le bureau Microsoft Teams](https://support.office.com/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3). 
 
 ### <a name="switch-the-displayed-video-feed-in-a-group-call"></a>Changer le flux vidéo affiché dans un appel de groupe 
 
@@ -109,7 +109,7 @@ Vous pouvez inclure jusqu'à 50 personnes dans un appel de groupe. Vous pouvez 
 2. Passez sur le participant associé au flux vidéo auquel vous souhaitez passer, puis sélectionnez-le. Si le flux vidéo du participant est activé, la vidéo basculera vers son flux. 
 
    > [!TIP] 
-   > Vous pouvez également changer de flux vidéo à partir du « bac de participant » situé sous le flux vidéo. Passez sur l'avatar pour afficher le nom du participant, puis appuyez pour changer de flux vidéo. 
+   > Vous pouvez également changer de flux vidéo à partir du « bac de participant » situé sous le flux vidéo. Passez sur l'avatar pour afficher le nom du participant, puis cliquez dans l'air pour changer de flux vidéo. 
 
 ### <a name="mute-a-participant-in-a-group-call"></a>Désactiver le micro d'un participant dans un appel de groupe 
 
@@ -118,7 +118,7 @@ Vous pouvez inclure jusqu'à 50 personnes dans un appel de groupe. Vous pouvez 
 
 1. Dans les commandes d'appel, sélectionnez le bouton **Participants libres**. 
 
-2. Appuyez sur l'icône de mise en sourdine pour le participant dont vous souhaitez désactiver le micro. 
+2. Cliquez dans l'air sur l'icône de mise en sourdine pour le participant dont vous souhaitez désactiver le micro. 
 
 > [!NOTE]
 > Si vous désactivez le micro d'un participant, vous ne pourrez pas le réactiver. Il doit le faire lui-même via [!include[pn-teams](../includes/pn-teams.md)]. 
@@ -130,19 +130,19 @@ Vous pouvez enregistrer un appel dans un fichier pour le consulter ultérieureme
 
 Vous pouvez enregistrer un appel de deux manières :
 
-- Utilisez la barre de jeux intégrée dans les PC sous [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10.
+- Utilisez la Game Bar intégrée dans les PC sous [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10.
 
 - Utilisez la fonction d'enregistrement de [!include[pn-teams](../includes/pn-teams.md)].
 
-### <a name="record-a-call-using-the-game-bar-in-windows-10-pcs"></a>Enregistrer un appel à l'aide de la barre de jeux des PC sous Windows 10
+### <a name="record-a-call-using-the-game-bar-in-windows-10-pcs"></a>Enregistrer un appel à l'aide de la Game Bar des PC sous Windows 10
 
 1. Sur un PC sous [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10, rejoignez un appel en utilisant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)].
 
-2. Appuyez sur la **touche de logo Windows ![touche de logo Windows)](media/windows-logo-key.png "touche de logo Windows") + G** pour ouvrir la barre de jeux.
+2. Appuyez sur la **touche de logo Windows ![touche de logo Windows](media/windows-logo-key.png "touche de logo Windows") + G** pour ouvrir la Game Bar.
 
-   ![Barre de jeux)](media/game-bar.png "Barre de jeux")
+   ![Game Bar](media/game-bar.png "Game Bar")
 
-3. Sélectionnez le bouton **Démarrer l'enregistrement** (ou appuyez sur la **touche de logo Windows ![touche de logo Windows)](media/windows-logo-key.png "touche de logo Windows") + Alt + R**).
+3. Sélectionnez le bouton **Démarrer l'enregistrement** (ou appuyez sur la **touche de logo Windows ![touche de logo Windows](media/windows-logo-key.png "touche de logo Windows") + Alt + R**).
 
    Un petit menu d'enregistrement s'affichera, indiquant que l'enregistrement est en cours.
    
@@ -152,11 +152,11 @@ Vous pouvez enregistrer un appel de deux manières :
 
    La vidéo de l'enregistrement s'affiche dans votre dossier **Vidéos/captures**.
    
-[En savoir plus sur la barre de jeux.](https://support.xbox.com/xbox-on-windows/social/record-game-clips-game-bar-windows-10)
+[En savoir plus sur la Game Bar.](https://support.xbox.com/xbox-on-windows/social/record-game-clips-game-bar-windows-10)
 
 ### <a name="record-a-call-from-teams"></a>Enregistrer un appel depuis Teams
 
-[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] prend en charge [l'enregistrement d'appels basés sur le cloud d'appels de groupe](https://support.office.com/en-us/article/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24). Les enregistrements sont stockés et partagés via Microsoft Stream.
+[!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] prend en charge [l'enregistrement d'appels basés sur le cloud d'appels de groupe](https://support.office.com/article/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24). Les enregistrements sont stockés et partagés via Microsoft Stream.
 
 1.  Lancez ou rejoignez un appel de groupe.
 
@@ -175,7 +175,7 @@ Vous pouvez enregistrer un appel de deux manières :
 -   Sélectionnez **Vidéo** ![Vidéo](media/bae39e2bdb1eafec5c36c76ffa640355.png "Vidéo") (ou dites « Vidéo ») pour accepter l'appel en tant qu'appel vidéo ou **Audio** ![Audio](media/972493ccc469c4ca41c04f96fabf6ba5.png "Audio") (ou dites « Audio ») pour l'accepter comme appel vocal uniquement. Pour refuser l'appel, sélectionnez **Ignorer** (ou dites « Ignorer »).
 
 > [!NOTE]
-> Pour recevoir des appels lorsque vous utilisez d'autres applications dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Puis utilisez [l'écartement des doigts paume vers le haut](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures) pour quitter [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Continuez à utiliser d'autres applications. Vous recevrez une notification depuis [!include[pn-cortana](../includes/pn-cortana.md)] si un appel de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est entrant, et vous pourrez l'accepter ou le refuser avec la voix.
+> Pour recevoir des appels lorsque vous utilisez d'autres applications dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Puis utilisez [l'écartement des doigts paume vers le haut](https://support.microsoft.com/help/12644/hololens-use-gestures) pour quitter [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Continuez à utiliser d'autres applications. Vous recevrez une notification depuis [!include[pn-cortana](../includes/pn-cortana.md)] si un appel de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est entrant, et vous pourrez l'accepter ou le refuser avec la voix.
 
 ## <a name="position-the-call-window"></a>Positionner la fenêtre d'appel
 
@@ -207,7 +207,7 @@ Pour ouvrir la fenêtre de conversation instantanée et entrer un message :
 
 Pour lire les messages précédents dans la fenêtre de conversation instantanée :
 
--   Appuyez sur la fenêtre de conversation instantanée et faites-la glisser.
+-   Cliquez dans l'air sur la fenêtre de conversation instantanée et faites-la glisser.
 
 > [!NOTE]
 > Si un message est envoyé d'un autre utilisateur lorsque la fenêtre de conversation instantanée n'est pas ouverte, vous recevez une notification.
@@ -218,13 +218,13 @@ Lorsque vous travaillez avec un expert dans le cadre d'un appel, cet expert peut
 
 Pour déplacer, dimensionner ou fermer la fenêtre partagée, utilisez les commandes situées en haut à droite de la fenêtre partagée.
 
-![Commandes du bureau partagé)](media/screen-sharing-controls.jpg "Commandes du bureau partagé")
+![Contrôles du bureau partagé](media/screen-sharing-controls.jpg "Contrôles du bureau partagé")
 
 ## <a name="collaborate-and-annotate"></a>Collaborer et annoter
 
 Une fois que vous êtes connecté à un appel vidéo, votre contact voit tout ce que vous visualisez dans votre espace, y compris vos hologrammes.
 
-Utilisez les [mouvements HoloLens](https://support.microsoft.com/en-us/help/12644) afin de dessiner, de placer des flèches et d'ajouter des fichiers à votre espace. Votre contact verra vos ajouts et pourra intégrer ses propres annotations.
+Utilisez les [mouvements HoloLens](https://support.microsoft.com/help/12644) afin de dessiner, de placer des flèches et d'ajouter des fichiers à votre espace. Votre contact verra vos ajouts et pourra intégrer ses propres annotations.
 
 ### <a name="add-an-arrow"></a>Ajouter une flèche
 
@@ -232,20 +232,20 @@ Utilisez les [mouvements HoloLens](https://support.microsoft.com/en-us/help/1264
 
 2.  Pointez du regard l'emplacement où vous souhaitez ajouter la flèche. Vous verrez une silhouette de la flèche qui indique où elle sera passée. Par exemple, notez la flèche pâle dans la capture d'écran suivante :
 
-    ![Flèche fantôme)](media/ghost-arrow-before.PNG "Flèche fantôme")
+    ![Flèche fantôme](media/ghost-arrow-before.PNG "Flèche fantôme")
 
-3.  Appuyez pour placer la flèche.
+3.  Cliquez dans l'air pour placer la flèche.
 
-    ![Flèche placée)](media/ghost-arrow-after.PNG "Flèche placée")
+    ![Flèche placée](media/ghost-arrow-after.PNG "Flèche placée")
 
 > [!NOTE]
-> Si vous souhaitez préciser la direction dans laquelle la flèche pointe, appuyez et maintenez enfoncé puis faites pivoter votre main pour positionner la flèche.
+> Si vous souhaitez préciser la direction dans laquelle la flèche pointe, cliquez longuement dans l'air, puis faites pivoter votre main pour positionner la flèche.
 
 ### <a name="draw-in-your-space"></a>Dessiner dans votre espace
 
 1.  Sélectionnez l'outil **Encre** (ou dites « Encre ») pendant un appel vidéo.
 
-2.  Pointez du regard l'emplacement où vous souhaitez dessiner, puis utilisez l'appui long pour dessiner.
+2.  Pointez du regard l'emplacement où vous souhaitez dessiner, puis appuyez longuement pour dessiner.
 
 3.  Pour terminer un dessin, relevez le doigt.
 
@@ -284,13 +284,13 @@ Pour naviguer dans un fichier PDF :
 
 ### <a name="take-a-snapshot-of-your-annotations"></a>Prendre un instantané de vos annotations
 
-Au cours d'un appel, vous pouvez prendre une photo de vos annotations de réalité mixte afin de les enregistrer pour plus tard.
+Au cours d'un appel, vous pouvez prendre une photo de vos annotations de réalité mixte. Lorsque vous prenez une photo, un lien vers la photo est automatiquement partagé via la fenêtre de chat afin que vous puissiez facilement vous y référer pendant l'appel. Vous pouvez également la sauvegarder pour les enregistrements de validation et d'inspection du travail.
 
 Pour prendre un instantané :
 
--   Sélectionnez **Caméra** ![Caméra](media/cameraicon3.png "Caméra") (ou dites « Caméra »), puis appuyez (ou dites « Instantané ») pour prendre la photo.
+-   Sélectionnez **Caméra** ![Caméra](media/cameraicon3.png "Caméra") (ou dites « Caméra »), puis cliquez dans l'air (ou dites « Instantané ») pour prendre la photo.
 
->   La photo sera enregistrée sur votre pellicule [!include[pn-hololens](../includes/pn-hololens.md)].
+>   La photo est enregistrée sur votre pellicule [!include[pn-hololens](../includes/pn-hololens.md)] et partagée comme lien dans la fenêtre de chat.
 
 ## <a name="make-changes"></a>Apporter des modifications
 
@@ -304,7 +304,7 @@ Pour annuler l'action plus récente, dont **Effacer tout** :
 
 ## Utiliser les commandes vocales et le pointage du regard <a name="voice"></a>
 
-Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur. Notez que pour le moment, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1 et dans des [langues spécifiques pour HoloLens 2](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
+Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur. Notez que pour le moment, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1 et dans des [langues spécifiques pour HoloLens 2](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
 
 > [!IMPORTANT]
 > Pour utiliser une commande vocale, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] », et indiquez une des commandes vocales dans le tableau suivant. Par exemple, dites « [!include[pn-remote-assist](../includes/pn-remote-assist.md)], Déplacement » pour entrer en mode Déplacement pour une ardoise (fenêtre). Vous pouvez également pointer du regard tout bouton et dire « [!include[pn-remote-assist](../includes/pn-remote-assist.md)], Sélectionner » pour sélectionner ce bouton.
@@ -384,7 +384,7 @@ Voici comment procéder :
 
 1.  Ouvrez une application sur votre [!include[pn-hololens](../includes/pn-hololens.md)].
 
-2.  [Écartez les doigts paume vers le haut](https://support.microsoft.com/en-us/help/12644/hololens-use-gestures) pour quitter la vue 3D, mais ne fermez pas le lanceur d'application.
+2.  [Écartez les doigts paume vers le haut](https://support.microsoft.com/help/12644/hololens-use-gestures) pour quitter la vue 3D, mais ne fermez pas le lanceur d'application.
 
 3.  Démarrez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appelez votre contact.
 
@@ -397,11 +397,11 @@ Voici comment procéder :
 
 ## <a name="use-dynamics-365-for-field-service-from-remote-assist"></a>Utiliser Dynamics 365 for Field Service de Remote Assist
 
-Si votre organisation utilise [Dynamics 365 for Field Service](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail de Field Service, vous (le collaborateur de première ligne) pouvez consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appeler l'expert répertorié dans le champ **Contact de support**.
+Si votre organisation utilise [Dynamics 365 for Field Service](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail de Field Service, vous (le collaborateur de première ligne) pouvez consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appeler l'expert répertorié dans le champ **Contact de support**.
 Cela vous permet d'effectuer des appels tête relevée, mains libres via [!include[pn-hololens](../includes/pn-hololens.md)] dans le cadre d'une réservation [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)].
 
 > [!NOTE]
-> Pour plus d'informations sur le paramétrage et la résolution des problèmes d'intégration de [!include[pn-field-service](../includes/pn-field-service.md)], si vous êtes administrateur, consultez [Résoudre les problèmes d'intégration de Field Service](troubleshoot-field-service.md). **Veuillez noter** qu'une [licence Dynamics 365](https://dynamics.microsoft.com/en-us/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) est requise pour afficher les réservations [!include[pn-field-service](../includes/pn-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)].
+> Pour plus d'informations sur le paramétrage et la résolution des problèmes d'intégration de [!include[pn-field-service](../includes/pn-field-service.md)], si vous êtes administrateur, consultez [Résoudre les problèmes d'intégration de Field Service](troubleshoot-field-service.md). **Veuillez noter** qu'une [licence Dynamics 365](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) est requise pour afficher les réservations [!include[pn-field-service](../includes/pn-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)].
 
 ### <a name="view-a-field-service-booking-and-call-an-expert-from-remote-assist"></a>Afficher une réservation Field Service et appeler un expert à partir de Remote Assist
 
@@ -434,7 +434,7 @@ Cela vous permet d'effectuer des appels tête relevée, mains libres via [!inclu
 
 ### <a name="modify-the-default-booking-view"></a>Modifier la vue de réservation par défaut
 
-Pour modifier la vue par défaut des informations dans le volet **Réservation**, [modifiez la vue comme vous le feriez avec n'importe quelle vue de Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views).
+Pour modifier la vue par défaut des informations dans le volet **Réservation**, [modifiez la vue comme vous le feriez avec n'importe quelle vue de Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-and-edit-views).
 
 ### <a name="see-also"></a>Voir aussi
 [Configurer et utiliser Microsoft Teams avec Remote Assist](use-microsoft-teams-with-remote-assist.md)<br/>

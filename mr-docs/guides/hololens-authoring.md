@@ -1,36 +1,34 @@
 ---
 author: Mamaylya
-description: Tester et placer des hologrammes à l'aide de l'application Dynamics 365 Guides (version préliminaire) HoloLens en mode Créer
+description: Tester et placer des hologrammes à l'aide de l'application Dynamics 365 Guides HoloLens (version préliminaire) en mode Créer
 ms.author: mamaylya
-ms.date: 07/09/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
-title: Tester et placer des hologrammes en mode Créer HoloLens dans Dynamics 365 Guides (version préliminaire)
+title: Tester et placer des hologrammes en mode Créer HoloLens dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: a1215e61a5c973618075bdb85b331005e5ad6133
-ms.sourcegitcommit: 8770ec043776563f3f9e87ee89f241c68015f576
+ms.openlocfilehash: 3fe4d40b22c0dbe18758ccb9263d2030030acdf6
+ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797395"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "2049938"
 ---
 # <a name="test-your-guide-and-place-holograms-using-hololens-author-mode"></a>Tester votre guide et placer des hologrammes en mode Créer HoloLens
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
- 
-La deuxième étape importante de la création d'un guide dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)] se déroule dans l'application [!include[pn-hololens](../includes/pn-hololens.md)]. En mode Créer [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez effectuer ce qui suit :
+La deuxième étape importante de la création d'un guide dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] se déroule dans l'application [!include[pn-hololens](../includes/pn-hololens.md)]. En mode Créer [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez effectuer ce qui suit :
 
-- Aligner le guide sur un point d'ancrage imprimé (marqueur) ou un point d'ancrage numérique, selon la méthode d'ancrage que vous avez choisie dans l'application du PC.
-
-- Tester la fluidité du guide.
+- Ancrer le guide.
 
 - Placer le contenu 3D holographique dans l'espace approprié dans le monde réel.
 
-- Ajouter des attaches holographiques pour joindre visuellement les étapes aux objets physiques du monde réel.
+- Ajouter des lignes pointillées pour joindre visuellement les étapes aux objets physiques du monde réel.
 
 - Ajouter des styles (facultatif) au contenu 3D pour ajouter des indications, comme un avertissement ou une mise en garde.
 
-  ![Tester votre guide](media/test-guide.PNG "Tester votre guide")
+- Tester la fluidité du guide.
+
+  ![Tester votre guide](media/test-your-guide.PNG "Tester votre guide")
 
 ## <a name="install-the-hololens-app"></a>Installer l'application HoloLens
 
@@ -40,7 +38,7 @@ Pour installer l'application HoloLens :
 
 1.  Vérifiez que la version 10.0.14393.0 ou ultérieure [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] est bien installée sur votre appareil [!include[pn-hololens](../includes/pn-hololens.md)]. Nous vous recommandons de mettre à jour vers des versions plus récentes quand elles sont disponibles. Voir [Gérer les mises à jour vers HoloLens](https://docs.microsoft.com/en-us/HoloLens/hololens-updates) pour obtenir des instructions sur l'utilisation de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Update pour Entreprise.
 
-2.  Dans [!include[pn-hololens](../includes/pn-hololens.md)], utilisez l'[écartement des doigts paume vers le haut](authoring-gestures.md) pour ouvrir le menu **Accueil**, puis ouvrez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store et recherchez [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)].
+2.  Dans [!include[pn-hololens](../includes/pn-hololens.md)], utilisez l'[écartement des doigts paume vers le haut](authoring-gestures.md) pour ouvrir le menu **Accueil**, puis ouvrez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store et recherchez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
 3.  Sélectionnez **Installer** pour télécharger et installer l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
@@ -107,17 +105,21 @@ Après avoir vérifié que [!include[pn-hololens](../includes/pn-hololens.md)] e
  
 7.  Sélectionnez l'instance à utiliser si vous en avez plusieurs, puis sélectionnez **Continuer**.
 
-8.  Dans la boîte de dialogue **Sélectionner un mode**, pointez du regard la zone à gauche d'**Auteur** jusqu'à ce qu'elle soit sélectionnée. 
+8. Dans l'écran **Sélectionner un guide**, pointez du regard le guide que vous souhaitez ouvrir jusqu'à ce que le cercle se remplisse, ce qui sélectionne ce guide.
+
+    ![Écran Sélectionner un guide](media/select-guide.PNG "Écran Sélectionner un guide")
+
+9.  Dans la boîte de dialogue **Sélectionner un mode**, pointez du regard la zone à gauche d'**Auteur** pour la sélectionner. 
 
     ![Sélectionner le mode Créer](media/select-mode.PNG "Sélectionner le mode Créer")
     
 > [!TIP]
-> [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est fourni avec un exemple de guide que vous pouvez utiliser pour obtenir des idées pour vos propres guides. Découvrez-le !</br><br>![Exemple de guide](media/example-guide-hololens.PNG "Exemple de guide")
+> [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est fourni avec un guide illustratif que vous pouvez utiliser pour obtenir des idées pour vos propres guides. Découvrez-le !</br><br>![Guide illustratif](media/example-guide-hololens.PNG "Guide illustratif")
 
-## <a name="align-your-guide"></a>Aligner le guide
-La première chose qui s'affiche lorsque vous ouvrez un guide ce sont les instructions d'alignement de l'application de création du PC. 
+## <a name="anchor-your-guide"></a>Ancrer le guide
+La première chose qui s'affiche lorsque vous ouvrez un guide ce sont les instructions d'ancrage de l'application de création PC. 
 
-### <a name="to-align-a-guide-by-using-a-printed-anchor"></a>Pour aligner un guide à l'aide d'un point d'ancrage imprimé
+### <a name="to-anchor-a-guide-using-a-printed-anchor"></a>Pour ancrer un guide à l'aide d'un point d'ancrage imprimé
 
 1. Tenez-vous à environ deux mètres du point d'ancrage imprimé.
 
@@ -129,35 +131,42 @@ La première chose qui s'affiche lorsque vous ouvrez un guide ce sont les instru
 
    ![Image d'un marqueur holographique](media/scanning.PNG "Image d'un marqueur holographique")
    
-3. Fixez le point d'ancrage imprimé avec votre [!include[pn-hololens](../includes/pn-hololens.md)] jusqu'à ce qu'un contour vert apparaisse.
+3. Fixez le point d'ancrage imprimé avec votre [!include[pn-hololens](../includes/pn-hololens.md)] jusqu'à ce qu'un contour vert apparaisse. Effectuez un pointage du regard pour aligner la zone verte à cocher sur le marqueur, puis sélectionnez **Confirmer**.
 
-   L'écran **Point d'ancrage imprimé trouvé** s'affiche. 
+   ![Aligner le marqueur](media/align-marker.PNG "Aligner le marqueur")
+
+   Lorsque le guide est correctement aligné, vous verrez l'écran **Point d'ancrage imprimé trouvé**. 
    
    ![Marqueur holographique trouvé](media/printed-anchor-found.PNG "Marqueur holographique trouvé")
    
-4. Si le contour s'aligne avec le point d'ancrage imprimé, sélectionnez **Confirmer**. Dans le cas contraire, sélectionnez **Analyser à nouveau**.
-   
-> [!NOTE]
-> Si vous choisissez d'utiliser un point d'ancrage numérique pour aligner le guide, vous devez faire un mouvement pour aligner l'hologramme correspondant à la représentation 3D numérique que vous avez placée dans votre environnement du monde réel.
+### <a name="to-anchor-a-guide-using-a-digital-anchor"></a>Pour ancrer un guide à l'aide d'un point d'ancrage numérique
 
-Lorsque vous alignez votre guide, les informations d'alignement sont enregistrées dans votre [!include[pn-hololens](../includes/pn-hololens.md)], vous n'avez donc pas à réaligner le guide chaque fois que vous l'ouvrez. Vous pouvez toutefois réaligner un guide à tout moment, si vous estimez que les hologrammes ne sont pas bien alignés. Pour plus d'informations, consultez les informations sur le bouton **Ancrer** dans la section suivante.
+- Cliquez longuement dans l’air pour déplacer et aligner le point d'ancrage numérique à ses équivalents du monde réel. Pour faire pivoter l'ancre, appuyez longuement sur les sphères bleues.
+
+   ![Faire pivoter le point d'ancrage numérique](media/rotate-digital-anchor.PNG "Faire pivoter le point d'ancrage numérique")
+
+### <a name="re-anchor-a-guide"></a>Ancrer à nouveau un guide
+
+Lorsque vous ancrez votre guide, les informations d'ancrage sont enregistrées dans votre [!include[pn-hololens](../includes/pn-hololens.md)], vous n'avez donc pas à ancrer à nouveau le guide chaque fois que vous l'ouvrez. Vous pouvez toutefois ancrer à nouveau un guide à tout moment, si vous estimez que les hologrammes ne sont pas bien alignés. Pour plus d'informations, consultez les informations sur le bouton **Ancrer** dans la section suivante.
 
 > [!NOTE]
 > Vous devrez peut-être ajuster le décalage du matériel dans les appareils [!include[pn-hololens](../includes/pn-hololens.md)] 1 pour garantir le positionnement exact du contenu 3D. [En savoir plus sur l'ajustement du décalage du matériel](https://docs.microsoft.com/dynamics365/mixed-reality/guides/known-issues#uploading-new-3d-models-with-names-matching-any-of-the-pre-packaged-models-in-the-3d-toolkit-will-overwrite-the-files-in-the-3d-toolkit).
 
 ## <a name="get-oriented-on-hololens"></a>Se repérer dans HoloLens
-Après avoir aligné votre guide, la fiche étape s'affiche. Elle rassemble tout ce que vous effectuez avec votre guide et la manière dont vous parcourez l'application. Elle s'affiche également pour votre opérateur lorsqu'il utilise le guide. La fiche étape accompagne l'opérateur afin qu'il puisse avoir les instructions nécessaires lorsqu'il se déplace dans sa zone de travail.
+Après avoir ancré votre guide, la fiche étape s'affiche. Elle rassemble tout ce que vous effectuez avec votre guide et la manière dont vous parcourez l'application. Elle s'affiche également pour votre opérateur lorsqu'il utilise le guide. La fiche étape accompagne l'opérateur afin qu'il puisse avoir les instructions nécessaires lorsqu'il se déplace dans sa zone de travail.
 
 Parcourez le guide en pointant du regard les flèches **Étape suivante** et **Retour**. Vous pouvez également faire des mouvements comme cliquer dans l'air pour parcourir un guide. 
 
+![Accéder à un guide](media/navigate-example.PNG "Accéder à un guide")
+
 Il y a trois boutons en haut de l'écran de la fiche étape : **Enregistrer**, **Annuler** et **Rétablir**.
 
-![Écran de la fiche étape HoloLens](media/step-card-orientation.PNG "Écran de la fiche étape HoloLens")
+![Écran de la fiche étape HoloLens](media/save-undo-redo.PNG "Écran de la fiche étape HoloLens")
  
-Les boutons **Annuler** et **Rétablir** fonctionnent comme **Annuler** et **Rétablir** dans n'importe quel programme Microsoft Office. Vous pouvez annuler ou rétablir autant de fois que vous voulez. 
+Les boutons **Annuler** et **Rétablir** fonctionnent comme **Annuler** et **Rétablir** dans n'importe quel programme Microsoft Office. Vous pouvez annuler 100 modifications ou rétablir 100 modifications.  
 
 > [!NOTE]
-> Les modifications sont enregistrées automatiquement lorsque vous travaillez dans [!include[pn-hololens](../includes/pn-hololens.md)]. Vous devez simplement sélectionner **Actualiser** lorsque vous revenez dans le PC pour être sûr d'avoir la dernière version du guide.
+> Les modifications sont enregistrées automatiquement dans le cloud lorsque vous travaillez dans [!include[pn-hololens](../includes/pn-hololens.md)]. Vous devez simplement sélectionner **Actualiser** lorsque vous revenez sur le PC pour être sûr d'avoir la dernière version du guide.
 
 La fiche étape inclut également plusieurs autres boutons et éléments de l'IU :
 
@@ -168,8 +177,8 @@ Voici à quoi sert chaque bouton ou élément d'IU :
 |Lettre|Bouton/Exemple|Nom|Objectif|
 |--|---|------------|----------------------------------------------------------------------------------------------------------------|
 |A|![Bouton Accueil](media/home-button.png "Bouton Accueil")|Accueil|Choisissez un autre guide.|
-|B|![Bouton Ancrer](media/anchor-button.PNG "Bouton Ancrer")|Ancrer|Ancrez à nouveau (réalignez) votre guide.|Il arrive qu'[!include[pn-hololens](../includes/pn-hololens.md)] ne puisse plus se repérer. Pour résoudre ce problème, vous devez réaligner le guide en pointant de nouveau du regard le point d'ancrage imprimé (marquer) ou le point d'ancrage numérique.|
-|C|![Bouton Paramètres](media/settings-button.png "Bouton Paramètres")|Paramètres|Accédez aux paramètres suivants :</br><br>- **Ajuster la zone**. Utilisez ce paramètre pour vous assurer que vous tenez correctement l'appareil [!include[pn-hololens](../includes/pn-hololens.md)].</br><br>- **Suppression du bruit**. Si l'environnement est très bruyant, ce paramètre ajuste la sensibilité aux commandes vocales de sorte que l'opérateur n'ait pas à crier.</br><br>- **Volume dynamique**. Ajuste le volume dynamiquement selon le bruit de l'environnement. Par exemple, si l'environnement est très bruyant, le volume monte automatiquement.</br><br>- **Numéro de version**. Affiche la version que vous utilisez.|
+|B|![Bouton Ancrer](media/anchor-button.PNG "Bouton Ancrer")|Ancrer|Ancrez à nouveau (réalignez) votre guide.|Il arrive qu'[!include[pn-hololens](../includes/pn-hololens.md)] ne puisse plus se repérer. Pour résoudre ce problème, vous devez ancrer à nouveau le guide en pointant de nouveau du regard le point d'ancrage imprimé (marquer) ou le point d'ancrage numérique.|
+|C|![Bouton Paramètres](media/settings-button.png "Bouton Paramètres")|Paramètres|Accédez aux paramètres suivants :</br><br>- **Ajuster la zone**. Utilisez ce paramètre pour vous assurer que vous tenez correctement l'appareil [!include[pn-hololens](../includes/pn-hololens.md)].<br>- **Numéro de version**. Affiche la version que vous utilisez.|
 |D|![Bouton Profil](media/profile-button.png "Bouton Profil")|Profil|Connexion et déconnexion.|
 |E|![Bouton Épingler](media/pin-button.PNG "Bouton Épingler")|Épingler|Permet de verrouiller la fiche étape à un emplacement.|Guides contient une fonctionnalité d'accompagnement. Où que vous regardiez, la fiche étape suit votre regard, ainsi vous savez toujours où se trouvent les instructions. Lorsque vous épinglez la fiche étape, vous désactivez la fonctionnalité d'accompagnement. Lorsque la fonctionnalité d'accompagnement est désactivée, il vous suffit de saisir la fiche et de la déplacer où vous voulez.|
 |F|![Progression d'étape](media/step-progress.PNG "Progression d'étape")|Progression d'étape|Indique où vous êtes dans l'étape.|
@@ -177,12 +186,28 @@ Voici à quoi sert chaque bouton ou élément d'IU :
 |H|![Progression de la tâche](media/task-progress.PNG "Progression de la tâche")|Progression de la tâche  |Indique où vous êtes dans la tâche en cours.|
 |I|![Nom de la tâche](media/task-name-table.PNG "Nom de la tâche")|Nom de la tâche|Le nom de la tâche.|
 
-
 ## <a name="test-the-flow-of-your-guide"></a>Tester la fluidité du guide
-Une fois que vous vous êtes repéré dans [!include[pn-hololens](../includes/pn-hololens.md)], nous vous recommandons de parcourir le guide en entier pour en tester la fluidité. Lorsque vous parcourez le guide, notez ce que vous souhaitez modifier dans l'application du PC. Vous pouvez par exemple avoir à déplacer certaines étapes, ajouter des tâches ou des opérations, ou ajouter des ressources de prise en charge. Il est généralement préférable d'effectuer ces modifications dans l'application du PC avant de commencer à placer des hologrammes, des attaches et d'appliquer des styles. 
+Une fois que vous vous êtes repéré(e) dans [!include[pn-hololens](../includes/pn-hololens.md)], nous vous recommandons de parcourir le guide en entier en mode Opérer pour en tester la fluidité. Lorsque vous parcourez le guide, notez ce que vous souhaitez modifier dans l'application du PC. Vous pouvez par exemple avoir à déplacer certaines étapes, ajouter des tâches ou des opérations, ou ajouter des ressources de prise en charge. Il est généralement préférable d'effectuer ces modifications dans l'application du PC avant de commencer à placer des hologrammes, des attaches et d'appliquer des styles. 
+ 
+## <a name="add-a-dotted-line-to-link-a-step-card-to-a-focus-area"></a>Ajouter une ligne pointillée pour associer une fiche étape dans une zone ciblée
+
+Vous pouvez ajouter des lignes pointillées (*attaches*) pour lier vos fiches étape aux zones où le travail est effectué. Ces lignes pointillées affichent l'opérateur sur lequel vous concentrer. 
+
+![Lignes pointillées holographiques](media/tether-example.PNG "Lignes pointillées holographiques")
+
+Pour placer une ligne pointillée :
+
+1.  Appuyez longuement sur la gemme sous la fiche étape.
+
+2.  Faites-la glisser vers l'emplacement du monde réel que vous souhaitez.
+
+    ![Placer une ligne pointillée](media/place-tether.PNG "Placer une ligne pointillée")
+
+### <a name="best-practices-for-dotted-lines"></a>Pratiques recommandées pour les lignes pointillées
+
+- Le placement n'est pas précis, donc si vous connectez une ligne pointillée à un objet 3D à partir de la boîte à outils 3D, vous devez placer la ligne pointillée dans la zone générale, puis placer l'objet 3D (un numéro, par exemple) à la fin de la ligne pointillée. 
 
 ## <a name="place-your-holograms"></a>Placer des hologrammes
-Après avoir testé la fluidité de votre guide et apporté des modifications à l'application du PC, vous êtes prêt à placer des hologrammes. 
 
 À ce stade du processus, vous devez parcourir chaque étape de votre guide et placer toutes les ressources que vous avez associées à cette étape lorsque vous l'avez créée dans l'application du PC. Par exemple, si vous avez ajouté un composant 3D pour prendre en charge une étape, vous devez placer ce composant par dessus sont homologue physique dans le monde réel. Si vous avez ajouté un objet 3D à partir de la boîte à outils 3D (une flèche ou un chiffre, par exemple), vous devez placer cet objet dans un emplacement approprié dans le monde réel pour attirer l'attention de l'utilisateur. Vous pouvez placer le même composant 3D ou le même objet 3D autant de fois que vous voulez.
 
@@ -191,7 +216,7 @@ Vous n'avez rien à faire pour placer des images ou des vidéos associées à un
 Les ressources 3D associées à chaque étape s'affichent sous la fiche étape dans *l'emplacement* :
 
 ![Ressources 3D sous une fiche étape](media/step-card-bin.PNG "Ressources 3D sous une fiche étape")
- 
+
 ### <a name="place-a-3d-part"></a>Placer un composant 3D 
 
 1. Dans l'emplacement, cliquez dans l'air sur le composant 3D que vous souhaitez placer.
@@ -212,24 +237,15 @@ Vous pouvez placer un modèle 3D à partir de la boîte à outils 3D de la même
 
 ### <a name="manipulating-holograms"></a>Manipuler des hologrammes
 
-Pour placer un hologramme à partir de l'un de vos emplacements :
+Pour placer un modèle 3D à partir de l'un de vos emplacements :
 
-1.  Cliquez dans l'air sur une ressource 3D pour l'ajouter à votre monde réel. Elle apparaît dans votre monde réel devant la fiche étape.
+1.  Cliquez dans l'air sur un modèle 3D pour l'ajouter à votre monde réel. Elle apparaît dans votre monde réel devant la fiche étape.
 
-2.  Levez la main pour indiquer que vous êtes prêt et pointez du regard la ressource 3D pour la sélectionner. La sphère de sélection 3D apparaît autour de la ressource et indique ainsi qu'elle est bien sélectionnée.
+2.  Levez la main pour indiquer que vous êtes prêt et pointez du regard le modèle pour le sélectionner. La sphère de sélection 3D apparaît autour de la ressource et indique ainsi qu'elle est bien sélectionnée.
 
-3.  Une fois que l'objet est sélectionné, cliquez longuement dans l’air n'importe où dans la sphère de sélection pour choisir la ressource 3D.
+3.  Une fois que l'objet est sélectionné, cliquez longuement dans l’air n'importe où dans la sphère de sélection pour choisir le modèle.
 
-4.  Effectuez l'une des opérations suivantes pour déplacer l'hologramme :
-
-    - Pour le déplacer sur de plus grandes distances dans n'importe quelle direction, déplacez rapidement votre main dans la direction souhaitée. Par défaut, l'hologramme se déplace d'environ la même distance que votre main à partir du point de départ où vous l'avez « saisi » et le moment où vous l'avez lâché. 
-    
-    - Pour effectuer des ajustements plus précis, déplacez votre main lentement ou laissez-la immobile pour démarrer le mode de précision. Cela ralentit la vitesse du mouvement et vous pouvez alors déplacer l'hologramme où vous voulez.
-
->[!Tip]  
-> Vous savez que vous êtes en mode de précision lorsque la sphère de sélection apparait en bleu.
-
-![Sphère de sélection de l'hologramme](media/hologram-selection-sphere.PNG "Sphère de sélection de l'hologramme")
+4.  Déplacez le modèle là où vous souhaitez l'insérer.
 
  
 #### <a name="rotate-a-hologram"></a>Faire pivoter un hologramme
@@ -250,18 +266,28 @@ Pour faire pivoter un hologramme :
 > Regardez fixement les molettes pour savoir dans quelle direction elles vont pivoter.
 
 Lors d'une rotation, vous avez alors l'impression d'attraper physiquement la molette et de tourner autour de l'objet, comme une roue.
-L'illustration suivante indique comment utiliser les différentes molettes de rotation :
+Les graphiques suivants montrent comment utiliser les différentes molettes de rotation :
 
-![Manipulation de l'hologramme](media/hologram-manipulation.PNG "Manipulation de l'hologramme")
+Rotation libre
+
+![Rotation libre](media/free-rotation.PNG "Rotation libre")
+
+Rotation gauche/droite
+
+![Rotation gauche/droite](media/left-right-rotation.PNG "Rotation gauche/droite")
+
+Rotation haut/bas
+
+![Rotation haut/bas](media/up-down-rotation.PNG "Rotation haut/bas")
  
 > [!Important]
 > Pour manipuler les hologrammes efficacement, vérifiez que votre [!include[pn-hololens](../includes/pn-hololens.md)] est étalonné correctement. 
 
 #### <a name="change-the-size-of-a-hologram-after-placing-it"></a>Modifier la taille d'un hologramme après l'avoir placé
 
-- Cliquez longuement dans l’air sur le bouton **Mettre à l'échelle**, puis déplacez votre main vers le haut ou le bas.  
+- Cliquez longuement dans l’air sur le bouton **Mettre à l'échelle un hologramme**, puis déplacez votre main vers le haut ou le bas.  
 
-   ![Changer la taille des hologrammes](media/change-hologram-size.PNG "Changer la taille des hologrammes")
+   ![Changer la taille des hologrammes](media/scale-hologram.PNG "Changer la taille des hologrammes")
 
 ### <a name="best-practices-for-working-with-3d-content"></a>Pratiques recommandées pour utiliser le contenu 3D
 
@@ -283,9 +309,9 @@ Pour placer un style :
 
 1.  Cliquez dans l'air sur un hologramme que vous avez déjà placé dans le monde réel pour le sélectionner.
 
-2.  Cliquez dans l'air sur le bouton **Modifier l'hologramme** (. . .).
+2.  Cliquez dans l'air sur le bouton **Modifier l'hologramme**.
 
-    ![Bouton Modifier l'hologramme](media/hologram-buttons.PNG "Bouton Modifier l'hologramme")
+    ![Bouton Modifier l'hologramme](media/edit-hologram.PNG "Bouton Modifier l'hologramme")
 
 3.  Cliquez dans l'air sur **Styles**. 
 
@@ -306,7 +332,7 @@ Voici la liste des styles inclus dans [!include[pn-dyn-365-guides](../includes/p
 |Transparent 2  |Superpose un élément sur un autre pour que l'opérateur puisse afficher deux couches.  |Transparent à 75 %|
 |Avertissement    |Avertit d'un problème de sécurité ou de qualité.    |Rayé jaune et noir|
 |Éviter  |Indique des zones ou des éléments à éviter. |Voyant rouge clignotant|
-|Rayon X  |Indique des choses qui se produisent à l'intérieur d'un élément.  |Contour avec l'intérieur transparent|
+|Rayon X  |Indique des choses qui se produisent à l'intérieur d'un élément.  |Affiche une impulsion par son biais|
 |Métal  |Donne une finition réaliste en métal à un objet.    |Métallique|
 
 ![Tous les styles](media/all-styles.PNG "Tous les styles")
@@ -325,30 +351,13 @@ Pour dupliquer un modèle :
 
 1.  Cliquez dans l'air sur un hologramme que vous avez déjà placé dans le monde réel pour le sélectionner.
 
-2.  Cliquez dans l'air sur le bouton **Modifier l'hologramme** (. . .).
+2.  Cliquez dans l'air sur le bouton **Modifier l'hologramme**.
 
-    ![Bouton Modifier l'hologramme](media/hologram-buttons.PNG "Bouton Modifier l'hologramme")
+    ![Bouton Modifier l'hologramme](media/manipulate-holograms.PNG "Bouton Modifier l'hologramme")
     
 3. Sélectionnez **Dupliquer**.
 
     ![Bouton Dupliquer](media/edit-duplicate.PNG "Bouton Dupliquer")
-
-## <a name="place-tethers"></a>Placer des attaches
-Vous devez généralement placer une attache pour chaque fiche étape lorsque vous placez vos hologrammes. Une attache permet de lier visuellement une fiche étape à la zone où l'opérateur doit se concentrer. Cela aide l'opérateur à trouver du contenu ou à comprendre ce qu'il est censé observer dans le monde réel. 
-
-![Attache holographique](media/tether-example.PNG "Attache holographique")
-
-Pour placer une attache :
-
-1.  Appuyez longuement sur la « boule de l'attache » sous la fiche étape.
-
-2.  Placez-la dans l'emplacement du monde réel que vous souhaitez.
-
-    ![Placer une attache](media/place-tether.PNG "Placer une attache")
-
-### <a name="best-practices-for-tethers"></a>Meilleures pratiques en matière d'attache
-
-- L'emplacement d'une attache n'est pas précis, donc si vous connectez une attache à un objet 3D à partir de la boîte à outils 3D, vous devez placer l'attache dans la zone générale, puis placer l'objet 3D (un numéro, par exemple) à la fin de l'attache. 
 
 ## <a name="whats-next"></a>Étapes suivantes
 

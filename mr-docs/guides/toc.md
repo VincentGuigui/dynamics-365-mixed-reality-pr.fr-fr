@@ -1,24 +1,27 @@
-# Dynamics 365 Guides en version préliminaire
+# Dynamics 365 Guides
 ## [Présentation](index.md)
-## [S'inscrire à la version préliminaire](setup.md)
-## [Mettre à niveau la solution Guides (pour les administrateurs)](upgrade.md)
+## [Configuration requise](requirements.md)
+## [Acheter et déployer Dynamics 365 Guides](setup.md)
+## [Mettre à niveau la solution (pour les administrateurs)](upgrade.md)
+## [Transition entre la version préliminaire publique et la disponibilité générale](public-preview-transition.md)
 ## Mise en route
 ### [Mise en route](get-started.md)
 ### [Nouveautés](new.md)
 ## Créer un guide
 ### [Présentation de la création](authoring-overview.md)
-### [Avant de commencer](before-you-start.md)
 ### [Créer dans l'application du PC](pc-authoring.md)
-### [Tester et placer des hologrammes avec l'application HoloLens](hololens-authoring.md)
+### [Ancrer votre guide dans le monde réel](anchor.md)
+### [Créer dans l'application HoloLens](hololens-authoring.md)
 ### [Mouvements pour la création et la navigation](authoring-gestures.md)
 ### [Utiliser Dynamics 365 Import Tool pour convertir les modèles 3D](import-tool.md)
+### [Création d'un bon guide de réalité mixte](great-guide.md)
 ## [Manuel de l'opérateur](operator-guide.md)
 ## [Analyser les guides](analytics-guide.md)
-## [Intégration de Dynamics 365 for Field Service](field-service.md)
+## [Intégration de Dynamics 365 Field Service](field-service.md)
+## [Refuser de stocker des données d'événements de Guides dans CDS](data-opt-out.md)
 ## [Glossaire des termes](glossary.md)
+## [Vidéos](videos.md)
 ## [FAQ](faq.md)
 ## [Problèmes connus](known-issues.md)
-## Conditions d'utilisation
-### [Version préliminaire de Guides](../legal/guides-preview.md)
-### [Conditions de service](../legal/guides-service-terms.md)
+## [Conditions d'utilisation](../legal/guides-service-terms.md)
 

@@ -24,7 +24,7 @@ Cette page fournit des détails sur les dernières versions de [!include[cc-micr
 
 Les nouveaux clients doivent obtenir une licence de DG. Pour obtenir des informations sur les licences, l'installation et les mises à niveau, accédez à aka.ms/GetGuides.
 
-La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.XX et la version de solution 200.0.0.XX comprennent les mises à jour suivantes :
+La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.24001 et la version de solution 200.0.0.107 comprennent les mises à jour suivantes :
 
 - **Essayez la démonstration.** Vous pouvez à présent essayer l'exemple de guide prêt à l'emploi sur l'application HoloLens sans devoir vous inscrire pour obtenir une licence ou créer un guide vous-même.
 

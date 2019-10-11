@@ -1,1 +1,1 @@
-<span data-ttu-id="cba04-101">Dynamics 365 for Customer Service</span><span class="sxs-lookup"><span data-stu-id="cba04-101">Dynamics 365 for Customer Service</span></span>
+<span data-ttu-id="cc075-101">Dynamics 365 Customer Service</span><span class="sxs-lookup"><span data-stu-id="cc075-101">Dynamics 365 Customer Service</span></span>

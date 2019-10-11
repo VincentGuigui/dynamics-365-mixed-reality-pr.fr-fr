@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Tester et placer des hologrammes en mode Créer HoloLens dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 3fe4d40b22c0dbe18758ccb9263d2030030acdf6
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 3d2a44f0e6c2cca4d6bc23fce1021ee35d2d0e4c
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049938"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537350"
 ---
 # <a name="test-your-guide-and-place-holograms-using-hololens-author-mode"></a>Tester votre guide et placer des hologrammes en mode Créer HoloLens
 
@@ -36,7 +36,7 @@ Si vous n'avez pas encore installé l'application [!include[pn-hololens](../incl
 
 Pour installer l'application HoloLens :
 
-1.  Vérifiez que la version 10.0.14393.0 ou ultérieure [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] est bien installée sur votre appareil [!include[pn-hololens](../includes/pn-hololens.md)]. Nous vous recommandons de mettre à jour vers des versions plus récentes quand elles sont disponibles. Voir [Gérer les mises à jour vers HoloLens](https://docs.microsoft.com/en-us/HoloLens/hololens-updates) pour obtenir des instructions sur l'utilisation de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Update pour Entreprise.
+1.  Vérifiez que la version 10.0.14393.0 ou ultérieure [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] est bien installée sur votre appareil [!include[pn-hololens](../includes/pn-hololens.md)]. Nous vous recommandons de mettre à jour vers des versions plus récentes quand elles sont disponibles. Voir [Gérer les mises à jour vers HoloLens](https://docs.microsoft.com/HoloLens/hololens-updates) pour obtenir des instructions sur l'utilisation de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Update pour Entreprise.
 
 2.  Dans [!include[pn-hololens](../includes/pn-hololens.md)], utilisez l'[écartement des doigts paume vers le haut](authoring-gestures.md) pour ouvrir le menu **Accueil**, puis ouvrez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store et recherchez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
@@ -211,7 +211,7 @@ Pour placer une ligne pointillée :
 
 À ce stade du processus, vous devez parcourir chaque étape de votre guide et placer toutes les ressources que vous avez associées à cette étape lorsque vous l'avez créée dans l'application du PC. Par exemple, si vous avez ajouté un composant 3D pour prendre en charge une étape, vous devez placer ce composant par dessus sont homologue physique dans le monde réel. Si vous avez ajouté un objet 3D à partir de la boîte à outils 3D (une flèche ou un chiffre, par exemple), vous devez placer cet objet dans un emplacement approprié dans le monde réel pour attirer l'attention de l'utilisateur. Vous pouvez placer le même composant 3D ou le même objet 3D autant de fois que vous voulez.
 
-Vous n'avez rien à faire pour placer des images ou des vidéos associées à une étape. Elles s'affichent automatiquement lorsque l'opérateur arrive à l'étape.
+Vous n'avez rien à faire pour placer une image ou une vidéo associée à une étape. Elles s'affichent automatiquement lorsque l'opérateur arrive à l'étape.
 
 Les ressources 3D associées à chaque étape s'affichent sous la fiche étape dans *l'emplacement* :
 
@@ -239,34 +239,36 @@ Vous pouvez placer un modèle 3D à partir de la boîte à outils 3D de la même
 
 Pour placer un modèle 3D à partir de l'un de vos emplacements :
 
-1.  Cliquez dans l'air sur un modèle 3D pour l'ajouter à votre monde réel. Elle apparaît dans votre monde réel devant la fiche étape.
+1.  Cliquez dans l'air sur un modèle 3D pour l'ajouter à votre monde réel. Il apparaît dans votre monde réel devant la fiche étape.
 
-2.  Levez la main pour indiquer que vous êtes prêt et pointez du regard le modèle pour le sélectionner. La sphère de sélection 3D apparaît autour de la ressource et indique ainsi qu'elle est bien sélectionnée.
+2.  Levez la main pour indiquer que vous êtes prêt et pointez du regard le modèle pour en afficher l'aperçu. Les contrôles 3D apparaissent autour de la ressource et indiquent ainsi qu'elle est à l'état Aperçu.
 
-3.  Une fois que l'objet est sélectionné, cliquez longuement dans l’air n'importe où dans la sphère de sélection pour choisir le modèle.
+    Si vous baissez la main, les contrôles 3D disparaissent. Ainsi, si vous regardez des hologrammes, les contrôles ne vous gênent pas. Vous devez regarder la pièce tout en levant la main pour indiquer que vous êtes prêt.
 
-4.  Déplacez le modèle là où vous souhaitez l'insérer.
+3. Avec les contrôles visibles, cliquez longuement dans l'air n'importe où sur le contrôle de mouvement pour sélectionner le modèle. Déplacez le modèle vers l'emplacement souhaité, puis relâchez pour le placer.
 
+> [!NOTE]
+> Lorsque vous appuyez sur un composant 3D pour le déplacer, vous le sélectionnez en même temps. Une fois sélectionné, lorsque vous baissez la main, les contrôles 3D restent jusqu'à ce que vous prévisualisiez ou sélectionniez un autre composant, ou que vous cliquez dans l'air n'importe où dans l'espace vide.
  
 #### <a name="rotate-a-hologram"></a>Faire pivoter un hologramme
 
-Il n'est peu probable qu'une ressource soit orientée correctement lorsque vous la placez ou la déplacez pour la première fois. Utilisez les molettes d'ajustement de rotation pour le faire pivoter comme vous le souhaitez.
+Il n'est peu probable qu'une ressource soit orientée correctement lorsque vous la placez ou la déplacez pour la première fois. Utilisez les contrôles de rotation pour la faire pivoter comme vous le souhaitez.
 
 Pour faire pivoter un hologramme :
 
-- Cliquez longuement dans l’air sur un ajustement de rotation, puis effectuez l’une des opérations suivantes :
+- Cliquez longuement dans l'air sur un contrôle de rotation, puis effectuez l'une des opérations suivantes :
 
-  - Utilisez la molette haut/bas pour faire pivoter verticalement.
+  - Utilisez la sphère haut/bas pour faire pivoter verticalement.
   
-  - Utilisez la molette gauche/droite pour faire pivoter horizontalement.
+  - Utilisez la sphère gauche/droite pour faire pivoter horizontalement.
   
-  - Utilisez la molette main libre pour faire pivoter dans n'importe quelle direction.
+  - Utilisez la sphère main libre pour faire pivoter dans n'importe quelle direction.
 
 >[!Tip]
-> Regardez fixement les molettes pour savoir dans quelle direction elles vont pivoter.
+> Pointez du regard les sphères pour savoir dans quelle direction elles vont pivoter.
 
-Lors d'une rotation, vous avez alors l'impression d'attraper physiquement la molette et de tourner autour de l'objet, comme une roue.
-Les graphiques suivants montrent comment utiliser les différentes molettes de rotation :
+Lors d'une rotation, vous avez alors l'impression d'attraper physiquement la sphère et de tourner autour de l'objet, comme une roue.
+Les graphiques suivants montrent comment utiliser les différents contrôles de rotation :
 
 Rotation libre
 
@@ -285,7 +287,7 @@ Rotation haut/bas
 
 #### <a name="change-the-size-of-a-hologram-after-placing-it"></a>Modifier la taille d'un hologramme après l'avoir placé
 
-- Cliquez longuement dans l’air sur le bouton **Mettre à l'échelle un hologramme**, puis déplacez votre main vers le haut ou le bas.  
+- Cliquez longuement dans l'air sur le contrôle **Mettre à l'échelle un hologramme**, puis déplacez votre main vers le haut ou le bas.  
 
    ![Changer la taille des hologrammes](media/scale-hologram.PNG "Changer la taille des hologrammes")
 
@@ -369,8 +371,8 @@ Voici quelques liens utiles pour en savoir plus sur [!include[pn-dyn-365-guides]
 
 Pour en savoir plus sur les applications de réalité mixte [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[cc-microsoft](../includes/cc-microsoft.md)], cliquez sur les liens suivants : 
 
-- [Qu'est-ce que la réalité mixte](https://docs.microsoft.com/en-us/windows/mixed-reality/mixed-reality) ?
-- [Microsoft Dynamics 365 Layout](https://dynamics.microsoft.com/en-us/mixed-reality/layout/)
-- [Microsoft Dynamics 365 Remote Assist](https://dynamics.microsoft.com/en-us/mixed-reality/remote-assist/)
-- [Se connecter au WiFi sur HoloLens](https://docs.microsoft.com/en-us/windows/mixed-reality/connecting-to-wi-fi-on-hololens)
-- [Étalonner HoloLens](https://docs.microsoft.com/en-us/windows/mixed-reality/calibration)
+- [Qu'est-ce que la réalité mixte](https://docs.microsoft.com/windows/mixed-reality/mixed-reality) ?
+- [Microsoft Dynamics 365 Layout](https://dynamics.microsoft.com/mixed-reality/layout/)
+- [Microsoft Dynamics 365 Remote Assist](https://dynamics.microsoft.com/mixed-reality/remote-assist/)
+- [Se connecter au WiFi sur HoloLens](https://docs.microsoft.com/windows/mixed-reality/connecting-to-wi-fi-on-hololens)
+- [Étalonner HoloLens](https://docs.microsoft.com/windows/mixed-reality/calibration)

@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Choisir une méthode d'ancrage pour votre guide dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 3ed17abc70a2b7d5bcab1266b8a7d6994ba81841
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: f0989e200c22092b7c04cf36ef82925644c9e444
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050050"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537130"
 ---
 # <a name="anchor-your-guide-to-the-real-world"></a>Ancrer votre guide dans le monde réel
 
@@ -157,7 +157,7 @@ Lorsque vous basculez dans l'application de création [!include[pn-hololens](../
 ## <a name="ensure-accuracy-of-anchors-alignment"></a>Garantir la précision des points d'ancrage (alignement)
 Quelle que soit la méthode utilisée pour l'ancrage, ces facteurs supplémentaires peuvent impacter la précision de l'alignement et/ou la perception de l'utilisateur de l'alignement :
 
-- **Paramètre de distance interpupillaire (DIP).** Le DIP est la distance entre le centre de chacune des pupilles de l'utilisateur. Il est primordial de définir un DIP approprié pour permettre à [!include[pn-hololens](../includes/pn-hololens.md)] d'adapter son affichage car les utilisateurs n'ont pas tous le même DIP. Un paramètre incorrect de DIP peut engendrer une mauvaise perception des hologrammes dans l'espace ainsi que leur instabilité. [Utiliser l'application d'étalonnage HoloLens pour étalonner votre DIP](https://docs.microsoft.com/en-us/windows/mixed-reality/calibration). 
+- **Paramètre de distance interpupillaire (DIP).** Le DIP est la distance entre le centre de chacune des pupilles de l'utilisateur. Il est primordial de définir un DIP approprié pour permettre à [!include[pn-hololens](../includes/pn-hololens.md)] d'adapter son affichage car les utilisateurs n'ont pas tous le même DIP. Un paramètre incorrect de DIP peut engendrer une mauvaise perception des hologrammes dans l'espace ainsi que leur instabilité. [Utiliser l'application d'étalonnage HoloLens pour étalonner votre DIP](https://docs.microsoft.com/windows/mixed-reality/calibration). 
 
 - **Analyse préalable de l'environnement.** [!include[pn-hololens](../includes/pn-hololens.md)] analyse activement son environnement à la recherche de caractéristiques visibles pour créer des cartes. Cela se produit lorsque l'appareil est activé et qu'un utilisateur est connecté. Cette opération ne dépend pas du fait que vous soyez ou non dans le shell [!include[pn-hololens](../includes/pn-hololens.md)] ou les applications en cours d'exécution. [!include[pn-hololens](../includes/pn-hololens.md)] améliore constamment la précision de ces cartes grâce à l'analyse de l'environnement sous différents angles, qu'il enregistre ensuite sur l'appareil. Les hologrammes sont placés en fonction de ces cartes. Plus la carte est précise et plus la disposition des hologrammes est elle aussi précise.
 

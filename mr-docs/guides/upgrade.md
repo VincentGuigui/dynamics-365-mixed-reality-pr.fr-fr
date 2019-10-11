@@ -7,23 +7,28 @@ ms.service: crm-online
 ms.topic: article
 title: Mettre à niveau la solution Dynamics 365 Guides (version préliminaire)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 2e858765fc33d3bc95312d3823a3881f1e184acd
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 2cb38358f137f362c6066e1a73fc5bfe820fe0f6
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049965"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537618"
 ---
 # <a name="upgrade-the-dynamics-365-guides-solution-for-admins"></a>Mettre à niveau la solution Dynamics 365 Guides (pour les administrateurs)
 
 Cette rubrique concerne les administrateurs [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. Certaines versions de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] nécessitent une mise à jour de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Lorsqu'une mise à jour est nécessaire, l'utilisateur verra une notification s'afficher dans le volet **Nouveautés**.
 
 > [!IMPORTANT]
-> Gardez à l'esprit les points suivants :<br><br>- Avant de mettre la solution à jour dans le Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)], assurez-vous que le PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et les applications [!include[pn-hololens](../includes/pn-hololens.md)] ont été mis à jour vers la dernière version du [!include[cc-microsoft](../includes/cc-microsoft.md)] Store.<br><br>- Les mises à jour de la solution doivent être effectuées lorsque le PC et les applications [!include[pn-hololens](../includes/pn-hololens.md)] ne sont pas utilisés.  
+> Gardez à l'esprit les points suivants :<br><br>- Avant de mettre la solution à jour dans le Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)], assurez-vous que le PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et les applications [!include[pn-hololens](../includes/pn-hololens.md)] ont été mis à jour vers la dernière version du [!include[cc-microsoft](../includes/cc-microsoft.md)] Store.<br><br>- Les mises à jour de la solution doivent être effectuées lorsque les applications sur PC et [!include[pn-hololens](../includes/pn-hololens.md)] ne sont pas utilisées.  
 
 Pour mettre à niveau la solution :
 
-1. Accédez au [Centre d'administration Dynamics 365](https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx), puis connectez-vous avec vos informations d'identification Administrateur. Si vous avez créé des informations d'identification lors de la connexion, ces informations d'identification doivent disposer d'autorisations d'administrateur. 
+1. Accédez au Centre d'administration Dynamics 365, puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
+
+   > [!NOTE]
+   > Pour accéder au Centre d'administration Dynamics 365, accédez au [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home), puis sélectionnez **Centres d'administration** > **Dynamics 365**, comme indiqué ci-dessous.
+   
+   ![Centre d'administration Microsoft](media/microsoft-admin-center.PNG "Centre d'administration Microsoft") 
 
 2. Sélectionnez l'onglet **Instances**, puis choisissez une instance ayant la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] installée.
 

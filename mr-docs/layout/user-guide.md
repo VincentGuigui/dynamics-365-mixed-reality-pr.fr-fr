@@ -2,17 +2,17 @@
 author: ornellaalt
 description: Guide de l'utilisateur de Dynamics 365 Layout
 ms.author: ornella
-ms.date: 07/09/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Layout
 ms.reviewer: v-brycho
-ms.openlocfilehash: a6bb6a819f1dd7c4ad5e7053cfe88a216d552f92
-ms.sourcegitcommit: a50eb22358dd459b09ba77b812658d2aed925431
+ms.openlocfilehash: 4fd400820f766dec795e9c0a1a15203269ffb4a0
+ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755841"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2224219"
 ---
 # <a name="dynamics-365-layout-user-guide"></a>Guide de l'utilisateur de Dynamics 365 Layout
 
@@ -27,29 +27,29 @@ Besoin d'aide complémentaire ? [Consultez la FAQ](faq.md) Dynamics 365 Layout 
 -   [Un abonnement à Dynamics 365 Layout.](../licensing/buy-and-deploy.md) L'abonnement [!include[pn-layout](../includes/pn-layout.md)] inclut également [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour PC.
     
     > [!TIP]
-    > Vous pouvez essayer [!include[pn-layout](../includes/pn-layout.md)] gratuitement jusqu'à 90 jours. [En savoir plus sur l'essai gratuit de Dynamics 365 Layout de 90 jours](try-layout-free.md).
+    > Vous pouvez essayer [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] gratuitement jusqu'à 90 jours. [En savoir plus sur l'essai gratuit de Dynamics 365 Layout de 90 jours](try-layout-free.md).
 
--   Un appareil [HoloLens](https://www.microsoft.com/hololens) exécutant la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/12643) et/ou un casque immersif [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality). 
+-   Un appareil [HoloLens](https://www.microsoft.com/hololens) exécutant la [Windows 10 April 2018 Update](https://support.microsoft.com/help/12643) et/ou un casque immersif [Windows Mixed Reality](https://www.microsoft.com/windows/windows-mixed-reality). 
 
--   Un PC prêt pour [Windows Mixed Reality](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs) exécutant la [Windows 10 April 2018 Update](https://support.microsoft.com/en-us/help/4028685).
+-   Un PC prêt pour [Windows Mixed Reality](https://www.microsoft.com/windows/windows-mixed-reality-devices#wmrpcs) exécutant la [Windows 10 April 2018 Update](https://support.microsoft.com/help/4028685).
 
 -   Une connexion Internet.
 
 ## <a name="install-the-apps"></a>Installer les applications
 
-La manière dont vous installez [!include[pn-layout](../includes/pn-layout.md)] et [!include[pn-import-tool](../includes/pn-import-tool.md)] dépend du mode de distribution des applications choisi par votre administrateur. Votre administrateur peut vous demander d'installer l'application depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre biais. 
+La manière dont vous installez [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] et [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] dépend du mode de distribution des applications choisi par votre administrateur. Votre administrateur peut vous demander d'installer l'application depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre biais. 
 
 Le tableau suivant décrit l'application/outil, et son installation depuis le magasin public.
 
 | **Application**     | **Appareil**            | **Utilisation**                            | **Installation depuis le [!include[cc-microsoft](../includes/cc-microsoft.md)] Store** |
 |-------------|-----------------------|---------------------------------------------|-------------------------------------|
-| [!include[pn-layout](../includes/pn-layout.md)]      | [!include[pn-hololens](../includes/pn-hololens.md)]              | <ul><li>Créer des dispositions en analysant les environs. </li><li>Placer des modèles dans vos dispositions. </li></ul>     | Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br>    |
-| [!include[pn-layout](../includes/pn-layout.md)]      | Casque de réalité mixte |<ul><li>Placer des modèles dans des dispositions importées depuis [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)]. </ul>| 1. Sur votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br> 2. Connectez votre casque de réalité mixte au PC, puis recherchez l'application dans le menu **Démarrer** de réalité mixte. <br>   |
-| [!include[pn-import-tool](../includes/pn-import-tool.md)] | PC                    | <ul><li>Transférer les plans d'étage depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)] vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</li><li>Transférer les dispositions entre [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality. </li><li>Traiter les modèles 3D à utiliser dans [!include[pn-hololens](../includes/pn-hololens.md)]. </ul>| Dans votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9NBF1CGB7KHX). <br>    |
+| [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]      | [!include[pn-hololens](../includes/pn-hololens.md)]              | <ul><li>Créer des dispositions en analysant les environs. </li><li>Placer des modèles dans vos dispositions. </li></ul>     | Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br>    |
+| [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]      | Casque de réalité mixte |<ul><li>Placer des modèles dans des dispositions importées depuis [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)]. </ul>| 1. Sur votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br> 2. Connectez votre casque de réalité mixte au PC, puis recherchez l'application dans le menu **Démarrer** de réalité mixte. <br>   |
+| [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] | PC                    | <ul><li>Transférer les plans d'étage depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)] vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</li><li>Transférer les dispositions entre [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality. </li><li>Traiter les modèles 3D à utiliser dans [!include[pn-hololens](../includes/pn-hololens.md)]. </ul>| Dans votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9NBF1CGB7KHX). <br>    |
 
 ## <a name="get-started-with-dynamics-365-layout-take-advantage-of-learning-tools"></a>Mise en route de Dynamics 365 Layout : tirer profit des outils d'apprentissage
 
-[!include[pn-layout](../includes/pn-layout.md)] inclut deux outils (moments d'information et démonstrations de dispositions) que vous pouvez utiliser pour vous aider à savoir comment effectuer des tâches courantes telles que la mesure, la copie, le regroupement, le redimensionnement et l'accès aux paramètres.
+[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] inclut deux outils (moments d'information et démonstrations de dispositions) que vous pouvez utiliser pour vous aider à savoir comment effectuer des tâches courantes telles que la mesure, la copie, le regroupement, le redimensionnement et l'accès aux paramètres.
 
 ### <a name="teaching-moments"></a>Moments d'information
 
@@ -74,21 +74,21 @@ Pour accéder à des démonstrations de dispositions, sélectionnez la démonstr
 
 ## <a name="use-dynamics-365-layout"></a>Utiliser Dynamics 365 Layout
 
-Pour utiliser [!include[pn-layout](../includes/pn-layout.md)], vous créez des dispositions d'espace sur votre [!include[pn-hololens](../includes/pn-hololens.md)] ou PC, puis vous utilisez [!include[pn-hololens](../includes/pn-hololens.md)] ou un casque immersif [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality pour placer des modèles 3D dans les dispositions. L'application [!include[pn-layout](../includes/pn-layout.md)] est fournie avec des modèles préinstallés, et vous pouvez également ajouter les vôtres.
+Pour utiliser [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)], vous créez des dispositions d'espace sur votre [!include[pn-hololens](../includes/pn-hololens.md)] ou PC, puis vous utilisez [!include[pn-hololens](../includes/pn-hololens.md)] ou un casque immersif [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality pour placer des modèles 3D dans les dispositions. L'application [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] est fournie avec des modèles préinstallés, et vous pouvez également ajouter les vôtres.
 
 ### <a name="create-a-layout"></a>Créer une disposition
 
 Il existe deux façons de créer une disposition :
 
--   Utilisez [Microsoft Visio](https://products.office.com/en-us/visio/) pour concevoir un plan d'étage, puis exportez-le vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.
+-   Utilisez [Microsoft Visio](https://products.office.com/visio/) pour concevoir un plan d'étage, puis exportez-le vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.
 
--   Utilisez [!include[pn-layout](../includes/pn-layout.md)] sur votre [!include[pn-hololens](../includes/pn-hololens.md)] pour analyser un espace.
+-   Utilisez [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] sur votre [!include[pn-hololens](../includes/pn-hololens.md)] pour analyser un espace.
 
 #### <a name="create-a-layout-with-microsoft-visio"></a>Créer une disposition avec Microsoft Visio
 
 **Étape 1 : téléchargez et installez le complément [!include[pn-visio](../includes/pn-visio.md)] pour [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]**
 
-1.  Ouvrez [!include[pn-import-tool](../includes/pn-import-tool.md)].
+1.  Ouvrez [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)].
 
 2.  Sélectionnez **À propos**, puis sélectionnez le téléchargement 32 bits ou 64 bits (choisissez celui qui correspond à votre version de [!include[pn-visio](../includes/pn-visio.md)]).
     
@@ -105,30 +105,30 @@ Il existe deux façons de créer une disposition :
 
 -   Lorsque le plan d'étage est prêt, sélectionnez l'onglet **[!include[pn-layout](../includes/pn-layout.md)]** et **Exporter**, puis enregistrez votre plan d'étage.
 
-**Étape 3 : importez votre plan d'étage au moyen de l'[!include[pn-import-tool](../includes/pn-import-tool.md)]**
+**Étape 3 : importez votre plan d'étage au moyen de l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)]**
 
-1.  Dans l'[!include[pn-import-tool](../includes/pn-import-tool.md)], sélectionnez **Ce PC** \> **Ajouter une disposition**, puis accédez au plan d'étage.
+1.  Dans l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)], sélectionnez **Ce PC** \> **Ajouter une disposition**, puis accédez au plan d'étage.
 
 2.  Sélectionnez le plan d'étage, puis **Ouvrir**.
 
-    Le plan d'étage s'affiche automatiquement dans [!include[pn-layout](../includes/pn-layout.md)] sur un casque immersif de réalité mixte connecté au même PC.
+    Le plan d'étage s'affiche automatiquement dans [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] sur un casque immersif de réalité mixte connecté au même PC.
 
 Pour utiliser la disposition dans [!include[pn-hololens](../includes/pn-hololens.md)], vous devez la déplacer ici :
 
 1.  Connectez votre [!include[pn-hololens](../includes/pn-hololens.md)] à votre PC à l'aide du câble USB.
 
-2.  Ouvrez [!include[pn-import-tool](../includes/pn-import-tool.md)] sur le PC, puis sélectionnez **Ce PC** \> **Dispositions**.
+2.  Ouvrez [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] sur le PC, puis sélectionnez **Ce PC** \> **Dispositions**.
 
 3.  Cochez la case sur les dispositions que vous souhaitez copier, puis sélectionnez **Envoyer**.
     
     > [!div class="mx-imgBorder"]
     > ![Déplacez la disposition dans HoloLens](media/selected-layouts-hololens.PNG "Déplacez la disposition dans HoloLens")
 
-4.  Dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-layout](../includes/pn-layout.md)]. Vous trouverez votre disposition dans l'onglet **Dispositions**.
+4.  Dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]. Vous trouverez votre disposition dans l'onglet **Dispositions**.
 
 #### <a name="create-a-layout-with-hololens"></a>Créer une disposition avec HoloLens
 
-1.  Dans votre appareil [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-layout](../includes/pn-layout.md)].
+1.  Dans votre appareil [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].
 
 2.  Sélectionnez **Nouvelle disposition**, puis suivez les instructions pour analyser votre espace et créer une disposition.
 
@@ -136,7 +136,7 @@ Pour déplacer la disposition vers votre PC afin de pouvoir l'ouvrir dans un cas
 
 1.  Connectez l'[!include[pn-hololens](../includes/pn-hololens.md)] au PC à l'aide du câble USB.
 
-2.  Ouvrez l'[!include[pn-import-tool](../includes/pn-import-tool.md)], puis sélectionnez le nom de l'[!include[pn-hololens](../includes/pn-hololens.md)].
+2.  Ouvrez l'[!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)], puis sélectionnez le nom de l'[!include[pn-hololens](../includes/pn-hololens.md)].
 
 3.  Cochez la case sur la disposition que vous souhaitez envoyer vers votre PC, puis sélectionnez **Envoyer**.
     

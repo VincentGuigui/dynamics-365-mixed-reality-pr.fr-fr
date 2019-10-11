@@ -7,16 +7,20 @@ ms.service: crm-online
 ms.topic: article
 title: Utiliser l'application de création du PC pour créer un guide dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: bda3d8b4ca2f38a1212c8233b5cc123ea050681c
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 96724aada580fbb2631ec18b7f36c86cd76e8e87
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050010"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537573"
 ---
 # <a name="use-the-pc-authoring-application-to-create-a-guide-in-dynamics-365-guides"></a>Utiliser l'application de création du PC pour créer un guide dans Dynamics 365 Guides
 
-[Visionner une vidéo sur la création sur PC](https://aka.ms/pcauthor)
+Visionner les vidéos sur :
+
+- [Vue d'ensemble de Dynamics 365 Guides](https://aka.ms/guidesoverview)
+- [Création sur PC](https://aka.ms/pcauthor)
+- [Création HoloLens](https://aka.ms/hololensauthor)
 
 Utiliser l'application de création du PC pour créer un guide dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour :
 
@@ -28,7 +32,7 @@ Utiliser l'application de création du PC pour créer un guide dans [!include[cc
 
 - Écrire des instructions pour les étapes
 
-- Affectez différents types de ressources pour prendre en charge ces étapes. Parmi les ressources de prise en charge on trouve :
+- Affectez différents types de contenu pour prendre en charge ces étapes. Le contenu de prise en charge comprend :
 
   - Composants 3D
   
@@ -79,14 +83,14 @@ Utilisez ces instructions pour installer l'application (si elle n'a pas encore �
 
 ## <a name="saving-how-changes-are-synced-between-the-pc-app-and-hololens-app"></a>Enregistrement : manière dont les modifications sont synchronisées entre l'application du PC et l'application HoloLens
 
-L'application de création sur PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] sont connectées via le cloud, où les fichiers et les ressources [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] sont stockés. Lorsque vous créez des instructions, les modifications sont enregistrées sur le PC et sur [!include[pn-hololens](../includes/pn-hololens.md)]. Il est ainsi très facile de passer d'un appareil à un autre. L'enregistrement automatique permet de vérifier les nouvelles modifications toutes les 4 secondes. Vous devez être en ligne pour utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]
+L'application de création sur PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] sont connectées via le cloud, où les fichiers et le contenu [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] sont stockés. Lorsque vous créez un guide, les modifications sont enregistrées sur le PC et sur [!include[pn-hololens](../includes/pn-hololens.md)]. Il est ainsi très facile de passer d'un appareil à un autre. L'enregistrement automatique permet de vérifier les nouvelles modifications toutes les 4 secondes. Vous devez être en ligne pour utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]
 
 > [!NOTE]
 > Lorsque vous basculez d'un périphérique à l'autre, il est préférable de fermer le guide pour vous assurer que vous ne perdrez pas votre travail. 
 
 ## <a name="choose-an-anchoring-method-for-your-guide"></a>Choisir une méthode d'ancrage pour votre guide.
 
-L'étape suivante consiste à choisir une méthode d'ancrage pour votre guide. L'ancrage est la manière dont vous attachez vos hologrammes à votre environnement en monde réel. [En savoir plus sur l'ancrage et le mode de création d'un point d'ancrage](anchor.md).
+L'étape suivante consiste à choisir une méthode d'ancrage pour votre guide. L'ancrage est une étape cruciale dans la création d'un guide. Elle désigne la manière dont vous attachez vos hologrammes à votre environnement en monde réel. Si vous n'ancrez pas votre guide correctement, vos hologrammes seront mal alignés, et vos opérateurs risquent d'être perdus et peuvent même endommager des machines ou des pièces. [En savoir plus sur l'ancrage et le mode de création d'un point d'ancrage](anchor.md).
 
 ## <a name="structure-your-guide-in-the-outline-page"></a>Structurer votre guide dans la page Plan
 
@@ -106,11 +110,8 @@ Outre les tâches et les étapes, la page **Plan** contient :
 
 - Une étape spéciale appelée étape d'achèvement qui indique aux opérateurs quand ils ont atteint la fin du guide. L'étape d'achèvement inclut du texte par défaut que vous pouvez personnaliser comme vous le souhaitez.
 
-  ![Page Plan](media/completion-step.PNG "Page Plan")
+  ![Étape d'achèvement](media/completion-step.PNG "Étape d'achèvement")
  
-> [!NOTE]
-> Lorsque vous commencez à travailler sur un guide, sélectionnez **Actualiser** pour vous assurer qu'il s'agit bien de la dernière version. 
-
 ### <a name="best-practices-for-the-outline-page"></a>Meilleures pratiques en matière de page Plan
 
 - Pour fournir un contexte général, ajoutez une tâche de vue d'ensemble au début du guide. Cette tâche ne contient qu'une seule étape qui indique sur quoi porte le guide. C'est également un bon endroit pour répertorier toutes les tâches abordées dans le guide. 
@@ -121,21 +122,21 @@ Outre les tâches et les étapes, la page **Plan** contient :
 
 - Pensez à ajouter des étapes indiquant des trucs et des astuces. 
 
-- N'oubliez pas d'actualiser le guide quand vous passez du PC à [!include[pn-hololens](../includes/pn-hololens.md)], et assurez-vous de placer le curseur en dehors de la zone de texte quand vous rédigez des étapes pour activer l'enregistrement automatique. 
+- Lorsque vous passez de l'application sur PC à l'application HoloLens, vous serez invité à actualiser la page. Il est recommandé de fermer le guide sur lequel vous travaillez lorsque vous changez d'appareil. 
 
 Voici l'exemple d'une page **Plan** remplie :
 
-![Page Plan remplie à partir du guide Câblage de pylône](media/finished-outline-page.PNG "Page Plan remplie à partir du guide Câblage de pylône")
+![Page Plan remplie à partir du guide Câblage de pylône](media/finished-outline-page.png "Page Plan remplie à partir du guide Câblage de pylône")
   
-## <a name="create-steps-and-assign-assets-in-the-step-card-page"></a>Créer des étapes et affecter des ressources dans la page Fiche étape
+## <a name="create-steps-and-assign-content-in-the-step-card-page"></a>Créer des étapes et affecter du contenu dans la page Fiche étape
 
 Il est possible de créer des étapes dans la page **Plan**, mais vous allez probablement les créer plutôt dans la page Fiche étape WYSIWYG. Les instructions que vous créez sur la page Fiche étape correspond à ce que l'opérateur voit dans [!include[pn-hololens](../includes/pn-hololens.md)].
 
-Dans la page Fiche étape, vous devez rédiger des instructions et affecter des ressources de prise en charge aux étapes, comme du contenu ou du support 3D (image ou vidéo). 
+Dans la page Fiche étape, vous devez rédiger des instructions et affecter du contenu de prise en charge aux étapes, comme du contenu ou du support 3D (image ou vidéo). 
 
 ### <a name="open-the-step-card-page-and-add-instructions"></a>Ouvrir la page Fiche étape et ajouter des instructions
 
-1. Cliquez sur chaque étape de la page **Contour**, ou sélectionnez **Étape** dans la navigation gauche. 
+1. Sélectionnez chaque étape de la page **Contour**, ou sélectionnez **Étape** dans la navigation gauche. 
 
    ![Commande d'étape dans le volet de navigation gauche](media/left-nav-step.PNG "Commande d'étape dans le volet de navigation gauche")
 
@@ -152,15 +153,17 @@ Dans la page Fiche étape, vous devez rédiger des instructions et affecter des 
    > [!NOTE]
    > L'ensemble des zones sous les instructions est appelé « emplacement. »
   
-Lorsque vous consultez votre guide en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez voir toutes les ressources que vous avez associées aux étapes, et vous pouvez les placer à l'endroit qui convient dans le monde réel. Par exemple, si vous affectez un pointeur à une étape dans l'application du PC, vous devez aligner ce pointeur avec l'élément auquel il fait référence dans l'application de création [!include[pn-hololens](../includes/pn-hololens.md)] dans le monde réel. Ce qui apparaît dans la page Fiche étape est très similaire à ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)]. 
+Lorsque vous consultez votre guide en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez voir tout le contenu que vous avez associé aux étapes, et vous pouvez le placer à l'endroit qui convient dans le monde réel. Par exemple, si vous affectez un pointeur à une étape dans l'application du PC, vous devez aligner ce pointeur avec l'élément auquel il fait référence dans l'application de création [!include[pn-hololens](../includes/pn-hololens.md)] dans le monde réel. Ce qui apparaît dans la page Fiche étape est très similaire à ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)]. 
 
 ### <a name="best-practices-for-the-step-card-page"></a>Meilleures pratiques en matière de page Fiche étape
 
 - Il est facile d'ajouter une étape à partir de la page Fiche étape. Il suffit de sélectionner **Ajouter une nouvelle étape** dans le coin supérieur droit de la page. Inutile de revenir à la page **Plan**. 
 
+  ![Bouton Ajouter une nouvelle étape](media/add-new-step-button.PNG "Bouton Ajouter une nouvelle étape")
+
 - N'ayez pas peur d'avoir beaucoup d'étapes, mais faites en sorte que le texte soit court. Le texte d'instruction est par exemple limité à 280 caractères par étape pour ne pas qu'il soit trop long.
 
-- Essayez de coller à un type de ressource (image, vidéo, ou objet 3D) par étape. S'il y a trop de support ou de contenu 3D, cela peut assommer l'opérateur et être trop long à intégrer. Réfléchissez au type de contenu qui est le plus percutant.
+- Essayez de vous limiter à un type de contenu (image, vidéo, ou objet 3D) par étape. S'il y a trop de support ou de contenu 3D, cela peut assommer l'opérateur et être trop long à intégrer. Réfléchissez au type de contenu qui est le plus percutant.
 
 - Rédigez le guide dans un langage courant pour des résultats optimaux. N'utilisez pas de jargon technique que personne ne comprend ou ne connaît.
 
@@ -191,11 +194,11 @@ Pour importer vos propres objets 3D :
 
 ### <a name="add-3d-objects-from-the-3d-toolkit-to-support-your-steps"></a>Ajoutez des objets 3D provenant de la boîte à outils 3D pour prendre en charge les étapes
 
-[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est fourni avec une bibliothèque d'objets 3D prédéfinis incluse dans la boîte à outils 3D. Ces objets sont optimisés pour fonctionner parfaitement avec [!include[pn-hololens](../includes/pn-hololens.md)]. Utilisez les objets de la boîte à outils 3D comme n'importe quelle autre ressource pour prendre en charge les étapes et faire passer votre message. Le fait d'avoir une bibliothèque prête à l'emploi facilite les premiers pas si jamais votre société n'a pas de contenu 3D.
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est fourni avec une bibliothèque d'objets 3D prédéfinis incluse dans la boîte à outils 3D. Ces objets sont optimisés pour fonctionner parfaitement avec [!include[pn-hololens](../includes/pn-hololens.md)]. Utilisez les objets de la boîte à outils 3D comme n'importe quel autre contenu pour prendre en charge les étapes et faire passer votre message. Le fait d'avoir une bibliothèque prête à l'emploi facilite les premiers pas si jamais votre société n'a pas de contenu 3D.
  
 La boîte à outils 3D inclut des marqueurs, des flèches, des outils génériques, des mains, des nombres, des symboles, et des zones. Voici à quoi ressemblent les modèles :
 
-![Liste des objets de la boîte à outils 3D](media/3D-toolkit-objects.PNG "Liste des objets de la boîte à outils 3D")
+![Liste des objets de la boîte à outils 3D](media/3D-toolkit-objects.png "Liste des objets de la boîte à outils 3D")
 
 Vous devez ajouter un objet 3D à partir de la boîte à outils 3D dans la page Fiche étape, puis le placer en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)]. Vous pouvez utiliser le même objet (instance) autant de fois que vous voulez dans une étape.
 

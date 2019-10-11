@@ -2,21 +2,21 @@
 author: Mamaylya
 description: Présentation de Dynamics 365 Guides
 ms.author: Mamaylya
-ms.date: 10/01/2019
+ms.date: 10/02/2019
 ms.service: crm-online
 ms.topic: overview
 title: Présentation de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 84a6087bc5e5089062398e105ae7de303468f6d5
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: f4d8d9b10b865c3192201f8783c8812aea65113b
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049902"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537419"
 ---
 # <a name="overview-of-dynamics-365-guides"></a>Présentation de Dynamics 365 Guides
 
-[Visionner une vidéo pour avoir un aperçu rapide de Dynamics 365 Guides](https://aka.ms/overview)
+[Visionner une vidéo pour avoir un aperçu rapide de Dynamics 365 Guides](https://aka.ms/guidesoverview)
 
 ![Graphique de moteur](media/overview.PNG "Graphique de moteur") 
 
@@ -36,7 +36,7 @@ Qu'il s'agisse de procédures complexes sur une tâche ou d'une formation loin d
 
 ### <a name="see-also"></a>Voir aussi
 
-[Vidéo : Aperçu rapide de Dynamics 365 Guides](https://aka.ms/overview)<br>
+[Vidéo : Aperçu rapide de Dynamics 365 Guides](https://aka.ms/guidesoverview)<br>
 [Vidéo : Créer un guide dans l'application du PC](https://aka.ms/pcauthor)<br> 
 [Vidéo : Créer un guide dans l'application HoloLens](https://aka.ms/hololensauthor)<br>
 [Documentation : Présentation de la création](authoring-overview.md)<br>

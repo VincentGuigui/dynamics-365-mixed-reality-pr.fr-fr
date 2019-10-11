@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Éléments à garder à l'esprit avant de passer à la création dans Dynamics 365 Guides (version préliminaire)
 ms.reviewer: v-brycho
-ms.openlocfilehash: adba4bc986a617668f7968aed29cef52a7fcf32f
-ms.sourcegitcommit: 5ce5fa810e391fade0b9fdef30077606cb1ae84d
+ms.openlocfilehash: 27204edb4297d4f293113299919aca0c38e0e510
+ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918092"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2224361"
 ---
 # <a name="before-you-start-authoring-a-guide-in-dynamics-365-guides-preview"></a>Avant de passer à la création d'un guide dans Dynamics 365 Guides (version préliminaire)
 
@@ -81,11 +81,11 @@ Le contenu 3D est recommandé pour ajouter de la clarté en contexte. [!include[
 
 Vous pouvez également créer et importer vos propres composants 3D personnalisés à l'aide de modèles de CAO. [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] prend en charge les formats de fichier glTF, GLB et FBX. Vous pouvez utiliser une combinaison d'outils tiers et de [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour préparer vos modèles 3D ou vous pouvez utiliser le service de conciergerie d'Import Tool pour que [!include[cc-microsoft](../includes/cc-microsoft.md)] convertisse et optimise les modèles à votre place. Pour plus d'informations sur Import Tool et la préparation de modèles 3D, voir les rubriques suivantes :
 
-- [Présentation de l'Import Tool](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/)
+- [Présentation de l'Import Tool](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/)
 
-- [Optimiser vos modèles 3D](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/optimize-models)
+- [Optimiser vos modèles 3D](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/optimize-models)
 
-- [Meilleures pratiques pour les modèles 3D](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/import-tool/best-practices)
+- [Meilleures pratiques pour les modèles 3D](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/best-practices)
 
 ## <a name="set-up-a-folder-structure"></a>Paramétrer une structure de dossiers
 

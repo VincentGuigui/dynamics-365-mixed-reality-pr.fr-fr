@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Mouvements que vous pouvez faire pour créer et accéder à un guide dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: e615e257ebdecdcf26967cb5c3a2c9b346aa7fbe
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 1bcddaf4268de78572eff97f8fc42d0d3ea01e64
+ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049875"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2224343"
 ---
 # <a name="gestures-for-authoring-and-navigating-in-dynamics-365-guides"></a>Mouvements pour la création et la navigation dans Dynamics 365 Guides 
 
@@ -52,7 +52,7 @@ Cliquez longuement dans l'air pour déplacer, faire pivoter ou mettre à l'éche
 [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] comporte des capteurs capables de détecter à plusieurs mètres d'un côté ou de l'autre. Lorsque vous faites des mouvements, vous devez rester à l'intérieur de ce cadre ou [!include[pn-hololens](../includes/pn-hololens.md)] ne les verra pas. Lorsque vous vous déplacez, la cadre se déplace avec vous. Lorsque votre main se trouve dans le cadre, le curseur ressemble à une boucle. Si [!include[pn-hololens](../includes/pn-hololens.md)] ne peut pas voir votre main, le curseur se transforme en point.
 
 ### <a name="need-a-tutorial-on-gestures"></a>Besoin d'un didacticiel pour apprendre les mouvements ?
-Pour accéder à un didacticiel pour apprendre les mouvements de base, fermez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] en écartant les doigts paume vers le haut et en sélectionnant **Maison virtuelle**, utilisez l'écartement des doigts paume vers le haut pour accéder à **Démarrer**, puis sélectionnez **Apprendre les mouvements**. Si vous rencontrez des difficultés avec des mouvements, consultez la [FAQ sur HoloLens et les hologrammes](https://support.microsoft.com/en-us/help/13456/hololens-and-holograms-faq).
+Pour accéder à un didacticiel pour apprendre les mouvements de base, fermez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] en écartant les doigts paume vers le haut et en sélectionnant **Maison virtuelle**, utilisez l'écartement des doigts paume vers le haut pour accéder à **Démarrer**, puis sélectionnez **Apprendre les mouvements**. Si vous rencontrez des difficultés avec des mouvements, consultez la [FAQ sur HoloLens et les hologrammes](https://support.microsoft.com/help/13456/hololens-and-holograms-faq).
 
 ### <a name="see-also"></a>Voir aussi
 

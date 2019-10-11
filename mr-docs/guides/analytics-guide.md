@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Présentation des états d'Analyses de Guides, Power BI pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: a69ab8bea1abee3ef0a9970156b2e16319a202f4
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: cdaefe49648e1c6d311d7678ed2c9eaae6189cc8
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049929"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537133"
 ---
 # <a name="analyze-guides-created-with-dynamics-365-guides"></a>Analyser des guides créés avec Dynamics 365 Guides
  
@@ -217,7 +217,8 @@ Une fois que vous disposez d'une licence [!include[pn-power-bi](../includes/pn-p
  
 ### <a name="see-also"></a>Voir aussi
 
-[Présentation de la création d'un guide](authoring-overview.md)</br>
-[Exploitation d'un guide](operator-guide.md)</br>
+[Vidéo : Analyser vos guides](https://aka.ms/guidesanalyze)<br>
+[Documentation : Présentation de la création d'un guide](authoring-overview.md)</br>
+[Documentation : Utilisation d'un guide](operator-guide.md)</br>
 [FAQ](faq.md)
 

@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Problèmes connus avec Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: c2a8fed8745beb53ff303daaf6ec0fa5a11b416f
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 2cc3203aa54b46878be4b2262560e86d3d3c9b13
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049920"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537280"
 ---
 # <a name="known-issues-with-microsoft-dynamics-365-guides"></a>Problèmes connus avec Microsoft Dynamics 365 Guides
 
@@ -38,42 +38,17 @@ Dans de rares cas, vous pouvez noter que le texte est renvoyé à la ligne dans 
 
 Nous vous recommandons de ne pas ouvrir un guide sur [!include[pn-hololens](../includes/pn-hololens.md)] si une étape d'alignement est en cours de modification pour ce même guide sur un PC. Dans ce cas, l'application [!include[pn-hololens](../includes/pn-hololens.md)] s'actualise automatiquement, mais elle ne peut pas ouvrir le guide.
 
-## <a name="offline-use-is-not-supported"></a>L'utilisation hors connexion n'est pas prise en charge
-Pour le moment, l'utilisation hors connexion n'est pas prise en charge dans les applications [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Vous devez en outre disposer d'une connexion Internet active et fiable pour utiliser les applications. 
-
-## <a name="recalibrating-takes-you-back-to-the-first-step"></a>Un réétalonnage vous ramène à la première étape
-
-Si vous utilisez l'application [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] et que vous cliquez sur le bouton **Ancrer** lors d'une étape pour étalonner à nouveau votre [!include[pn-hololens](../includes/pn-hololens.md)], une fois terminé, vous revenez à la première étape de votre guide. Ceci est intentionnel. Vous (ou l'opérateur) souhaiterez revérifier toutes les étapes après le réétalonnage, car cela pourrait modifier l'alignement de l'hologramme.
-
-## <a name="noise-cancelling-is-not-supported"></a>L'annulation du bruit n'est pas prise en charge
-
-L'application HoloLens ne prend plus en charge les options d'annulation du bruit dans la disponibilité générale. L'application exploite maintenant la technologie existante fournie par le matériel HoloLens 1 et HoloLens 2 pour prendre en charge les commandes vocales et les commentaires audio.
-
-## <a name="instruction-cards-and-holograms-may-render-inside-objects-in-the-real-world"></a>Les fiches d'instructions et les hologrammes peuvent s'afficher à l'intérieur des objets dans le monde réel
-
-L'application [!include[pn-hololens](../includes/pn-hololens.md)] utilise la compréhension de l'environnement pour afficher les hologrammes, mais n'utilise pas ces informations pour afficher les fiches d'instruction (fiches étape). Par conséquent, à ce stade, il est possible que des fiches d'instruction s'affichent à l'intérieur des objets dans le monde réel. 
-
 ## <a name="when-authoring-on-hololens-2-authors-need-to-air-tap-to-select-3d-models-before-editing"></a>Lors d'une création sur HoloLens 2, les auteurs doivent cliquer dans l'air pour sélectionner les modèles 3D avant de les modifier.
 
 Sur HoloLens 2, le mode de sélection apparaît lorsque vous cliquez dans l'air des modèles 3D, plutôt que lorsque vous les pointez du regard. Après avoir cliqué dans l'air, vous pouvez cliquer longuement pour effectuer un déplacement, utiliser les gizmos pour effectuer une rotation, ou explorer les options de modification. HoloLens 1 continuera à prendre en charge l'ancien comportement où vous pointiez du regard les modèles 3D pour les sélectionner.
 
-## <a name="ipd-settings-are-not-saved-for-each-user"></a>Les paramètres DIP ne sont pas enregistrés pour chaque utilisateur
-
-Pour le moment, les paramètres de distance interpupillaire (DIP) ne sont pas enregistrés automatiquement pour chaque utilisateur. Nous vous recommandons pour le moment de ne pas partager d'appareil [!include[pn-hololens](../includes/pn-hololens.md)]. Si vous devez partager un appareil, veillez à étalonner à nouveau [!include[pn-hololens](../includes/pn-hololens.md)] lorsque vous changez d'utilisateur. Notez que plusieurs utilisateurs peuvent partager le même appareil [!include[pn-hololens](../includes/pn-hololens.md)] si leurs DIP sont identiques. 
-
-## <a name="no-way-to-secure-a-guide"></a>Aucune manière de sécuriser un guide
-Nous ne prenons actuellement pas en charge les autorisations ou la gestion des versions ; par conséquent, toute personne ayant une licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] attribuée dans votre organisation peut ouvrir ou modifier un guide.
-
 ## <a name="recent-guides-list-isnt-scoped-to-user"></a>La liste des guides récents n'est pas disponible pour les utilisateurs
 La liste des guides **récents** n'est pas actuellement disponible pour les utilisateurs. Elle sera prise en charge dans une version ultérieure.
-
-## <a name="search-is-not-supported-at-this-time"></a>La recherche n'est pas prise en charge pour l'instant
-Pour le moment, vous ne pouvez pas rechercher un guide dans la liste de l'une ou l'autre des applications. 
 
 ## <a name="when-placing-large-assets-on-hololens-you-might-see-minor-loading-delays"></a>Lorsque vous placez des ressources volumineuses dans HoloLens, de petits retards de chargement peuvent se produire
 L'application [!include[pn-hololens](../includes/pn-hololens.md)] charge actuellement le guide dès son ouverture, et en arrière-plan quand vous l'utilisez. Si votre guide contient des modèles 3D et des supports volumineux, vous risquez de rencontrer des retards de chargement de quelques secondes.
 
-## <a name="guides-cant-be-renamed-or-deleted"></a>Les guides ne peuvent pas être renommés ou supprimés
+## <a name="guides-cant-be-renamed-or-deleted-from-the-pc-app"></a>Les guides ne peuvent pas être renommés ou supprimés de l'application sur PC
 
 Pour le moment, il n'est pas possible de renommer ou de supprimer des guides.
 
@@ -81,7 +56,7 @@ Pour le moment, il n'est pas possible de renommer ou de supprimer des guides.
 
 Vous pouvez créer plusieurs guides avec le même nom. Même si cette opération empêche d'écraser involontairement d'anciens fichiers, cela entraîne de la confusion lorsque vous sélectionnez un guide dans une liste. Lorsque vous créez un guide, veillez à utiliser un nom unique.
 
-## <a name="3d-content-and-media-cannot-be-renamed-or-deleted-after-uploading"></a>Le contenu et le support 3D ne peuvent pas être renommés ou supprimés une fois téléchargés
+## <a name="3d-content-and-media-cannot-be-renamed-or-deleted-from-the-pc-app-after-uploading"></a>Le contenu et le support 3D ne peuvent pas être renommés ou supprimés de l'application sur PC une fois téléchargés
 
 Pour le moment, nous ne prenons pas en charge le renommage ou la suppression de contenu et support 3D une fois qu'ils sont chargés sur le serveur. Bien qu'il soit possible de les renommer dans [!include[pn-dyn-365](../includes/pn-dyn-365.md)], cela peut avoir des conséquences imprévues sur tous les guides qui les utilisent.
 
@@ -127,7 +102,7 @@ Appuyez longuement sur le contour bleu et déplacez-le vers le haut ou vers le b
  
 Le panneau de support affiche l'image suivante pour indiquer visuellement ce que vous devez effectuer.
 
-![Ajuster le décalage du marqueur imprimé](media/adjust-marker-offset.PNG "Ajuster le décalage du marqueur imprimé")  
+![Ajuster le décalage du marqueur imprimé](media/adjust-marker-offset.png "Ajuster le décalage du marqueur imprimé")  
 
 Après vous être assuré que le contour bleu et le marqueur imprimé sont alignés, sélectionnez **Confirmer** pour terminer le processus. 
 

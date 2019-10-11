@@ -23,5 +23,6 @@
 ## [Vidéos](videos.md)
 ## [FAQ](faq.md)
 ## [Problèmes connus](known-issues.md)
-## [Conditions d'utilisation](../legal/guides-service-terms.md)
+## Conditions d'utilisation
+### [Dynamics 365 Guides](../legal/guides-service-terms.md)
 

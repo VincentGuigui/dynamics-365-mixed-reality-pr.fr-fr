@@ -2,28 +2,28 @@
 author: bencorn
 description: Découvrez comment acheter Dynamics 365 Remote Assist, ajouter des utilisateurs à l'abonnement et déployer l'application pour des utilisateurs de plusieurs manières
 ms.author: bencorn
-ms.date: 06/04/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Acheter et déployer Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 5298e664ee6b9a4621239fb369ded37cff84fcb4
-ms.sourcegitcommit: 73dff7bbeecc69366e1b98fa4db4a7b00762fb80
+ms.openlocfilehash: da078ae4098c3ac256d3e4071ecde27797b1d0fb
+ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847938"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2224406"
 ---
 # <a name="buy-and-deploy-dynamics-365-remote-assist"></a>Acheter et déployer Dynamics 365 Remote Assist
 
 Avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)], vous pouvez établir le lien entre les mondes réel et numérique pour effectuer des tâches cruciales plus rapidement, plus sûrement et plus efficacement, et créer de nouvelles manières de se connecter à des clients et des partenaires.
 
-## <a name="subscribe-to-remote-assist"></a>Abonnez-vous à Remote Assist.
+## <a name="subscribe-to-dynamics-365-remote-assist"></a>S'abonner à Dynamics 365 Remote Assist
 
 > [!TIP]
-> Saviez-vous que vous pouvez essayer [!include[pn-remote-assist](../includes/pn-remote-assist.md)] gratuitement jusqu'à 90 jours ? [En savoir plus sur l'essai gratuit de 90 jours](try-remote-assist-free.md).
+> Saviez-vous que vous pouvez essayer [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] gratuitement jusqu'à 90 jours ? [En savoir plus sur l'essai gratuit de 90 jours](try-remote-assist-free.md).
 
-Vous pouvez vous abonner à [!include[pn-remote-assist](../includes/pn-remote-assist.md)] de n'importe laquelle des façons suivantes :
+Vous pouvez vous abonner à [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] de n'importe laquelle des façons suivantes :
 
 -   Contactez un représentant [!include[cc-microsoft](../includes/cc-microsoft.md)] comme suit : 
     - En nous appelant au 1-888-477-7989, ou
@@ -34,7 +34,7 @@ Vous pouvez vous abonner à [!include[pn-remote-assist](../includes/pn-remote-as
 
 -   [Contrats Entreprise (portail de licence en volume)](https://www.microsoft.com/licensing/servicecenter/default.aspx)
 
--   [Fournisseur de services cloud (portail de l'Espace partenaires)](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner)
+-   [Fournisseur de services cloud (portail de l'Espace partenaires)](https://partner.microsoft.com/cloud-solution-provider/csp-partner)
 
 ## <a name="subscribe-through-the-microsoft-365-admin-center"></a>S'abonner via le Centre d'administration Microsoft 365
 
@@ -44,7 +44,7 @@ Vous pouvez vous abonner à [!include[pn-remote-assist](../includes/pn-remote-as
    
 2. Connectez-vous sous le compte Administrateur de votre société.
 
-3. Si vous ne savez pas qui est votre administrateur, contactez le support technique informatique de votre société pour le découvrir. [Obtenez davantage d'informations sur les comptes Administrateur](https://support.office.com/en-us/article/office-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870?ui=en-US&rs=en-US&ad=US).
+3. Si vous ne savez pas qui est votre administrateur, contactez le support technique informatique de votre société pour le découvrir. [Obtenez davantage d'informations sur les comptes Administrateur](https://support.office.com/article/office-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870?ui=en-US&rs=en-US&ad=US).
 
 4. Sous **Facturation** dans le volet gauche de navigation, sélectionnez **Acheter des services**.
    
@@ -52,9 +52,9 @@ Vous pouvez vous abonner à [!include[pn-remote-assist](../includes/pn-remote-as
 
    ![Autres offres](../media/OtherPlans.PNG "Sélectionnez Autres offres")
    
-6. Recherchez la carte de produit pour [!include[pn-remote-assist](../includes/pn-remote-assist.md)].
+6. Recherchez la carte de produit pour [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)].
 
-   ![Carte de produit Remote Assist](media/remote-assist-card.PNG "Carte de produit Remote Assist")
+   ![Carte de produit pour Dynamics 365 Remote Assist](media/remote-assist-card.PNG "Carte de produit pour Dynamics 365 Remote Assist")
            
 7. Pour s'abonner, sélectionnez **Acheter maintenant**.
 
@@ -65,7 +65,7 @@ Vous pouvez vous abonner à [!include[pn-remote-assist](../includes/pn-remote-as
 
 ## <a name="assign-licenses-to-users"></a>Attribuer des licences aux utilisateurs
 
-Après vous être abonné (ou inscrit pour un essai gratuit de 30 jours), vous devrez affecter des licences aux utilisateurs dans le [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] ou l'[Espace partenaires](https://partner.microsoft.com/en-us/cloud-solution-provider/csp-partner). Chaque utilisateur auquel vous attribuez une licence aura besoin d'un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD).
+Après vous être abonné (ou inscrit pour un essai gratuit de 30 jours), vous devrez affecter des licences aux utilisateurs dans le [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] ou l'[Espace partenaires](https://partner.microsoft.com/cloud-solution-provider/csp-partner). Chaque utilisateur auquel vous attribuez une licence aura besoin d'un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD).
 
 ### <a name="assign-a-license-to-a-user-in-the-microsoft-365-admin-center"></a>Affecter une licence à un utilisateur dans le Centre d'administration Microsoft 365
 
@@ -85,9 +85,9 @@ Après vous être abonné (ou inscrit pour un essai gratuit de 30 jours), vous 
 
    ![Sélectionner les licences](media/licenses.PNG "Sélectionner les licences")
 
-## <a name="make-the-remote-assist-app-available-to-your-users"></a>Mettre l'application Remote Assist à la disposition de vos utilisateurs
+## <a name="make-the-dynamics-365-remote-assist-app-available-to-your-users"></a>Mettez l'application Dynamics 365 Remote Assist à la disposition de vos utilisateurs
 
-Après vous être abonné et avoir affecté des licences à vos utilisateurs par le biais du [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] ou de l'Espace partenaires, vous pouvez mettre l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)] à disposition en procédant d'une des manières suivantes :
+Après vous être abonné et avoir affecté des licences à vos utilisateurs par le biais du [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] ou de l'Espace partenaires, vous pouvez mettre l'application [!include[pn-dyn-365-remote-assist](../includes/pn-remote-assist.md)] à disposition en procédant d'une des manières suivantes :
 
 -   [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs
 -   [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour Entreprises
@@ -98,28 +98,28 @@ Si vous utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store po
 -   Via un lien de courrier électronique que vous envoyez
 -   Via la gestion des périphériques mobiles (GPM)
 
-### <a name="install-remote-assist-from-the-microsoft-store-for-consumers"></a>Installer Remote Assist à partir de Microsoft Store pour les consommateurs
+### <a name="install-dynamics-365-remote-assist-from-the-microsoft-store-for-consumers"></a>Installez Dynamics 365 Remote Assist à partir de Microsoft Store pour les consommateurs
 
-Pour plus d'informations sur l'installation de l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)] depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, consultez le [Guide de l'utilisateur de Dynamics 365 Remote Assist](../remote-assist/user-guide.md). 
+Pour plus d'informations sur l'installation de l'application [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pour les consommateurs, consultez le [Guide de l'utilisateur de Dynamics 365 Remote Assist](../remote-assist/user-guide.md). 
 
 > [!NOTE]
-> Lorsque les utilisateurs lancent l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)], ils doivent utiliser le même compte [!include[pn-azure](../includes/pn-azure.md)] AD que celui affecté par l'administrateur dans le [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)].
+> Lorsque les utilisateurs lancent l'application [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)], ils doivent utiliser le même compte [!include[pn-azure](../includes/pn-azure.md)] AD que celui affecté par l'administrateur dans le [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)].
 
 
 ### <a name="distribute-the-app-through-the-microsoft-store-for-business"></a>Répartir l'application par le biais de Microsoft Store pour Entreprises
 
-1.  Allez au [Store pour Entreprises](https://businessstore.microsoft.com/en-us/store).
+1.  Allez au [Store pour Entreprises](https://businessstore.microsoft.com/store).
 
-2.  [Faites l'acquisition de l'application](https://docs.microsoft.com/en-us/microsoft-store/acquire-apps-microsoft-store-for-business).
+2.  [Faites l'acquisition de l'application](https://docs.microsoft.com/microsoft-store/acquire-apps-microsoft-store-for-business).
 
 3.  Choisissez une des méthodes de répartition suivantes :
 
-    -   [Magasin privé](https://docs.microsoft.com/en-us/microsoft-store/distribute-apps-from-your-private-store)
-    -   [Lien de courrier électronique](https://docs.microsoft.com/en-us/microsoft-store/assign-apps-to-employees)
-    -   [Gestion des périphériques mobiles](https://docs.microsoft.com/en-us/microsoft-store/configure-mdm-provider-microsoft-store-for-business)
+    -   [Magasin privé](https://docs.microsoft.com/microsoft-store/distribute-apps-from-your-private-store)
+    -   [Lien de courrier électronique](https://docs.microsoft.com/microsoft-store/assign-apps-to-employees)
+    -   [Gestion des périphériques mobiles](https://docs.microsoft.com/microsoft-store/configure-mdm-provider-microsoft-store-for-business)
 
 ### <a name="see-also"></a>Voir aussi
-[Essayer Remote Assist gratuitement jusqu'à 90 jours](try-remote-assist-free.md)<br/>
-[Présentation de Remote Assist](../remote-assist/index.md)<br/>
-[Guide de l'utilisateur de Remote Assist](../remote-assist/user-guide.md)<br/>
+[Essayez Dynamics 365 Remote Assist gratuitement jusqu'à 90 jours](try-remote-assist-free.md)<br/>
+[Présentation de Dynamics 365 Remote Assist](../remote-assist/index.md)<br/>
+[Guide de l'utilisateur de Dynamics 365 Remote Assist](../remote-assist/user-guide.md)<br/>
 

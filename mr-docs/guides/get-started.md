@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Mise en route de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 0fc99e71696f90268dc7b7c0122a1dd2124e6687
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 16a43e6d56b2c02dae95547fd126de913a3ec313
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049956"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537564"
 ---
 # <a name="get-started-with-dynamics-365-guides"></a>Mise en route de Dynamics 365 Guides
 
@@ -24,7 +24,7 @@ Vous venez de configurer [!include[cc-microsoft](../includes/cc-microsoft.md)] [
 
 Pour lancer la démonstration :
 
-1. Cliquez dans l'air sur le logo [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
+1. Cliquez dans l'air sur la vignette [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
    ![Logo de Dynamics 365 Guides](media/Logo.png "Logo de Dynamics 365 Guides")
 

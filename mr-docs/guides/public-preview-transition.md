@@ -2,17 +2,17 @@
 author: Mamaylya
 description: Découvrez la transition de la version préliminaire publique de Dynamics 365 Guides vers la version en disponibilité générale.
 ms.author: mamaylya
-ms.date: 10/01/2019
+ms.date: 10/02/2019
 ms.service: crm-online
 ms.topic: article
 title: Transition entre la version préliminaire publique de Dynamics 365 Guides et la disponibilité générale
 ms.reviewer: v-brycho
-ms.openlocfilehash: 40f9df5550533c0f600d1f4f82f8482264624ea5
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: b0c5b1d44831bc04e0fda7bdf6511743823d9f36
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050053"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537636"
 ---
 # <a name="transition-from-dynamics-365-guides-public-preview-to-ga"></a>Transition entre la version préliminaire publique de Dynamics 365 Guides et la disponibilité générale
 
@@ -26,13 +26,18 @@ Veuillez suivre les instructions ci-dessous en vue de passer à la version en di
  
 ## <a name="step-1-update-the-apps"></a>Étape 1 : Mettre à jour les applications  
 
-Mettez à jour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] PC et les applications HoloLens avec les dernières versions disponibles dans Microsoft Store. 
+Mettez à jour les applications sur PC et HoloLens [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] avec les dernières versions disponibles dans Microsoft Store. 
  
 ## <a name="step-2-get-the-latest-dynamics-365-guides-solution"></a>Étape 2 : Obtenir la dernière solution Dynamics 365 Guides 
 
-1. Accédez au  [Centre d'administration Dynamics 365](https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx), puis connectez-vous avec les informations d'identification d'administrateur que vous avez utilisées pour la version préliminaire publique.  
+1. Accédez au Centre d'administration Dynamics 365, puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
 
-2. Sélectionnez l'onglet  **Instances** , puis choisissez une instance ayant la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] en version préliminaire installée. 
+   > [!NOTE]
+   > Pour accéder au Centre d'administration Dynamics 365, accédez au [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home), puis sélectionnez **Centres d'administration** > **Dynamics 365**, comme indiqué ci-dessous.
+   
+   ![Centre d'administration Microsoft](media/microsoft-admin-center.PNG "Centre d'administration Microsoft") 
+
+2. Sélectionnez l'onglet **Instances** , puis choisissez une instance ayant la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] en version préliminaire installée. 
 
 3. Sélectionnez le petit bouton Modifier en regard de  **Solutions**  pour afficher la liste des solutions.  
 

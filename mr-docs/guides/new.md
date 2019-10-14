@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Nouveautés de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: e8e7b3759d04a4aa3a508da7b9f5981fe715cbc4
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: c5260ae6057eddc9ed05b28379e356184c8e115c
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050028"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537609"
 ---
 ## <a name="whats-new-in-dynamics-365-guides"></a>Nouveautés de Dynamics 365 Guides
 
@@ -24,7 +24,7 @@ Cette page fournit des détails sur les dernières versions de [!include[cc-micr
 
 Les nouveaux clients doivent obtenir une licence de DG. Pour obtenir des informations sur les licences, l'installation et les mises à niveau, accédez à aka.ms/GetGuides.
 
-La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.24001 et la version de solution 200.0.0.107 comprennent les mises à jour suivantes :
+La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.24001 et la version de solution 200.0.0.102 comprennent les mises à jour suivantes :
 
 - **Essayez la démonstration.** Vous pouvez à présent essayer l'exemple de guide prêt à l'emploi sur l'application HoloLens sans devoir vous inscrire pour obtenir une licence ou créer un guide vous-même.
 
@@ -46,7 +46,7 @@ La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-gu
 - **Prise en charge de langues supplémentaires**. L'application PC et l'application HoloLens prennent désormais en charge les langues suivantes : anglais (États-Unis, Royaume-Uni), français (France, Canada), allemand, néerlandais (Pays-Bas), espagnol, italien, chinois (République populaire de Chine, Taïwan, Hong Kong), japonais et coréen.
 
 > [!NOTE]
-> Pour obtenir cette mise à jour, il suffit de mettre à jour l'application PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] à partir de [!include[cc-microsoft](../includes/cc-microsoft.md)] Store. La mise à jour de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas obligatoire, mais vous devez la mettre à jour si vous avez l'intention d'utiliser l'application dans les nouvelles langues prises en charge. 
+> Pour obtenir cette mise à jour, il suffit de mettre à jour l'application sur PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] à partir de [!include[cc-microsoft](../includes/cc-microsoft.md)] Store. La mise à jour de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas obligatoire, mais vous devez la mettre à jour si vous avez l'intention d'utiliser l'application dans les nouvelles langues prises en charge. 
 
 ### <a name="august-6-2019"></a>6 août 2019
 La version 104.1908.2001.0 de l'application [!include[pn-hololens](../includes/pn-hololens.md)] permet de résoudre un problème dans la publication du 23 juillet de l'application [!include[pn-hololens](../includes/pn-hololens.md)] qui empêchait la liste des guides de s'afficher dans l'application [!include[pn-hololens](../includes/pn-hololens.md)] pour les clients d'Europe, du Moyen-Orient et d'Asie. Nous avons également publié une version mise à jour du modèle de génération d'états Power BI qui permet de corriger un bogue associé à des données manquantes qui provoquaient l'échec de l'état.

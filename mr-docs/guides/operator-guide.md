@@ -7,22 +7,22 @@ ms.service: crm-online
 ms.topic: article
 title: Manuel de l'opérateur pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: b5a05bdaa77c850e313d01530821298553121a39
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 45bd68de69332078c2073ec0ea685bc9dc801f1e
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050019"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537645"
 ---
 # <a name="operators-manual-for-dynamics-365-guides"></a>Manuel de l'opérateur pour Dynamics 365 Guides
 
-[Visionner une vidéo sur l'utilisation d'un guide](https://aka.ms/guidesoperate).
+[Visionner une vidéo sur l'utilisation d'un guide](https://aka.ms/guidesoperate)
 
 Bienvenue dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] ! Ce manuel de l'opérateur est conçu pour aider les opérateurs à utiliser un guide holographique créé avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Il décrit tout ce qu'un opérateur doit connaître à propos de l'interface utilisateur [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et comment réaliser des tâches dans le monde réel, au sein d'une usine par exemple. Dans ce type d'environnement, les ouvriers ont souvent les mains remplies d'outils et de pièces lorsqu'ils travaillent. Avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], il est possible de garder la tête haute et de conserver les outils dans les mains en suivant les instructions holographiques pas-à-pas pour accomplir les tâches. 
 
 ![Opérateur au travail](media/operator-at-work.PNG "Opérateur au travail")
 
-## <a name="first-things-firstcalibrate-your-hololens"></a>Il faut tout d'abord commencer par étalonner HoloLens 
+## <a name="first-things-first--calibrate-your-hololens"></a>Il faut tout d'abord commencer par étalonner HoloLens 
 [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] utilise des hologrammes pour montrer exactement ce qu'il faut accomplir dans le monde réel. Le guide peut par exemple indiquer la procédure à suivre pour assembler la porte d'un avion. Comme les instructions sont fournies par des hologrammes sur [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)], il est extrêmement important de s'assurer qu'ils sont alignés correctement. Vous risquez sinon de percer un trou au mauvais même endroit ou d'assembler la mauvaise pièce ! Pour s'assurer que les hologrammes sont correctement alignés, vous devez étalonner l'appareil [!include[pn-hololens](../includes/pn-hololens.md)]. Vous pouvez le faire à l'aide de l'application d'étalonnage qui est fournie avec votre [!include[pn-hololens](../includes/pn-hololens.md)]. 
 
 ![Application d'étalonnage HoloLens](media/calibration.PNG "Application d'étalonnage HoloLens")  
@@ -53,7 +53,7 @@ Pour parcourir un guide, utilisez le pointage du regard et certains autres mouve
 
 ### <a name="gaze"></a>Pointer du regard 
 
-Il est très facile de pointer du regard dans [!include[pn-hololens](../includes/pn-hololens.md)]. Dans certains cas, vous pouvez sélectionner un élément (une application, un menu, ou un bouton, par exemple) simplement en regardant fixement une zone de sélection en regard de l'élément en question. Par exemple, lorsque vous lancez l'application [!include[pn-hololens](../includes/pn-hololens.md)] pour la première fois, vous devez pointer du regard la zone à gauche du champ **Opérer** dans la boîte de dialogue suivante pour sélectionner le mode Opérer.
+Il est très facile de pointer du regard dans [!include[pn-hololens](../includes/pn-hololens.md)]. Dans certains cas, vous pouvez sélectionner un élément (une application, un menu, ou un bouton, par exemple) simplement en regardant fixement une zone de sélection en regard de l'élément en question. Par exemple, lorsque vous lancez l'application [!include[pn-hololens](../includes/pn-hololens.md)] pour la première fois, vous devez pointer du regard la zone à gauche du champ **Opérer** dans la boîte de dialogue suivante pour sélectionner le mode **Opérer**.
 
 ![Exemple d'application du pointage du regard](media/gaze-example.PNG "Exemple d'application du pointage du regard")  
 
@@ -140,7 +140,7 @@ Si vous vous connectez à un tout nouvel appareil [!include[pn-hololens](../incl
 
 9.  Dans la boîte de dialogue **Sélectionner un mode**, pointez du regard la zone à gauche du champ **Opérer** jusqu'à ce qu'elle soit sélectionnée. 
 
-    ![Sélectionner le mode Opérer](media/select-mode.PNG "Sélectionner le mode Opérer")
+    ![Sélectionner le mode Opérer](media/select-mode.jpg "Sélectionner le mode Opérer")
    
 ### <a name="anchor-your-guide"></a>Ancrer le guide 
 La première chose qui s'affiche lorsque vous ouvrez un guide ce sont les instructions d'ancrage.  
@@ -164,7 +164,7 @@ Il existe deux types de points d'ancrage : un point d'ancrage imprimé et un po
 
 2. Dans votre application HoloLens, [!include[pn-hololens](../includes/pn-hololens.md)], vous verrez un hologramme très semblable au point d'ancrage imprimé. Recherchez le point d'ancrage imprimé dans le monde réel, puis alignez l'hologramme du point d'ancrage avec le point d'ancrage imprimé.    
    
-3. Si la case à cocher verte est aligné au point d'ancrage imprimé, sélectionnez **Confirmer**.
+3. Si la case à cocher verte est alignée sur le point d'ancrage imprimé, pointez du regard l'option **Confirmer** pour la sélectionner.
 
    ![Marqueur holographique](media/align-marker.PNG "Marqueur holographique") 
 
@@ -190,11 +190,11 @@ Lorsque vous alignez votre guide, si vous utilisez [!include[cc-microsoft](../in
 
 Lorsque vous ouvrez un guide, une fiche étape rassemblant tout ce que vous effectuez dans ce guide s'affiche. La fiche étape fournit des instructions à suivre pour réaliser une tâche. Elle contient également deux boutons à utiliser pour parcourir un guide : les boutons **Étape suivante** et **Retour**. Lorsque vous parcourez les étapes d'une tâche, la fiche étape vous accompagne dans [!include[pn-hololens](../includes/pn-hololens.md)] pour conserver vos instructions quand vous en avez besoin. 
 
-![Fiche étape avec les boutons Étape suivante et Retour](media/step-card-basic-1.PNG "Fiche étape avec les boutons Étape suivante et Retour")  
+![Fiche étape avec les boutons Étape suivante et Retour](media/step-card-basic-1.jpg "Fiche étape avec les boutons Étape suivante et Retour")  
 
 Outre les boutons **Étape suivante** et **Retour**, la fiche étape inclut un certain nombre de boutons individuels et d'éléments de l'IU pour vous aider à entreprendre différentes actions. 
 
-![Boutons de la fiche étape](media/step-card-orientation-2.PNG "Boutons de la fiche étape")
+![Boutons de la fiche étape](media/step-card-orientation-2.jpg "Boutons de la fiche étape")
    
 
 Voici une description des boutons et d'autres éléments de l'IU de la fiche étape :
@@ -207,14 +207,14 @@ Voici une description des boutons et d'autres éléments de l'IU de la fiche ét
 |D|![Bouton Profil](media/profile-button.png "Bouton Profil")|Profil|Connexion et déconnexion.| 
 |E|![Bouton Épingler](media/pin-button.PNG "Bouton Épingler")|Épingler|Verrouillez la fiche étape. Cela est utile pour conserver la fiche étape à un même endroit lorsque vous exécutez l'étape ou la tâche. Si vous épinglez la fiche étape, elle ne vous suit plus. Vous pouvez l'épingler ou la désépingler lorsque vous le souhaitez.|
 |F|![Progression d'étape](media/step-progress.PNG "Progression d'étape")|Progression d'étape|Indique où vous êtes dans l'étape.|
-|G|![Bouton Plan](media/outline-button.png "Bouton Plan")|Plan|Allez à la page Plan. Utilisez la page Plan pour parcourir rapidement votre guide. Voici à quoi ressemble la page Plan dans le guide illustratif :</br><br>![Page Plan HoloLens](media/example-guide-operator.PNG "Page Plan HoloLens")| 
+|G|![Bouton Plan](media/outline-button.png "Bouton Plan")|Plan|Allez à la page Plan. Utilisez la page Plan pour parcourir rapidement votre guide. Voici à quoi ressemble la page Plan dans le guide Câblage de pylône :</br><br>![Page Plan HoloLens](media/outline.jpg "Page Plan HoloLens")| 
 |H|![Progression de la tâche](media/task-progress.PNG "Progression de la tâche")|Progression de la tâche|Indique où vous en êtes dans la tâche.| 
 |I|![Nom de la tâche](media/task-name-table.PNG "Nom de la tâche")|Nom de la tâche|Nom de la tâche sur laquelle vous travaillez.| 
  
 ## <a name="use-a-dotted-line-to-help-you-find-the-focus-area-for-a-step"></a>Utiliser une ligne pointillée pour rechercher la zone ciblée dans une étape 
 Les fiches étape sont liées par des lignes pointillées holographiques aux zones physiques de la zone de travail. Ces lignes pointillées vous aident à rechercher la zone où vous devez agir. 
 
-![Ligne pointillée holographique](media/tether-example.PNG "Ligne pointillée holographique")
+![Ligne pointillée holographique](media/dotted-line.jpg "Ligne pointillée holographique")
 
 ### <a name="dotted-line-tips-and-tricks"></a>Trucs et astuces sur les lignes pointillées 
 
@@ -226,17 +226,18 @@ Les fiches étape sont liées par des lignes pointillées holographiques aux zon
 
 Vous remarquerez que partout où vous regardez, la fiche étape suit votre regard : elle vous accompagne. Lorsque vous travaillez, vous n'avez pas besoin de chercher les instructions. Vous pouvez toutefois épingler la fiche étape pour désactiver la fonctionnalité d'accompagnement. Pour épingler la fiche étape, sélectionnez **Épingler**. Une fois qu'elle est épinglée, vous pouvez la saisir et la déplacer où vous voulez. 
 
-![Bouton Épingler sur l'écran HoloLens](media/step-card-basic.PNG "Bouton Épingler sur l'écran HoloLens")
+![Bouton Épingler sur l'écran HoloLens](media/pin.jpg "Bouton Épingler sur l'écran HoloLens")
 
 ## <a name="turn-off-holograms"></a>Désactiver des hologrammes 
 Vous pouvez désactiver des hologrammes (ou les activer à nouveau) du regard si vous jamais vous sentez qu'ils se décalent. Pour désactiver un hologramme, pointez du regard l'« œil » au milieu de la ligne pointillée. 
 
-![Désactiver les hologrammes](media/tether-example.PNG "Désactiver les hologrammes")  
+![Désactiver les hologrammes](media/dotted-line-toggle-visibility.jpg "Désactiver les hologrammes")  
 
 ## <a name="useful-links-for-more-information"></a>Liens utiles pour plus d'informations
 
 Il s'agit de toutes les informations à savoir pour utiliser un guide créé avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]! Pour en savoir plus sur les applications de réalité mixte [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[cc-microsoft](../includes/cc-microsoft.md)], voici quelques liens utiles : 
 
+- [Visionner une vidéo sur l'utilisation d'un guide](https://aka.ms/guidesoperate)
 - [Qu'est-ce que la réalité mixte ?](https://docs.microsoft.com/windows/mixed-reality/mixed-reality)
 - [Microsoft Dynamics 365 Layout](https://dynamics.microsoft.com/mixed-reality/layout/)
 - [Microsoft Dynamics 365 Remote Assist](https://dynamics.microsoft.com/mixed-reality/remote-assist/)

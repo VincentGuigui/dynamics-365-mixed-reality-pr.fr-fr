@@ -2,54 +2,54 @@
 author: drpusey
 description: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.author: drpusey
-ms.date: 06/24/2019
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 7f5bf9ce93d4c11b2373a14302cd9f074adcdb56
-ms.sourcegitcommit: dc826257529550c0bd4308ce8e155bdde065b9d1
+ms.openlocfilehash: 7f6a04d495dde7eef000244e34789bd2a7fafb66
+ms.sourcegitcommit: 42b430e4dd9a79e91d084cce8f51f1311d37ab33
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "1980438"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "2139681"
 ---
 # <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 
 Utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] pour vous connecter et collaborer au moyen d'un appel vidéo mains libres, d'annotations de réalité mixte et du partage de fichiers (image et PDF). Utilisez votre [!include[pn-hololens](../includes/pn-hololens.md)] pour appeler un expert qui utilise [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-teams](../includes/pn-teams.md)], puis partagez ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)] pour résoudre les problèmes et réaliser des tâches ensemble, plus rapidement.
 
-Besoin d'aide complémentaire ? [Consultez la FAQ de Remote Assist](faq.md) pour obtenir des réponses aux questions fréquentes.
+Besoin d'aide complémentaire ? [Consultez la FAQ de Dynamics 365 Remote Assist](faq.md) pour obtenir des réponses aux questions fréquentes.
 
-[Consultez des vidéos pratiques](videos.md) concernant [!include[pn-remote-assist](../includes/pn-remote-assist.md)].
+[Consultez des vidéos pratiques](videos.md) concernant [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)].
 
 ## <a name="what-youll-need"></a>Ce dont vous aurez besoin
 
--   Un abonnement à [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] est inclus dans l'abonnement [!include[pn-remote-assist](../includes/pn-remote-assist.md)] pour les personnes avec une licence [!include[pn-remote-assist](../includes/pn-remote-assist.md)] sur [!include[pn-HoloLens](../includes/pn-HoloLens.md)]. Une licence [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] est également requise pour les personnes (spécialistes) qui communiquent avec un utilisateur de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] sur [!include[pn-HoloLens](../includes/pn-HoloLens.md)]. [!include[pn-teams](../includes/pn-teams.md)] peut être disponible [en téléchargement gratuit](https://teams.microsoft.com/downloads) pour ces utilisateurs. Si vous êtes l'administrateur pour votre organisation [découvrez comment essayer ou acheter et déployer Remote Assist](../licensing/buy-and-deploy.md). 
+-   Un abonnement à [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]. [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] est inclus dans l'abonnement [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] pour les personnes avec une licence [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] sur [!include[pn-HoloLens](../includes/pn-HoloLens.md)]. Une licence [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] est également requise pour les personnes (spécialistes) qui communiquent avec un utilisateur de [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] sur [!include[pn-HoloLens](../includes/pn-HoloLens.md)]. [!include[pn-teams](../includes/pn-teams.md)] peut être disponible [en téléchargement gratuit](https://teams.microsoft.com/downloads) pour ces utilisateurs. Si vous êtes l'administrateur pour votre organisation, [découvrez comment essayer ou acheter et déployer Dynamics 365 Remote Assist](../licensing/buy-and-deploy.md). 
 
     > [!TIP] 
-    > Vous pouvez essayer [!include[pn-remote-assist](../includes/pn-remote-assist.md)] gratuitement jusqu'à 90 jours. [En savoir plus sur l'essai gratuit de Remote Assist de 90 jours](try-remote-assist-free.md).
+    > Vous pouvez essayer [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] gratuitement jusqu'à 90 jours. [En savoir plus sur l'essai gratuit de Dynamics 365 Remote Assist de 90 jours](try-remote-assist-free.md).
 
 -   Un [HoloLens exécutant la Mise à jour d'avril 2018 de Windows 10](https://support.microsoft.com/help/12643).
 
--   Pour effectuer un appel vidéo, vous avez besoin d'un contact utilisant la dernière version de [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) sur un PC exécutant [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 ou un appareil mobile exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] Mobile. [Renseignez-vous sur l'utilisation de Teams avec Remote Assist.](use-microsoft-teams-with-remote-assist.md)
+-   Pour effectuer un appel vidéo, vous avez besoin d'un contact utilisant la dernière version de [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software) sur un PC exécutant [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 ou un appareil mobile exécutant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)] Mobile. [Renseignez-vous sur l'utilisation de Teams avec Dynamics 365 Remote Assist.](use-microsoft-teams-with-remote-assist.md)
 
--   Pour vous connecter à [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)], vous avez besoin d'une [licence Dynamics 365](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand).
+-   Pour vous connecter à [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)], vous avez besoin d'une [licence Dynamics 365](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand).
 
 -   Une connexion Internet. Au moins 1,5 Mo de bande passante est recommandé pour optimiser l'expérience.
 
 Besoin de plus de vitesse sur [!include[pn-hololens](../includes/pn-hololens.md)] ? [Obtenir de l'aide](https://support.microsoft.com/products/hololens).
 
-## <a name="install-the-remote-assist-app"></a>Installer l'application Remote Assist
+## <a name="install-the-dynamics-365-remote-assist-app"></a>Installer l'application Dynamics 365 Remote Assist
 
-La manière dont vous installez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] dépend du mode de distribution des applications choisi par votre administrateur. Votre administrateur peut vous demander [d'installer l'application depuis Microsoft Store pour les consommateurs](https://www.microsoft.com/store/apps/9P77QGW10K9M), depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre moyen.
+La manière dont vous installez [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] dépend du mode de distribution des applications choisi par votre administrateur. Votre administrateur peut vous demander [d'installer l'application depuis Microsoft Store pour les consommateurs](https://www.microsoft.com/store/apps/9P77QGW10K9M), depuis le magasin privé de votre organisation, via un lien de courrier électronique, ou par un autre moyen.
 
 ### <a name="install-the-application-through-the-microsoft-store-for-consumers"></a>Installer l'application par le biais de Microsoft Store pour les consommateurs
 
-1.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), puis cherchez « [!include[pn-remote-assist](../includes/pn-remote-assist.md)] ».
+1.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), puis cherchez « [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] ».
 
-2.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**. Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application. [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est une application immersive avec une [vue holographique](https://support.microsoft.com/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.
+2.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**. Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application. [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] est une application immersive avec une [vue holographique](https://support.microsoft.com/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.
 
-Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 2018 Update et que vous êtes connecté avec un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD), vous serez automatiquement connecté à [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Sinon, utilisez le clavier holographique pour vous connecter avec un compte professionnel ou scolaire associé à un abonnement [!include[pn-office-365](../includes/pn-office-365.md)] Premium ou Essentials. Une fois connecté, vous verrez vos contacts récents.
+Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 2018 Update et que vous êtes connecté avec un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD), vous serez automatiquement connecté à [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]. Sinon, utilisez le clavier holographique pour vous connecter avec un compte professionnel ou scolaire associé à un abonnement [!include[pn-office-365](../includes/pn-office-365.md)] Premium ou Essentials. Une fois connecté, vous verrez vos contacts récents.
 
 ## <a name="using-the-user-interface-or-voice-commands"></a>Utiliser l'interface utilisateur ou les commandes vocales
 
@@ -175,7 +175,7 @@ Vous pouvez enregistrer un appel de deux manières :
 -   Sélectionnez **Vidéo** ![Vidéo](media/bae39e2bdb1eafec5c36c76ffa640355.png "Vidéo") (ou dites « Vidéo ») pour accepter l'appel en tant qu'appel vidéo ou **Audio** ![Audio](media/972493ccc469c4ca41c04f96fabf6ba5.png "Audio") (ou dites « Audio ») pour l'accepter comme appel vocal uniquement. Pour refuser l'appel, sélectionnez **Ignorer** (ou dites « Ignorer »).
 
 > [!NOTE]
-> Pour recevoir des appels lorsque vous utilisez d'autres applications dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Puis utilisez [l'écartement des doigts paume vers le haut](https://support.microsoft.com/help/12644/hololens-use-gestures) pour quitter [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Continuez à utiliser d'autres applications. Vous recevrez une notification depuis [!include[pn-cortana](../includes/pn-cortana.md)] si un appel de [!include[pn-remote-assist](../includes/pn-remote-assist.md)] est entrant, et vous pourrez l'accepter ou le refuser avec la voix.
+> Pour recevoir des appels lorsque vous utilisez d'autres applications dans [!include[pn-hololens](../includes/pn-hololens.md)], ouvrez l'application [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]. Puis utilisez [l'écartement des doigts paume vers le haut](https://support.microsoft.com/help/12644/hololens-use-gestures) pour quitter [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]. Continuez à utiliser d'autres applications. Vous recevrez une notification depuis [!include[pn-cortana](../includes/pn-cortana.md)] si un appel de [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] est entrant, et vous pourrez l'accepter ou le refuser avec la voix.
 
 ## <a name="position-the-call-window"></a>Positionner la fenêtre d'appel
 
@@ -312,7 +312,7 @@ Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du 
 | **Commande vocale**            | **Description**                                                                      |
 |------------------------------|--------------------------------------------------------------------------------------|
 | **Général**                  |                                                                                      |
-| Se déconnecter                     | Déconnectez-vous de [!include[pn-remote-assist](../includes/pn-remote-assist.md)].           |
+| Se déconnecter                     | Déconnectez-vous de [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)].           |
 | Haut                           | Montez.                                                                               |
 | Précédent                     | Allez à la page précédente.                                                                 |
 | Suivant                         | Allez au menu suivant.                                                                     |
@@ -376,9 +376,9 @@ Pour activer le Narrateur pour les appels entrants :
 
   ![Ouvrir Narrateur](media/narrator.PNG "Ouvrir Narrateur")
 
-## <a name="use-remote-assist-to-get-help-in-another-hololens-app"></a>Utiliser Remote Assist pour obtenir de l'aide dans une autre application HoloLens
+## <a name="use-dynamics-365-remote-assist-to-get-help-in-another-hololens-app"></a>Utiliser Dynamics 365 Remote Assist pour obtenir de l'aide dans une autre application HoloLens
 
-Vous rencontrez des problèmes dans une autre application [!include[pn-hololens](../includes/pn-hololens.md)] ? Utilisez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] pour montre à un expert ce qui se produit et obtenir de l'aide.
+Vous rencontrez des problèmes dans une autre application [!include[pn-hololens](../includes/pn-hololens.md)] ? Utilisez [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] pour montre à un expert ce qui se produit et obtenir de l'aide.
 
 Voici comment procéder :
 
@@ -386,24 +386,24 @@ Voici comment procéder :
 
 2.  [Écartez les doigts paume vers le haut](https://support.microsoft.com/help/12644/hololens-use-gestures) pour quitter la vue 3D, mais ne fermez pas le lanceur d'application.
 
-3.  Démarrez [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appelez votre contact.
+3.  Démarrez [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] et appelez votre contact.
 
-4.  Une fois l'appel vidéo connecté, utilisez l'option consistant à écarter les doigts paume vers le haut pour quitter [!include[pn-remote-assist](../includes/pn-remote-assist.md)]. Votre appel restera connecté.
+4.  Une fois l'appel vidéo connecté, utilisez l'option consistant à écarter les doigts paume vers le haut pour quitter [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]. Votre appel restera connecté.
 
 5.  Sélectionnez le cube dynamique de l'application pour laquelle vous avez besoin d'aide. Une fois l'application lancée, votre contact peut afficher son contenu et vous guider.
 
 > [!NOTE]
-> Lorsque vous avez obtenu de votre contact toute l'aide dont vous aviez besoin, veillez à retourner vers [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et à déconnecter l'appel. Tant que vous n'aurez pas fait cela, l'appel restera connecté et votre contact verra et entendra ce qui se passe sur votre [!include[pn-hololens](../includes/pn-hololens.md)].
+> Lorsque vous avez obtenu de votre contact toute l'aide dont vous aviez besoin, veillez à retourner vers [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] et à déconnecter l'appel. Tant que vous n'aurez pas fait cela, l'appel restera connecté et votre contact verra et entendra ce qui se passe sur votre [!include[pn-hololens](../includes/pn-hololens.md)].
 
-## <a name="use-dynamics-365-for-field-service-from-remote-assist"></a>Utiliser Dynamics 365 for Field Service de Remote Assist
+## <a name="use-dynamics-365-field-service-from-dynamics-365-remote-assist"></a>Utiliser Dynamics 365 Field Service depuis Dynamics 365 Remote Assist
 
-Si votre organisation utilise [Dynamics 365 for Field Service](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail de Field Service, vous (le collaborateur de première ligne) pouvez consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)] et appeler l'expert répertorié dans le champ **Contact de support**.
+Si votre organisation utilise [Dynamics 365 Field Service](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) pour gérer les ordres de travail du service après-vente, vous (le collaborateur de première ligne) pouvez consulter les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] et appeler l'expert répertorié dans le champ **Contact de support**.
 Cela vous permet d'effectuer des appels tête relevée, mains libres via [!include[pn-hololens](../includes/pn-hololens.md)] dans le cadre d'une réservation [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)].
 
 > [!NOTE]
-> Pour plus d'informations sur le paramétrage et la résolution des problèmes d'intégration de [!include[pn-field-service](../includes/pn-field-service.md)], si vous êtes administrateur, consultez [Résoudre les problèmes d'intégration de Field Service](troubleshoot-field-service.md). **Veuillez noter** qu'une [licence Dynamics 365](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) est requise pour afficher les réservations [!include[pn-field-service](../includes/pn-field-service.md)] depuis [!include[pn-remote-assist](../includes/pn-remote-assist.md)].
+> Pour plus d'informations sur le paramétrage et la résolution des problèmes d'intégration de [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)], si vous êtes administrateur, consultez [Intégrer Dynamics 365 Field Service](troubleshoot-field-service.md). **Veuillez noter** qu'une [licence Dynamics 365](https://dynamics.microsoft.com/field-service/overview/?&OCID=AID720979_SEM_yeaT05hp&lnkd=Bing_D365_Brand) est requise pour afficher les réservations [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] depuis [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)].
 
-### <a name="view-a-field-service-booking-and-call-an-expert-from-remote-assist"></a>Afficher une réservation Field Service et appeler un expert à partir de Remote Assist
+### <a name="view-a-dynamics-365-field-service-booking-and-call-an-expert-from-dynamics-365-remote-assist"></a>Afficher une réservation Dynamics 365 Field Service et appeler un expert depuis Dynamics 365 Remote Assist
 
 1.  Dans le menu Contacts, sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") pour ouvrir le volet **Réservation**. (Sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") à nouveau pour fermer le volet **Réservation**.)  
       
@@ -425,18 +425,18 @@ Cela vous permet d'effectuer des appels tête relevée, mains libres via [!inclu
     > [!NOTE]
     > Les informations de réservation sont floutées lorsque vous avez un appel vidéo en cours, mais restent visibles lors d'un appel vocal uniquement.
 
-### <a name="open-a-power-bi-dashboard-from-a-field-service-booking"></a>Ouvrir un tableau de bord Power BI depuis une réservation Field Service
+### <a name="open-a-power-bi-dashboard-from-a-dynamics-365-field-service-booking"></a>Ouvrir un tableau de bord Power BI depuis une réservation Dynamics 365 Field Service
 
--   Sélectionnez un lien [!include[pn-power-bi](../includes/pn-power-bi.md)] pour ouvrir [!include[pn-power-bi](../includes/pn-power-bi.md)] en ligne dans un navigateur ou pour ouvrir l'application de bureau [!include[pn-power-bi](../includes/pn-power-bi.md)].
+-   Sélectionnez un lien [!include[pn-power-bi](../includes/pn-power-bi.md)] pour ouvrir [!include[pn-power-bi](../includes/pn-power-bi.md)] Online dans un navigateur ou pour ouvrir l'application [!include[pn-power-bi](../includes/pn-power-bi.md)] Desktop.
     
     > [!NOTE]
-    > Lorsque vous ouvrez un tableau de bord [!include[pn-power-bi](../includes/pn-power-bi.md)], [!include[pn-remote-assist](../includes/pn-remote-assist.md)] se ferme. Si vous avez un appel en cours avec un expert, ce dernier demeure dans l'appel. Revenez à [!include[pn-remote-assist](../includes/pn-remote-assist.md)] en rouvrant l'application via le menu des applications ou le cube dynamique.
+    > Lorsque vous ouvrez un tableau de bord [!include[pn-power-bi](../includes/pn-power-bi.md)], [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] se ferme. Si vous avez un appel en cours avec un expert, ce dernier demeure dans l'appel. Revenez à [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] en rouvrant l'application via le menu des applications ou le cube dynamique.
 
 ### <a name="modify-the-default-booking-view"></a>Modifier la vue de réservation par défaut
 
 Pour modifier la vue par défaut des informations dans le volet **Réservation**, [modifiez la vue comme vous le feriez avec n'importe quelle vue de Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-and-edit-views).
 
 ### <a name="see-also"></a>Voir aussi
-[Configurer et utiliser Microsoft Teams avec Remote Assist](use-microsoft-teams-with-remote-assist.md)<br/>
+[Paramétrer et utiliser Microsoft Teams avec Dynamics 365 Remote Assist](use-microsoft-teams-with-remote-assist.md)<br/>
 [Vidéos pratiques](videos.md)<br/>
 [FAQ](faq.md)<br/>

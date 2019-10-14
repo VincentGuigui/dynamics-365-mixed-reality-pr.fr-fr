@@ -2,17 +2,17 @@
 author: Mamaylya
 description: Tout ce que vous devez savoir sur l'achat de Dynamics 365 Guides, la configuration de la solution, et l'installation des applications.
 ms.author: mamaylya
-ms.date: 10/01/2019
+ms.date: 10/02/2019
 ms.service: crm-online
 ms.topic: article
 title: Acheter et déployer Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 1ee96bf6bf2423cf1a33df8a78d253eb48456c3c
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 56292bb405be07842f0a5455bded274baec92e28
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049992"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537627"
 ---
 # <a name="buy-and-deploy-dynamics-365-guides"></a>Acheter et déployer Dynamics 365 Guides
 
@@ -67,7 +67,7 @@ Après avoir acquis un abonnement [!include[pn-dyn-365-guides](../includes/pn-dy
 
 2.  Dans le Centre d'administration Power Platform, sélectionnez **Environnements**.
 
-    ![Environnements Power Platform](media/powerapps-environments.PNG "Environnements Power Platform ")
+    ![Environnements Power Platform](media/powerapps-environments.PNG "Environnements Power Platform")
     
 3.  Sélectionnez le bouton **Informations supplémentaires** (...) en regard de l'instance par défaut, puis sélectionnez **Gérer l'environnement**.
 
@@ -100,7 +100,12 @@ Le Centre d'administration Dynamics apparaît. Il s'agit de l'emplacement où vo
 
 Dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] PC, vous pouvez télécharger vos propres fichiers 3D, ainsi que des vidéos et des images 2D. La taille de plusieurs de ces fichiers sera supérieure à 5 Mo, vous devrez donc modifier la taille maximale des fichiers qui seront chargés. Pour ce faire, vous devrez remplacer le paramètre de la taille de pièce jointe par 128 Mo (131072 Ko). 
 
-1.  Accédez au [Centre d'administration Dynamics 365](https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx), puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
+1.  Accédez au Centre d'administration Dynamics 365, puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
+
+    > [!NOTE]
+    > Pour accéder au Centre d'administration Dynamics 365, accédez au [Centre d'administration PowerApps](https://admin.powerapps.com/environments), sélectionnez l'environnement configuré, puis sélectionnez le lien pour **Centre d'administration Dynamics 365**, comme indiqué ci-dessous :
+   
+    ![Ouvrir le Centre d'administration Dynamics 365](media/open-D365-admin-center.PNG "Ouvrir le Centre d'administration Dynamics 365")
     
 2.  Sélectionnez l'instance [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] qui vient d'être créée dans la liste d'instances, puis sélectionnez **Ouvrir** comme indiqué ici : 
     
@@ -128,16 +133,16 @@ Dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md
 
     ![Boîte de dialogue Paramètres système](media/system-settings-dialog-box.PNG "Boîte de dialogue Paramètres système")
  
-8.  Revenez dans le [Centre d'administration Dynamics 365](https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx), puis sélectionnez le petit bouton Modifier en regard de **Solutions**.
+8.  Revenez au [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com/environments), sélectionnez les trois points en regard de l'environnement configuré, puis sélectionnez **Gérer les solutions**.
 
-    ![Bouton Modifier Solutions](media/solutions-edit-button.PNG "Bouton Modifier Solutions")
+    ![Centre d'administration Power Platform](media/power-platform-manage-solutions.PNG "Centre d'administration Power Platform")
  
     > [!NOTE]
     > Vous pouvez également accéder au Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)] à partir du portail PowerApps.
     
 8.  Sélectionnez la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans la liste, puis sélectionnez **Installer**. 
 
-    ![Bouton Solutions Installer](media/solutions-install-button.PNG "Bouton Solutions Installer")
+    ![Bouton Solutions Installer](media/install-ga-version.PNG "Bouton Solutions Installer")
     
 9. Dans la boîte de dialogue **Conditions d'utilisation**, examinez les conditions, puis sélectionnez **Installer** lorsque vous êtes prêt.
 
@@ -155,7 +160,7 @@ Dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md
 > [!NOTE]
 > L'affichage d'un utilisateur dans le Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)] peut prendre jusqu'à une heure, une fois les licences ajoutées dans le Centre d'administration [!include[cc-microsoft](../includes/cc-microsoft.md)] 365. 
 
-1.  Une fois la solution installée, accédez au [Centre d'administration Dynamics 365](https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx), sélectionnez l'instance [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] qui vient d'être créée dans la liste des instances, puis sélectionnez **Ouvrir**.
+1.  Une fois la solution installée, accédez au Centre d'administration Dynamics 365, sélectionnez l'instance [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] qui vient d'être créée dans la liste des instances, puis sélectionnez **Ouvrir**.
 
 2. Sur la page **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]**, sélectionnez **Paramètres**, puis sélectionnez **Paramètres avancés**.
 
@@ -217,8 +222,6 @@ Si vous utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pou
 
 3.  Dans [!include[cc-microsoft](../includes/cc-microsoft.md)] Store, sélectionnez **Obtenir** en regard de l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour la télécharger et l'installer.
 
-    ![Application dans Microsoft Store](media/app.PNG "Application dans Microsoft Store")
-
     > [!NOTE]
     > Pour obtenir des instructions sur l'ouverture et la connexion à l'application, voir [Création de guide](authoring-overview.md).
 
@@ -257,9 +260,9 @@ Pour plus d'informations sur l'ouverture et la connexion à l'application [!incl
 
 ## <a name="step-4-set-up-guides-analytics-reports"></a>Étape 4 : Paramétrer les états d'Analyses de Guides 
 
-[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut des états [!include[pn-power-bi](../includes/pn-power-bi.md)] (appelés Analyses de Guides) qui permettent d'analyser les processus des guides. Suivez les instructions pour savoir comment [ouvrir Analyses de Guides](https://docs.microsoft.com/en-us/dynamics365/mixed-reality/guides/analytics-guide#open-guides-analytics) en utilisant l'[application Power BI Desktop](https://powerbi.microsoft.com/get-started/) disponible gratuitement.
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut des états [!include[pn-power-bi](../includes/pn-power-bi.md)] (appelés Analyses de Guides) qui permettent d'analyser les processus des guides. Suivez les instructions pour savoir comment [ouvrir Analyses de Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/analytics-guide#open-guides-analytics) en utilisant l'[application Power BI Desktop](https://powerbi.microsoft.com/get-started/) disponible gratuitement.
 
-Si vous disposez d'une licence [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, vous pouvez partager vos états d'Analyses de Guides [!include[pn-power-bi](../includes/pn-power-bi.md)] au sein de votre organisation en les publiant dans le service [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela permet à toute personne de votre organisation ayant une licence Pro [!include[pn-power-bi](../includes/pn-power-bi.md)] d'accéder à l'état via l'interface Web du service [!include[pn-power-bi](../includes/pn-power-bi.md)] accessible sur [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Pour en savoir plus sur la collaboration sur le cloud de [!include[pn-power-bi](../includes/pn-power-bi.md)] et le partage, ainsi que l'inscription à une version d'essai gratuit de [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, consultez [Getting Started with Power BI Desktop](https://powerbi.microsoft.com/en-us/get-started/) et [Ways to share your work in Power BI](https://docs.microsoft.com/en-us/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
+Si vous disposez d'une licence [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, vous pouvez partager vos états d'Analyses de Guides [!include[pn-power-bi](../includes/pn-power-bi.md)] au sein de votre organisation en les publiant dans le service [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela permet à toute personne de votre organisation ayant une licence Pro [!include[pn-power-bi](../includes/pn-power-bi.md)] d'accéder à l'état via l'interface Web du service [!include[pn-power-bi](../includes/pn-power-bi.md)] accessible sur [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Pour en savoir plus sur la collaboration sur le cloud de [!include[pn-power-bi](../includes/pn-power-bi.md)] et le partage, ainsi que l'inscription à une version d'essai gratuit de [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, consultez [Getting Started with Power BI Desktop](https://powerbi.microsoft.com/get-started/) et [Ways to share your work in Power BI](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 ## Étape 5 : Ajouter des comptes d'utilisateur supplémentaires (facultatif)<a name="user-accounts"></a>
 

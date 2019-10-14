@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Création d'un bon guide de réalité mixte dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 4e5f97d6ff0c39bf23e233685166ffb5ba1ac956
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: bb075579c058b8e30393506aae70f0d75bc101fd
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050051"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537249"
 ---
 # <a name="how-to-make-a-great-mixed-reality-guide"></a>Création d'un excellent guide de réalité mixte
 
@@ -325,8 +325,6 @@ Faites des vidéos à la troisième personne ou à la première personne.
 #### <a name="numbers"></a>Chiffres
 
 - Utilisez des chiffres pour le classement dans une étape. Exemple : « Tirez d'abord le levier (1), puis placez-le dans le trou (2) ».
-
-  ![Exemple de classement de chiffres](media/number-sequencing.PNG "Exemple de classement de chiffres")
 
 - N'utilisez pas des chiffres pour identifier des pièces dans le monde. Exemple : « Prenez le tournevis (1) et la clé à douilles (2) ».
 

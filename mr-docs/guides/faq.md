@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: FAQ sur Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 0b3fd913d18a0512fdfda5540935aeecf4bc881f
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: bdf64adc56ffe32f3940c2adf0c93c94bcc103b3
+ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049884"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "2537582"
 ---
 # <a name="frequently-asked-questions-about-microsoft-dynamics-365-guides"></a>Forum aux questions sur Microsoft Dynamics 365 Guides
 
@@ -20,7 +20,7 @@ ms.locfileid: "2049884"
 
 Si vous ne pouvez pas utiliser [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] ou si votre problème n'est pas répertorié dans ce FAQ ou dans la documentation, contactez le support client comme suit :
 
-1. Accédez à [https://dynamics.microsoft.com/en-us/support/](https://dynamics.microsoft.com/en-us/support/).
+1. Accédez à [https://dynamics.microsoft.com/support/](https://dynamics.microsoft.com/support/).
 
 2. Sous **Aide + support pour Customer Engagement**, sélectionnez **ACCÉDER AU SUPPORT**.
 
@@ -58,9 +58,13 @@ Si vous envisagez de créer des guides, vous devrez utiliser les deux applicatio
 
 - Espagnol (Espagne)
 
-## <a name="is-there-an-out-of-the-box-integration-with-dynamics-365-for-field-service"></a>Existe-t-il une intégration prête à l'emploi avec Dynamics 365 for Field Service ?
+## <a name="is-there-an-out-of-the-box-integration-with-dynamics-365-field-service"></a>Existe-t-il une intégration prête à l'emploi avec Dynamics 365 Field Service ?
 
 Oui, l'intégration de [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] a été ajoutée dans la version 104.1907.19001.
+
+## <a name="how-do-i-limit-users-to-a-particular-dynamics-365-instance"></a>Comment limiter les utilisateurs à une instance Dynamics 365 spécifique ?
+
+Vous pouvez limiter l'accès des utilisateurs aux instances à l'aide de groupes de sécurité, gérés depuis le Centre d'administration Microsoft 365. Pour plus d'informations, voir [Limiter l'accès des utilisateurs à une instance Dynamics 365 à l'aide de groupes de sécurité](https://community.dynamics.com/365/b/d365demystified/posts/restrict-user-access-to-a-d365-instance-using-security-groups) et [Contrôler l'accès des utilisateurs aux instances : groupes de sécurité et licences](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/add-instance-subscription#control-user-access-to-instances-security-groups-and-licenses).
 
 ## <a name="i-get-an-error-message-when-i-try-to-sign-in-to-the-pc-app-or-includepn-hololensincludespn-hololensmd-app"></a>J'obtiens un message d'erreur lorsque j'essaie de me connecter à l'application du PC ou à l'application [!include[pn-hololens](../includes/pn-hololens.md)]
 

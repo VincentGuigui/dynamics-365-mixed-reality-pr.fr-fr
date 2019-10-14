@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Utiliser le portail d'appareil Windows pour simplifier l'étalonnage d'HoloLens
 ms.reviewer: v-brycho
-ms.openlocfilehash: b1ec7242ec2849240f7dd1bfe55bd995b29e9db7
-ms.sourcegitcommit: 5ce5fa810e391fade0b9fdef30077606cb1ae84d
+ms.openlocfilehash: edbf630fcc9a0fe85678b7de226abaffc9cfe8d7
+ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918047"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2224141"
 ---
 # <a name="use-the-windows-device-portal-to-streamline-hololens-calibration"></a>Utiliser le portail d'appareil Windows pour simplifier l'étalonnage d'HoloLens
 
@@ -50,7 +50,7 @@ Avant d'accéder au portail d'appareil Windows, vous devez le configurer dans Ho
  
 ## <a name="connect-with-wi-fi"></a>Se connecter avec le WiFi
 
-1.  [Connectez HoloLens au Wi-Fi](https://docs.microsoft.com/en-us/windows/mixed-reality/connecting-to-wi-fi-on-hololens).
+1.  [Connectez HoloLens au Wi-Fi](https://docs.microsoft.com/windows/mixed-reality/connecting-to-wi-fi-on-hololens).
 
 2.  Recherchez l'adresse IP de votre appareil.
 
@@ -64,7 +64,7 @@ Avant d'accéder au portail d'appareil Windows, vous devez le configurer dans Ho
 
 ## <a name="connect-with-usb"></a>Se connecter avec un câble USB
 
-1.  [Installez les outils](https://docs.microsoft.com/en-us/windows/mixed-reality/install-the-tools) pour installer Visual Studio Update 1 avec les outils de développement Windows 10 sur votre PC. La connectivité USB est alors activée :
+1.  [Installez les outils](https://docs.microsoft.com/windows/mixed-reality/install-the-tools) pour installer Visual Studio Update 1 avec les outils de développement Windows 10 sur votre PC. La connectivité USB est alors activée :
 
 2.  Connectez votre appareil HoloLens à votre PC avec un câble micro-USB.
 

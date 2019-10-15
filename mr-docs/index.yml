@@ -18,7 +18,7 @@ metadata:
   ms.locfileid: "2238568"
 productDirectory:
   items:
-  - title: Dynamics 365 Guides (version préliminaire)
+  - title: Dynamics 365 Guides
     imageSrc: /dynamics365/images/Guides_color.svg
     links:
     - url: /dynamics365/mixed-reality/guides/index

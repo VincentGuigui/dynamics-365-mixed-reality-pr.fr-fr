@@ -1,1 +1,1 @@
-<span data-ttu-id="aca5c-101">Apple iPad</span><span class="sxs-lookup"><span data-stu-id="aca5c-101">Apple iPad</span></span>
+<span data-ttu-id="6531c-101">Apple iPad</span><span class="sxs-lookup"><span data-stu-id="6531c-101">Apple iPad</span></span>

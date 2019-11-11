@@ -1,1 +1,1 @@
-<span data-ttu-id="9085d-101">iOS</span><span class="sxs-lookup"><span data-stu-id="9085d-101">iOS</span></span>
+<span data-ttu-id="e0ad5-101">iOS</span><span class="sxs-lookup"><span data-stu-id="e0ad5-101">iOS</span></span>

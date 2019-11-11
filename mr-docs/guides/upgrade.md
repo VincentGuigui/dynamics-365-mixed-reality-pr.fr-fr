@@ -2,48 +2,44 @@
 author: Mamaylya
 description: Mettre à niveau la solution Dynamics 365 Guides (version préliminaire)
 ms.author: mamaylya
-ms.date: 10/01/2019
+ms.date: 10/29/2019
 ms.service: crm-online
 ms.topic: article
 title: Mettre à niveau la solution Dynamics 365 Guides (version préliminaire)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 2cb38358f137f362c6066e1a73fc5bfe820fe0f6
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 8c44799a801e4b4eb6e15d8623262389abdb8176
+ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537618"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2692111"
 ---
 # <a name="upgrade-the-dynamics-365-guides-solution-for-admins"></a>Mettre à niveau la solution Dynamics 365 Guides (pour les administrateurs)
 
 Cette rubrique concerne les administrateurs [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. Certaines versions de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] nécessitent une mise à jour de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Lorsqu'une mise à jour est nécessaire, l'utilisateur verra une notification s'afficher dans le volet **Nouveautés**.
 
+Gardez à l'esprit les points suivants :
+
+- Avant de mettre la solution à jour dans le Centre d'administration Power Platform, assurez-vous que le PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et les applications [!include[pn-hololens](../includes/pn-hololens.md)] ont été mis à jour vers la dernière version du [!include[cc-microsoft](../includes/cc-microsoft.md)] Store.
+
+- Les mises à jour de la solution doivent être effectuées lorsque les applications sur PC et [!include[pn-hololens](../includes/pn-hololens.md)] ne sont pas utilisées.  
+
 > [!IMPORTANT]
-> Gardez à l'esprit les points suivants :<br><br>- Avant de mettre la solution à jour dans le Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)], assurez-vous que le PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et les applications [!include[pn-hololens](../includes/pn-hololens.md)] ont été mis à jour vers la dernière version du [!include[cc-microsoft](../includes/cc-microsoft.md)] Store.<br><br>- Les mises à jour de la solution doivent être effectuées lorsque les applications sur PC et [!include[pn-hololens](../includes/pn-hololens.md)] ne sont pas utilisées.  
+> Si vous utilisez actuellement la version préliminaire publique [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour obtenir la version d'octobre 2019, vous devez rechercher la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], puis sélectionner **Installer** au lieu de **Mettre à niveau**. Cela installe la version en disponibilité générale de la solution et supprime la solution préliminaire publique. Pour plus d'informations, voir [Transition entre la version préliminaire publique et la disponibilité générale](public-preview-transition.md).
 
 Pour mettre à niveau la solution :
 
-1. Accédez au Centre d'administration Dynamics 365, puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
+1. Accédez au [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com/environments), puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
 
-   > [!NOTE]
-   > Pour accéder au Centre d'administration Dynamics 365, accédez au [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home), puis sélectionnez **Centres d'administration** > **Dynamics 365**, comme indiqué ci-dessous.
-   
-   ![Centre d'administration Microsoft](media/microsoft-admin-center.PNG "Centre d'administration Microsoft") 
+2. Pour sélectionner l'environnement, activez la case à cocher, sélectionnez le bouton **Autres actions d'environnement** (les trois points), puis sélectionnez **Gérer les solutions**. 
 
-2. Sélectionnez l'onglet **Instances**, puis choisissez une instance ayant la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] installée.
+   ![Gérer les solutions](media/manage-solutions.PNG "Gérer les solutions")
 
-3. Sélectionnez le petit bouton Modifier en regard de **Solutions** pour afficher la liste des solutions. 
+3. Dans la liste des solutions, sélectionnez **[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]**, puis sélectionnez **Mettre à niveau**.
  
-   ![Bouton Solutions](media/solutions.PNG "Bouton Solutions")
- 
-4. Dans la liste des solutions, sélectionnez **[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]**, puis sélectionnez **Mettre à niveau**.  
- 
-   ![Bouton Mettre à niveau](media/upgrade.PNG "Bouton Mettre à niveau")
-   
-   > [!IMPORTANT]
-   > Si vous utilisez actuellement la version préliminaire publique [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour obtenir la version d'octobre 2019, vous devez rechercher la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], puis sélectionner **Installer** au lieu de **Mettre à niveau**. Cela installe la version en disponibilité générale de la solution et supprime la solution préliminaire publique.
-   
-5. Examinez les Conditions de service, puis sélectionnez **Accepter** si vous êtes prêt(e) à commencer la mise à niveau. 
+   ![Bouton Mettre à niveau](media/upgrade.PNG "Bouton Mettre à niveau")   
+  
+4. Examinez les Conditions de service, puis sélectionnez **Accepter** si vous êtes prêt(e) à commencer la mise à niveau. 
 
    Le statut de la solution passe à **Installation en attente,** puis à **Installé** lorsque la mise à niveau est terminée. 
  

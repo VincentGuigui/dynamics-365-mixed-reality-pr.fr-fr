@@ -2,17 +2,17 @@
 author: Mamaylya
 description: Découvrez la transition de la version préliminaire publique de Dynamics 365 Guides vers la version en disponibilité générale.
 ms.author: mamaylya
-ms.date: 10/02/2019
+ms.date: 10/07/2019
 ms.service: crm-online
 ms.topic: article
 title: Transition entre la version préliminaire publique de Dynamics 365 Guides et la disponibilité générale
 ms.reviewer: v-brycho
-ms.openlocfilehash: b0c5b1d44831bc04e0fda7bdf6511743823d9f36
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 5560376179748bf4b182137f40516a4f9b0a98c7
+ms.sourcegitcommit: 19c1ae926ab82578ff9c5f472840dfd1833972eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537636"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "2566552"
 ---
 # <a name="transition-from-dynamics-365-guides-public-preview-to-ga"></a>Transition entre la version préliminaire publique de Dynamics 365 Guides et la disponibilité générale
 

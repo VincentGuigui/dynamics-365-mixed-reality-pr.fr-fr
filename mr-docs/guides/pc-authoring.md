@@ -2,19 +2,19 @@
 author: Mamaylya
 description: Tout ce que vous devez savoir sur l'utilisation de l'application de création du PC pour créer un guide dans Dynamics 365 Guides.
 ms.author: mamaylya
-ms.date: 10/01/2019
+ms.date: 10/29/2019
 ms.service: crm-online
 ms.topic: article
 title: Utiliser l'application de création du PC pour créer un guide dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 96724aada580fbb2631ec18b7f36c86cd76e8e87
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 7c843425d3ce4f38604fedf3002ad5ed2bb287b6
+ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537573"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2692129"
 ---
-# <a name="use-the-pc-authoring-application-to-create-a-guide-in-dynamics-365-guides"></a>Utiliser l'application de création du PC pour créer un guide dans Dynamics 365 Guides
+# <a name="author-in-the-pc-application-for-dynamics-365-guides"></a>Créer dans l'application du PC pour Dynamics 365 Guides
 
 Visionner les vidéos sur :
 
@@ -40,7 +40,7 @@ Utiliser l'application de création du PC pour créer un guide dans [!include[cc
   
   - Support 2D (images et vidéos)
   
-![Création PC](media/pc-authoring.PNG "Création PC")
+![Création sur PC](media/pc-authoring.PNG "Création sur PC")
 
 ## <a name="install-open-and-sign-in-to-the-pc-application"></a>Installer, ouvrir, puis se connecter à l'application du PC
 Utilisez ces instructions pour installer l'application (si elle n'a pas encore été installée) et pour vous connecter.
@@ -110,7 +110,7 @@ Outre les tâches et les étapes, la page **Plan** contient :
 
 - Une étape spéciale appelée étape d'achèvement qui indique aux opérateurs quand ils ont atteint la fin du guide. L'étape d'achèvement inclut du texte par défaut que vous pouvez personnaliser comme vous le souhaitez.
 
-  ![Étape d'achèvement](media/completion-step.PNG "Étape d'achèvement")
+  ![Étape de fin](media/completion-step.PNG "Étape de fin")
  
 ### <a name="best-practices-for-the-outline-page"></a>Meilleures pratiques en matière de page Plan
 
@@ -190,7 +190,7 @@ Pour importer vos propres objets 3D :
     ![Importer un composant 3D personnalisé](media/import-object.PNG "Importer un composant 3D personnalisé")
     
 > [!NOTE]
-> [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] prend en charge les formats de fichier glTF, GLB et FBX. Vous pouvez utiliser une combinaison d'outils tiers et de [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour préparer vos modèles 3D (CAO) ou vous pouvez utiliser le service de conciergerie d'Import Tool pour que [!include[cc-microsoft](../includes/cc-microsoft.md)] convertisse et optimise les modèles à votre place. Pour plus d'informations sur Import Tool, consultez les rubriques suivantes :<br>- [Présentation de l'Import Tool](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/index)<br>- [Optimiser vos modèles 3D](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/optimize-models)<br>- [Meilleures pratiques pour les modèles 3D](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/best-practices)<br>- [Utiliser Dynamics 365 Import Tool](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/import-tool)
+> [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] prend en charge les formats de fichier glTF, GLB, FBX, STL et PLY. Vous pouvez utiliser une combinaison d'outils tiers et de [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour préparer vos modèles 3D (CAO) ou vous pouvez utiliser le service de conciergerie d'Import Tool pour que [!include[cc-microsoft](../includes/cc-microsoft.md)] convertisse et optimise les modèles à votre place. Pour plus d'informations sur Import Tool, consultez les rubriques suivantes :<br>- [Présentation de l'Import Tool](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/index)<br>- [Optimiser vos modèles 3D](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/optimize-models)<br>- [Meilleures pratiques pour les modèles 3D](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/best-practices)<br>- [Utiliser Dynamics 365 Import Tool](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/import-tool)
 
 ### <a name="add-3d-objects-from-the-3d-toolkit-to-support-your-steps"></a>Ajoutez des objets 3D provenant de la boîte à outils 3D pour prendre en charge les étapes
 
@@ -247,6 +247,21 @@ Vous pouvez utiliser tous les raccourcis clavier suivants dans l'application du 
 > [!NOTE]
 > Microsoft continuera à prendre en charge les lecteurs d’écran, le contraste élevé et la convivialité du clavier.
 
+## <a name="opt-out-of-sending-telemetry-data-to-microsoft"></a>Je n'accepte pas d'envoyer de données de télémétrie à Microsoft.
+
+Pour des raisons de confidentialité, vous pouvez désactiver l'option d'envoi de données de télémétrie à Microsoft. Microsoft utilise ces données pour améliorer le produit. La désactivation empêche Microsoft de collecter des données d'activité.
+
+Pour désactiver des données de télémétrie pour l'application du PC :
+
+1.  Dans le menu **Fichier**, sélectionnez **À propos**.
+
+2. Dans la boîte de dialogue **À propos**, désactivez le curseur **Envoyer les données d'utilisation**.
+
+    ![Paramètre Envoyer les données d'utilisation](media/send-usage-data-pc.PNG "Paramètre Envoyer les données d'utilisation")
+    
+> [!NOTE]
+> Cette option s'applique uniquement au périphérique pour lequel elle est définie. Si vous utilisez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] sur plusieurs périphériques, vous devez modifier le paramètre dans ces autres périphériques. Pour désactiver ce paramètre pour HoloLens, voir [Créer dans l'application HoloLens](hololens-authoring.md). Les administrateurs de base de données peuvent également empêcher l'affichage des données d'utilisation dans les tableaux de bord Power BI pour les Analyses de Guides. Pour plus d'informations, voir [Désactiver le stockage des données d'événements Dynamics 365 Guides dans Common Data Service](data-opt-out.md).
+
 ## <a name="whats-next"></a>Étapes suivantes
 Après avoir créé votre guide sur le PC, sélectionnez une méthode d'ancrage, puis créez les tâches et les étapes. Vous êtes alors prêt à [tester les éléments sur HoloLens dans le monde réel et à placer vos hologrammes](hololens-authoring.md).
 
@@ -261,6 +276,6 @@ Ne vous inquiétez pas si votre guide n'est pas complètement finalisé avant de
 ### <a name="see-also"></a>Voir aussi
 
 [Présentation de la création d'un guide](authoring-overview.md)<br>
-[Choisir une méthode d'ancrage pour votre guide.](anchor.md)<br>
+[Choisir une méthode d'ancrage pour votre guide](anchor.md)<br>
 [Créer dans l'application HoloLens](hololens-authoring.md)<br>
  

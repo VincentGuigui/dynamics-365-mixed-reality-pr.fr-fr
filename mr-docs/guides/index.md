@@ -2,23 +2,23 @@
 author: Mamaylya
 description: Présentation de Dynamics 365 Guides
 ms.author: Mamaylya
-ms.date: 10/02/2019
+ms.date: 10/15/2019
 ms.service: crm-online
 ms.topic: overview
 title: Présentation de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: f4d8d9b10b865c3192201f8783c8812aea65113b
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 95941f3d03afc2bea9d963ca1fdb31fc67c2c64d
+ms.sourcegitcommit: c2ebb15bdd8400930d5fab9c7c7abcf19f2d8684
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537419"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "2630501"
 ---
 # <a name="overview-of-dynamics-365-guides"></a>Présentation de Dynamics 365 Guides
 
 [Visionner une vidéo pour avoir un aperçu rapide de Dynamics 365 Guides](https://aka.ms/guidesoverview)
 
-![Graphique de moteur](media/overview.PNG "Graphique de moteur") 
+![Personne utilisant Dynamics 365 Guides tout en travaillant sur le moteur d'un camion](media/woman-at-work.PNG "Personne utilisant Dynamics 365 Guides tout en travaillant sur le moteur d'un camion") 
 
 [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est une application de réalité mixte pour [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] qui permet aux opérateurs de se familiariser avec des tâches en fournissant des instructions holographiques quand et où ils en ont besoin. Une série de fiches d'instructions étape par étape avec un support image et vidéo est liée visuellement à l'endroit où le travail doit être effectué. Des recommandations supplémentaires sous la forme de modèles holographiques indiquent ce qui doit être effectué pour que les employés puissent exécuter plus rapidement leurs tâches. Ils font ainsi moins d'erreurs et retiennent mieux les compétences apprises. 
 

@@ -2,17 +2,17 @@
 author: Mamaylya
 description: Tout ce que vous devez savoir sur l'utilisation d'un guide créé avec Dynamics 365 Guides, notamment l'étalonnage, le pointage du regard et les mouvements, l'installation et l'utilisation de l'application HoloLens.
 ms.author: mamaylya
-ms.date: 10/01/2019
+ms.date: 10/29/2019
 ms.service: crm-online
 ms.topic: article
 title: Manuel de l'opérateur pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 45bd68de69332078c2073ec0ea685bc9dc801f1e
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: a620656dd238aa93bbf2c1524aae94935663c54e
+ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537645"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2692138"
 ---
 # <a name="operators-manual-for-dynamics-365-guides"></a>Manuel de l'opérateur pour Dynamics 365 Guides
 
@@ -34,7 +34,7 @@ Bienvenue dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[p
 2.  Sélectionnez **+** pour afficher toutes les applications, si **Paramètres** n'est pas épinglé sur **Début**.
 
     > [!NOTE]
-    > Pour sélectionner un élément avec votre appareil [!include[pn-hololens](../includes/pn-hololens.md)], il vous suffit de le pointer du regard pour le cibler et de cliquer dans l'air pour le sélectionner. 
+    > Pour sélectionner un élément avec votre appareil [!include[pn-hololens](../includes/pn-hololens.md)], il suffit de le pointer du regard pour le cibler et de cliquer dans l'air pour le sélectionner. 
    
 3.  Sélectionnez **Paramètres**. 
 
@@ -87,7 +87,7 @@ Cliquez dans l'air tout en pointant du regard pour sélectionner des application
 
 3.  Baissez votre index, puis relevez-le rapidement. 
 
-![Clic aérien](media/air-tap-gesture.PNG "Clic aérien")  
+    ![Clic aérien](media/air-tap-gesture.PNG "Clic aérien")  
  
 #### <a name="the-gesture-frame"></a>Le cadre du mouvement
 
@@ -132,7 +132,7 @@ Si vous vous connectez à un tout nouvel appareil [!include[pn-hololens](../incl
 
 6.  Dans l'écran **Compte professionnel ou scolaire**, entrez les informations d'identification fournies par votre administrateur. Les informations d'identification seront similaires à : username@domain.com.  Par exemple, si votre nom d'utilisateur est Laurao et que vous travaillez pour la société Contoso, le nom dans l'e-mail sera laurao@contoso.com.
 
-    ![Connectez-vous à HoloLens](media/sign-in-hololens.PNG "Connectez-vous à HoloLens")
+    ![Connectez-vous à HoloLens](media/sign-in-hololens.PNG "Se connecter à HoloLens")
  
 7.  Sélectionnez l'instance à utiliser si vous en avez plusieurs, puis sélectionnez **Continuer**. 
    
@@ -140,12 +140,12 @@ Si vous vous connectez à un tout nouvel appareil [!include[pn-hololens](../incl
 
 9.  Dans la boîte de dialogue **Sélectionner un mode**, pointez du regard la zone à gauche du champ **Opérer** jusqu'à ce qu'elle soit sélectionnée. 
 
-    ![Sélectionner le mode Opérer](media/select-mode.jpg "Sélectionner le mode Opérer")
+    ![Sélectionner le mode Opérer](media/select-mode-operate.png "Sélectionner le mode Opérer")
    
 ### <a name="anchor-your-guide"></a>Ancrer le guide 
 La première chose qui s'affiche lorsque vous ouvrez un guide ce sont les instructions d'ancrage.  
 
-![Point d'ancrage imprimé](media/scan-printed-anchor.PNG "Point d'ancrage imprimé") 
+![Analyser le point d'ancrage imprimé](media/scan-printed-anchor.png "Analyser le point d'ancrage imprimé") 
 
 > [!NOTE]
 > L'écran supérieur indique les instructions d'ancrage pour un point d'ancrage imprimé. Cet écran aurait un aspect différent si vous deviez ancrer votre guide avec une ancre numérique. Les instructions d’ancrage vous indiqueront comment procéder pour ancrer votre guide.
@@ -170,7 +170,7 @@ Il existe deux types de points d'ancrage : un point d'ancrage imprimé et un po
 
 4. Lorsque vous voyez l'écran **Point d'ancrage imprimé trouvé**, suivez les instructions à l'écran, puis sélectionnez **Confirmer** pour continuer. 
  
-   ![Écran Point d'ancrage imprimé trouvé](media/printed-anchor-found.PNG "Écran Point d'ancrage imprimé trouvé") 
+   ![Écran Point d'ancrage imprimé trouvé](media/printed-anchor-found.png "Écran Point d'ancrage imprimé trouvé") 
 
 **Pour ancrer votre guide avec un point d'ancrage numérique**
 
@@ -178,7 +178,7 @@ Avec un point d'ancrage numérique, vous alignez un hologramme sur votre [!inclu
 
 ![Exemple de point d'ancrage numérique](media/digital-anchor-example.PNG "Exemple de point d'ancrage numérique") 
 
-Pour aligner le point d'ancrage numérique sur son homologue du monde réel, cliquez longuement dans l’air pour déplacer l'hologramme, puis maintenez enfoncées les sphères bleues pour faire pivoter l'hologramme, si nécessaire.
+Pour aligner le point d'ancrage numérique sur son homologue du monde réel, cliquez longuement dans l’air pour déplacer l'hologramme, puis appuyez longuement sur les sphères bleues pour faire pivoter l'hologramme, si nécessaire.
 
 ![Faire pivoter le point d'ancrage numérique](media/rotate-digital-anchor.PNG "Faire pivoter le point d'ancrage numérique")
 
@@ -190,31 +190,23 @@ Lorsque vous alignez votre guide, si vous utilisez [!include[cc-microsoft](../in
 
 Lorsque vous ouvrez un guide, une fiche étape rassemblant tout ce que vous effectuez dans ce guide s'affiche. La fiche étape fournit des instructions à suivre pour réaliser une tâche. Elle contient également deux boutons à utiliser pour parcourir un guide : les boutons **Étape suivante** et **Retour**. Lorsque vous parcourez les étapes d'une tâche, la fiche étape vous accompagne dans [!include[pn-hololens](../includes/pn-hololens.md)] pour conserver vos instructions quand vous en avez besoin. 
 
-![Fiche étape avec les boutons Étape suivante et Retour](media/step-card-basic-1.jpg "Fiche étape avec les boutons Étape suivante et Retour")  
+![Fiche étape avec les boutons Étape suivante et Retour](media/pin.PNG "Fiche étape avec les boutons Étape suivante et Retour")  
 
 Outre les boutons **Étape suivante** et **Retour**, la fiche étape inclut un certain nombre de boutons individuels et d'éléments de l'IU pour vous aider à entreprendre différentes actions. 
 
-![Boutons de la fiche étape](media/step-card-orientation-2.jpg "Boutons de la fiche étape")
-   
+![Boutons de la fiche étape](media/step-card-orientation-2.PNG "Boutons de la fiche étape")   
 
 Voici une description des boutons et d'autres éléments de l'IU de la fiche étape :
 
-|Lettre|Bouton/Exemple|Nom|Description|
+|Nombre|Bouton/Exemple|Nom|Description|
 |---|--|------------------|------------------------------------------------------------------------------------|
-|A|![Bouton Accueil](media/home-button.png "Bouton Accueil")|Accueil|Choisissez un autre guide.|
-|B|![Bouton Ancrer](media/anchor-button.PNG "Bouton Ancrer")|Bouton Ancrer|Ancrez à nouveau (réalignez) le guide. Il arrive qu'[!include[pn-hololens](../includes/pn-hololens.md)] ne puisse plus se repérer, ce qui provoque un mauvais alignement des hologrammes. Pour résoudre ce problème, vous devez ancrer à nouveau le guide en pointant du regard le point d'ancrage imprimé ou le point d'ancrage numérique. Pour plus d'informations, voir « Ancrer le guide » plus haut dans cette rubrique.|
-|C|![Bouton Paramètres](media/settings-button.png "Bouton Paramètres")|Paramètres|Accédez aux paramètres suivants :<br></br>- **Ajuster la zone.** Utilisez ce paramètre pour vous assurer que vous tenez correctement l'appareil [!include[pn-hololens](../includes/pn-hololens.md)].Il est très important de bien le tenir. Sinon des hologrammes risquent d'être mal alignés dans votre environnement. Lorsque vous sélectionnez ce paramètre, des bordures s'affichent dans le champ de vision pour garantir que vous tenez [!include[pn-hololens](../includes/pn-hololens.md)] correctement.<br></br>- **Numéro de version.** Affiche la version de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] que vous utilisez.| 
-|D|![Bouton Profil](media/profile-button.png "Bouton Profil")|Profil|Connexion et déconnexion.| 
-|E|![Bouton Épingler](media/pin-button.PNG "Bouton Épingler")|Épingler|Verrouillez la fiche étape. Cela est utile pour conserver la fiche étape à un même endroit lorsque vous exécutez l'étape ou la tâche. Si vous épinglez la fiche étape, elle ne vous suit plus. Vous pouvez l'épingler ou la désépingler lorsque vous le souhaitez.|
-|F|![Progression d'étape](media/step-progress.PNG "Progression d'étape")|Progression d'étape|Indique où vous êtes dans l'étape.|
-|G|![Bouton Plan](media/outline-button.png "Bouton Plan")|Plan|Allez à la page Plan. Utilisez la page Plan pour parcourir rapidement votre guide. Voici à quoi ressemble la page Plan dans le guide Câblage de pylône :</br><br>![Page Plan HoloLens](media/outline.jpg "Page Plan HoloLens")| 
-|H|![Progression de la tâche](media/task-progress.PNG "Progression de la tâche")|Progression de la tâche|Indique où vous en êtes dans la tâche.| 
-|I|![Nom de la tâche](media/task-name-table.PNG "Nom de la tâche")|Nom de la tâche|Nom de la tâche sur laquelle vous travaillez.| 
+
+|1|![Bouton Accueil](media/home-button.png "Bouton Accueil")|Accueil|Choisissez un autre guide.| |2|![Bouton Mode suivi](media/follow-button.png "Bouton Mode suivi")|Mode suivi|Faites en sorte que la fiche étape vous suive ou verrouillez-la à un emplacement.<br><br>Si vous désactivez le Mode suivi, la fiche étape reste où elle est. Vous pouvez saisir la fiche à tout moment à l'aide de la barre de navigation et la déplacer où vous voulez. Pour plus d'informations, voir la section **Suivre et épingler** plus loin dans cette rubrique.| |3|![Bouton Ancrer](media/anchor-button.PNG "Bouton Ancrer")|Bouton Ancrer|Ancrez à nouveau (réalignez) le guide.<br><br>Il arrive qu'[!include[pn-hololens](../includes/pn-hololens.md)] ne puisse plus se repérer, ce qui provoque un mauvais alignement des hologrammes. Pour résoudre ce problème, vous devez ancrer à nouveau le guide en pointant du regard le point d'ancrage imprimé ou le point d'ancrage numérique. Pour plus d'informations, voir « Ancrer le guide » précédemment dans cette rubrique.| |4|![Bouton Paramètres](media/settings-button.png "Bouton Paramètres")|Paramètres|Accédez aux paramètres suivants :<br><br>- **Ajuster la zone.** Utilisez ce paramètre pour vous assurer que vous tenez correctement l'appareil [!include[pn-hololens](../includes/pn-hololens.md)].Il est très important de bien le tenir. Sinon des hologrammes risquent d'être mal alignés dans votre environnement. Lorsque vous sélectionnez ce paramètre, des bordures s'affichent dans le champ de vision pour garantir que vous tenez [!include[pn-hololens](../includes/pn-hololens.md)] correctement.<br></br>- **Numéro de version.** Affiche la version de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] que vous utilisez.| |5|![Bouton Profil](media/profile-button.png "Bouton Profil")|Profil|Connexion et déconnexion.| |6|![Progression d'étape](media/step-progress.PNG "Progression d'étape")|Progression d'étape|Indique où vous êtes dans l'étape.| |7|![Bouton Plan](media/outline-button.png "Bouton Plan")|Plan|Accédez à la page **Plan**.<br><br>Utilisez la page **Plan** pour parcourir rapidement votre guide. Voici à quoi ressemble la page **Plan** dans le guide Câblage de pylône :</br><br>![Page Plan HoloLens](media/outline-operator.PNG "Page Plan HoloLens")| |8|![Nom de la tâche](media/task-name-table.PNG "Nom de la tâche")|Nom de la tâche|Nom de la tâche sur laquelle vous travaillez.| |9|![Progression de la tâche](media/task-progress.PNG "Progression de la tâche")|Progression de la tâche|Indique où vous en êtes dans la tâche.| 
  
 ## <a name="use-a-dotted-line-to-help-you-find-the-focus-area-for-a-step"></a>Utiliser une ligne pointillée pour rechercher la zone ciblée dans une étape 
 Les fiches étape sont liées par des lignes pointillées holographiques aux zones physiques de la zone de travail. Ces lignes pointillées vous aident à rechercher la zone où vous devez agir. 
 
-![Ligne pointillée holographique](media/dotted-line.jpg "Ligne pointillée holographique")
+![Ligne pointillée holographique](media/dotted-line.PNG "Ligne pointillée holographique")
 
 ### <a name="dotted-line-tips-and-tricks"></a>Trucs et astuces sur les lignes pointillées 
 
@@ -222,20 +214,24 @@ Les fiches étape sont liées par des lignes pointillées holographiques aux zon
 
 - Si la ligne pointillée pointe derrière vous, allez sur le côté et continuez à la suivre. Notez que la ligne pointillée peut parfois passer par des objets du monde réel. 
 
-## <a name="tag-along-and-pinning"></a>Accompagnement et épinglage 
+## <a name="follow-and-pinning"></a>Suivre et épingler 
 
-Vous remarquerez que partout où vous regardez, la fiche étape suit votre regard : elle vous accompagne. Lorsque vous travaillez, vous n'avez pas besoin de chercher les instructions. Vous pouvez toutefois épingler la fiche étape pour désactiver la fonctionnalité d'accompagnement. Pour épingler la fiche étape, sélectionnez **Épingler**. Une fois qu'elle est épinglée, vous pouvez la saisir et la déplacer où vous voulez. 
+Vous remarquerez que partout où vous regardez, la fiche étape suit votre regard. Lorsque vous travaillez, vous n'avez pas besoin de chercher les instructions. Vous pouvez faire en sorte que la fiche étape ne vous suive plus en désactivant le mode suivi dans la barre de navigation. 
 
-![Bouton Épingler sur l'écran HoloLens](media/pin.jpg "Bouton Épingler sur l'écran HoloLens")
+![Désactiver le mode suivi](media/follow-button-nav-bar.PNG "Désactiver le mode suivi")
+
+Vous pouvez saisir la barre de navigation à tout moment et la placer la fiche où vous voulez.
+
+![Saisir la barre de navigation](media/follow-button-move-card.PNG "Saisir la barre de navigation")
 
 ## <a name="turn-off-holograms"></a>Désactiver des hologrammes 
 Vous pouvez désactiver des hologrammes (ou les activer à nouveau) du regard si vous jamais vous sentez qu'ils se décalent. Pour désactiver un hologramme, pointez du regard l'« œil » au milieu de la ligne pointillée. 
 
-![Désactiver les hologrammes](media/dotted-line-toggle-visibility.jpg "Désactiver les hologrammes")  
+![Désactiver des hologrammes](media/dotted-line-toggle-visibility.PNG "Désactiver des hologrammes")  
 
 ## <a name="useful-links-for-more-information"></a>Liens utiles pour plus d'informations
 
-Il s'agit de toutes les informations à savoir pour utiliser un guide créé avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]! Pour en savoir plus sur les applications de réalité mixte [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[cc-microsoft](../includes/cc-microsoft.md)], voici quelques liens utiles : 
+Il s'agit de toutes les informations à savoir pour utiliser un guide créé avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] ! Pour en savoir plus sur les applications de réalité mixte [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[cc-microsoft](../includes/cc-microsoft.md)], voici quelques liens utiles : 
 
 - [Visionner une vidéo sur l'utilisation d'un guide](https://aka.ms/guidesoperate)
 - [Qu'est-ce que la réalité mixte ?](https://docs.microsoft.com/windows/mixed-reality/mixed-reality)

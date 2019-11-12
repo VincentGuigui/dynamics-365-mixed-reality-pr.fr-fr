@@ -2,17 +2,17 @@
 author: Mamaylya
 description: Tout ce que vous devez savoir sur l'achat de Dynamics 365 Guides, la configuration de la solution, et l'installation des applications.
 ms.author: mamaylya
-ms.date: 10/02/2019
+ms.date: 10/29/2019
 ms.service: crm-online
 ms.topic: article
 title: Acheter et déployer Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 56292bb405be07842f0a5455bded274baec92e28
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: ff4d58749fad8209e6476a259dc6c039a1f6b67a
+ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537627"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2692120"
 ---
 # <a name="buy-and-deploy-dynamics-365-guides"></a>Acheter et déployer Dynamics 365 Guides
 
@@ -41,35 +41,37 @@ Il existe plusieurs moyens d'obtenir un abonnement [!include[pn-dyn-365-guides](
 - Accédez à la [page Mise en route](http://aka.ms/GetGuides). Vous pouvez utiliser cette page pour acheter un abonnement ou vous inscrire pour un essai gratuit de 30 jours. Si vous vous inscrivez pour un essai gratuit, vous pouvez utiliser les informations d'identification d'un compte Dynamics 365 existant ou en créer de nouvelles. 
 
     > [!IMPORTANT] 
-    > Si vous ne disposez pas des autorisations d'administrateur associées à votre compte de travail, vous ne pourrez pas effectuer l'étape 2 du processus de paramétrage. Veuillez coordonner la configuration avec votre administrateur. S'il n'est pas possible de coordonner la configuration avec votre administrateur, vous pouvez choisir de créer des informations d'identification d'utilisateur pour essayer [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] en suivant les étapes décrites sur la page Mise en route. Dans ce cas, le nouvel abonné est créé et le compte du nouvel utilisateur créé bénéficie des autorisations d'administrateur. Notez que vous devez fournir le nom de domaine dans l'écran : *guidesYourCompanyName*.
+    > Si vous ne disposez pas des autorisations d'administrateur associées à votre compte de travail, vous ne pourrez pas effectuer l'étape 2 du processus de paramétrage. Veuillez coordonner la configuration avec votre administrateur. S'il n'est pas possible de coordonner la configuration avec votre administrateur, vous pouvez choisir de créer des informations d'identification d'utilisateur pour essayer [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] en suivant les étapes décrites sur la page [Mise en route](http://aka.ms/GetGuides). Dans ce cas, le nouvel abonné est créé et le compte du nouvel utilisateur créé bénéficie des autorisations d'administrateur. Notez que vous devez fournir le nom de domaine dans l'écran : *guidesYourCompanyName*.
     
 Après vous être inscrit(e) pour un abonnement [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], vous devez affecter la licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] aux comptes d'utilisateur. Pour ce faire :
 
-1. Accédez à [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home).
+1. Accédez à [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home) et assurez-vous que le curseur de l'option **Nouveau Centre d'administration** dans le coin supérieur droit de la page est bien défini sur **activé**.
+
+    ![Curseur Nouveau Centre d'administration](media/new-admin-center-slider.png "Curseur Nouveau Centre d'administration")
 
 2.  Assurez-vous que la licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est affectée à un utilisateur. Pour cela, dans le volet gauche, sélectionnez **Utilisateurs**, **Utilisateurs actifs**, puis activez la case à cocher en regard de l'utilisateur à ajouter. 
 
-    ![Écran Utilisateurs > Utilisateurs actifs](media/users-active-users.PNG "Écran Utilisateurs > Utilisateurs actifs")
+    ![Écran Utilisateurs > Utilisateurs actifs](media/users-active-users.png "Écran Utilisateurs > Utilisateurs actifs")
     
-3.  Dans l'écran **Compte Guides**, cliquez sur le bouton **Modifier** en regard de **Licences de produit**.
+3.  Sélectionnez **Gérer les licences de produit**.
 
-     ![Modifier le plan PowerApps](media/edit-powerapps-plan.PNG "Modifier le plan PowerApps")
+     ![Gérer les licences de produit](media/manage-product-licenses.png "Gérer les licences de produit")
 
-4.  Dans l'écran **Licences de produit**, déplacez le curseur **[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]** sur **Activé**, puis sélectionnez **Enregistrer**.
+4.  Dans l'écran **Licences de produit**, activez la case à cocher pour **[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]**.
   
-    ![Ajouter des licences utilisateur](media/guides-license.PNG "Ajouter des licences utilisateur") 
+    ![Ajouter une licence utilisateur](media/guides-license.PNG "Ajouter une licence utilisateur") 
  
 ## Étape 2 : Créer un environnement Common Data Service et installer la solution Dynamics 365 Guides<a name="cds"></a>
 
-Après avoir acquis un abonnement [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et avoir affecté les licences, vous devez créer une base de données dans un environnement implicite dans lequel vous pouvez installer la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Si vous disposez déjà d'un environnement Common Data Service (par exemple, une instance de l'abonnement Dynamics 365 de votre entreprise), vous pouvez passer directement à l'étape [Installation et configuration de la solution Dynamics 365 Guides](#configure).
+Après avoir acquis un abonnement [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et avoir affecté les licences, vous devez créer une base de données dans un environnement implicite dans lequel vous pouvez installer la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Si vous disposez déjà d'un environnement Common Data Service (par exemple, une instance de l'abonnement Dynamics 365 de votre entreprise), vous pouvez passer directement à [Modifier la taille maximale de téléchargement](#upload).
     
-1.  Accédez au [Power Platform Centre d'administration](https://admin.powerplatform.microsoft.com/environments) et connectez-vous avec les informations d'identification de l'utilisateur Administrateur (celles liées aux licences [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] affectées).
+1.  Accédez au [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com/environments) et connectez-vous avec les informations d'identification de l'utilisateur Administrateur (celles liées aux licences [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] affectées).
 
 2.  Dans le Centre d'administration Power Platform, sélectionnez **Environnements**.
 
     ![Environnements Power Platform](media/powerapps-environments.PNG "Environnements Power Platform")
     
-3.  Sélectionnez le bouton **Informations supplémentaires** (...) en regard de l'instance par défaut, puis sélectionnez **Gérer l'environnement**.
+3.  Sélectionnez le bouton **Autres actions d'environnement** (...) en regard de l'instance par défaut, puis sélectionnez **Gérer l'environnement**.
 
     ![Gérer l'environnement](media/powerapps-manage-environment.PNG "Gérer l'environnement")
     
@@ -85,73 +87,52 @@ Après avoir acquis un abonnement [!include[pn-dyn-365-guides](../includes/pn-dy
 
 L'écran suivant s'affiche alors que la base de données est créée et mise en service :
     
-   ![Écran d'approvisionnement de la base de données](media/provisioning-database.PNG "Écran d'approvisionnement de la base de données")
+   ![Écran Approvisionnement de la base de données](media/provisioning-database.PNG "Écran Approvisionnement de la base de données")
  
    > [!NOTE]
    > La création de la base de données prend généralement quelques minutes. Si, au bout de 5 minutes, le message « Approvisionnement de la base de données » apparaît toujours, essayez d'actualiser la page.    
 
-7.  Une fois que la base de données est créée, un lien vers le Centre d'administration Dynamics 365 apparaît. Sélectionnez ce lien, puis connectez-vous à nouveau avec les informations d'identification que vous avez utilisées lors des étapes précédentes. Vous devrez peut-être fermer votre navigateur avant de vous connecter. 
+7.  Une fois que la base de données a été créée, revenez à la page **Environnements**.
 
-    ![Lien Centre d'administration](media/admin-center-link.PNG "Lien Centre d'administration")
+### Modifier la taille maximale de fichier pour le téléchargement<a name="upload"></a>
 
-Le Centre d'administration Dynamics apparaît. Il s'agit de l'emplacement où vous pouvez installer la solution et effectuer d'autres configurations.
+Dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] PC, vous pouvez télécharger vos propres fichiers 3D, ainsi que des vidéos et des images 2D. La taille de plusieurs de ces fichiers sera supérieure à 5 Mo, vous devrez donc modifier la taille maximale des fichiers qui seront chargés. Pour ce faire, vous devrez remplacer le paramètre de la taille de pièce jointe par 128 Mo (131072 Ko).
+
+1. Dans la page Environnements du Centre d'administration Power Platform, sélectionnez l'environnement nouvellement créé, puis sélectionnez le bouton **Paramètres** dans la barre de titre. 
+
+    ![Sélectionner un environnement et des paramètres](media/admin-center-settings.png "Sélectionner un environnement et des paramètres")
+   
+2. Sous **E-mail**, sélectionnez **Paramètres d'e-mail**. 
+
+    ![Paramètres d'e-mail](media/email-settings.png "Paramètres d'e-mail")
+
+3. Faites défiler l'écran vers le bas de la page, puis sous **Documents joints**, définissez le champ **Taille maximale de fichier pour les pièces jointes** sur 131072. Sélectionnez **Enregistrer** une fois terminé.
+
+    ![Taille du fichier](media/edit-file-size.png "Taille du fichier")
+
+4. Revenez sur la page **Environnements** pour préparer l'étape suivante. 
 
 ### Installer et configurer la solution Dynamics 365 Guides<a name="configure"></a>
 
-Dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] PC, vous pouvez télécharger vos propres fichiers 3D, ainsi que des vidéos et des images 2D. La taille de plusieurs de ces fichiers sera supérieure à 5 Mo, vous devrez donc modifier la taille maximale des fichiers qui seront chargés. Pour ce faire, vous devrez remplacer le paramètre de la taille de pièce jointe par 128 Mo (131072 Ko). 
+1. Dans le [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com/environments), sélectionnez le bouton **Autres actions d'environnement** (les trois points) en regard de l'environnement configuré, puis sélectionnez **Gérer les solutions**.
 
-1.  Accédez au Centre d'administration Dynamics 365, puis connectez-vous avec les informations d'identification disposant des autorisations de l'administrateur pour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
-
-    > [!NOTE]
-    > Pour accéder au Centre d'administration Dynamics 365, accédez au [Centre d'administration PowerApps](https://admin.powerapps.com/environments), sélectionnez l'environnement configuré, puis sélectionnez le lien pour **Centre d'administration Dynamics 365**, comme indiqué ci-dessous :
-   
-    ![Ouvrir le Centre d'administration Dynamics 365](media/open-D365-admin-center.PNG "Ouvrir le Centre d'administration Dynamics 365")
-    
-2.  Sélectionnez l'instance [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] qui vient d'être créée dans la liste d'instances, puis sélectionnez **Ouvrir** comme indiqué ici : 
-    
-    ![Centre d'administration avec le bouton Ouvrir sélectionné](media/admin-center-open-button.PNG "Centre d'administration avec le bouton Ouvrir sélectionné")
-    
-    Cela ouvre l'écran **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]**.
-    
-3.  Dans l'écran **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]**, sélectionnez **Paramètres**, puis sélectionnez **Paramètres avancés**. 
-
-    ![Paramètres avancés](media/advanced-settings.PNG "Paramètres avancés")
-    
-4.  Dans l'écran **[!include[pn-dyn-365](../includes/pn-dyn-365.md)] Gestion d'entreprise**, sélectionnez la liste déroulante **Paramètres**.
-
-     ![Écran2 Gestion d'entreprise](media/business-management.PNG "Écran Gestion d'entreprise")
-    
-5.  Sous **Système**, sélectionnez **Administration**.
-
-    ![Bouton Administration dans Dynamics 365](media/administration-button.PNG "Bouton Administration dans Dynamics 365")
- 
-6.  Dans la page **[!include[pn-dyn-365](../includes/pn-dyn-365.md)] Paramètres > Administration**, sélectionnez **Paramètres système**.
-
-    ![Paramètres système dans Dynamics 365](media/system-settings.PNG "Paramètres système dans Dynamics 365")
-  
-7.  Dans la boîte de dialogue **Paramètres système**, sélectionnez l'onglet **E-mail**, faites défiler l'écran vers le bas de la boîte de dialogue, puis dans le champ **Définir la limite de la taille de fichier pour les pièces jointes**, entrez **131072**. Cliquez sur **OK** lorsque vous avez terminé.
-
-    ![Boîte de dialogue Paramètres système](media/system-settings-dialog-box.PNG "Boîte de dialogue Paramètres système")
- 
-8.  Revenez au [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com/environments), sélectionnez les trois points en regard de l'environnement configuré, puis sélectionnez **Gérer les solutions**.
-
-    ![Centre d'administration Power Platform](media/power-platform-manage-solutions.PNG "Centre d'administration Power Platform")
- 
-    > [!NOTE]
+    ![Gérer les solutions](media/manage-solutions.PNG "Gérer les solutions")
+     
+    >[!NOTE]
     > Vous pouvez également accéder au Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)] à partir du portail PowerApps.
     
-8.  Sélectionnez la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans la liste, puis sélectionnez **Installer**. 
+2. Sélectionnez la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans la liste, puis sélectionnez **Installer**.
 
-    ![Bouton Solutions Installer](media/install-ga-version.PNG "Bouton Solutions Installer")
+    ![Bouton Installer](media/solutions-install-button.png "Bouton Installer")
     
-9. Dans la boîte de dialogue **Conditions d'utilisation**, examinez les conditions, puis sélectionnez **Installer** lorsque vous êtes prêt.
+3. Dans la boîte de dialogue **Conditions d'utilisation**, examinez les conditions, puis sélectionnez **Installer** lorsque vous êtes prêt.
 
-   Dans l'écran **Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)]**, le message suivant apparaît en surbrillance jaune pour indiquer que la solution est sur le point d'être installée :
-
-   ![Message d'installation de la solution](media/installing-solution.PNG "Message d'installation de la solution")
-   
-   Le champ **Statut** à gauche du message jaune indique **Installation en attente** lorsque la solution est en cours d'installation. Lorsque la solution est installée, le contenu du champ **Statut** est remplacé par **Installé**.
- 
+    Dans l'écran Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)], le message suivant apparaît en surbrillance jaune pour indiquer que la solution est sur le point d'être installée :
+    
+     ![Message d'installation](media/installing-solution.png "Message d'installation")
+     
+    Le champ **Statut** à gauche du message jaune indique **Installation en attente** lorsque la solution est en cours d'installation. Lorsque la solution est installée, le contenu du champ **Statut** est remplacé par **Installé**.
+    
     > [!NOTE]
     > Le processus d'installation peut prendre jusqu'à une heure et est variable en fonction du jour et de la région. Si le statut n'a pas changé au bout d'une heure, essayez d'actualiser l'écran. Si l'installation échoue, vous verrez ce message :<br>![Échec de l'installation](media/failed-install.PNG "Échec de l'installation")
 
@@ -160,32 +141,22 @@ Dans l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md
 > [!NOTE]
 > L'affichage d'un utilisateur dans le Centre d'administration [!include[pn-dyn-365](../includes/pn-dyn-365.md)] peut prendre jusqu'à une heure, une fois les licences ajoutées dans le Centre d'administration [!include[cc-microsoft](../includes/cc-microsoft.md)] 365. 
 
-1.  Une fois la solution installée, accédez au Centre d'administration Dynamics 365, sélectionnez l'instance [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] qui vient d'être créée dans la liste des instances, puis sélectionnez **Ouvrir**.
+1. Une fois la solution installée, accédez au [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com/). 
 
-2. Sur la page **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]**, sélectionnez **Paramètres**, puis sélectionnez **Paramètres avancés**.
+2. Dans la page **Environnements**, sélectionnez l'environnement nouvellement créé, puis sélectionnez le bouton **Paramètres** dans la barre de titre. 
 
-    ![Paramètres avancés Dynamics 365](media/roles-advanced-settings.PNG "Paramètres avancés Dynamics 365")
+3. Dans la page **Paramètres**, sous **Utilisateurs + Autorisations**, sélectionnez **Utilisateurs**.
+
+    ![Utilisateurs et autorisations](media/settings-page.png "Utilisateurs et autorisations")
     
     > [!IMPORTANT]
     > Vous pouvez accéder aux données [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] via la vignette Guides Hub de l'écran précédent, mais nous déconseillons d'effectuer des modifications dans Guides Hub. Toute modification apportée peut avoir des conséquences imprévues pour les applications [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
  
-3.   Dans l'écran **[!include[pn-dyn-365](../includes/pn-dyn-365.md)] > Gestion d'entreprise**, sélectionnez la liste déroulante **Paramètres**.
-    
-     ![Écran2 Gestion d'entreprise](media/business-management.PNG "Écran Gestion d'entreprise")
+4.  Dans la page **Utilisateurs activés**, sélectionnez l'utilisateur, puis sélectionnez **Gérer les rôles**. 
 
-4.  Sur la page **[!include[pn-dyn-365](../includes/pn-dyn-365.md)] Paramètres** > **Administration**, sous **Système**, sélectionnez **Sécurité**. 
-
-    ![Paramètre de sécurité Dynamics 365](media/security-setting.PNG "Paramètre de sécurité Dynamics 365")
+    ![Gérer les rôles](media/manage-roles.png "Gérer les rôles")
  
-5.  Dans la page **Sécurité**, sélectionnez **Utilisateurs**.
-
-    ![Paramètre Utilisateurs Dynamics 365](media/select-users.PNG "Paramètre Utilisateurs Dynamics 365")
- 
-6.  Sélectionnez l'utilisateur, puis sélectionnez **Gérer les rôles**. 
-
-    ![Commande Gérer les rôles](media/manage-roles-command.PNG "Commande Gérer les rôles")
- 
-7.  Dans la boîte de dialogue **Gérer les rôles d'utilisateurs**, sélectionnez les rôles suivants : 
+5.  Dans la boîte de dialogue **Gérer les rôles d'utilisateurs**, sélectionnez les rôles suivants : 
 
     - Utilisateur Common Data Service
     
@@ -218,7 +189,7 @@ Si vous utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pou
 #### <a name="install-the-pc-authoring-app"></a>Installer l'application de création sur PC 
 1.  Assurez-vous que votre [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10 PC exécute la dernière version de [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] (doit correspondre à la version 10.0.17134, mise à jour d’avril 2018 ou ultérieure).
 
-2.  Sur votre PC, allez dans **Démarrer** ![Bouton Démarrer](media/windows-button.png "Bouton Démarrer") > **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Bouton Store](media/store-button.png "Bouton Store"), puis recherchez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
+2.  Sur votre PC, allez dans **Démarrer** ![Bouton Démarrer](media/windows-button.png "Bouton Démarrer") > **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![bouton Store](media/store-button.png "Bouton Store"), puis recherchez [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
 3.  Dans [!include[cc-microsoft](../includes/cc-microsoft.md)] Store, sélectionnez **Obtenir** en regard de l'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour la télécharger et l'installer.
 
@@ -236,7 +207,7 @@ Si vous utilisez [!include[cc-microsoft](../includes/cc-microsoft.md)] Store pou
 > [!NOTE] 
 > Pour obtenir des instructions sur l'ouverture et la connexion à l'application, si vous êtes un auteur, consultez la [rubrique de création HoloLens](hololens-authoring.md). Les opérateurs peuvent utiliser le [manuel de l'opérateur Dynamics 365 Guides](operator-guide.md).
 
-### <a name="distribute-the-apps-through-the-microsoft-store-for-business"></a>Distribuer les applications via Microsoft Store pour Entreprises
+### <a name="distribute-the-apps-through-microsoft-store-for-business"></a>Répartir les applications par le biais de Microsoft Store pour Entreprises
 
 1.  Allez à [Microsoft Store pour Entreprises](https://businessstore.microsoft.com/store).
 
@@ -260,29 +231,48 @@ Pour plus d'informations sur l'ouverture et la connexion à l'application [!incl
 
 ## <a name="step-4-set-up-guides-analytics-reports"></a>Étape 4 : Paramétrer les états d'Analyses de Guides 
 
-[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut des états [!include[pn-power-bi](../includes/pn-power-bi.md)] (appelés Analyses de Guides) qui permettent d'analyser les processus des guides. Suivez les instructions pour savoir comment [ouvrir Analyses de Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/analytics-guide#open-guides-analytics) en utilisant l'[application Power BI Desktop](https://powerbi.microsoft.com/get-started/) disponible gratuitement.
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut des états [!include[pn-power-bi](../includes/pn-power-bi.md)] (appelés Analyses de Guides) qui permettent d'analyser les processus des guides [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Suivez les instructions pour savoir comment [ouvrir Analyses de Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/analytics-guide#open-guides-analytics) en utilisant l'[application Power BI Desktop](https://powerbi.microsoft.com/get-started/) disponible gratuitement.
 
 Si vous disposez d'une licence [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, vous pouvez partager vos états d'Analyses de Guides [!include[pn-power-bi](../includes/pn-power-bi.md)] au sein de votre organisation en les publiant dans le service [!include[pn-power-bi](../includes/pn-power-bi.md)]. Cela permet à toute personne de votre organisation ayant une licence Pro [!include[pn-power-bi](../includes/pn-power-bi.md)] d'accéder à l'état via l'interface Web du service [!include[pn-power-bi](../includes/pn-power-bi.md)] accessible sur [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Pour en savoir plus sur la collaboration sur le cloud de [!include[pn-power-bi](../includes/pn-power-bi.md)] et le partage, ainsi que l'inscription à une version d'essai gratuit de [!include[pn-power-bi](../includes/pn-power-bi.md)] Pro, consultez [Getting Started with Power BI Desktop](https://powerbi.microsoft.com/get-started/) et [Ways to share your work in Power BI](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 ## Étape 5 : Ajouter des comptes d'utilisateur supplémentaires (facultatif)<a name="user-accounts"></a>
 
-Pour ajouter des utilisateurs supplémentaires, vous devez leur affecter la licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans le Centre d'administration Microsoft 365 et configurer les rôles dans le portail d'administrateur Microsoft Dynamics 365.
+Pour ajouter des utilisateurs supplémentaires, vous devez leur affecter la licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et configurer les rôles auxquels ils auront accès dans le Centre d'administration Dynamics 365.
 
 ### <a name="add-a-user-account"></a>Ajouter un compte d'utilisateur
 
-1.  Accédez à [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home).
+1. Accédez à [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home).
 
-2.  Sélectionnez les comptes d'utilisateur.
+2. Dans le volet gauche de navigation, sélectionnez **Utilisateurs**, puis **Utilisateurs actifs**. 
 
-3. Affectez-leur la licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. 
+3. Sélectionnez **Ajouter un utilisateur**.
 
-4. Développez la section **Licences de produit**, puis déplacez le curseur **[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]** sur **Activé**. Vous pouvez affecter jusqu'à 25 utilisateurs.
-    
-      ![Boîte de dialogue Licences de produits](media/new-user-plans.PNG "Boîte de dialogue Licences de produits")
+   ![Ajouter un utilisateur](media/add-additional-user.png "Ajouter un utilisateur") 
+
+4. Renseignez les informations pour le nouvel utilisateur. Sélectionnez **Suivant** une fois terminé.
+
+   > [!NOTE]
+   > Par défaut, un mot de passe sera généré automatiquement pour l'utilisateur. L'utilisateur doit modifier le mot de passe la première fois qu'il se connecte à ce compte. Si vous souhaitez remplacer le mot de passe à ce moment-là par un mot de passe permanent au lieu d'utiliser le mot de passe généré automatiquement, remplacez **Mot de passe généré automatiquement** par **Laissez-moi créer le mot de passe**, puis désactivez la case à cocher **Demander à cet utilisateur de modifier son mot de passe lorsqu'il se connecte pour la première fois**. 
  
-5.  Sélectionnez **Enregistrer** une fois terminé.    
+5. Sélectionnez l'emplacement de cet utilisateur, puis sous **Licences**, activez la case à cocher en regard de **Dynamics 365 Guides**. 
 
-6. [Paramétrez des rôles d'utilisateur pour la solution](#user-roles) comme décrit précédemment dans cette rubrique.
+    ![Attribuer une licence](media/assign-license-user.png "Attribuer une licence") 
+
+     Sélectionnez **Suivant** une fois terminé.
+   
+7. Dans l'écran **Paramètres facultatifs**, laissez la zone **Utilisateur (aucun accès Administrateur)** sélectionnée à moins que ce nouvel utilisateur soit un administrateur. Dans ce cas, activez la case à cocher **Administrateur global**. Pour renseigner les informations de profil du nouvel utilisateur, développez **Informations de profil**. Sélectionnez **Suivant** une fois terminé.
+
+   ![Paramètres utilisateur facultatifs](media/user-optional-settings.png "Paramètres utilisateur facultatifs") 
+   
+8. Vérifiez les informations de cette dernière page. Pour apporter des modifications, sélectionnez le bouton **Modifier** en dessous de chaque section. Sélectionnez **Terminé l'ajout** une fois terminé.
+
+9. Si vous avez sélectionné **Générez le mot de passe** à l'étape 4, notez le mot de passe. L'utilisateur a besoin de ce mot de passe pour se connecter.
+
+   ![Vérifier les paramètres utilisateur](media/review-user-settings.png "Vérifier les paramètres utilisateur") 
+   
+10. Sélectionnez **Fermer**.
+
+11. [Paramétrez des rôles d'utilisateur pour la solution](#user-roles) comme décrit précédemment dans cette rubrique.
 
 ### <a name="see-also"></a>Voir aussi
 

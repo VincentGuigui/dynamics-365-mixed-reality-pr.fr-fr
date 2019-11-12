@@ -3,19 +3,19 @@ title: Documentation Réalité mixte de Microsoft Dynamics 365
 brand: dynamics
 metadata:
   title: Documentation Réalité mixte de Microsoft Dynamics 365
-  description: Apprenez à déployer, personnaliser, gérer et utiliser les services et applications de réalité mixte de Microsoft Dynamics 365. Obtenez documentation, exemple de code, etc.
+  description: Apprenez à déployer, personnaliser, gérer et utiliser les services et applications de réalité mixte de Microsoft Dynamics 365. Équipez-vous de documentation, d'exemples de code, de didacticiels et d'autres ressources.
   ms.service: dynamics-365-crossapp
   ms.topic: hub-page
   author: buck1ey
   ms.author: buckg
   ms.date: 10/01/2019
   hide_bc: false
-  ms.openlocfilehash: 9839c0b4f8a5a1d4454ee7fdecd4bf44c7b02cfa
-  ms.sourcegitcommit: 24fe08f45d5ba1e134964a5fb25a00f02efa41ae
+  ms.openlocfilehash: 86e41eb646644687ed1fdc10175ff4ec8ffffe76
+  ms.sourcegitcommit: db0a366e13259b1299df29f733e175fe5b03afe3
   ms.translationtype: HT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 09/29/2019
-  ms.locfileid: "2238568"
+  ms.lasthandoff: 10/29/2019
+  ms.locfileid: "2673549"
 productDirectory:
   items:
   - title: Dynamics 365 Guides
@@ -23,8 +23,8 @@ productDirectory:
     links:
     - url: /dynamics365/mixed-reality/guides/index
       text: Documentation
-  - title: Dynamics 365 Import Tool (version préliminaire)
-    imageSrc: /dynamics365/images/importmixedrealitylayoutlogoextensions-03.svg
+  - title: Dynamics 365 Import Tool (en version préliminaire)
+    imageSrc: /dynamics365/images/ImportTool.svg
     links:
     - url: /dynamics365/mixed-reality/import-tool/index
       text: Documentation
@@ -33,7 +33,7 @@ productDirectory:
     links:
     - url: /dynamics365/mixed-reality/layout/index
       text: Documentation
-  - title: Dynamics 365 Product Visualize (version préliminaire)
+  - title: Dynamics 365 Product Visualize (en version préliminaire)
     imageSrc: /dynamics365/images/ProductVisualize_color.svg
     links:
     - url: /dynamics365/mixed-reality/product-visualize/index

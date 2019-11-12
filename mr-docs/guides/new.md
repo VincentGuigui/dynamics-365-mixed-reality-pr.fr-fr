@@ -2,21 +2,39 @@
 author: makamat
 description: Décrit les nouvelles fonctionnalités de Dynamics 365 Guides, classées par date de parution
 ms.author: makamat
-ms.date: 10/01/2019
+ms.date: 10/29/2019
 ms.service: crm-online
 ms.topic: article
 title: Nouveautés de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: c5260ae6057eddc9ed05b28379e356184c8e115c
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 789a046395e8eefad3aa6384e76bafd3792c540a
+ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537609"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2692147"
 ---
 ## <a name="whats-new-in-dynamics-365-guides"></a>Nouveautés de Dynamics 365 Guides
 
-Cette page fournit des détails sur les dernières versions de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] classées par date de parution.  
+Cette page fournit des détails sur les dernières versions de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] classées par date de parution. 
+
+### <a name="october-29-2019"></a>29 octobre 2019
+
+À partir du 29 octobre, [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] offre des fonctions très demandées aux créateurs de contenu : 
+
+- Vous pouvez importer des modèles avec des animations basées sur des nœuds et les utiliser dans les instructions de travail.
+
+- Les créateurs peuvent activer et désactiver les animations sur les modèles 3D.
+
+- [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] prend désormais en charge les formats STL et PLY pour les modèles 3D.
+
+Pour obtenir cette mise à jour, effectuez une mise à niveau vers la version 301.1910.24001 de l'application et la version 300.0.1.115 de la solution.
+
+Nous avons également :
+
+- Supprimé différentes tailles pour le même modèle dans la boîte à outils 3D. Comme les créateurs peuvent désormais redimensionner les modèles, les différentes tailles ne sont plus nécessaires.
+
+- Mis à jour du comportement de suivi de la fiche étape pour qu'il soit cohérent avec le comportement de Windows Holographic OS (Shell) où la fiche étape vous suit lorsque l'option est activée.
 
 ### <a name="october-1-2019"></a>1er octobre 2019
 
@@ -24,7 +42,7 @@ Cette page fournit des détails sur les dernières versions de [!include[cc-micr
 
 Les nouveaux clients doivent obtenir une licence de DG. Pour obtenir des informations sur les licences, l'installation et les mises à niveau, accédez à aka.ms/GetGuides.
 
-La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.24001 et la version de solution 200.0.0.102 comprennent les mises à jour suivantes :
+La version d'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] 200.1909.24001 et la version de solution 200.0.0.107 comprennent les mises à jour suivantes :
 
 - **Essayez la démonstration.** Vous pouvez à présent essayer l'exemple de guide prêt à l'emploi sur l'application HoloLens sans devoir vous inscrire pour obtenir une licence ou créer un guide vous-même.
 

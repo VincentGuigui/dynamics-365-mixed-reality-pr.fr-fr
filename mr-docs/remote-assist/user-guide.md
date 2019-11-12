@@ -2,17 +2,17 @@
 author: drpusey
 description: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.author: drpusey
-ms.date: 10/01/2019
+ms.date: 10/16/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 7f6a04d495dde7eef000244e34789bd2a7fafb66
-ms.sourcegitcommit: 42b430e4dd9a79e91d084cce8f51f1311d37ab33
+ms.openlocfilehash: 61230801cefd57dc6dcaea8cdd3cf35a50a72b40
+ms.sourcegitcommit: f361756d13a2c66992d442fda75bffcf928c6972
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "2139681"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "2633420"
 ---
 # <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 
@@ -45,9 +45,9 @@ La manière dont vous installez [!include[pn-dyn-365-remote-assist](../includes/
 
 ### <a name="install-the-application-through-the-microsoft-store-for-consumers"></a>Installer l'application par le biais de Microsoft Store pour les consommateurs
 
-1.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), puis cherchez « [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] ».
+1.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez dans **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![[!include[cc-microsoft](../includes/cc-microsoft.md)] Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), puis cherchez « [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] ».
 
-2.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**. Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application. [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] est une application immersive avec une [vue holographique](https://support.microsoft.com/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.
+2.  Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez dans **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **Toutes les applications**. Sélectionnez **[!include[pn-remote-assist](../includes/pn-remote-assist.md)]**, puis sélectionnez-le une deuxième fois pour lancer l'application. [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] est une application immersive avec une [vue holographique](https://support.microsoft.com/help/12635). Ce sera donc la seule application qui s'affichera en cours d'utilisation.
 
 Si votre [!include[pn-hololens](../includes/pn-hololens.md)] exécute la April 2018 Update et que vous êtes connecté avec un compte [!include[pn-azure-active-directory](../includes/pn-azure-active-directory.md)] ([!include[pn-azure](../includes/pn-azure.md)] AD), vous serez automatiquement connecté à [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)]. Sinon, utilisez le clavier holographique pour vous connecter avec un compte professionnel ou scolaire associé à un abonnement [!include[pn-office-365](../includes/pn-office-365.md)] Premium ou Essentials. Une fois connecté, vous verrez vos contacts récents.
 
@@ -100,7 +100,7 @@ Vous pouvez inclure jusqu'à 50 personnes dans un appel de groupe. Vous pouvez 
    ![Animation Rechercher un contact pour un appel](media/GC_SearchCall.gif "Animation Rechercher un contact pour un appel")
 
    > [!TIP]
-   > [Découvrir comment ajouter des contacts supplémentaires depuis le bureau Microsoft Teams](https://support.office.com/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3). 
+   > [Découvrir comment ajouter des contacts supplémentaires depuis Microsoft Teams Desktop](https://support.office.com/article/add-someone-to-a-call-in-teams-267fb0c9-275a-4047-8412-7b2654dc29c3). 
 
 ### <a name="switch-the-displayed-video-feed-in-a-group-call"></a>Changer le flux vidéo affiché dans un appel de groupe 
 
@@ -138,11 +138,11 @@ Vous pouvez enregistrer un appel de deux manières :
 
 1. Sur un PC sous [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] 10, rejoignez un appel en utilisant [!include[pn-microsoft-teams](../includes/pn-microsoft-teams.md)].
 
-2. Appuyez sur la **touche de logo Windows ![touche de logo Windows](media/windows-logo-key.png "touche de logo Windows") + G** pour ouvrir la Game Bar.
+2. Appuyez sur la **touche de logo Windows ![touche de logo Windows](media/windows-logo-key.png "Touche de logo Windows") + G** pour ouvrir la Game Bar.
 
-   ![Game Bar](media/game-bar.png "Game Bar")
+   ![Game bar](media/game-bar.png "Game bar")
 
-3. Sélectionnez le bouton **Démarrer l'enregistrement** (ou appuyez sur la **touche de logo Windows ![touche de logo Windows](media/windows-logo-key.png "touche de logo Windows") + Alt + R**).
+3. Sélectionnez le bouton **Démarrer l'enregistrement** (ou appuyez sur la **touche de logo Windows ![touche de logo Windows](media/windows-logo-key.png "Touche de logo Windows") + Alt + R**).
 
    Un petit menu d'enregistrement s'affichera, indiquant que l'enregistrement est en cours.
    
@@ -162,7 +162,7 @@ Vous pouvez enregistrer un appel de deux manières :
 
 2.  Pour démarrer l'enregistrement, sélectionnez **Plus d'options** (...) > **Démarrer l'enregistrement**.
 
-    ![Bouton Démarrer l'enregistrement](media/start-recording.PNG "Bouton Démarrer l'enregistrement")
+    ![Bouton Démarrer l’enregistrement](media/start-recording.PNG "Bouton Démarrer l’enregistrement")
  
 3.  Pour arrêter l'enregistrement, sélectionnez **Plus d'options** (...) > **Arrêter l'enregistrement**.
 
@@ -218,7 +218,7 @@ Lorsque vous travaillez avec un expert dans le cadre d'un appel, cet expert peut
 
 Pour déplacer, dimensionner ou fermer la fenêtre partagée, utilisez les commandes situées en haut à droite de la fenêtre partagée.
 
-![Contrôles du bureau partagé](media/screen-sharing-controls.jpg "Contrôles du bureau partagé")
+![Commandes du bureau partagé](media/screen-sharing-controls.jpg "Commandes du bureau partagé")
 
 ## <a name="collaborate-and-annotate"></a>Collaborer et annoter
 
@@ -302,6 +302,16 @@ Pour annuler l'action plus récente, dont **Effacer tout** :
 
 -   Sélectionnez **Annuler** en haut de la fenêtre d'appel (ou dites « Annuler »).
 
+## <a name="join-a-teams-meeting"></a>Participer aux réunions Teams
+
+Vous pouvez participer aux réunions Teams directement depuis Dynamics 365 Remote Assist. Ceci est utile pour la maintenance et les réparations planifiées à l'avance. C'est également utile pour les inspections et les autres scénarios récurrents. 
+
+Pour rejoindre un appel :
+
+- Sélectionnez le bouton **Se joindre à la réunion** sous l'écran **Contacts**. Le bouton **Se joindre à la réunion** apparaît si la réunion est en cours ou parfois dans les 30 minutes qui suivent.
+
+   ![Se joindre à la réunion](media/join-meeting.PNG "Se joindre à la réunion")
+
 ## Utiliser les commandes vocales et le pointage du regard <a name="voice"></a>
 
 Dans bien des cas, vous pouvez utiliser les commandes vocales et le pointage du regard au lieu de mouvements. Certaines commandes vocales sont contextuelles, c'est pourquoi elles ne fonctionnent que dans certaines zones de l'interface utilisateur. Notez que pour le moment, les commandes vocales et la reconnaissance vocale sont disponibles uniquement en anglais pour HoloLens 1 et dans des [langues spécifiques pour HoloLens 2](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/faq#what-languages-are-voice-commands-and-speech-recognition-available-for). 
@@ -372,7 +382,7 @@ Vous pouvez activer le Narrateur si vous souhaitez bénéficier de la présentat
 
 Pour activer le Narrateur pour les appels entrants :
 
-- Allez à Paramètres, puis sélectionnez le bouton **Actif** pour le Narrateur.
+- Allez dans Paramètres, puis sélectionnez le bouton **Actif** pour le Narrateur.
 
   ![Ouvrir Narrateur](media/narrator.PNG "Ouvrir Narrateur")
 
@@ -405,7 +415,7 @@ Cela vous permet d'effectuer des appels tête relevée, mains libres via [!inclu
 
 ### <a name="view-a-dynamics-365-field-service-booking-and-call-an-expert-from-dynamics-365-remote-assist"></a>Afficher une réservation Dynamics 365 Field Service et appeler un expert depuis Dynamics 365 Remote Assist
 
-1.  Dans le menu Contacts, sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") pour ouvrir le volet **Réservation**. (Sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") à nouveau pour fermer le volet **Réservation**.)  
+1.  Dans le menu Contacts, sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") pour ouvrir le volet **Réservation**. (Sélectionnez **[!include[pn-dyn-365](../includes/pn-dyn-365.md)]** ![Dynamics 365](media/d365-button3.png "Dynamics 365") à nouveau pour fermer le volet **Réservation**.)  
       
     L'écran **Contacts récents** s'affiche avec un volet **Réservation** sur la droite.
     
@@ -414,7 +424,7 @@ Cela vous permet d'effectuer des appels tête relevée, mains libres via [!inclu
     
 1.  Dans le volet **Réservation**, sélectionnez la ressource (expert). 
 
-    ![Sélectionnez la ressource (expert)](media/61c6885a58d179a39e18b3af01554fcc.png "Sélectionnez la ressource (expert)")
+    ![Sélectionner la ressource (expert)](media/61c6885a58d179a39e18b3af01554fcc.png "Sélectionner la ressource (expert)")
 
 1.  Dans la liste des contacts filtrés, sélectionnez la mosaïque pour l'expert. Si vous ne voyez pas le contact que vous recherchez, sélectionnez **Rechercher** pour afficher le clavier holographique.  
       

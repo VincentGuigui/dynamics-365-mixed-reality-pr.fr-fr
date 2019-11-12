@@ -2,17 +2,17 @@
 author: ornellaalt
 description: Guide de l'utilisateur de Dynamics 365 Layout
 ms.author: ornella
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Layout
 ms.reviewer: v-brycho
-ms.openlocfilehash: 4fd400820f766dec795e9c0a1a15203269ffb4a0
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: aac3a03b13fcd355e52318b7ad62548d9e83dfb8
+ms.sourcegitcommit: 53a0bf9d81d110155514db27a3ba540fdd06304e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224219"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2652577"
 ---
 # <a name="dynamics-365-layout-user-guide"></a>Guide de l'utilisateur de Dynamics 365 Layout
 
@@ -43,34 +43,36 @@ Le tableau suivant décrit l'application/outil, et son installation depuis le ma
 
 | **Application**     | **Appareil**            | **Utilisation**                            | **Installation depuis le [!include[cc-microsoft](../includes/cc-microsoft.md)] Store** |
 |-------------|-----------------------|---------------------------------------------|-------------------------------------|
-| [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]      | [!include[pn-hololens](../includes/pn-hololens.md)]              | <ul><li>Créer des dispositions en analysant les environs. </li><li>Placer des modèles dans vos dispositions. </li></ul>     | Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br>    |
-| [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]      | Casque de réalité mixte |<ul><li>Placer des modèles dans des dispositions importées depuis [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)]. </ul>| 1. Sur votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br> 2. Connectez votre casque de réalité mixte au PC, puis recherchez l'application dans le menu **Démarrer** de réalité mixte. <br>   |
-| [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] | PC                    | <ul><li>Transférer les plans d'étage depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)] vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</li><li>Transférer les dispositions entre [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality. </li><li>Traiter les modèles 3D à utiliser dans [!include[pn-hololens](../includes/pn-hololens.md)]. </ul>| Dans votre PC, allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9NBF1CGB7KHX). <br>    |
+| [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]      | [!include[pn-hololens](../includes/pn-hololens.md)]              | <ul><li>Créez des dispositions en analysant les environs. </li><li>Placez des modèles dans vos dispositions. </li></ul>     | Dans votre [!include[pn-hololens](../includes/pn-hololens.md)], allez dans **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br>    |
+| [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)]      | Casque de réalité mixte |<ul><li>Placez des modèles dans des dispositions importées depuis [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)]. </ul>| 1. Sur votre PC, allez dans **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9N20MQ2V3XCW). <br> 2. Connectez votre casque de réalité mixte au PC, puis recherchez l'application dans le menu **Démarrer** de réalité mixte. <br>   |
+| [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] | PC                    | <ul><li>Transférer les plans d'étage depuis [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-visio](../includes/pn-visio.md)] vers [!include[pn-hololens](../includes/pn-hololens.md)] ou [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality.</li><li>Transférez les dispositions entre [!include[pn-hololens](../includes/pn-hololens.md)] et [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Mixed Reality. </li><li>Traitez les modèles 3D à utiliser dans [!include[pn-hololens](../includes/pn-hololens.md)]. </ul>| Sur votre PC, allez dans **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store"), recherchez « [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] », puis [installez l'application](https://www.microsoft.com/store/apps/9NBF1CGB7KHX). <br>    |
 
 ## <a name="get-started-with-dynamics-365-layout-take-advantage-of-learning-tools"></a>Mise en route de Dynamics 365 Layout : tirer profit des outils d'apprentissage
 
-[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] inclut deux outils (moments d'information et démonstrations de dispositions) que vous pouvez utiliser pour vous aider à savoir comment effectuer des tâches courantes telles que la mesure, la copie, le regroupement, le redimensionnement et l'accès aux paramètres.
+[!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)] inclut trois outils que vous pouvez utiliser pour vous aider à savoir comment effectuer des tâches courantes telles que la mesure, la copie, le regroupement, le redimensionnement et l'accès aux paramètres.
+
+### <a name="animated-out-of-the-box-experience-for-hololens-2-users"></a>Expérience prête à l'emploi animée pour les utilisateurs d'HoloLens 2
+
+Si vous utilisez [!include[pn-hololens](../includes/pn-hololens.md)] 2, après avoir installé l'application [!include[pn-hololens](../includes/pn-hololens.md)], et avant de vous connecter, une expérience 3D animée s'affiche et indique les avantages et les principales fonctionnalités de [!include[pn-dyn-365-layout](../includes/pn-dyn-365-layout.md)].
 
 ### <a name="teaching-moments"></a>Moments d'information
 
-Les moments d'information fournissent diverses images qui permettent de comprendre facilement des tâches courantes. Pour accéder aux moments d'information, appuyez sur **Aide**, puis sur la zone pour laquelle vous avez besoin d'aide.
+Les moments d'information fournissent diverses images qui permettent de comprendre facilement des tâches courantes. Pour accéder aux moments d'information, cliquez dans l'air sur **Aide**, puis sur la zone pour laquelle vous avez besoin d'aide.
 
 ![Moments d'information](media/teaching-moments.PNG "Moments d'information")
 
 ### <a name="demo-layouts"></a>Démonstrations de dispositions
 
 Les démonstrations de dispositions utilisent des dispositions prédéfinies pour montrer comment développer différentes parties d'une usine de fabrication. Vous avez le choix entre trois démonstrations :
-- Copier/coller et collision
-- Grouper et mesurer
-- Ajuster et redimensionner
+- Déplacer et redimensionner
+- Regroupement et mesure
+- Copier et coller
 
-![Démonstrations de dispositions](media/demo-layouts.PNG "Démonstrations de dispositions")
-
-Par exemple, dans la démonstration Copier/coller et collision, découvrez comment compléter un tapis de convoyeur en copiant et en positionnant des sections.
+Par exemple, dans la démonstration Copier/coller, découvrez comment compléter un tapis de convoyeur en copiant et en positionnant des sections.
 
 Pour accéder à des démonstrations de dispositions, sélectionnez la démonstration de votre choix dans le menu **Dispositions**.
 
-![Accédez aux démonstrations de dispositions](media/access-demo-layouts.PNG "Accédez aux démonstrations de dispositions")
+![Démonstrations de dispositions](media/demo-layouts.PNG "Démonstrations de dispositions")
 
 ## <a name="use-dynamics-365-layout"></a>Utiliser Dynamics 365 Layout
 
@@ -174,17 +176,17 @@ Dans [!include[pn-hololens](../includes/pn-hololens.md)] et dans [!include[pn-ms
 
 Vous pouvez verrouiller une disposition pour empêcher les modifications involontaires. Cela est particulièrement utile lorsque vous souhaitez partager une disposition avec vos collègues à des fins de révision. 
 
-Pour verrouiller une disposition, appuyez sur **Verrouiller la disposition** dans le menu de la barre latérale. La disposition active est verrouillée pour modification.
+Pour verrouiller une disposition, cliquez dans l'air sur **Verrouiller la disposition** dans le menu de la barre latérale. La disposition active est verrouillée pour modification.
 
 ![Verrouiller la disposition](media/locked-layout.PNG "Verrouiller la disposition")
 
-Un graphique de verrouillage est affiché dans le coin supérieur droit de la mosaïque de la disposition.
+Un graphique de verrouillage est affiché dans le coin supérieur droit de la vignette de la disposition.
  
 ![Graphique de disposition verrouillée](media/locked-layout-graphic.PNG "Graphique de disposition verrouillée")
  
 Une fois qu'une disposition a été verrouillée, si un utilisateur sélectionne un modèle dans la disposition, à la troisième tentative consécutive, une fenêtre contextuelle s'affiche pour l'informer que la disposition est verrouillée pour modification. Une fenêtre contextuelle similaire s'affiche lorsque vous essayez de placer un modèle du menu **Disposition** dans la disposition active.
 
-Pour déverrouiller une disposition, appuyez sur **Déverrouiller la disposition** dans le menu de la barre latérale. 
+Pour déverrouiller une disposition, cliquez dans l'air sur **Déverrouiller la disposition** dans le menu de la barre latérale. 
  
 ![Déverrouiller la disposition](media/unlock-layout.PNG "Déverrouiller la disposition")
 

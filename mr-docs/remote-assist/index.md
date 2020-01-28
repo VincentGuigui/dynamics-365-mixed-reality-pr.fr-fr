@@ -1,18 +1,18 @@
 ---
-author: jevertt
+author: hegate
 description: Présentation de Dynamics 365 Remote Assist
-ms.author: jevertt
+ms.author: hegate
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Présentation de Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 18a2434999a4b9b1bc4b902891fbd0600ccc5762
-ms.sourcegitcommit: 42b430e4dd9a79e91d084cce8f51f1311d37ab33
+ms.openlocfilehash: 2faf875fcad3cd4996d3300e48dba02a70e4d5fd
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "2139812"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921102"
 ---
 # <a name="overview-of-dynamics-365-remote-assist"></a>Présentation de Dynamics 365 Remote Assist
 

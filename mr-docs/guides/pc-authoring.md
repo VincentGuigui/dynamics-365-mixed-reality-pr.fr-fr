@@ -1,20 +1,20 @@
 ---
 author: Mamaylya
-description: Tout ce que vous devez savoir sur l'utilisation de l'application de création du PC pour créer un guide dans Dynamics 365 Guides.
+description: Tout ce que vous devez savoir sur l'utilisation de l'application Création sur PC pour créer un guide dans Dynamics 365 Guides.
 ms.author: mamaylya
-ms.date: 10/29/2019
+ms.date: 12/09/2019
 ms.service: crm-online
 ms.topic: article
-title: Utiliser l'application de création du PC pour créer un guide dans Dynamics 365 Guides
+title: Utiliser l'application Création sur PC pour créer un guide dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 7c843425d3ce4f38604fedf3002ad5ed2bb287b6
-ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
+ms.openlocfilehash: dc63a48c1a903dd27de2f584d783cbfddf45ca4d
+ms.sourcegitcommit: 1c0c2c0ac96b0c21b898ca165d883bcbc158c0ba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "2692129"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2902752"
 ---
-# <a name="author-in-the-pc-application-for-dynamics-365-guides"></a>Créer dans l'application du PC pour Dynamics 365 Guides
+# <a name="author-in-the-pc-app-for-dynamics-365-guides"></a>Créer dans l'application du PC pour Dynamics 365 Guides
 
 Visionner les vidéos sur :
 
@@ -22,27 +22,28 @@ Visionner les vidéos sur :
 - [Création sur PC](https://aka.ms/pcauthor)
 - [Création HoloLens](https://aka.ms/hololensauthor)
 
-Utiliser l'application de création du PC pour créer un guide dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour :
+Utiliser l'application Création sur PC dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour :
 
-- Créer un guide
+- Créer un guide.
 
-- Choisir une méthode d'ancrage
+- Choisir une méthode d'ancrage.
 
-- Ajouter des tâches et des étapes
+- Ajouter des tâches et des étapes.
 
-- Écrire des instructions pour les étapes
+- Écrire des instructions pour les étapes.
 
-- Affectez différents types de contenu pour prendre en charge ces étapes. Le contenu de prise en charge comprend :
+- Affecter différents types de contenu pour prendre en charge ces étapes. Le contenu de la prise en charge comprend :
 
-  - Composants 3D
+  - Objets 3D.
   
-  - Objets 3D, tels que les objets de la boîte à outils 3D (flèches et numéros, par exemple)
+  - Objets 3D, tels que les objets de la boîte à outils 3D (flèches et numéros, par exemple).
   
-  - Support 2D (images et vidéos)
+  - Support 2D (images et vidéos).
   
 ![Création sur PC](media/pc-authoring.PNG "Création sur PC")
 
-## <a name="install-open-and-sign-in-to-the-pc-application"></a>Installer, ouvrir, puis se connecter à l'application du PC
+
+## <a name="install-open-and-sign-in-to-the-pc-app"></a>Installer, ouvrir, puis se connecter à l'application du PC
 Utilisez ces instructions pour installer l'application (si elle n'a pas encore été installée) et pour vous connecter.
 
 ### <a name="install-the-app"></a>Installer l'application 
@@ -77,13 +78,16 @@ Utilisez ces instructions pour installer l'application (si elle n'a pas encore �
 
      ![Créer un nouveau guide](media/create-guide.PNG "Créer un nouveau guide")
 
-3.  Entrez un nom pour le guide. Si vous voulez créer plusieurs versions du guide, vous pouvez ajouter _v2, _v3, etc. dans le nom. 
+3.  Saisissez un nom pour le guide, puis sélectionnez **Créer**. Si vous voulez créer plusieurs versions du guide, vous pouvez ajouter _v2, _v3, etc. dans le nom. 
 
      ![Nommer le guide](media/name-guide.PNG "Nommer le guide")
+     
+>[!NOTE]
+>Lorsque vous créez un guide à l'aide de l'application du PC, un fichier de données JSON est automatiquement créé dans Common Data Service. Ce fichier est destiné à une utilisation interne uniquement. Il est déconseillé de créer des fonctionnalités au-dessus de ce fichier car elles peuvent changer avec le temps. 
 
-## <a name="saving-how-changes-are-synced-between-the-pc-app-and-hololens-app"></a>Enregistrement : manière dont les modifications sont synchronisées entre l'application du PC et l'application HoloLens
+## <a name="saving-how-changes-are-synced-between-the-pc-app-and-hololens-app"></a>Enregistrement : Manière dont les modifications sont synchronisées entre l'application du PC et l'application HoloLens
 
-L'application de création sur PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] sont connectées via le cloud, où les fichiers et le contenu [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] sont stockés. Lorsque vous créez un guide, les modifications sont enregistrées sur le PC et sur [!include[pn-hololens](../includes/pn-hololens.md)]. Il est ainsi très facile de passer d'un appareil à un autre. L'enregistrement automatique permet de vérifier les nouvelles modifications toutes les 4 secondes. Vous devez être en ligne pour utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]
+L'application de création sur PC et l'application [!include[pn-hololens](../includes/pn-hololens.md)] sont connectées via le cloud, où les fichiers et le contenu [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] sont stockés. Lorsque vous créez un guide, les modifications sont enregistrées sur le PC et sur [!include[pn-hololens](../includes/pn-hololens.md)]. Il est ainsi très facile de passer d'un appareil à un autre. L'enregistrement automatique permet de vérifier les nouvelles modifications toutes les quatre secondes. Vous devez être en ligne pour utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]
 
 > [!NOTE]
 > Lorsque vous basculez d'un périphérique à l'autre, il est préférable de fermer le guide pour vous assurer que vous ne perdrez pas votre travail. 
@@ -124,7 +128,7 @@ Outre les tâches et les étapes, la page **Plan** contient :
 
 - Lorsque vous passez de l'application sur PC à l'application HoloLens, vous serez invité à actualiser la page. Il est recommandé de fermer le guide sur lequel vous travaillez lorsque vous changez d'appareil. 
 
-Voici l'exemple d'une page **Plan** remplie :
+L'image suivante contient un exemple de page **Plan** remplie.
 
 ![Page Plan remplie à partir du guide Câblage de pylône](media/finished-outline-page.png "Page Plan remplie à partir du guide Câblage de pylône")
   
@@ -136,9 +140,9 @@ Dans la page Fiche étape, vous devez rédiger des instructions et affecter du c
 
 ### <a name="open-the-step-card-page-and-add-instructions"></a>Ouvrir la page Fiche étape et ajouter des instructions
 
-1. Sélectionnez chaque étape de la page **Contour**, ou sélectionnez **Étape** dans la navigation gauche. 
+1. Sélectionnez chaque étape de la page **Contour**, ou sélectionnez **Étape** dans le volet gauche. 
 
-   ![Commande d'étape dans le volet de navigation gauche](media/left-nav-step.PNG "Commande d'étape dans le volet de navigation gauche")
+   ![Commande d'étape dans le volet gauche](media/left-nav-step.PNG "Commande d'étape dans le volet gauche")
 
 2. Entrez les instructions dans le rectangle au milieu de l'écran Fiche étape.
 
@@ -151,13 +155,13 @@ Dans la page Fiche étape, vous devez rédiger des instructions et affecter du c
    ![Créer une étape avec la fiche étape](media/drag-object.PNG "Créer une étape avec la fiche étape")
 
    > [!NOTE]
-   > L'ensemble des zones sous les instructions est appelé « emplacement. »
+   > L'ensemble des zones sous les instructions est appelé _emplacement_.
   
 Lorsque vous consultez votre guide en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez voir tout le contenu que vous avez associé aux étapes, et vous pouvez le placer à l'endroit qui convient dans le monde réel. Par exemple, si vous affectez un pointeur à une étape dans l'application du PC, vous devez aligner ce pointeur avec l'élément auquel il fait référence dans l'application de création [!include[pn-hololens](../includes/pn-hololens.md)] dans le monde réel. Ce qui apparaît dans la page Fiche étape est très similaire à ce que vous voyez dans [!include[pn-hololens](../includes/pn-hololens.md)]. 
 
-### <a name="best-practices-for-the-step-card-page"></a>Meilleures pratiques en matière de page Fiche étape
+### <a name="best-practices-for-the-step-card-page"></a>Page Meilleures pratiques en matière de Fiche étape
 
-- Il est facile d'ajouter une étape à partir de la page Fiche étape. Il suffit de sélectionner **Ajouter une nouvelle étape** dans le coin supérieur droit de la page. Inutile de revenir à la page **Plan**. 
+- Il est facile d'ajouter une étape à partir de la page Fiche étape. Sélectionnez simplement **Ajouter une nouvelle étape** dans le coin supérieur droit de la page ; il n'est pas nécessaire de revenir à la page **Plan**. 
 
   ![Bouton Ajouter une nouvelle étape](media/add-new-step-button.PNG "Bouton Ajouter une nouvelle étape")
 
@@ -169,15 +173,15 @@ Lorsque vous consultez votre guide en mode Créer [!include[pn-hololens](../incl
 
 - Utilisez des mots descriptifs comme « trouver », « rechercher », « obtenir », « prendre », « poser », « insérer », « attacher » et « supprimer ».
 
-- Il est utile d'ajouter une étape **NOTE** à des fins de contrôles de la qualité. Ce type d'étape peut avoir lieu avant ou après une autre étape. Veillez juste à la placer au bon endroit.
+- Il est utile d'ajouter une étape **Note** à des fins de contrôles de la qualité. Ce type d'étape peut avoir lieu avant ou après une autre étape. Veillez juste à la placer au bon endroit.
 
-- Ajoutez une étape **AVERTISSEMENT** pour les éléments susceptibles d'être dangereux ou de provoquer un problème qualitatif. Lorsque vous passez en mode Créer dans [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez appliquer un style pour renforcer l'avertissement.
+- Ajoutez une étape **Avertissement** pour les éléments susceptibles d'être dangereux ou de provoquer un problème qualitatif. Lorsque vous passez en mode Créer dans [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez appliquer un style pour renforcer l'avertissement.
 
 - Le fait d'ajouter de petites étapes numérotées dans une étape peut parfois aider, mais n'ayez pas peur de créer des étapes distinctes pour faciliter la lecture.
 
 - Lorsque vous avez terminé d'écrire une étape, vous devez déplacer le curseur en dehors de la zone de texte pour activer l'enregistrement automatique. 
 
-### Importez vos propres objets 3D personnalisés<a name="import"></a>
+### Importer vos propres objets 3D personnalisés<a name="import"></a>
 
 Vous pouvez importer vos propres objets 3D personnalisés pour les ajouter à la bibliothèque des **Composants 3D**, puis affecter des composants à une étape. 
 
@@ -213,7 +217,7 @@ Pour ajouter un objet à partir de la boîte à outils 3D :
     
 3.  Faites glisser l'objet souhaité de la liste vers une zone **Composants 3D** sous la fiche étape.
 
-    ![Faire glisser un objet à partir de la boîte à outils 3D](media/3d-part.PNG "Faire glisser un objet à partir de la boîte à outils 3D")
+    ![Déplacer un objet à partir de la boîte à outils 3D](media/3d-part.PNG "Déplacer un objet à partir de la boîte à outils 3D")
  
 ### <a name="best-practices-for-3d-toolkit"></a>Meilleures pratiques en matière de boîte à outils 3D
 
@@ -231,18 +235,18 @@ Vous pouvez utiliser tous les raccourcis clavier suivants dans l'application du 
 
 |Raccourci clavier|Action|
 |---------|-------------------------------------------------|
-|Ctrl + S|Enregistrer le guide|
-|Ctrl + C|Copier|
-|Ctrl + V|Coller|
-|Ctrl + X|Couper|
-|Ctrl + A|Sélectionner tout|
-|Ctrl + Z|Annuler la dernière modification du guide|
-|Ctrl + Y|Rétablir la dernière modification du guide|
-|Ctrl + F4|Fermer la fenêtre active|
-|CTRL + Gauche, Droite|Accéder à la tâche ou à l'étape précédente ou suivante, en fonction de ce qui est sélectionné|
-|CTRL + Flèche vers le haut ou Flèche vers le bas|Accéder à la tâche ou à l'étape ci-dessus ou ci-dessous, en fonction de ce qui est sélectionné|
-|Win + Flèche vers le bas|Réduire la fenêtre active|
-|Win + Flèche vers le haut|Agrandir la fenêtre active|
+|Ctrl+S|Enregistrer le guide|
+|Ctrl+C|Copier|
+|Ctrl+V|Coller|
+|Ctrl+X|Couper|
+|Ctrl+A|Sélectionner tout|
+|Ctrl+Z|Annuler la dernière modification du guide|
+|Ctrl+Y|Rétablir la dernière modification du guide|
+|Ctrl+F4|Fermer la fenêtre active|
+|Ctrl+Flèche gauche<br>Ctrl+Flèche droite|Accéder à la tâche ou à l'étape précédente ou suivante, en fonction de ce qui est sélectionné|
+|Ctrl+Flèche haut<br>Ctrl+Flèche bas|Accéder à la tâche ou à l'étape ci-dessus ou ci-dessous, en fonction de ce qui est sélectionné|
+|Touche de logo Windows+Flèche bas|Réduire la fenêtre active|
+|Touche de logo Windows+Flèche haut|Agrandir la fenêtre active|
 
 > [!NOTE]
 > Microsoft continuera à prendre en charge les lecteurs d’écran, le contraste élevé et la convivialité du clavier.

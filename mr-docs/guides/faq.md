@@ -2,17 +2,17 @@
 author: BryceHo
 description: FAQ sur Dynamics 365 Guides
 ms.author: makamat
-ms.date: 10/01/2019
+ms.date: 01/07/2020
 ms.service: crm-online
 ms.topic: article
 title: FAQ sur Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: bdf64adc56ffe32f3940c2adf0c93c94bcc103b3
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: a576f7e416b8a6db0dbd95e972c4a0705b8c2d24
+ms.sourcegitcommit: de7d5972e721f2f061df6e0cd4cdb057da100bf1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537582"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2935914"
 ---
 # <a name="frequently-asked-questions-about-microsoft-dynamics-365-guides"></a>Forum aux questions sur Microsoft Dynamics 365 Guides
 
@@ -24,7 +24,7 @@ Si vous ne pouvez pas utiliser [!include[cc-microsoft](../includes/cc-microsoft.
 
 2. Sous **Aide + support pour Customer Engagement**, sélectionnez **ACCÉDER AU SUPPORT**.
 
-3. Recherchez un numéro de téléphone ou envoyez une demande de support dans le Centre d'administration. 
+3. Recherchez un numéro de téléphone ou envoyez une demande de support dans le centre d'administration. 
 
 ## <a name="why-do-i-have-to-download-two-apps"></a>Pourquoi faut-il télécharger deux applications ?
 
@@ -62,9 +62,17 @@ Si vous envisagez de créer des guides, vous devrez utiliser les deux applicatio
 
 Oui, l'intégration de [!include[pn-dyn-365-field-service](../includes/pn-dyn-365-field-service.md)] a été ajoutée dans la version 104.1907.19001.
 
+## <a name="i-dont-see-my-includepn-dyn-365-guidesincludespn-dyn-365-guidesmd-environment-even-though-i-have-a-valid-includepn-dyn-365-guidesincludespn-dyn-365-guidesmd-license-what-should-i-do"></a>Je ne vois pas mon [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] environnement même si j'ai une licence valide [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Que dois-je faire ? 
+
+Vous avez peut-être installé [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] sur un environnement d'évaluation qui a expiré. Les environnements d'évaluation ont leur propre cycle de vie, indépendant de la licence [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Vous pouvez accéder au [Centre d'administration de Power Platform](https://admin.powerplatform.microsoft.com/environments), sélectionner votre environnement d'évaluation et basculer dans un environnement de production.
+
+## <a name="can-i-use-the-json-data-file-generated-in-common-data-service-when-a-guide-is-created-to-build-or-extend-functionality"></a>Puis-je utiliser le fichier de données JSON généré dans Common Data Service lorsqu'un guide est créé pour créer ou étendre des fonctionnalités ?
+
+Lorsque vous créez un guide à l'aide de l'application du PC, un fichier de données JSON est automatiquement créé dans Common Data Service. Ce fichier est destiné à une utilisation interne uniquement. Il est déconseillé de créer des fonctionnalités au-dessus de ce fichier car elles peuvent changer avec le temps. 
+
 ## <a name="how-do-i-limit-users-to-a-particular-dynamics-365-instance"></a>Comment limiter les utilisateurs à une instance Dynamics 365 spécifique ?
 
-Vous pouvez limiter l'accès des utilisateurs aux instances à l'aide de groupes de sécurité, gérés depuis le Centre d'administration Microsoft 365. Pour plus d'informations, voir [Limiter l'accès des utilisateurs à une instance Dynamics 365 à l'aide de groupes de sécurité](https://community.dynamics.com/365/b/d365demystified/posts/restrict-user-access-to-a-d365-instance-using-security-groups) et [Contrôler l'accès des utilisateurs aux instances : groupes de sécurité et licences](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/add-instance-subscription#control-user-access-to-instances-security-groups-and-licenses).
+Vous pouvez limiter l'accès des utilisateurs aux instances à l'aide de groupes de sécurité, gérés depuis le Centre d'administration Microsoft 365. Pour plus d'informations, voir [Limiter l'accès des utilisateurs à une instance Dynamics 365 à l'aide de groupes de sécurité](https://community.dynamics.com/365/b/d365demystified/posts/restrict-user-access-to-a-d365-instance-using-security-groups) et [Contrôler l'accès des utilisateurs aux instances : groupes de sécurité et licences](https://docs.microsoft.com/dynamics365/customer-engagement/admin/add-instance-subscription#control-user-access-to-instances-security-groups-and-licenses).
 
 ## <a name="i-get-an-error-message-when-i-try-to-sign-in-to-the-pc-app-or-includepn-hololensincludespn-hololensmd-app"></a>J'obtiens un message d'erreur lorsque j'essaie de me connecter à l'application du PC ou à l'application [!include[pn-hololens](../includes/pn-hololens.md)]
 
@@ -86,7 +94,7 @@ Le tableau suivant répertorie les formats de fichier pris en charge pour le con
 
 ## <a name="will-i-lose-any-data-if-i-close-an-app-inadvertently"></a>Est-ce que je vais perdre des données si je ferme une application par inadvertance ?
 
-Les deux applications enregistrent automatiquement vos modifications lorsque vous rédigez des instructions. Nous vous recommandons d'attendre quelques secondes une fois terminé avant de fermer l'application pour qu'elle ait le temps de se synchroniser avec le serveur.
+Les deux applications enregistrent automatiquement vos modifications lorsque vous rédigez des instructions. Une fois terminé, nous vous recommandons d'attendre quelques secondes avant de fermer l'application pour qu'elle ait le temps de se synchroniser avec le serveur.
 
 Notez que dans l'application [!include[pn-hololens](../includes/pn-hololens.md)], si vous utilisez l'écartement des doigts paume vers le haut pour ouvrir le menu **Démarrer**, l'application passe en veille (elle ne se ferme pas). Lorsque vous sélectionnez la vignette de l'application, vous revenez là où vous étiez avant et aucune modification n'est perdue.
 
@@ -97,7 +105,7 @@ Les deux applications enregistrent automatiquement vos modifications lorsque vou
 
 Pour obtenir la liste des raccourcis clavier, voir le [Guide de création](pc-authoring.md).
 
-## <a name="how-can-i-improve-visual-clarity-of-holograms-in-the-includepn-hololensincludespn-hololensmd-app"></a>Comment améliorer la clarté visuel des hologrammes dans l'application [!include[pn-hololens](../includes/pn-hololens.md)] ?
+## <a name="how-can-i-improve-visual-clarity-of-holograms-in-the-includepn-hololensincludespn-hololensmd-app"></a>Comment améliorer la clarté visuelle des hologrammes dans l'application [!include[pn-hololens](../includes/pn-hololens.md)] ?
 
 Si les hologrammes ne sont pas suffisamment clairs, il est possible que [!include[pn-hololens](../includes/pn-hololens.md)] ne soit pas correctement étalonné. L'étalonnage est primordial car [!include[pn-hololens](../includes/pn-hololens.md)] affiche les hologrammes en se basant sur l'écart entre vos pupilles (distance interpupillaire ou « DIP »). Si [!include[pn-hololens](../includes/pn-hololens.md)] n'est pas étalonné correctement, vos yeux ont des difficultés à voir les hologrammes dans le monde réel. 
 
@@ -137,7 +145,7 @@ Ce message s'affiche lorsque vous ou un autre utilisateur modifiez le même guid
 
 ## <a name="i-see-this-message-save-failed-what-does-this-mean"></a>Le message suivant s'affiche : « Échec de l'enregistrement ». Qu'est-ce que cela signifie ?
 
-Le PC et les applications [!include[pn-hololens](../includes/pn-hololens.md)] enregistrent vos modifications sur le serveur 2 secondes après chaque modification. Si l'une de ces tentatives de sauvegarde échoue, cette notification s'affiche.
+Le PC et les applications [!include[pn-hololens](../includes/pn-hololens.md)] enregistrent vos modifications sur le serveur deux secondes après chaque modification. Si l'une de ces tentatives de sauvegarde échoue, cette notification s'affiche.
 
 Cela peut se produire si vous avez une connexion Internet médiocre ou si le serveur est en panne. La notification devrait disparaitre automatiquement une fois que la connexion au serveur est restaurée. Toutefois, si ce message reste affiché, nous vous conseillons de ne plus faire de modification au cours de cette session car elles risqueraient d'être perdues. Vérifiez la connexion Internet sur votre appareil ou contactez votre administrateur pour voir s'il existe des problèmes de connexion.
 

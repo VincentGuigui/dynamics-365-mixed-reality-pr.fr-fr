@@ -1,18 +1,18 @@
 ---
-author: jevertt
+author: bencorn
 description: Lancer Dynamics 365 Remote Assist à partir d'une autre application (activation de protocole)
-ms.author: jevertt
+ms.author: bencorn
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Lancer Dynamics 365 Remote Assist à partir d'une autre application
 ms.reviewer: v-brycho
-ms.openlocfilehash: d343a9ccfd5eaf84a221c71fc9b9f8d217c5d6cd
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: 0165c27c7148fb1ef2f5d4057230724d859900b4
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224281"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921066"
 ---
 # <a name="launch-dynamics-365-remote-assist-from-another-app-protocol-activation"></a>Lancer Dynamics 365 Remote Assist à partir d'une autre application (activation de protocole)
 

@@ -1,18 +1,18 @@
 ---
-author: drpusey
+author: jahardner
 description: Réponses aux questions fréquentes sur l'utilisation de Microsoft Dynamics 365 Remote Assist.
-ms.author: drpusey
+ms.author: johardne
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: FAQ Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: dad300e10c096302363858bf7375323de1e2d639
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: 3e839c26836fc72b23da47300ea96b407cb925b8
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224333"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2920543"
 ---
 # <a name="dynamics-365-remote-assist-faq"></a>FAQ Dynamics 365 Remote Assist
 

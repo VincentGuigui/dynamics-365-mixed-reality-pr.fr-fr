@@ -7,12 +7,12 @@ ms.service: crm-online
 ms.topic: article
 title: Manuel de l'opérateur pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: a620656dd238aa93bbf2c1524aae94935663c54e
-ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
+ms.openlocfilehash: e32c10d1b4646d875fce837422b7feec0208e082
+ms.sourcegitcommit: 884ec8380c44251135d2e2adf06e3e6a4401d2f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "2692138"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2775106"
 ---
 # <a name="operators-manual-for-dynamics-365-guides"></a>Manuel de l'opérateur pour Dynamics 365 Guides
 
@@ -200,8 +200,15 @@ Voici une description des boutons et d'autres éléments de l'IU de la fiche ét
 
 |Nombre|Bouton/Exemple|Nom|Description|
 |---|--|------------------|------------------------------------------------------------------------------------|
-
-|1|![Bouton Accueil](media/home-button.png "Bouton Accueil")|Accueil|Choisissez un autre guide.| |2|![Bouton Mode suivi](media/follow-button.png "Bouton Mode suivi")|Mode suivi|Faites en sorte que la fiche étape vous suive ou verrouillez-la à un emplacement.<br><br>Si vous désactivez le Mode suivi, la fiche étape reste où elle est. Vous pouvez saisir la fiche à tout moment à l'aide de la barre de navigation et la déplacer où vous voulez. Pour plus d'informations, voir la section **Suivre et épingler** plus loin dans cette rubrique.| |3|![Bouton Ancrer](media/anchor-button.PNG "Bouton Ancrer")|Bouton Ancrer|Ancrez à nouveau (réalignez) le guide.<br><br>Il arrive qu'[!include[pn-hololens](../includes/pn-hololens.md)] ne puisse plus se repérer, ce qui provoque un mauvais alignement des hologrammes. Pour résoudre ce problème, vous devez ancrer à nouveau le guide en pointant du regard le point d'ancrage imprimé ou le point d'ancrage numérique. Pour plus d'informations, voir « Ancrer le guide » précédemment dans cette rubrique.| |4|![Bouton Paramètres](media/settings-button.png "Bouton Paramètres")|Paramètres|Accédez aux paramètres suivants :<br><br>- **Ajuster la zone.** Utilisez ce paramètre pour vous assurer que vous tenez correctement l'appareil [!include[pn-hololens](../includes/pn-hololens.md)].Il est très important de bien le tenir. Sinon des hologrammes risquent d'être mal alignés dans votre environnement. Lorsque vous sélectionnez ce paramètre, des bordures s'affichent dans le champ de vision pour garantir que vous tenez [!include[pn-hololens](../includes/pn-hololens.md)] correctement.<br></br>- **Numéro de version.** Affiche la version de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] que vous utilisez.| |5|![Bouton Profil](media/profile-button.png "Bouton Profil")|Profil|Connexion et déconnexion.| |6|![Progression d'étape](media/step-progress.PNG "Progression d'étape")|Progression d'étape|Indique où vous êtes dans l'étape.| |7|![Bouton Plan](media/outline-button.png "Bouton Plan")|Plan|Accédez à la page **Plan**.<br><br>Utilisez la page **Plan** pour parcourir rapidement votre guide. Voici à quoi ressemble la page **Plan** dans le guide Câblage de pylône :</br><br>![Page Plan HoloLens](media/outline-operator.PNG "Page Plan HoloLens")| |8|![Nom de la tâche](media/task-name-table.PNG "Nom de la tâche")|Nom de la tâche|Nom de la tâche sur laquelle vous travaillez.| |9|![Progression de la tâche](media/task-progress.PNG "Progression de la tâche")|Progression de la tâche|Indique où vous en êtes dans la tâche.| 
+|1|![Bouton Accueil](media/home-button.png "Bouton Accueil")|Accueil|Choisissez un autre guide.|
+|2|![Bouton Mode suivi](media/follow-button.png "Bouton Mode suivi")|Mode suivi|Faites en sorte que la fiche étape vous suive ou verrouillez-la à un emplacement.<br><br>Si vous désactivez le Mode suivi, la fiche étape reste où elle est. Vous pouvez saisir la fiche à tout moment à l'aide de la barre de navigation et la déplacer où vous voulez. Pour plus d'informations, consultez la section **Suivre et épingler** plus loin dans cette rubrique.|
+|3|![Bouton Ancrer](media/anchor-button.PNG "Bouton Ancrer")|Bouton Ancrer|Ancrez à nouveau (réalignez) le guide.<br><br>Il arrive qu'[!include[pn-hololens](../includes/pn-hololens.md)] ne puisse plus se repérer, ce qui provoque un mauvais alignement des hologrammes. Pour résoudre ce problème, vous devez ancrer à nouveau le guide en pointant du regard le point d'ancrage imprimé ou le point d'ancrage numérique. Pour plus d'informations, voir « Ancrer le guide » plus haut dans cette rubrique.|
+|4|![Bouton Paramètres](media/settings-button.png "Bouton Paramètres")|Paramètres|Accédez aux paramètres suivants :<br><br>- **Ajuster la zone.** Utilisez ce paramètre pour vous assurer que vous tenez correctement l'appareil [!include[pn-hololens](../includes/pn-hololens.md)].Il est très important de bien le tenir. Sinon des hologrammes risquent d'être mal alignés dans votre environnement. Lorsque vous sélectionnez ce paramètre, des bordures s'affichent dans le champ de vision pour garantir que vous tenez [!include[pn-hololens](../includes/pn-hololens.md)] correctement.<br></br>- **Numéro de version.** Affiche la version de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] que vous utilisez.| 
+|5|![Bouton Profil](media/profile-button.png "Bouton Profil")|Profil|Connexion et déconnexion.| 
+|6|![Progression d'étape](media/step-progress.PNG "Progression d'étape")|Progression d'étape|Indique où vous êtes dans l'étape.|
+|7|![Bouton Plan](media/outline-button.png "Bouton Plan")|Plan|Allez à la page **Plan**.<br><br>Utilisez la page **Plan** pour parcourir rapidement votre guide. Voici à quoi ressemble la page **Plan** dans le guide Câblage de pylône :</br><br>![Page Plan HoloLens](media/outline-operator.PNG "Page Plan HoloLens")| 
+|8|![Nom de la tâche](media/task-name-table.PNG "Nom de la tâche")|Nom de la tâche|Nom de la tâche sur laquelle vous travaillez.| 
+|9|![Progression de la tâche](media/task-progress.PNG "Progression de la tâche")|Progression de la tâche|Indique où vous en êtes dans la tâche.| 
  
 ## <a name="use-a-dotted-line-to-help-you-find-the-focus-area-for-a-step"></a>Utiliser une ligne pointillée pour rechercher la zone ciblée dans une étape 
 Les fiches étape sont liées par des lignes pointillées holographiques aux zones physiques de la zone de travail. Ces lignes pointillées vous aident à rechercher la zone où vous devez agir. 

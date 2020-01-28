@@ -1,18 +1,18 @@
 ---
-author: bencorn
+author: xonatia
 description: Découvrez comment acheter Dynamics 365 Remote Assist, ajouter des utilisateurs à l'abonnement et déployer l'application pour des utilisateurs de plusieurs manières
-ms.author: bencorn
+ms.author: xolee
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Acheter et déployer Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: da078ae4098c3ac256d3e4071ecde27797b1d0fb
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: b780ae294ded1334a8ab147edd2c4e3e50ff09d9
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224406"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921075"
 ---
 # <a name="buy-and-deploy-dynamics-365-remote-assist"></a>Acheter et déployer Dynamics 365 Remote Assist
 
@@ -28,7 +28,7 @@ Vous pouvez vous abonner à [!include[pn-dyn-365-remote-assist](../includes/pn-d
 -   Contactez un représentant [!include[cc-microsoft](../includes/cc-microsoft.md)] comme suit : 
     - En nous appelant au 1-888-477-7989, ou
     
-    - En demandant à être contacté via http://aka.ms/getRemoteassist.
+    - En demandant à être contacté via https://aka.ms/getRemoteassist.
     
 -   Via le [Centre d'administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/catalog). Des instructions détaillées pour se connecter au [!include[pn-microsoft-365-admin-center](../includes/pn-microsoft-365-admin-center.md)] et s'abonner sont fournies ci-dessous.
 
@@ -40,7 +40,7 @@ Vous pouvez vous abonner à [!include[pn-dyn-365-remote-assist](../includes/pn-d
 
 1. Allez à https://admin.microsoft.com/AdminPortal/Home#/catalog.
 
-   ![Centre d'administration](../media/AdminCenter.png "Centre d'administration")
+   ![Centre d'administrateur](../media/AdminCenter.png "Centre d’administration")
    
 2. Connectez-vous sous le compte Administrateur de votre société.
 

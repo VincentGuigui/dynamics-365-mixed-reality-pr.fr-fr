@@ -1,18 +1,18 @@
 ---
-author: jevertt
+author: sophiasysun
 description: Exigences techniques pour le déploiement et l'utilisation de Microsoft Dynamics 365 Remote Assist
-ms.author: jevertt
+ms.author: sopsun
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Configuration requise pour Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: bf44cbf6abd0bf9e4ffb99fe6c5938eed17ddb21
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: 4d96f4ae2f2b34741bda104aa6094cbdee8cd77f
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224272"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921084"
 ---
 # <a name="requirements-for-setting-up-dynamics-365-remote-assist"></a>Configuration requise pour paramétrer Dynamics 365 Remote Assist
 

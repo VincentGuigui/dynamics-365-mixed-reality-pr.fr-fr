@@ -1,18 +1,18 @@
 ---
-author: drpusey
+author: sophiasysun
 description: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
-ms.author: drpusey
+ms.author: sopsun
 ms.date: 10/16/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 61230801cefd57dc6dcaea8cdd3cf35a50a72b40
-ms.sourcegitcommit: f361756d13a2c66992d442fda75bffcf928c6972
+ms.openlocfilehash: 250d4f2c9d6c3084d799dd4452c87ba7f50ca602
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "2633420"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2920924"
 ---
 # <a name="dynamics-365-remote-assist-user-guide-for-hololens"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist (pour HoloLens)
 

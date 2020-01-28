@@ -1,18 +1,18 @@
 ---
-author: bencorn
+author: sophiasysun
 description: Paramétrez les appels interentreprises pour Dynamics 365 Remote Assist en activant l'accès externe dans le Centre d'administration de Microsoft Teams.
-ms.author: becorn
+ms.author: sopsun
 ms.date: 05/06/2019
 ms.service: crm-online
 ms.topic: article
 title: Paramétrer les appels interentreprises pour Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: d7c96ede319cbc891232761102316fc69c5f1df3
-ms.sourcegitcommit: a9ae3e613938a7c53b2de2ce787fae6a3499c9ae
+ms.openlocfilehash: 186796612bac3f5395cf01ca432982204e9c70a2
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593623"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921093"
 ---
 # <a name="set-up-cross-company-calling-for-dynamics-365-remote-assist-for-admins"></a>Paramétrer les appels interentreprises pour Dynamics 365 Remote Assist (pour les administrateurs)
 

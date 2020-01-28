@@ -1,18 +1,18 @@
 ---
-author: carrinef
+author: jahardner
 description: Consultez ces courtes vidéos pour être opérationnel avec Microsoft Dynamics 365 Remote Assist.
-ms.author: cafish
+ms.author: johardne
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Vidéos pratiques pour Dynamics 365 Remote Assist
 ms.reviewer: v-brycho
-ms.openlocfilehash: 82ddb10ec81ab06df15bd0c8372f3398fabfe6f7
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: c4eea3552d18923dd17af2114b32d38b0a6e1196
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224397"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2920884"
 ---
 # <a name="how-to-videos-for-dynamics-365-remote-assist"></a>Vidéos pratiques pour Dynamics 365 Remote Assist
 

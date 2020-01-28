@@ -1,18 +1,18 @@
 ---
-author: drpusey
+author: IshitaGanotra
 description: Guide de l'utilisateur de Dynamics 365 Remote Assist pour mobile
-ms.author: drpusey
+ms.author: isganotr
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Guide de l'utilisateur de Dynamics 365 Remote Assist pour mobile
 ms.reviewer: v-brycho
-ms.openlocfilehash: 0f53e8f5827a0afe777bd82c9b44b747ff87b1d0
-ms.sourcegitcommit: a8de6f8df9f709457e626fd26d6786d4953162a3
+ms.openlocfilehash: 942d63f23630bad70231e7002f473c502cabebcc
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2261613"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2920784"
 ---
 # <a name="dynamics-365-remote-assist-for-mobile-user-guide"></a>Guide de l'utilisateur de Dynamics 365 Remote Assist pour mobile
 
@@ -91,11 +91,11 @@ Vous pouvez également lancer le didacticiel en sélectionnant le bouton Menu pr
 ## <a name="make-a-call"></a>Effectuer un appel
 Après vous être connecté, vous verrez la page **Contacts**, qui est la page principale dans [!include[pn-dyn-365-remote-assist](../../includes/pn-dyn-365-remote-assist.md)] pour mobile. Dans la page **Contacts**, vos contacts sont organisés selon les appels les plus récents.
 
-![Écran contacts](media/contacts.png "Écran contacts")
+![Écran Contacts](media/contacts.png "Écran Contacts")
 
 Pour effectuer un appel :
 
-1.  Sélectionnez ![bouton Rechercher](../media/search-icon.PNG "bouton Rechercher"), entrez le nom du contact à rechercher, puis sélectionnez ce contact dans la liste résultante.
+1.  Sélectionnez ![bouton Rechercher](../media/search-icon.PNG "Bouton Recherche"), entrez le nom du contact à rechercher, puis sélectionnez ce contact dans la liste résultante.
        
     ![Recherche d'un contact](../media/search-contact.PNG "Recherche d'un contact")
     
@@ -103,12 +103,12 @@ Pour effectuer un appel :
 
     ![Écran Lancer l'appel](media/launch-call.png "Écran Lancer l'appel")
   
-    Utilisez les boutons de la barre en bas de l'écran pour mettre en sourdine l'appel, suspendre le flux vidéo, activer l'écoute amplifiée ou terminer l'appel.
+    Utilisez les boutons de la barre en bas de l'écran pour mettre l'appel en sourdine, suspendre le flux vidéo, activer l'écoute amplifiée ou terminer l'appel.
     
     ![Commandes d'appel](media/call-controls.PNG "Commandes d'appel")
     
     A. Suspendre le flux vidéo<br>
-    B. Mettre en sourdine l'appel<br>
+    B. Mettre l'appel en sourdine<br>
     C. Activer l'écoute amplifiée<br>
     D. Terminer l'appel
   
@@ -201,7 +201,7 @@ Lorsque vous vous connectez à [!include[pn-dyn-365-remote-assist](../../include
     ![Écran Sélectionner une réservation](media/bookings-today.jpg "Écran Sélectionner une réservation")
   
     > [!NOTE]
-    > Si vous ne voyez pas la réservation recherchée, cela peut être dû au fait que vous avez accès aux instances multiples (organisations). Pour basculer vers une instance différente, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez l'instance que vous voulez.<br>![Sélectionnez l'instance](../media/select-instance.PNG "Sélectionnez l'instance")
+    > Si vous ne voyez pas la réservation recherchée, cela peut être dû au fait que vous avez accès aux instances multiples (organisations). Pour basculer vers une instance différente, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez l'instance que vous voulez.<br>![Sélectionner une instance](../media/select-instance.PNG "Sélectionner une instance")
     
 ## <a name="sign-out-of-the-app"></a>Se déconnecter de l'application
 

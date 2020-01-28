@@ -1,18 +1,18 @@
 ---
-author: bencorn
+author: xonatia
 description: Essayez Dynamics 365 Remote Assist gratuitement jusqu'à 90 jours.
-ms.author: bencorn
+ms.author: xolee
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.topic: article
 title: Essayez Dynamics 365 Remote Assist gratuitement jusqu'à 90 jours.
 ms.reviewer: v-brycho
-ms.openlocfilehash: c4e32178b6c23fc45824e9dba8471cd38349db90
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: e2cf329377f2402c91f169b5be2a2026935157cd
+ms.sourcegitcommit: 56579384c418edd4f37cd750751fc8e4d8883a65
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224246"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2920725"
 ---
 # <a name="try-dynamics-365-remote-assist-for-free"></a>Essayez Dynamics 365 Remote Assist gratuitement
 
@@ -22,7 +22,7 @@ Une fois que vous êtes connecté, vous pouvez accéder à toutes les fonctionna
 
 ## <a name="install-dynamics-365-remote-assist-and-try-it-out-for-free"></a>Installer Dynamics 365 Remote Assist et l'essayer gratuitement
 
-1. Sur votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarrer** ![Démarrer](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store").
+1. Sur votre [!include[pn-hololens](../includes/pn-hololens.md)], allez à **Démarre** ![Démarre](media/d2a2ae5e90bdd0e0642abb5458af1016.png "Démarrer") \> **[!include[cc-microsoft](../includes/cc-microsoft.md)] Store** ![Microsoft Store](media/2ac602b5a7855d312f3e7d924732acca.png "Microsoft Store").
 
 2. Recherchez « [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] ».
 

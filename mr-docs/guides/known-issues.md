@@ -2,23 +2,23 @@
 author: BryceHo
 description: Problèmes connus avec Dynamics 365 Guides
 ms.author: makamat
-ms.date: 10/01/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Problèmes connus avec Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 2cc3203aa54b46878be4b2262560e86d3d3c9b13
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: e55983cf28d258bff8f12e2b432dc1ba27a46dad
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537280"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994566"
 ---
 # <a name="known-issues-with-microsoft-dynamics-365-guides"></a>Problèmes connus avec Microsoft Dynamics 365 Guides
 
-## <a name="october-1-release-improvements-for-3d-model-positioning-may-shift-models-in-existing-guides"></a>Les améliorations apportées au 1er octobre pour le positionnement de modèles 3D peuvent déplacer les modèles dans les guides existants
+## <a name="improvements-for-3d-model-positioning-in-the-october-1-release-might-shift-models-in-guides-that-were-created-before-october-1-2019"></a>Les améliorations apportées au 1er octobre 2019 pour le positionnement de modèles 3D risquent de modifier les modèles dans les guides créés avant cette date.
 
-La version du 1er octobre inclut une refactorisation du code des positions d'hologramme afin d'améliorer les performances globales et de permettre des améliorations futures. Vous remarquerez peut-être que la position de certains modèles importés, auxquels une échelle a été appliquée, peut être modifiée. Vous devez replacer ces modèles 3D. Cela ne concerne pas la position des modèles de la boîte à outils 3D.
+La version du 1er octobre inclut une refactorisation du code des positions d'hologramme afin d'améliorer les performances globales et de permettre des améliorations futures. Vous remarquerez peut-être que la position de certains modèles importés, auxquels une échelle a été appliquée, peut être modifiée. Vous devez replacer ces modèles 3D. Cela ne concerne pas la position des modèles de la collection 3D.
  
 ## <a name="keep-file-names-for-3d-models-and-media-short"></a>Donner des noms de fichiers courts aux modèles et aux supports 3D
 
@@ -37,13 +37,6 @@ Dans de rares cas, vous pouvez noter que le texte est renvoyé à la ligne dans 
 ## <a name="hololens-app-cant-refresh-when-you-edit-the-anchoring-step-on-a-pc-for-the-same-guide"></a>Impossible d'actualiser l'application HoloLens lorsque vous modifiez l'étape d'ancrage sur un PC pour le même guide
 
 Nous vous recommandons de ne pas ouvrir un guide sur [!include[pn-hololens](../includes/pn-hololens.md)] si une étape d'alignement est en cours de modification pour ce même guide sur un PC. Dans ce cas, l'application [!include[pn-hololens](../includes/pn-hololens.md)] s'actualise automatiquement, mais elle ne peut pas ouvrir le guide.
-
-## <a name="when-authoring-on-hololens-2-authors-need-to-air-tap-to-select-3d-models-before-editing"></a>Lors d'une création sur HoloLens 2, les auteurs doivent cliquer dans l'air pour sélectionner les modèles 3D avant de les modifier.
-
-Sur HoloLens 2, le mode de sélection apparaît lorsque vous cliquez dans l'air des modèles 3D, plutôt que lorsque vous les pointez du regard. Après avoir cliqué dans l'air, vous pouvez cliquer longuement pour effectuer un déplacement, utiliser les gizmos pour effectuer une rotation, ou explorer les options de modification. HoloLens 1 continuera à prendre en charge l'ancien comportement où vous pointiez du regard les modèles 3D pour les sélectionner.
-
-## <a name="recent-guides-list-isnt-scoped-to-user"></a>La liste des guides récents n'est pas disponible pour les utilisateurs
-La liste des guides **récents** n'est pas actuellement disponible pour les utilisateurs. Elle sera prise en charge dans une version ultérieure.
 
 ## <a name="when-placing-large-assets-on-hololens-you-might-see-minor-loading-delays"></a>Lorsque vous placez des ressources volumineuses dans HoloLens, de petits retards de chargement peuvent se produire
 L'application [!include[pn-hololens](../includes/pn-hololens.md)] charge actuellement le guide dès son ouverture, et en arrière-plan quand vous l'utilisez. Si votre guide contient des modèles 3D et des supports volumineux, vous risquez de rencontrer des retards de chargement de quelques secondes.
@@ -64,7 +57,7 @@ Pour le moment, nous ne prenons pas en charge le renommage ou la suppression de 
 
 Nous ne prenons pas en charge plusieurs fichiers portant le même nom dans la version actuelle. Dans le cadre du chargement de nouveaux modèles ou support 3D, vérifiez qu'il n'existe pas de fichier portant le même nom dans la bibliothèque. Vous pouvez, cependant, avoir différents types de fichiers portant le même nom, par exemple, une image qui s'appelle bolt.png et un modèle 3D qui s'appelle bolt.glb.
 
-## <a name="cant-use-the-same-name-for-3d-parts-that-you-upload-even-if-they-have-different-extensions"></a>Impossible d'utiliser le même nom pour des composants 3D qui vous chargez, même s'ils ont des extensions différentes
+## <a name="cant-use-the-same-name-for-3d-parts-that-you-upload-even-if-they-have-different-extensions"></a>Impossible d'utiliser le même nom pour des objets 3D qui vous chargez, même s'ils ont des extensions différentes
 
 L'application recherche actuellement les supports par nom de fichier. Ainsi, par exemple, si un fichier se nomme picture.jpg et un autre picture.png, l'application ne sait pas lequel afficher pour l'étape. Il est donc recommandé d'utiliser systématiquement des noms de fichiers uniques pour les fichiers de support que vous chargez.
 
@@ -112,17 +105,17 @@ Si, à tout moment, vous devez rajuster ce paramètre, vous pouvez définir le p
 
 ## <a name="troubleshooting"></a>Dépannage
 
-### <a name="pc-authoring-application-issues"></a>Problèmes avec l'application de création du PC
+### <a name="pc-authoring-application-issues"></a>Problèmes avec l'application de création sur PC
 
 #### <a name="i-cant-sign-in"></a>Je ne peux pas me connecter
 
 Pour vous connecter, vous devez utiliser les informations d'identification [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365](../includes/pn-dyn-365.md)] de votre organisation. Elles sont semblables à : johndoe@contoso.onmicrosoft.com. Vous ne pouvez pas utiliser de compte [!include[cc-microsoft](../includes/cc-microsoft.md)] (utilisé pour Outlook.com, [!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] Store, etc.) ou vos informations d'identification d'entreprise pour vous connecter. 
 
-Si vous voyez l'une des erreurs suivantes, contactez votre administrateur informatique ou reportez-vous à notre documentation en libre-service dans http://aka.ms/guidesdocs. 
+Si vous voyez l'une des erreurs suivantes, contactez votre administrateur informatique ou reportez-vous à notre documentation en libre-service dans <https://aka.ms/guidesdocs> :
 
-- [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas paramétré correctement, ou vous ne disposez peut-être pas des autorisations nécessaires pour y accéder. Contactez votre administrateur ou reportez-vous à http://aka.ms/guidesdocs.
+- [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas paramétré correctement, ou vous ne disposez peut-être pas des autorisations nécessaires pour y accéder. Contactez votre administrateur ou reportez-vous à la [documentation en libre-service](https://aka.ms/guidesdocs).
 
-- Votre version d'application cliente ne prend pas en charge la version de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Mettez à jour votre application cliente, contactez votre administrateur ou reportez-vous à la documentation en libre-service dans http://aka.ms/guidesdocs.
+- Votre version d'application cliente ne prend pas en charge la version de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Mettez à jour votre application cliente, contactez votre administrateur ou reportez-vous à la [documentation en libre-service](https://aka.ms/guidesdocs).
 
 - Vous ne disposez pas de licence pour utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Contactez votre administrateur ou [inscrivez-vous à l’évaluation gratuite de l’abonnement]().
 
@@ -143,7 +136,7 @@ Si aucun guide n'est répertorié, soit votre connexion Internet est instable, s
 
 #### <a name="i-dont-see-media-or-3d-content-that-i-uploaded-to-the-app"></a>Je ne vois pas le support ou le contenu 3D que j'ai téléchargé dans l'application
 
-Lorsque vous chargez du contenu, à ce stade, l'application ne défile pas automatiquement jusqu'à l'endroit de la bibliothèque où le contenu est téléchargé. Pour trouver le contenu, allez dans la bibliothèque (à droite de l'écran), puis sélectionnez l'onglet approprié (**Composants 3D**, **Images**, **Vidéos** ou **Boîte à outils 3D**).
+Lorsque vous chargez du contenu, à ce stade, l'application ne défile pas automatiquement jusqu'à l'endroit de la bibliothèque où le contenu est téléchargé. Pour trouver le contenu, allez dans la bibliothèque (à droite de l'écran), puis sélectionnez l'onglet approprié (**Objets 3D**, **Images**, **Vidéos** ou **Boîte à outils 3D**).
 
 L'application du PC affiche des notifications (dans la barre de titre supérieure) s'il existe des erreurs pendant le chargement. Vérifiez que le format de fichier de votre contenu est correct, comme indiqué dans le tableau suivant. 
 
@@ -165,11 +158,11 @@ Contactez le service clientèle de [https://docs.microsoft.com/dynamics365/get-s
 
 Pour vous connecter, vous devez utiliser les informations d'identification [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365](../includes/pn-dyn-365.md)] de votre organisation. Elles sont semblables à : johndoe@contoso.onmicrosoft.com. Vous ne pouvez pas utiliser de compte [!include[cc-microsoft](../includes/cc-microsoft.md)] (utilisé pour Outlook.com, [!include[cc-microsoft](../includes/cc-microsoft.md)] Store, etc.) ou vos informations d'identification d'entreprise pour vous connecter. 
 
-Si vous voyez l'une des erreurs suivantes, contactez votre administrateur informatique ou reportez-vous à notre documentation en libre-service dans http://aka.ms/guidesdocs. 
+Si vous voyez l'une des erreurs suivantes, contactez votre administrateur informatique ou reportez-vous à notre documentation en libre-service dans <https://aka.ms/guidesdocs> :
 
-- [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas paramétré correctement, ou vous ne disposez peut-être pas des autorisations nécessaires pour y accéder. Contactez l'administrateur ou utilisez le lien de documentation ci-dessous.
+- [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] n'est pas paramétré correctement, ou vous ne disposez peut-être pas des autorisations nécessaires pour y accéder. Contactez votre administrateur ou reportez-vous à la [documentation en libre-service](https://aka.ms/guidesdocs).
 
-- Votre version d'application cliente ne prend pas en charge la version de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Mettez à jour votre application cliente, contactez votre administrateur ou reportez-vous à la documentation en libre-service dans http://aka.ms/guidesdocs.
+- Votre version d'application cliente ne prend pas en charge la version de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Mettez à jour votre application cliente, contactez votre administrateur ou reportez-vous à la [documentation en libre-service](https://aka.ms/guidesdocs).
 
 - Vous ne disposez pas de licence pour utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Contactez votre administrateur.
 
@@ -228,7 +221,7 @@ Pour permettre aux auteurs de placer des modèles 3D soigneusement et précisém
 #### <a name="i-have-an-issue-that-isnt-listed-in-these-troubleshooting-steps"></a>J'ai un problème qui n'est pas répertorié dans les étapes de résolution des problèmes
 Contactez le service clientèle de [https://docs.microsoft.com/dynamics365/get-started/support/](https://docs.microsoft.com/dynamics365/get-started/support/). Cette page est également disponible en vous connectant à votre compte [!include[pn-dyn-365](../includes/pn-dyn-365.md)] et en sélectionnant le lien **Support**.
 
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [FAQ Dynamics 365 Guides](faq.md)
 

@@ -2,105 +2,118 @@
 author: Mamaylya
 description: En savoir plus sur les ressources de mise en route de Dynamics 365 Guides
 ms.author: Mamaylya
-ms.date: 10/01/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Mise en route de Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 16a43e6d56b2c02dae95547fd126de913a3ec313
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 74cdf54273d28da8b76ee71b281406d804562d7b
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537564"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994813"
 ---
 # <a name="get-started-with-dynamics-365-guides"></a>Mise en route de Dynamics 365 Guides
 
-Vous venez de configurer [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] à l'aide de la [rubrique Configurer](setup.md) et vous êtes prêt à démarrer. Que devez-vous faire ensuite ? Cette rubrique vous donne des idées pour bien démarrer. 
+Vous débutez avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] ? Vous ne savez pas où commencer ? Utilisez cette rubrique pour obtenir un aperçu rapide des ressources disponibles.
 
-## <a name="check-out-the-demo"></a>Consulter la démonstration
+## <a name="top-resources"></a>Meilleures ressources
 
-[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] fournit une démonstration qui présente la valeur de l'application pour votre société. Cette démonstration de cinq minutes est utile pour tout type d'utilisateur [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], que vous soyez un auteur, un opérateur, ingénieur en processus ou un décisionnaire. Elle permet d'obtenir un aperçu rapide du fonctionnement de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Il n'est pas nécessaire d'être en ligne pour utiliser la démonstration. 
+### <a name="documentation"></a>Documentation
 
-Pour lancer la démonstration :
+Cette ressource se trouve là où vous êtes en ce moment. Nous avons organisé la documentation par rôle, afin que vous puissiez trouver rapidement le contenu dont vous avez besoin, selon que vous êtes administrateur, auteur ou opérateur.
 
-1. Cliquez dans l'air sur la vignette [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
+![Table des matières organisée par rôle](media/organized-by-role.PNG "Table des matières organisée par rôle")
 
-   ![Logo de Dynamics 365 Guides](media/Logo.png "Logo de Dynamics 365 Guides")
+### <a name="video-tutorials"></a>Didacticiels visuels
 
-2. Sélectionnez le bouton **Essayer cette démonstration**.
+Ces didacticiels vidéo étape par étape fournissent un aperçu rapide des concepts clés :
 
-   ![Bouton Essayer la démonstration](media/try-demo.PNG "Bouton Essayer la démonstration")
-   
-   Les sections suivantes donnent un aperçu rapide de ce que vous verrez dans la démonstration. 
+- ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Présentation de Dynamics 365 Guides](https://www.youtube.com/watch?v=dk-TbWtMb-4&feature=youtu.be)
 
-### <a name="find-your-way-around"></a>Prendre ses marques 
+- ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Créer un guide dans l'application du PC](https://www.youtube.com/watch?v=PiN31iAiRrQ&feature=youtu.be)
 
-Essayez l'interface mains libres pour activer des boutons, même lorsque vos mains sont occupées. Pointez le bouton **Suivant** du regard pour avancer dans un guide, et le bouton **Précédent** pour reculer. 
+- Ancrer votre guide dans le monde réel :
 
-![Boutons Suivant et Précédent](media/navigate-example.PNG "Boutons Suivant et Précédent")
+    - ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Utiliser un point d'ancrage imprimé](https://www.youtube.com/watch?v=m_I-viB3np8&feature=youtu.be)
 
-### <a name="step-examples"></a>Exemples d'étape
+    - ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Utiliser un point d'ancrage numérique](https://www.youtube.com/watch?v=LNQ3W-p7_sU&feature=youtu.be)
 
-Découvrez comment les étapes peuvent contenir des procédures sécurisées avec des hologrammes 3D et des photos 2D. 
+- ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Créer dans l'application HoloLens](https://www.youtube.com/watch?v=HXG8zWOYqlk&feature=youtu.be)
 
-![Exemples de procédure sécurisée](media/step-example-1.PNG "Exemples de procédure sécurisée")
+- ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Utiliser un guide](https://www.youtube.com/watch?v=XIRyvg38qlM&feature=youtu.be)
 
-Suivez des instructions détaillées qui indiquent où se déroule le travail.
+- ![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Analyser les guides à l'aide des états Power BI](https://www.youtube.com/watch?v=rkriIa4go1Q&feature=youtu.be)
 
-![Exemples de ligne pointillée](media/step-example-2.PNG "Exemples de ligne pointillée")
+### <a name="demo"></a>Démonstration
 
-## <a name="check-out-our-documentation-and-videos"></a>Consulter notre documentation et nos vidéos
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] fournit une démonstration en cinq minutes qui présente la valeur de l'application pour votre société. Cette démonstration est utile pour tout utilisateur [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], qu'il soit auteur, opérateur, ingénieur en processus ou décisionnaire. Il n'est pas nécessaire d'être en ligne pour utiliser la démonstration.
 
-Le tableau suivant fournit des liens utiles pour en savoir plus sur les trois opérations de base que vous pouvez effectuer avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] : créer un guide, utiliser un guide ou analyser un guide.
+Pour démarrer la démonstration, cliquez dans l'air sur la vignette [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], puis sélectionnez **Essayez la démonstration**.
 
-|Tâche|Documentation en ligne|Vidéo(s)|
-|----------------------------|--------------------------------------------|-----------------------------------------------|
-|Créer un guide|[Présentation de la création](authoring-overview.md)|- [Créer sur le PC](https://aka.ms/pcauthor)<br>- [Créer sur HoloLens](https://aka.ms/hololensauthor)<br>- [Créer un point d'ancrage imprimé](https://aka.ms/guidesprintedanchor)<br>- [Créer un point d'ancrage numérique](https://aka.ms/guidesdigitalanchor)|
-|Utiliser un guide|[Manuel de l'opérateur](operator-guide.md)|[Utiliser un guide](https://aka.ms/guidesoperate)|
-|Analyser l'utilisation des guides|[Analyser un guide](analytics-guide.md)|[Analyser un guide](https://aka.ms/guidesanalyze)|
+![Bouton Essayez la démonstration](media/try-demo-2.PNG "Bouton Essayez la démonstration")
 
-Vous avez un doute sur un terme ? Consultez le [Glossaire des termes](glossary.md). 
+### <a name="example-guide"></a>Guide illustratif
 
-> [!NOTE]
-> Pour découvrir les nouvelles fonctionnalités de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)], consultez la page [Nouveautés](new.md). Pour découvrir les nouvelles fonctionnalités [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et celles à venir, consultez les [Notes de publication d'avril 2019](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-mixed-reality/microsoft-dynamics365-guides/planned-features) et le [programme de la 2e partie du lancement 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/mixed-reality/dynamics365-guides/planned-features). Les notes de publication et le programme de publication rassemblent tous les renseignements de manière exhaustive dans un emplacement unique que vous pouvez utiliser pour la planification. 
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] contient un Guide illustratif que vous pouvez utiliser pour en savoir plus sur le produit. Il vous explique les fonctionnalités et les workflows courants, il fournit des conseils et des astuces pour créer un guide, et vous permet d'être rapidement opérationnel.
 
-## <a name="jump-in"></a>Démarrer
+![Guide illustratif](media/example-guide-3.PNG "Guide illustratif")
 
-La meilleure façon de découvrir [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] est d'apprendre par la pratique. Voici quelques astuces pour bien démarrer : 
+Pour essayer le guide illustratif, branchez votre appareil [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)], démarrez l'application [!include[pn-hololens](../includes/pn-hololens.md)] en mode **Opérer** et sélectionnez **Exemple de guide**.
 
-- Visionnez la démonstration (voir la première section de cette rubrique).
+Parcourez le guide étape par étape pour découvrir les principales fonctionnalités. Ensuite, lorsque vous êtes prêt à passer au niveau suivant, utilisez l'application du PC pour modifier les étapes et les ressources du guide, ou placez des instructions ou des hologrammes en utilisant l'application [!include[pn-hololens](../includes/pn-hololens.md)] en mode **Auteur**.
 
-- [Visionner notre vidéo de présentation](https://aka.ms/overview)
+## <a name="understand-concepts"></a>Comprendre les concepts
 
-- Utilisez le guide illustratif :
+Utilisez ces rubriques pour obtenir un aperçu rapide du produit et du processus de création d'un guide :
 
-    - Nous avons inclus un guide illustratif que vous pouvez utiliser pour en savoir plus sur [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Il vous explique les fonctionnalités et les workflows courants, il fournit des conseils et des astuces pour bien créer un guide, et vous permet d'être rapidement opérationnel.
-    
-      ![Exemple de guide](media/example-guide.PNG "Exemple de guide")
+- [Présentation de Dynamics 365 Guides](index.md)
 
-    - Mettez votre appareil [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-hololens](../includes/pn-hololens.md)] en service, démarrez l'application [!include[pn-hololens](../includes/pn-hololens.md)] en mode Opérer et sélectionnez l'exemple de guide. Parcourez le guide étape par étape pour découvrir les principales fonctionnalités. 
+- [Présentation de la création](authoring-overview.md)
 
-    - Modifiez les étapes et les ressources du guide à l'aide de l'application de création sur PC ou placez des instructions ou des hologrammes à l'aide de l'application [!include[pn-hololens](../includes/pn-hololens.md)] en mode Créer. 
-    
-- Créez votre premier guide de toutes pièces, essayez-le, et analysez-le.
+- [Création d'un excellent guide de réalité mixte](great-guide.md)
 
-     - Pour créer votre premier guide, recherchez une opération ou un assemblage détaillé simple et un espace physique pour cette opération ou cet assemblage auquel vous avez accès. Nous avons créé des guides pour faire fonctionner un projecteur, verser de l'eau dans un verre, et fabriquer une volière ! Ou utilisez un workflow du monde réel dans votre entreprise. 
+- [Glossaire des termes](glossary.md)
 
-     - Créez votre premier guide à l'aide des objets de la boîte à outils 3D (fournis avec [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]). Créez des tâches et des étapes et affectez du contenu 3D dans l'application sur PC, puis passez à l'application [!include[pn-hololens](../includes/pn-hololens.md)] pour placer vos hologrammes et ajouter des lignes holographiques pointillées pour connecter les fiches d'instructions aux espaces physiques auxquels ils se rapportent. Reportez-vous aux rubriques [Création](authoring-overview.md) et [Utilisation](operator-guide.md) pour obtenir de l'aide. 
+## <a name="set-up-and-administer-dynamics-365-guides"></a>Paramétrer et administrer Dynamics 365 Guides
 
-     - Après avoir créé votre guide, essayez-le en mode Opérer pour voir comment il fonctionne. 
+Voici les rubriques les plus importantes pour les administrateurs :
 
-     - Analysez l'utilisation du guide avec des états [!include[pn-power-bi](../includes/pn-power-bi.md)]. Consultez [Analyser les guides](analytics-guide.md) pour plus d'informations. 
+- [Configuration requise pour l'installation](requirements.md)
 
-## <a name="need-support"></a>Vous avez besoin d'aide ?
+- [Présentation de la configuration](setup.md)
 
-Si vous rencontrez un problème, consultez les rubriques [FAQ](faq.md) et [Problèmes connus](known-issues.md). Si cela ne vous aide pas, contactez le support. Vous trouverez des informations pour contacter le support dans le [FAQ](faq.md).
+- [Mettre à niveau la solution](upgrade.md)
 
-### <a name="see-also"></a>Voir aussi
+## <a name="find-out-whats-new"></a>Découvrez les nouveautés
 
-[Créer un guide](authoring-overview.md)<br>
-[Manuel de l'opérateur](operator-guide.md)<br>
-[Analyser les guides](analytics-guide.md)<br>
-[FAQ](faq.md)<br>
-[Problèmes connus](known-issues.md)
+Nous mettons constamment à jour [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour inclure les meilleures fonctionnalités demandées par les clients. Pour découvrir les nouveautés, consultez la rubrique [Nouveautés](new.md). Vous pouvez également accéder à cette rubrique en sélectionnant le bouton **Aide** (point d'interrogation) dans le coin supérieur droit de l'application du PC. Par conséquent, elle est toujours à portée de main.
+
+![Commande Nouveautés](media/what-new.PNG "Commande Nouveauté")
+
+Pour savoir quand des fonctionnalités ont été introduites ou pour en savoir plus sur celles à venir, consultez les rubriques du pan de lancement :
+
+- [1ère partie du lancement 2019 (entre avril et septembre 2019)](https://docs.microsoft.com/business-applications-release-notes/April19/index)
+
+- [2e partie du lancement 2019 (entre octobre 2019 et mars 2020)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index)
+
+## <a name="integrations"></a>Intégrations
+
+Vous pouvez intégrer [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] dans Dynamics 365 Field Service, afin que les techniciens de maintenance sur site puissent utiliser [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] pour terminer leurs ordres de travail.
+
+![Onglet Field Service](media/field-service-2.PNG "Onglet Field Service")
+
+Pour en savoir plus, consultez cette rubrique :
+
+- [Intégrer Dynamics 365 Guides dans Dynamics 365 Field Service](field-service.md)
+
+## <a name="need-help-or-support"></a>Besoin d'aide ou de support ?
+
+Si vous rencontrez un problème, consultez ces rubriques :
+
+- [FAQ](faq.md)
+
+- [Problèmes connus](known-issues.md)
+
+Si vous ne trouvez pas ce que vous cherchez, [recherchez une liste de numéros de téléphone que vous pouvez utiliser pour contacter l'assistance](help.md).

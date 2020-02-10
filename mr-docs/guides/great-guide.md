@@ -2,17 +2,17 @@
 author: Mamaylya
 description: En savoir plus sur ce qu'il faut faire et ne pas faire pour créer avec succès un guide de réalité mixte dans Dynamics 365 Guides
 ms.author: mamaylya
-ms.date: 10/01/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Création d'un bon guide de réalité mixte dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: bb075579c058b8e30393506aae70f0d75bc101fd
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 8b41a9a7bd98868209c3a3df2d9b7ab51d3ceec5
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537249"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994716"
 ---
 # <a name="how-to-make-a-great-mixed-reality-guide"></a>Création d'un excellent guide de réalité mixte
 
@@ -22,7 +22,7 @@ D'autres documents en ligne dans [!include[pn-dyn-365-guides](../includes/pn-dyn
 
 ### <a name="gather-content"></a>Collecter du contenu
 
-Collectez autant de contenu que vous pouvez avant de commencer à créer votre guide. Cela inclut des images, des vidéos, et du contenu 3D (si vous en avez) et les objets physiques eux-mêmes (si possible). Ne vous inquiétez pas si vous n'avez pas de contenu 3D. Guides inclut une boîte à outils 3D (contenant des modèles simples comme des flèches, des mains, des zones, etc.) que vous pouvez utiliser pour commencer.
+Collectez autant de contenu que vous pouvez avant de commencer à créer votre guide. Cela inclut des images, des vidéos, et du contenu 3D (si vous en avez) et les objets physiques eux-mêmes (si possible). Ne vous inquiétez pas si vous n'avez pas de contenu 3D. Guides inclut une collection 3D (contenant des modèles simples comme des flèches, des mains, des zones, etc.) que vous pouvez utiliser pour commencer.
 
 ### <a name="understand-the-space"></a>Comprendre l'espace
 
@@ -101,7 +101,7 @@ Il est important de comprendre les objectifs de la leçon et le public cible ava
    
      Exemple incorrect :
      
-     ![Phrases multiples](media/bad-example.PNG "Phrases multiples")
+     ![Plusieurs phrases](media/bad-example.PNG "Plusieurs phrases")
      
      Exemple correct :
      
@@ -221,7 +221,7 @@ Nous vous recommandons d'utiliser des images 2D dans les scénarios suivants :
       
    ![Exemple de validation de l'orientation](media/orientation-validation.PNG "Exemple de validation de l'orientation")  
 
-  – Validation des pièces. Utilisez des images pour l'identification des pièces si un poste de travail a plusieurs pièces qui peuvent être confondues visuellement. Cela est particulièrement utile lorsque deux ou plusieurs pièces sont très similaires, à quelques différences près.      
+  – Validation des pièces. Utilisez des images pour l'identification des pièces si un poste de travail a plusieurs pièces qui peuvent être confondues visuellement. Cela est particulièrement utile lorsque deux ou plusieurs pièces sont très similaires, à une différence près.      
 
     Validez qu'un opérateur prélève la bonne pièce en la comparant à une image ou à un numéro de référence.
 
@@ -293,7 +293,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
     
 ## <a name="3d-toolkit"></a>Boîte à outils 3D
 
-### <a name="3d-toolkit-categories"></a>Catégories de boîte à outils 3D :
+### <a name="3d-toolkit-categories"></a>Catégories de collection 3D :
 
 #### <a name="arrows"></a>Flèches
 
@@ -303,7 +303,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
   - Lorsque l'opérateur doit insérer une pièce dans un objet :
 
-    –   Les flèches sont utiles pour pointer vers un emplacement spécifique (dans une tolérance de +/- 2 mm)
+    –   Les flèches sont utiles pour pointer vers un emplacement spécifique.
 
     –   Les flèches peuvent être utilisées pour indiquer la direction. Exemple : « Tournez le levier jusqu'à ce qu'il soit serré à fond » avec la flèche en demi-cercle correspondante pour indiquer le sens du mouvement
 
@@ -318,7 +318,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
 - Les mains sont utiles pour indiquer des orientations ou des mouvements spécifiques de la main.
 
-- Utilisez les mains lorsque vous souhaitez que l'opérateur utilise ses mains d'une manière spécifique pour saisir ou manipuler un objet. Il existe de nombreuses postures pour des interactions spécifiques qui sont disponibles dans la boîte à outils 3D, comme tirer, pousser, pincer, saisir, etc. Combinez les mains avec des flèches et/ou des hologrammes 3D supplémentaires pour ajouter une signification supplémentaire.
+- Utilisez les mains lorsque vous souhaitez que l'opérateur utilise ses mains d'une manière spécifique pour saisir ou manipuler un objet. Il existe de nombreuses postures pour des interactions spécifiques qui sont disponibles dans la collection 3D, comme tirer, pousser, pincer, saisir, etc. Combinez les mains avec des flèches et/ou des hologrammes 3D supplémentaires pour ajouter une signification supplémentaire.
 
 - En général, les nuanceurs « Choisir » ou « Placer » fonctionnent mieux avec les mains pour permettre aux opérateurs d'aligner visuellement leurs mains sur l'hologramme.
 
@@ -374,7 +374,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
 ## <a name="custom-3d-holograms"></a>Hologrammes 3D personnalisés
 
-- En général, essayez d'effectuer une étape à l'aide de la boîte à outils 3D. Si vous ne parvenez pas à obtenir le résultat souhaité avec les ressources de la boîte à outils 3D, vous pouvez utiliser une ressource, image ou vidéo personnalisée à la place.
+- En général, essayez d'effectuer une étape à l'aide de la collection 3D. Si vous ne parvenez pas à obtenir le résultat souhaité avec les ressources de la collection 3D, vous pouvez utiliser une ressource, image ou vidéo personnalisée à la place.
 
 - Utilisez des ressources haute-fidélité personnalisées quand les détails ont de l'importance, et des ressources basse fidélité personnalisées pour connaître les principes essentiels quand les détails ont peu d'importance. Par exemple, si la précision détaillée est importante, comme référencer un port ou un levier spécifique, des ressources personnalisées très détaillées peuvent être nécessaires. D'autre part, si vous essayez d'indiquer comment aligner un objet, une forme générale permet d'obtenir l'effet souhaité.
 
@@ -384,7 +384,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
 - Utilisez un hologramme personnalisé de l'objet entier pour les étapes d'orientation et d'alignement.
 
-- Vous pouvez toujours utiliser une combinaison de ressources personnalisées avec la boîte à outils 3D dans n'importe quelle étape.
+- Vous pouvez toujours utiliser une combinaison de ressources personnalisées avec la collection 3D dans n'importe quelle étape.
 
 ## <a name="hologram-styles"></a>Styles d'hologramme
 
@@ -396,7 +396,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
 #### <a name="original"></a>Original
 
-- Pour les ressources de la boîte à outils 3D, le nuanceur Original est un support blanc.
+- Pour les ressources de la collection 3D, le nuanceur Original est un support blanc.
 
    –    Le support blanc Original est un bon style générique, car il n'a aucune forte connotation préexistante pour les opérateurs.
 
@@ -418,7 +418,7 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
   – Demander à l'opérateur de choisir un composant/une pièce. Cela convient particulièrement pour :
     
-   - Les hologrammes de la boîte à outils 3D, car les opérateurs peuvent aligner leur main sur l'hologramme, en la positionnant dans l'orientation et la position appropriées.
+   - Les hologrammes de la collection 3D, car les opérateurs peuvent aligner leur main sur l'hologramme, en la positionnant dans l'orientation et la position appropriées.
 
    – Choisir des pièces, car le contour autour de l'objet du monde réel le distingue visuellement du reste de l'environnement.
 
@@ -484,10 +484,10 @@ Faites des vidéos à la troisième personne ou à la première personne.
 
 - Veillez à expliquer les notions fondamentales d'ancrage aux opérateurs, sinon ils risquent de ne pas savoir comment corriger l'alignement incorrect d'un objet du monde réel.
 
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Créer un guide](authoring-overview.md)<br>
-[Manuel de l'opérateur](operator-guide.md)<br>
+[Présentation de l'utilisation d'un guide](operator-overview.md)<br>
 [Analyser les guides](analytics-guide.md)<br>
 [FAQ](faq.md)<br>
 [Problèmes connus](known-issues.md)

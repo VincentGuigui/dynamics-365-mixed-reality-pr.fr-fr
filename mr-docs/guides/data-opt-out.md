@@ -1,20 +1,20 @@
 ---
 author: Makamat
-description: Décrit comment désactiver le stockage des données d'événements Dynamics 365 Guides, pour des raisons de confidentialité, dans Common Data Service.
+description: Découvrez comment désactiver le stockage des données d'utilisation Microsoft Dynamics 365 Guides dans Common Data Service, pour des raisons de confidentialité.
 ms.author: makamat
-ms.date: 07/09/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
-title: Désactiver le stockage des données d'événements Dynamics 365 Guides dans Common Data Service
+title: Désactiver le stockage des données d'utilisation Dynamics 365 Guides dans Common Data Service
 ms.reviewer: v-brycho
-ms.openlocfilehash: 8e19ebc56dc4abc01cae3ca68aea380c49791830
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: e55ee2841cfa57b842615cdffa3b3db027b56f4b
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2050049"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994795"
 ---
-# <a name="opt-out-of-storing-dynamics-365-guides-events-data-in-common-data-service"></a>Désactiver le stockage des données d'événements Dynamics 365 Guides dans Common Data Service
+# <a name="opt-out-of-storing-dynamics-365-guides-usage-data-in-common-data-service"></a>Désactiver le stockage des données d'utilisation Dynamics 365 Guides dans Common Data Service
 
 Les applications Dynamics 365 Guides permettent aux équipes de capturer des statistiques d'utilisation et des informations de suivi du temps détaillées. Ces données sont utilisées pour fournir des mesures de performances des opérateurs et pour vous aider à identifier les opportunités d'optimisation des processus. Les administrateurs peuvent désactiver la collecte de données pour des utilisateurs spécifiques s'ils le souhaitent. 
 
@@ -32,7 +32,7 @@ Pour ce faire :
  
 5.  Sélectionnez **Nouveau**.
 
-    ![Sélectionnez Nouveau](media/data-opt-out-new.PNG "Sélectionnez Nouveau")
+    ![Sélectionner Nouveau](media/data-opt-out-new.PNG "Sélectionner Nouveau")
  
 6.  Complétez le formulaire comme suit :
 
@@ -46,6 +46,6 @@ Pour ce faire :
 
     ![Formulaire complété](media/data-opt-out-filled-out-form.PNG "Formulaire complété")
  
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Analyser l'utilisation des guides](analytics-guide.md)

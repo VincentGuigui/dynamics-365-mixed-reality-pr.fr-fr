@@ -2,17 +2,17 @@
 author: makamat
 description: Intégration de Dynamics 365 Field Service dans Dynamics 365 Guides pour que les techniciens sur le terrain puissent suivre un guide lorsqu'ils exécutent un ordre de travail
 ms.author: makamat
-ms.date: 10/01/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Intégrer Dynamics 365 Field Service dans Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: aa548a0fd366628c3aebdc6e3bb5cd6b50ccafed
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 090dc5e7dd61f9f26acb10c4764483903171574a
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049974"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994743"
 ---
 # <a name="integrate-dynamics-365-field-service-with-dynamics-365-guides"></a>Intégrer Dynamics 365 Field Service dans Dynamics 365 Guides
 
@@ -27,9 +27,9 @@ L'intégration de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!includ
 
 1. Créez un guide à l'aide des applications sur PC [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] et [!include[pn-hololens](../includes/pn-hololens.md)]. Pour plus d'informations sur la création d'un guide, voir :
   
-   - [Utiliser l'application de création sur PC pour créer un guide](pc-authoring.md)
+   - [Présentation de la création d'un guide dans l'application du PC](pc-app-overview.md)
    
-   - [Utiliser l'application HoloLens pour placer vos hologrammes](hololens-authoring.md)
+   - [Présentation de la création d'un guide dans l'application HoloLens](hololens-app-overview.md)
    
 2. Créez un ordre de travail [!include[pn-field-service](../includes/pn-field-service.md)] et joignez-y une tâche de service. 
 
@@ -59,9 +59,13 @@ L'intégration de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!includ
 
     ![Sélectionner un guide](media/select-guide-3.PNG "Sélectionner un guide")   
     
-    
+
 > [!NOTE]
-> Gardez à l'esprit les points suivants :<br><br>- L'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] [!include[pn-hololens](../includes/pn-hololens.md)] affiche les ordres de travail planifiés pour le jour même et les huit jours suivants.<br><br>- Les ordres de travail continuent à s'afficher sur [!include[pn-hololens](../includes/pn-hololens.md)] jusqu'à ce qu'ils soient marqués comme **Terminés** dans [!include[pn-field-service](../includes/pn-field-service.md)] ou affectés à quelqu'un d'autre.
+> Gardez à l'esprit les points suivants :
+>
+> - L'application [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] [!include[pn-hololens](../includes/pn-hololens.md)] affiche les ordres de travail planifiés pour le jour même et les huit jours suivants.
+>
+> - Les ordres de travail continuent à s'afficher sur [!include[pn-hololens](../includes/pn-hololens.md)] jusqu'à ce qu'ils soient marqués comme **Terminés** dans [!include[pn-field-service](../includes/pn-field-service.md)] ou affectés à quelqu'un d'autre.
 
 ### <a name="known-issues"></a>Problèmes connus
 
@@ -71,7 +75,7 @@ L'intégration de [!include[cc-microsoft](../includes/cc-microsoft.md)] [!includ
    
    ![Créer un guide à partir de Field Service](media/create-new-guide-from-field-service.PNG "Créer un guide à partir de Field Service")   
 
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Présentation de Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/overview)
       

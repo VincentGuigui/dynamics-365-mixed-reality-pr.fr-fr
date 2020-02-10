@@ -2,17 +2,17 @@
 author: BryceHo
 description: Décrit les états d'Analyses de Guides--Power BI que vous pouvez utiliser dans Dynamics 365 Guides pour améliorer l'efficacité des processus.
 ms.author: cynielse
-ms.date: 10/01/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Présentation des états d'Analyses de Guides, Power BI pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: cdaefe49648e1c6d311d7678ed2c9eaae6189cc8
-ms.sourcegitcommit: f37698eb33fd4d198b054e73ce3d9ec680c56e21
+ms.openlocfilehash: 3fc55233e91fe63ce96e3f3e7e889d2c0826b4be
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537133"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994516"
 ---
 # <a name="analyze-guides-created-with-dynamics-365-guides"></a>Analyser des guides créés avec Dynamics 365 Guides
  
@@ -133,7 +133,7 @@ L'état Utilisation des guides fournit une vue d'ensemble de tous les guides uti
   
     ![Développer jusqu'au niveau suivant](media/expand-to-next-level.PNG "Développer jusqu'au niveau suivant")
  
-    **Filtrer par date.** Modifiez la plage de dates à l'aide du slicer Filtrer par date. Sélectionnez les dates de début et de fin pour les définir manuellement, ou déplacez le curseur.
+    **Filtrer par date.** Modifiez la plage de dates à l'aide du segment Filtrer par date. Sélectionnez les dates de début et de fin pour les définir manuellement, ou déplacez le curseur.
    
      >[!NOTE]
      >Le filtre date s'applique à tous les visuels et statistiques de l'état. 
@@ -215,10 +215,12 @@ Une fois que vous disposez d'une licence [!include[pn-power-bi](../includes/pn-p
 
 3.  [Publier le contenu de l'espace de travail en tant qu'application dans le service Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).  
  
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
-[Vidéo : Analyser vos guides](https://aka.ms/guidesanalyze)<br>
-[Documentation : Présentation de la création d'un guide](authoring-overview.md)</br>
-[Documentation : Utilisation d'un guide](operator-guide.md)</br>
-[FAQ](faq.md)
+![Graphique de la caméra vidéo](media/video-camera.PNG "Graphique de la caméra vidéo") [Analyser les guides](https://aka.ms/guidesanalyze)<br>
+![Graphique du document](media/doc-icon.PNG "Graphique du document") [Présentation de la création d'un guide](authoring-overview.md)</br>
+![Graphique du document](media/doc-icon.PNG "Graphique du document") [Présentation de l'utilisation d'un guide](operator-overview.md)</br>
+![Graphique du document ](media/doc-icon.PNG "Graphique du document")[FAQ](faq.md)
+
+
 

@@ -2,17 +2,17 @@
 author: BryceHo
 description: FAQ sur Dynamics 365 Guides
 ms.author: makamat
-ms.date: 01/07/2020
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: FAQ sur Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: a576f7e416b8a6db0dbd95e972c4a0705b8c2d24
-ms.sourcegitcommit: de7d5972e721f2f061df6e0cd4cdb057da100bf1
+ms.openlocfilehash: d4e233bb1bce8c47d08a89e9254858d03b59eaad
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2935914"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994725"
 ---
 # <a name="frequently-asked-questions-about-microsoft-dynamics-365-guides"></a>Forum aux questions sur Microsoft Dynamics 365 Guides
 
@@ -103,7 +103,7 @@ Les deux applications enregistrent automatiquement vos modifications lorsque vou
 
 ## <a name="what-keyboard-shortcuts-are-available-in-the-pc-authoring-app"></a>Quels sont les raccourcis clavier disponibles dans l'application de création sur PC ?
 
-Pour obtenir la liste des raccourcis clavier, voir le [Guide de création](pc-authoring.md).
+Pour obtenir la liste des raccourcis clavier, consultez [Raccourcis clavier pour l'application du PC](keyboard-shortcuts-pc-app.md).
 
 ## <a name="how-can-i-improve-visual-clarity-of-holograms-in-the-includepn-hololensincludespn-hololensmd-app"></a>Comment améliorer la clarté visuelle des hologrammes dans l'application [!include[pn-hololens](../includes/pn-hololens.md)] ?
 
@@ -111,7 +111,7 @@ Si les hologrammes ne sont pas suffisamment clairs, il est possible que [!includ
 
 Pour étalonner [!include[pn-hololens](../includes/pn-hololens.md)] :
 
-1.  Écartez des doigts paume vers le haut pour ouvrir le menu **Démarrer**.
+1.  Écartez les doigts paume vers le haut pour ouvrir le menu **Démarrer**.
 
 2.  Écartez de nouveau les doigts paume vers le haut pour afficher toutes les applications installées. 
 
@@ -133,7 +133,7 @@ Un alignement incorrect des hologrammes peut se produire pour deux motifs princi
 
 - Si le guide est aligné à l'aide d'un **point d'ancrage imprimé**, il est possible que le marqueur du guide n'ait pas été imprimé correctement. Essayez de réaligner le guide en cliquant sur le bouton **Ancrer**. Vous pouvez aussi imprimer à nouveau le marqueur. Assurez-vous que le marqueur imprimé soit bien à plat dans la zone de travail avant de réaligner.
 
-Pour plus d'informations sur les méthodes d'ancrage, voir le [Guide de création](pc-authoring.md).
+Pour plus d'informations sur les méthodes d'ancrage, voir [Ancrer votre guide dans le monde réel](anchor.md).
 
 ## <a name="what-does-the-save-button-with-the-refresh-icon-mean-how-does-save-work"></a>Que signifie le bouton Enregistrer avec l'icône d'actualisation ? Comment fonctionne l'enregistrement ?
 
@@ -151,7 +151,7 @@ Cela peut se produire si vous avez une connexion Internet médiocre ou si le ser
 
 ## <a name="can-i-add-more-than-eight-3d-models-to-a-step"></a>Est-ce que je peux ajouter plus de huit modèles 3D à une étape ?
 
-Il n'y a que huit zones **composants 3D** dans l'emplacement, ce qui limite la variété de modèles 3D qu'il est possible d'ajouter au cours d'une étape. Lorsque vous placez des hologrammes dans [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez cependant en placer un nombre illimité à partir de l'emplacement. Par exemple, vous ne pouvez pas ajouter plus de huit modèles 3D différents (des flèches, des boîtes, des écrous, des forets, etc.) à l'emplacement, mais vous pouvez placer autant de flèches, de boîtes, d'écrous et de forets à partir de chaque zone de **Composant 3D** que vous souhaitez dans [!include[pn-hololens](../includes/pn-hololens.md)]. Pour ce faire, cliquez soit sur des emplacements de ressource pour engendrer des modèles 3D ou accédez au menu **Modifier** d'un modèle 3D et sélectionnez **Dupliquer**.
+Il n'y a que huit zones **objets 3D** dans l'emplacement, ce qui limite la variété de modèles 3D qu'il est possible d'ajouter au cours d'une étape. Lorsque vous placez des hologrammes dans [!include[pn-hololens](../includes/pn-hololens.md)], vous pouvez cependant en placer un nombre illimité à partir de l'emplacement. Par exemple, vous ne pouvez pas ajouter plus de huit modèles 3D différents (des flèches, des boîtes, des écrous, des forets, etc.) à l'emplacement, mais vous pouvez placer autant de flèches, de boîtes, d'écrous et de forets à partir de chaque zone de **Composant 3D** que vous souhaitez dans [!include[pn-hololens](../includes/pn-hololens.md)]. Pour ce faire, cliquez soit sur des emplacements de ressource pour engendrer des modèles 3D ou accédez au menu **Modifier** d'un modèle 3D et sélectionnez **Dupliquer**.
 
 ## <a name="i-see-a-triangle-shaped-hazard-sign-when-i-load-a-step-what-does-that-mean"></a>Un signe de danger en forme de triangle s'affiche lorsque je charge une étape. Qu'est-ce que cela signifie ?
 
@@ -163,6 +163,6 @@ Le signe de danger est un espace réservé pour les modèles 3D, les vidéos ou 
 
 - Si le fichier existe dans la bibliothèque mais que la prévisualisation ne se charge pas, c'est qu'il y a un problème avec les informations du fichier dans [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. Chargez de nouveau le fichier, puis modifiez le guide pour faire référence à cette nouvelle ressource, le cas échéant.
 
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Problèmes connus dans Dynamics 365 Guides](known-issues.md)

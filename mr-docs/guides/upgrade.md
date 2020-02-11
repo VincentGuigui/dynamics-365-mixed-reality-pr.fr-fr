@@ -1,20 +1,20 @@
 ---
 author: Mamaylya
-description: Mettre à niveau la solution Dynamics 365 Guides (version préliminaire)
+description: Découvrez comment mettre à niveau la solution Microsoft Dynamics 365 Guides lorsqu'une nouvelle version nécessite une mise à jour.
 ms.author: mamaylya
-ms.date: 10/29/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
-title: Mettre à niveau la solution Dynamics 365 Guides (version préliminaire)
+title: Mettre à niveau la solution Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 8c44799a801e4b4eb6e15d8623262389abdb8176
-ms.sourcegitcommit: 5d57bc15af21d18e21b1ec8db0ec046aea997917
+ms.openlocfilehash: e3ade875c4ef681ee89fcf239a4903c436ae3601
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "2692111"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994734"
 ---
-# <a name="upgrade-the-dynamics-365-guides-solution-for-admins"></a>Mettre à niveau la solution Dynamics 365 Guides (pour les administrateurs)
+# <a name="upgrade-the-dynamics-365-guides-solution"></a>Mettre à niveau la solution Dynamics 365 Guides
 
 Cette rubrique concerne les administrateurs [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365](../includes/pn-dyn-365.md)]. Certaines versions de [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] nécessitent une mise à jour de la solution [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. Lorsqu'une mise à jour est nécessaire, l'utilisateur verra une notification s'afficher dans le volet **Nouveautés**.
 

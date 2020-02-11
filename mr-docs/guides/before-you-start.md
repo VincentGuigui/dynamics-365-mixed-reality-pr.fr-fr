@@ -2,17 +2,17 @@
 author: Mamaylya
 description: Éléments à garder à l'esprit avant de passer à la création dans Dynamics 365 Guides (version préliminaire), notamment l'affectation de noms de fichier et de support.
 ms.author: mamaylya
-ms.date: 05/30/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Éléments à garder à l'esprit avant de passer à la création dans Dynamics 365 Guides (version préliminaire)
 ms.reviewer: v-brycho
-ms.openlocfilehash: 27204edb4297d4f293113299919aca0c38e0e510
-ms.sourcegitcommit: 15f2c0f0ac19d9516135d89c44550a2b77cd181e
+ms.openlocfilehash: 86426108e85e041312e5183e283f23f59b4da076
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2224361"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994534"
 ---
 # <a name="before-you-start-authoring-a-guide-in-dynamics-365-guides-preview"></a>Avant de passer à la création d'un guide dans Dynamics 365 Guides (version préliminaire)
 
@@ -21,7 +21,7 @@ ms.locfileid: "2224361"
 Avant de passer à la création dans [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides-preview](../includes/pn-dyn-365-guides-preview.md)], vous devez comprendre votre projet et vous organiser. Voici une liste de contrôle rapide pour partir du bon pied :
 
 - Collectez autant de contenu que vous pouvez avant de commencer à créer votre guide. Cela inclut des images, des vidéos, et du contenu 3D (si vous en avez) et les objets physiques eux-mêmes (si possible). Ne vous inquiétez pas si vous n'avez pas de contenu 3D. 
-[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut une boîte à outils 3D que vous pouvez utiliser pour démarrer.
+[!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut une collection 3D que vous pouvez utiliser pour démarrer.
 
 - Assurez-vous d'avoir suffisamment d'espace pour bien comprendre l'environnement du monde réel. Vous aurez également besoin d'avoir de l'espace pour ancrer le guide et placer des hologrammes ultérieurement.
 
@@ -77,9 +77,9 @@ Lorsque vous réfléchissez au support et au contenu 3D à utiliser pour votre p
 
 ### <a name="best-practices-for-3d-content"></a>Meilleures pratiques en matière de contenu 3D
 
-Le contenu 3D est recommandé pour ajouter de la clarté en contexte. [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut une boîte à outils 3D de modèles 3D que vous pouvez utiliser pour ajouter de la clarté dans vos instructions. Par exemple, la boîte à outils 3D contient des flèches, des mains, des zones et des icônes. Ces ressources sont déjà optimisées pour [!include[pn-hololens](../includes/pn-hololens.md)]. Pour plus d'informations, voir le [Guide sur la création](pc-authoring.md).
+Le contenu 3D est recommandé pour ajouter de la clarté en contexte. [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] inclut une collection 3D de modèles 3D que vous pouvez utiliser pour ajouter de la clarté dans vos instructions. Par exemple, la collection 3D contient des flèches, des mains, des zones et des icônes. Ces ressources sont déjà optimisées pour [!include[pn-hololens](../includes/pn-hololens.md)]. Pour plus d'informations, voir [Créer des étapes et ajouter des modèles 3D ou des supports 2D](create-steps-assign-media.md).
 
-Vous pouvez également créer et importer vos propres composants 3D personnalisés à l'aide de modèles de CAO. [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] prend en charge les formats de fichier glTF, GLB et FBX. Vous pouvez utiliser une combinaison d'outils tiers et de [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour préparer vos modèles 3D ou vous pouvez utiliser le service de conciergerie d'Import Tool pour que [!include[cc-microsoft](../includes/cc-microsoft.md)] convertisse et optimise les modèles à votre place. Pour plus d'informations sur Import Tool et la préparation de modèles 3D, voir les rubriques suivantes :
+Vous pouvez également créer et importer vos propres objets 3D personnalisés à l'aide de modèles de CAO. [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] prend en charge les formats de fichier glTF, GLB et FBX. Vous pouvez utiliser une combinaison d'outils tiers et de [!include[pn-dyn-365-import-tool](../includes/pn-dyn-365-import-tool.md)] pour préparer vos modèles 3D ou vous pouvez utiliser le service de conciergerie d'Import Tool pour que [!include[cc-microsoft](../includes/cc-microsoft.md)] convertisse et optimise les modèles à votre place. Pour plus d'informations sur Import Tool et la préparation de modèles 3D, voir les rubriques suivantes :
 
 - [Présentation de l'Import Tool](https://docs.microsoft.com/dynamics365/mixed-reality/import-tool/)
 
@@ -91,7 +91,7 @@ Vous pouvez également créer et importer vos propres composants 3D personnalis�
 
 Pour organiser du contenu, vous pouvez créer une structure de dossiers avec des dossiers séparés pour le texte, les ressources 3D, les images, et les vidéos pour trouver et utiliser facilement les différents types de ressources.
 
-![Structure de dossier](media/folder-structure.PNG "Structure de dossier")
+![Structure de dossiers](media/folder-structure.PNG "Structure de dossiers")
  
 ### <a name="best-practices-for-file-names"></a>Meilleures pratiques en matière de noms de fichier
 
@@ -103,8 +103,8 @@ Par exemple :
 
 - atv_eng_video01.wmv
 
-### <a name="see-also"></a>Voir aussi
+## <a name="whats-next"></a>Étapes suivantes
 
 [Présentation de la création de Dynamics 365 Guides](authoring-overview.md)<br>
-[Créer un guide à l'aide de l'application du PC](pc-authoring.md)<br>
-[Tester votre guide et placer des hologrammes dans l'application HoloLens](hololens-authoring.md)<br>
+[Présentation de la création d'un guide dans l'application du PC](pc-app-overview.md)<br>
+[Présentation de la création d'un guide dans l'application HoloLens](hololens-app-overview.md)

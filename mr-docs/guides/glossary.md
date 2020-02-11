@@ -2,24 +2,24 @@
 author: Mamaylya
 description: Glossaire des termes pour Dynamics 365 Guides
 ms.author: Mamaylya
-ms.date: 10/01/2019
+ms.date: 01/28/2020
 ms.service: crm-online
 ms.topic: article
 title: Glossaire des termes pour Dynamics 365 Guides
 ms.reviewer: v-brycho
-ms.openlocfilehash: 6502ec4dc6b5a0011035d619451998e66e50ecfd
-ms.sourcegitcommit: 40992f99110d02b2120a930679c5f681b0a6227a
+ms.openlocfilehash: 537d1fbae20cbbfef94d9db33be9d8ee644f359e
+ms.sourcegitcommit: 217d31bb34e67a6b8823d5ddac7ef8d56d054139
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "2049947"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994822"
 ---
 # <a name="glossary-of-terms-for-dynamics-365-guides"></a>Glossaire des termes pour Dynamics 365 Guides
 
 Ce glossaire peut s'avérer utile lorsque vous travaillez avec [!include[cc-microsoft](../includes/cc-microsoft.md)] [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)].
 
-## <a name="3d-parts"></a>Composants 3D
-Contenu 3D que vous attribuez à une étape pour la prendre en charge. Vous devez affectez des composants 3D dans l'application du PC, puis placer les hologrammes dans le monde réel en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)].
+## <a name="3d-parts"></a>Objets 3D
+Contenu 3D que vous attribuez à une étape pour la prendre en charge. Vous devez affectez des objets 3D dans l'application du PC, puis placer les hologrammes dans le monde réel en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)].
 
 ## <a name="3d-toolkit"></a>Boîte à outils 3D
 Bibliothèque d'objets prédéfinis inclus dans [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)] que vous pouvez utiliser pour commencer immédiatement. Il existe par exemple des objets 3D tels que des pointeurs et des flèches que vous pouvez ajouter à une étape pour la prendre en charge.
@@ -28,7 +28,7 @@ Bibliothèque d'objets prédéfinis inclus dans [!include[pn-dyn-365-guides](../
 Mouvement équivalent à un « clic » de souris. Pour savoir comment cliquer dans l'air, voir [Mouvements à connaître](authoring-gestures.md).
 
 ## <a name="anchoring-alignment"></a>Ancrer (alignement)
-Processus permettant de s'assurer qu'un guide est bien « aligné » avec les objets associés dans le monde réel quand il est utilisé sur [!include[pn-hololens](../includes/pn-hololens.md)]. L'ancrage est primordial et obligatoire pour créer n'importe quel guide. Pour plus d'informations, voir le [Guide sur la création](pc-authoring.md).
+Processus permettant de s'assurer qu'un guide est bien « aligné » avec les objets associés dans le monde réel quand il est utilisé sur [!include[pn-hololens](../includes/pn-hololens.md)]. L'ancrage est primordial et obligatoire pour créer n'importe quel guide. Pour plus d'informations, voir [Ancrer vos guides dans le monde réel](anchor.md).
 
 ## <a name="author"></a>Auteur
 Personne qui crée un guide.
@@ -45,9 +45,6 @@ Lien holographique qui associe visuellement une étape à la zone sur laquelle l
 ## <a name="field-of-view-fov"></a>Champ de vision
 Taille de l'affichage [!include[pn-hololens](../includes/pn-hololens.md)] où apparaissent les hologrammes. Il est important de conserver le champ de vision à l'esprit au moment de placer les hologrammes dans le monde réel.
 
-## <a name="fit-box-setting"></a>Paramètres Ajuster la zone
-Paramètre qui garantit que l'appareil [!include[pn-hololens](../includes/pn-hololens.md)] est correctement ajusté. Il est très important que l'alignement soit correct.
-
 ## <a name="gaze"></a>Pointer du regard
 Action consistant à fixer un élément de l'interface utilisateur avec [!include[pn-hololens](../includes/pn-hololens.md)]. Dans certains cas, vous pouvez sélectionner un élément simplement en le regardant fixement. Dans d'autres cas, vous devez pointer du regard pour cibler un objet, puis agir sur votre sélection en faisant un mouvement.
 
@@ -55,7 +52,7 @@ Action consistant à fixer un élément de l'interface utilisateur avec [!includ
 Mouvement de la main permettant à un opérateur d'effectuer une action en réalité mixte. Pour plus d'informations, voir [Mouvements à connaître](authoring-gestures.md).
 
 ## <a name="interpupillary-distance-ipd"></a>Distance interpupillaire (DIP)
-Distance entre les yeux d'un utilisateur. Tous les utilisateurs ont des DIP différents. Pour aligner correctement le contenu, [!include[pn-hololens](../includes/pn-hololens.md)] doit être étalonné pour le DIP de chaque utilisateur. 
+Distance entre les yeux d'un utilisateur. Tous les utilisateurs ont des DIP différentes. Pour aligner correctement le contenu, [!include[pn-hololens](../includes/pn-hololens.md)] doit être étalonné pour la DIP de chaque utilisateur. 
 
 ## <a name="marker"></a>Marqueur
 Visuel généré par ordinateur utilisé pour les points d'ancrage imprimés. Vous devez pointer du regard le marqueur imprimé pour aligner le guide avec ses coordonnées spatiales.
@@ -70,7 +67,7 @@ Page de l'application de création du PC utilisée pour ajouter des tâches et d
 Petite partie d'un travail qu'un opérateur doit effectuer pour réaliser une tâche. Les tâches se composent d'étapes. Les étapes constituent également le point de navigation central d'un guide.
 
 ## <a name="step-card"></a>Fiche étape
-Bloc élémentaire fondamental dans [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. L'opérateur doit ajouter du texte et des ressources de prise en charge à une fiche étape dans l'application de création du PC, puis placer les hologrammes associés à chaque étape dans le monde réel en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)]. L'opérateur doit ensuite passer par chaque étape pour terminer une tâche ou une série de tâches. Pour plus d'informations sur les fiches étape, voir [Guide sur la création](pc-authoring.md).
+Bloc élémentaire fondamental dans [!include[pn-dyn-365-guides](../includes/pn-dyn-365-guides.md)]. L'opérateur doit ajouter du texte et des ressources de prise en charge à une fiche étape dans l'application de création du PC. Il doit ensuite placer les hologrammes associés à chaque étape dans le monde réel en mode Créer [!include[pn-hololens](../includes/pn-hololens.md)]. L'opérateur doit ensuite passer par chaque étape pour terminer une tâche ou une série de tâches. Pour plus d'informations sur les fiches étape, voir [Créer des étapes et ajouter des modèles 3D ou des supports 2D](create-steps-assign-media.md).
 
 ## <a name="style"></a>Style
 Propriétés visuelles que vous pouvez ajouter à un objet 3D pour mettre l'accent sur ce que l'opérateur doit effectuer ou connaître. Parmi les exemples de styles on trouve : Choisir, Placer et Avertissement.
@@ -78,10 +75,8 @@ Propriétés visuelles que vous pouvez ajouter à un objet 3D pour mettre l'acce
 ## <a name="task"></a>Tâche
 Travail à effectuer ou à être entrepris. Une tâche comprend plusieurs étapes que l'opérateur doit suivre. 
 
-
-
-### <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Présentation de la création d'un guide](authoring-overview.md)<br>
-[Manuel de l'opérateur](operator-guide.md)<br>
+[Présentation de l'utilisation d'un guide](operator-overview.md)<br>
 [Analyser les guides](analytics-guide.md)

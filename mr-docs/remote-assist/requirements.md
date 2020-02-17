@@ -39,7 +39,7 @@ Les tableaux suivants répertorient les exigences techniques pour le déploiemen
 La bande passante recommandée pour un niveau de performance optimal de [!include[pn-dyn-365-remote-assist](../includes/pn-dyn-365-remote-assist.md)] est de 1,5 MB/s.
 Bien que les appels audio/vidéo soient possibles dans les environnements à bande passante réduite, vous pourriez faire face à une dégradation de fonctionnalité d'[!include[pn-hololens](../includes/pn-hololens.md)], limitant l'expérience utilisateur. Pour tester la bande passante du réseau de votre société, procédez comme suit :
 
-1.  Demandez à un utilisateur de [!include[pn-teams](../includes/pn-teams.md)] de commencer un appel vidé avec un autre utilisateur de [!include[pn-teams](../includes/pn-teams.md)].
+1.  Demandez à un utilisateur de [!include[pn-teams](../includes/pn-teams.md)] de commencer un appel vidéo avec un autre utilisateur de [!include[pn-teams](../includes/pn-teams.md)].
 
 2.  Ajoutez un appel vidéo distinct entre un troisième et un quatrième utilisateurs, et un autre pour un cinquième et un sixième utilisateurs.
 
